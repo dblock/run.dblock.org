@@ -1,0 +1,11 @@
+language: ruby
+
+rvm:
+  - 2.4.1
+
+script:
+  - bash ./_scripts/update.sh
+
+branches:
+  only:
+    - gh-pages
