@@ -4,6 +4,9 @@ about:
 blog:
   name: blog
   count: 1
+charity:
+  name: charity
+  count: 1
 me me:
   name: me me
   count: 1
