@@ -4,6 +4,7 @@ set -e
 set -o pipefail
 
 bundle exec rake strava:update
+bundle exec rake tags
 
 gh_token="${GH_TOKEN-}"
 
