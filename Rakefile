@@ -93,8 +93,6 @@ race: #{workout_type == 'race'}
       end
 
       puts filename
-      p activity
-
     end
   end
 end
