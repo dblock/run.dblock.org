@@ -154,7 +154,7 @@ $button-size: 1.5rem;
 .nav .navtoogle {
 	@include font-rem(18);
 	font-weight: normal;
-	background-color: $black;
+	background-color: $basecolor;
 	color: $white;
 	border: none;
 	cursor: pointer;
