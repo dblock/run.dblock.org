@@ -1,0 +1,43 @@
+title: running.dblock.org | running blog
+locale: en_US
+url:
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+kramdown:
+  input: GFM
+owner:
+  name: Daniel Doubrovkine
+  avatar: blog.gif
+  bio: "aka dB., NYC"
+  email: dblock@dblock.org
+  disqus-shortname:
+  twitter: dblockdotorg
+  facebook:
+  google:
+    plus:
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: dblock
+  stackoverflow:
+  linkedin: dblock
+  instagram:
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+  youtube:
+  soundcloud:
+paginate: 30
+google_custom_search:
+edit_url: https://github.com/dblock/run.block.org/edit/gh-pages/

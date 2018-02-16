@@ -1,0 +1,61 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+{% include _capture_tags.html %}
+</head>
+
+<body class="post">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+    {% include _search.html %}
+    {% include _rss.html %}
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      <h1>
+        {% if page.link %}
+          <a href="{{ page.link }}">{{ page.title }}</a>
+        {% else %}
+          <a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a>
+        {% endif %}
+        <div class="tags">
+          {{ tags_content }}
+          <br><br>
+          <a target='_blank' href='https://runwithtfk.org/Profile/PublicPage/57858'>Find this useful? Help me fundraise $1.3K in 30 days for @TeamForKids to run the #UnitedNYCHalf in March!</a>
+        </div>
+      </h1>
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      {{ content }}
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          {% include _author-bio.html %}
+        </div>
+        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}. <a target="_blank" href="{{ site.edit_url }}{{ page.path }}">See a typo?</a></p>
+        {% if page.share != false %}{% include _social-share.html %}{% endif %}
+      </footer>
+    </div><!-- /.article-wrap -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+
+</body>
+</html>
