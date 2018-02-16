@@ -1,1 +1,1 @@
-This is my personal tech blog, see it at [code.dblock.org](http://code.dblock.org).
+This is my personal running blog, see it at [run.dblock.org](http://run.dblock.org).

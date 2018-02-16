@@ -1,7 +1,7 @@
 <div id="index">
-  <h3>Pinned</h3>
+  <h3>Races</h3>
   {% for post in site.posts %}
-    {% if post.pinned %}
+    {% if post.race %}
       <article>
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
       </article>

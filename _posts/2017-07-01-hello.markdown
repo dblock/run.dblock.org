@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Running Blog: Hello World"
+date: 2017-01-01 12:42:00
+tags: [blog]
+---
+This is my running blog.

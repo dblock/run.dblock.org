@@ -10,10 +10,10 @@ $alt-font: $base-font;
 // COLOR ======================================================
 $bodycolor      : #fff;
 $body-color     : $bodycolor;
-$textcolor      : #333332;
+$textcolor      : #C13100;
 $text-color     : $textcolor;
 $border-color   : $text-color;
-$basecolor 		  : #343434;
+$basecolor 		  : #C13100;
 $compcolor 		  : spin($basecolor, 180);
 $bordercolor    : $basecolor;
 $white          : #fff;
@@ -28,7 +28,7 @@ $danger				: #C64537;
 $info				  : #308cbc;
 
 // Links
-$linkcolor 		    : #343434;
+$linkcolor 		    : #C13100;
 $link-color       : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);

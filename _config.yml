@@ -5,7 +5,7 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
@@ -13,7 +13,7 @@ kramdown:
   input: GFM
 owner:
   name: Daniel Doubrovkine
-  avatar: blog.gif
+  avatar: blog.png
   bio: "aka dB., NYC"
   email: dblock@dblock.org
   disqus-shortname:
