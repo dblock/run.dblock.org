@@ -205,7 +205,6 @@ GEM
     parallel (1.12.0)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
-    polylines (0.3.0)
     public_suffix (2.0.5)
     rake (12.1.0)
     rb-fsevent (0.10.2)
@@ -241,7 +240,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
-  polylines
   rake
   strava-api-v3
   stringex
