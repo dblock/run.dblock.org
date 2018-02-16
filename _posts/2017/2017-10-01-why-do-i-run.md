@@ -22,5 +22,5 @@ I woke up that weekend and felt compelled to run to Brighton Beach. Those 13 mil
 
 I've also run a few NYRR races, my official results are [here](http://results.nyrr.org/runner/14721676/races), including the 2017 4M Race to Deliver, the awesome [2017 4M Midnight Run](/2017/12/31/run-4.12mi-0h30m42s.html) (in 7 degree weather), and the [2018 Fred Lebow Manhattan Half](/2018/01/21/run-13.34mi-1h47m18s.html).
 
-I am hooked. I started using Strava to log my runs (please [follow me](https://www.strava.com/athletes/dblockdotorg)) and this blog is updated automatically from the app.
+I am hooked. I am now using Strava to log my runs (please [follow me](https://www.strava.com/athletes/dblockdotorg)) and this blog is updated automatically from the app data.
 
