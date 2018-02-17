@@ -43,6 +43,7 @@ namespace :strava do
     require 'strava/api/v3'
     require 'stringex'
     require 'fileutils'
+    require 'dotenv/load'
 
     strava_api_token = ENV['STRAVA_API_TOKEN']
     raise 'Missing STRAVA_API_TOKEN' unless strava_api_token
