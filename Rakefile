@@ -53,16 +53,16 @@ namespace :strava do
 
     client.list_athlete_activities.each do |activity|
       start_date_local = DateTime.parse(activity['start_date_local'])
-      distance_in_miles = '%.2fmi' % (activity['distance'] * 0.00062137)
-      time_in_hours = '%dh%02dm%02ds' % [activity['moving_time']/3600%24, activity['moving_time']/60%60, activity['moving_time']%60]
-      average_speed = '%.2fmph' % (activity['average_speed'] * 2.23694)
-      pace_per_mile = Time.at((60*60)/(activity['average_speed'] * 2.23694)).utc.strftime("%M:%S")
+      distance_in_miles = format('%.2fmi', (activity['distance'] * 0.00062137))
+      time_in_hours = format('%dh%02dm%02ds', activity['moving_time'] / 3600 % 24, activity['moving_time'] / 60 % 60, activity['moving_time'] % 60)
+      average_speed = format('%.2fmph', (activity['average_speed'] * 2.23694))
+      pace_per_mile = Time.at((60 * 60) / (activity['average_speed'] * 2.23694)).utc.strftime('%M:%S')
       polyline = activity['map']['summary_polyline']
       workout_type = case activity['workout_type']
-      when 1 then 'race'
-      when 2 then 'long run'
-      when 3 then 'workout'
-      else 'run'
+                     when 1 then 'race'
+                     when 2 then 'long run'
+                     when 3 then 'workout'
+                     else 'run'
       end
 
       filename = [
@@ -72,10 +72,10 @@ namespace :strava do
         time_in_hours
       ].join('-') + '.md'
 
-      FileUtils::mkdir_p "_posts/#{start_date_local.year}"
+      FileUtils.mkdir_p "_posts/#{start_date_local.year}"
 
-      File.open filename, "w" do |file|
-  file.write <<-EOS
+      File.open filename, 'w' do |file|
+        file.write <<-EOS
 ---
 layout: post
 title: "#{activity['name']}"
@@ -92,7 +92,7 @@ race: #{workout_type == 'race'}
 <img src='https://maps.googleapis.com/maps/api/staticmap?maptype=roadmap&path=enc:#{polyline}&key=#{google_maps_api_key}&size=800x800'>
   EOS
 
-        client.list_activity_photos(activity['id'], { size: '600' }).each do |photo|
+        client.list_activity_photos(activity['id'], size: '600').each do |photo|
           url = photo['urls']['600']
           file.write "\n<img src='#{url}'>\n"
         end
@@ -102,4 +102,3 @@ race: #{workout_type == 'race'}
     end
   end
 end
-
