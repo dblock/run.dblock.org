@@ -41,14 +41,16 @@ desc 'Generate runs from Strava.'
 namespace :strava do
   task :update do
     require 'strava/api/v3'
-    require 'stringex'
     require 'fileutils'
+    require 'polylines'
     require 'dotenv/load'
 
     strava_api_token = ENV['STRAVA_API_TOKEN']
     raise 'Missing STRAVA_API_TOKEN' unless strava_api_token
 
-    google_maps_api_key = 'AIzaSyC1MId7bFpkLXNAaYhBSTb8jLyiSqzbDtM'
+    google_maps_api_key = ENV['GOOGLE_STATIC_MAPS_API_KEY']
+    raise 'Missing GOOGLE_STATIC_MAPS_API_KEY' unless google_maps_api_key
+
     client = Strava::Api::V3::Client.new(access_token: strava_api_token)
 
     client.list_athlete_activities.each do |activity|
@@ -57,13 +59,16 @@ namespace :strava do
       time_in_hours = format('%dh%02dm%02ds', activity['moving_time'] / 3600 % 24, activity['moving_time'] / 60 % 60, activity['moving_time'] % 60)
       average_speed = format('%.2fmph', (activity['average_speed'] * 2.23694))
       pace_per_mile = Time.at((60 * 60) / (activity['average_speed'] * 2.23694)).utc.strftime('%M:%S')
-      polyline = activity['map']['summary_polyline']
+      summary_polyline = activity['map']['summary_polyline']
       workout_type = case activity['workout_type']
                      when 1 then 'race'
                      when 2 then 'long run'
                      when 3 then 'workout'
                      else 'run'
       end
+      decoded_polyline = Polylines::Decoder.decode_polyline(summary_polyline)
+      start_latlng = decoded_polyline[0]
+      end_latlng = decoded_polyline[-1]
 
       filename = [
         "_posts/#{start_date_local.year}/#{start_date_local.strftime('%Y-%m-%d')}",
@@ -89,7 +94,7 @@ race: #{workout_type == 'race'}
  <li>Pace: #{pace_per_mile}</li>
 </ul>
 
-<img src='https://maps.googleapis.com/maps/api/staticmap?maptype=roadmap&path=enc:#{polyline}&key=#{google_maps_api_key}&size=800x800'>
+<img src='https://maps.googleapis.com/maps/api/staticmap?maptype=roadmap&path=enc:#{summary_polyline}&key=#{google_maps_api_key}&size=800x800&markers=color:yellow|label:S|#{start_latlng[0]},#{start_latlng[1]}&markers=color:green|label:F|#{end_latlng[0]},#{end_latlng[1]}'>
   EOS
 
         client.list_activity_photos(activity['id'], size: '600').each do |photo|
