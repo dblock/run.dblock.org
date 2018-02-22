@@ -92,11 +92,9 @@ race: #{workout_type == 'race'}
 <img src='https://maps.googleapis.com/maps/api/staticmap?maptype=roadmap&path=enc:#{polyline}&key=#{google_maps_api_key}&size=800x800'>
   EOS
 
-        activity = client.retrieve_an_activity(activity['id'])
-        primary_photo = activity['photos']['primary']
-        if primary_photo
-          url = primary_photo['urls']['600']
-          file.write "\n<img src='#{url}'>"
+        client.list_activity_photos(activity['id'], { size: '600' }).each do |photo|
+          url = photo['urls']['600']
+          file.write "\n<img src='#{url}'>\n"
         end
       end
 
