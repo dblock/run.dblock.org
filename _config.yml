@@ -42,3 +42,10 @@ owner:
 paginate: 30
 google_custom_search:
 edit_url: https://github.com/dblock/run.block.org/edit/gh-pages/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - CRON.md
