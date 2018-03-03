@@ -12,7 +12,7 @@ me me:
   count: 1
 race:
   name: race
-  count: 3
+  count: 4
 run:
   name: run
   count: 20
