@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#Upcoming Races"
+title: "Upcoming Races"
 date: "2018-03-02"
 tags: [race]
 race: true
