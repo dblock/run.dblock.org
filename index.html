@@ -4,7 +4,11 @@ comments: false
 ---
 
 {% for post in paginator.posts %}
-  {% unless post.races %}
+  {% if post.race %}
+    {% unless post.next %}
+      <h3>{{ post.date | date: '%Y' }}</h3>
+    {% endunless %}
+  {% else %}
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
     {% else %}
@@ -22,40 +26,42 @@ comments: false
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
       {% endif %}
     </article>
-  {% endunless %}
+  {% endif %}
 {% endfor %}
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <a href="{{ site.url }}" class="btn">Previous</a>
-    {% else %}
-      <a href="{{ site.url }}/page{{ paginator.previous_page }}" class="btn">Previous</a>
-    {% endif %}
-  {% else %}
-    Previous
-  {% endif %}
-  <ul class="inline-list">
-    <li>
-      {% if paginator.page == 1 %}
-        <span class="current-page">1</span>
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a href="{{ site.url }}" class="btn">Previous</a>
       {% else %}
-        <a href="{{ site.url }}/">1</a>
+        <a href="{{ site.url }}/page{{ paginator.previous_page }}" class="btn">Previous</a>
       {% endif %}
-    </li>
-    {% for count in (2..paginator.total_pages) %}
+    {% else %}
+      Previous
+    {% endif %}
+    <ul class="inline-list">
       <li>
-        {% if count == paginator.page %}
-          <span class="current-page">{{ count }}</span>
+        {% if paginator.page == 1 %}
+          <span class="current-page">1</span>
         {% else %}
-          <a href="{{ site.url }}/page{{ count }}">{{ count }}</a>
+          <a href="{{ site.url }}/">1</a>
         {% endif %}
       </li>
-    {% endfor %}
-  </ul>
-  {% if paginator.next_page %}
-    <a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn">Next</a>
-  {% else %}
-    Next
-  {% endif %}
-</div><!-- /.pagination -->
+      {% for count in (2..paginator.total_pages) %}
+        <li>
+          {% if count == paginator.page %}
+            <span class="current-page">{{ count }}</span>
+          {% else %}
+            <a href="{{ site.url }}/page{{ count }}">{{ count }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% if paginator.next_page %}
+      <a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn">Next</a>
+    {% else %}
+      Next
+    {% endif %}
+  </div><!-- /.pagination -->
+{% endif %}
