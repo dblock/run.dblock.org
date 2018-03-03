@@ -2,7 +2,7 @@ desc 'Re-generate tag pages.'
 task :tags do
   Dir['tags/*.md'].each { |f| File.delete(f) }
   tags = {}
-  Dir['**/*.md'].each do |file|
+  Dir['_posts/**/*.md'].each do |file|
     tagline = File.read(file).split("\n").detect { |line| line.start_with?('tags: ') }
     next unless tagline
     tagline.tr('[', '').tr(']', '').split(':').last.split(',').map(&:strip).each do |tag|

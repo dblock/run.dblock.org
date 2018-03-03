@@ -1,14 +1,8 @@
-about:
-  name: about
-  count: 1
 blog:
   name: blog
   count: 1
 charity:
   name: charity
-  count: 1
-me me:
-  name: me me
   count: 1
 race:
   name: race
