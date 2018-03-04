@@ -227,6 +227,9 @@ $button-size: 1.5rem;
 		}
 	}
 }
+#donate a {
+	text-decoration: underline;
+}
 .article-author-side #donate {
 	margin-top: 1em;
 }
