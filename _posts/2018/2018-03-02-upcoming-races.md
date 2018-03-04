@@ -2,7 +2,7 @@
 layout: post
 title: "Upcoming Races"
 date: "2018-03-02"
-tags: [race]
+tags: [races]
 race: true
 ---
 #### [2018 United Airlines NYC Half](http://www.nyrr.org/races-and-events/2018/united-airlines-nyc-half)<br><small>Sunday, March 18, 2018 @ Brooklyn/Manhattan, raised $1,765 for TeamForKids</small>

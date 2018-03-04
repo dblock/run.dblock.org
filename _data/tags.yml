@@ -1,12 +1,36 @@
+04 miles:
+  name: 04 miles
+  count: 4
+05 miles:
+  name: 05 miles
+  count: 2
+06 miles:
+  name: 06 miles
+  count: 2
+07 miles:
+  name: 07 miles
+  count: 7
+08 miles:
+  name: 08 miles
+  count: 3
+09 miles:
+  name: 09 miles
+  count: 2
+10 miles:
+  name: 10 miles
+  count: 1
+13 miles:
+  name: 13 miles
+  count: 3
 blog:
   name: blog
   count: 1
 charity:
   name: charity
   count: 1
-race:
-  name: race
+races:
+  name: races
   count: 4
-run:
-  name: run
+runs:
+  name: runs
   count: 21
