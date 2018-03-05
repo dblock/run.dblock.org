@@ -54,6 +54,12 @@ I listen to [Di.fm Classic Vocal Trance](https://www.di.fm/classicvocaltrance) w
 
 ![]({{ site.url }}/images/posts/2018/2018-03-04-my-running-gear-in-2018/plts.jpg)
 
+### Pain
+
+I've developed a pretty bad case of ITBS in my left leg. I managed to get rid of it with the [Pro-Tec Athletics IT Band Compression Wrap](https://www.amazon.com/gp/product/B000G34VV0), [proper stretching](https://www.youtube.com/watch?v=MO2ZNz03YEI) and a lot of gym time working my leg strength.
+
+![]({{ site.url }}/images/posts/2018/2018-03-04-my-running-gear-in-2018/it-band.jpg)
+
 ### Suggestions?
 
 I'd love some recommendations for what gear to get! [Contact me](/about/).
