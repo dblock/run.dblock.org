@@ -1,9 +1,12 @@
+3-4 miles:
+  name: 3-4 miles
+  count: 1
 4-5 miles:
   name: 4-5 miles
-  count: 4
+  count: 5
 5-6 miles:
   name: 5-6 miles
-  count: 2
+  count: 3
 6-7 miles:
   name: 6-7 miles
   count: 2
@@ -12,13 +15,13 @@
   count: 7
 8-9 miles:
   name: 8-9 miles
-  count: 3
+  count: 4
 9-10 miles:
   name: 9-10 miles
-  count: 2
+  count: 3
 10-11 miles:
   name: 10-11 miles
-  count: 1
+  count: 2
 13-14 miles:
   name: 13-14 miles
   count: 3
@@ -33,7 +36,7 @@ gear:
   count: 1
 races:
   name: races
-  count: 4
+  count: 5
 runs:
   name: runs
-  count: 21
+  count: 26
