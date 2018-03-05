@@ -25,6 +25,9 @@
 13-14 miles:
   name: 13-14 miles
   count: 3
+apps:
+  name: apps
+  count: 1
 blog:
   name: blog
   count: 1
@@ -40,3 +43,6 @@ races:
 runs:
   name: runs
   count: 26
+tracking:
+  name: tracking
+  count: 1
