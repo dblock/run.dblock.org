@@ -28,6 +28,9 @@ blog:
 charity:
   name: charity
   count: 1
+gear:
+  name: gear
+  count: 1
 races:
   name: races
   count: 4
