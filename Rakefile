@@ -87,6 +87,9 @@ namespace :strava do
 
       FileUtils.mkdir_p "_posts/#{start_date_local.year}"
 
+      retrieved_activity = client.retrieve_an_activity(activity['id'])
+      description = retrieved_activity['description']
+
       File.open filename, 'w' do |file|
         file.write <<-EOS
 ---
@@ -101,7 +104,7 @@ race: #{workout_type == 'race'}
  <li>Time: #{time_in_hours}</li>
  <li>Pace: #{pace_per_mile}</li>
 </ul>
-
+#{description && description.length > 0 ? "\n#{description}\n" : ""}
 <img src='https://maps.googleapis.com/maps/api/staticmap?maptype=roadmap&path=enc:#{summary_polyline}&key=#{google_maps_api_key}&size=800x800&markers=color:yellow|label:S|#{start_latlng[0]},#{start_latlng[1]}&markers=color:green|label:F|#{end_latlng[0]},#{end_latlng[1]}'>
   EOS
 
