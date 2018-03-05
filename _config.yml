@@ -41,7 +41,7 @@ owner:
   strava: dblockdotorg
 paginate: 30
 google_custom_search:
-edit_url: https://github.com/dblock/run.block.org/edit/gh-pages/
+edit_url: https://github.com/dblock/run.dblock.org/edit/gh-pages/
 exclude:
   - Gemfile
   - Gemfile.lock
