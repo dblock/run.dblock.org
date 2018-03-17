@@ -36,13 +36,16 @@ blog:
   count: 1
 charity:
   name: charity
-  count: 1
+  count: 2
 gear:
   name: gear
   count: 1
+nyrr:
+  name: nyrr
+  count: 1
 races:
   name: races
-  count: 5
+  count: 6
 runs:
   name: runs
   count: 38
