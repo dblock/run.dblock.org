@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Upcoming Races"
-date: "2018-03-02"
+date: "2018-03-18 16:25"
 tags: [races]
 race: true
 ---
-#### [2018 United Airlines NYC Half](http://www.nyrr.org/races-and-events/2018/united-airlines-nyc-half)<br><small>Sunday, March 18, 2018 @ Brooklyn/Manhattan, raised $1,765 for TeamForKids</small>
-
 #### [Run as One (4M) Presented by JPMorgan Chase](http://www.nyrr.org/races-and-events/2018/run-as-one-4m-presented-by-jpmorgan-chase)<br><small>Sunday, April 22, 2018 @ Central Park</small>
 
 #### [Italy Run by Ferrero (5M)](http://www.nyrr.org/races-and-events/2018/italy-run-by-ferrero-5m)<br><small>Sunday, June 3, 2018 @ Central Park</small>
