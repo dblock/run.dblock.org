@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Huge Thank You!"
+title: "A Big Thank You!"
 date: "2018-03-18 12:42"
 tags: [races, charity]
 race: false
