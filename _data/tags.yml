@@ -27,7 +27,7 @@
   count: 4
 13-14 miles:
   name: 13-14 miles
-  count: 4
+  count: 5
 apps:
   name: apps
   count: 1
@@ -36,7 +36,7 @@ blog:
   count: 1
 charity:
   name: charity
-  count: 2
+  count: 3
 gear:
   name: gear
   count: 1
@@ -45,7 +45,7 @@ nyrr:
   count: 1
 races:
   name: races
-  count: 6
+  count: 8
 runs:
   name: runs
   count: 38
