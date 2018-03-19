@@ -13,5 +13,9 @@ race: true
 
 #### [NYRR Brooklyn R-U-N 5K](http://www.nyrr.org/races-and-events/2018/nyrr-brooklyn-r-u-n-5k)<br><small>Monday, July 16, 2018 @ Prospect Park</small>
 
-#### [NYC TCS Marathon 2018](https://www.tcsnycmarathon.org)<br><small>Sunday, November 4, 2018, <a href='https://www.runwithtfk.org/Profile/PublicPage/61018'>help me</a> raise $2,620 for TeamForKids</small>
+#### [TCS New York City Marathon Training Series 12M](http://www.nyrr.org/races-and-events/2018/tcs-new-york-city-marathon-training-series-12m)<br><small>Saturday, July 21, 2018 @ Central Park</small>
+
+#### [TCS New York City Marathon Training Series 18M](http://www.nyrr.org/races-and-events/2018/tcs-new-york-city-marathon-training-series-18m)<br><small>Sunday, September 16, 2018 @ Central Park</small>
+
+#### [TCS New York City Marathon 2018](https://www.tcsnycmarathon.org)<br><small>Sunday, November 4, 2018, <a href='https://www.runwithtfk.org/Profile/PublicPage/61018'>help me</a> raise $2,620 for TeamForKids</small>
 
