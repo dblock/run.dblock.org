@@ -31,14 +31,14 @@
 apps:
   name: apps
   count: 1
-blog:
-  name: blog
-  count: 1
 charity:
   name: charity
   count: 3
 gear:
   name: gear
+  count: 1
+motivation:
+  name: motivation
   count: 1
 nyrr:
   name: nyrr
