@@ -20,7 +20,7 @@ I woke up that weekend and felt compelled to run to Brighton Beach. Those 13 mil
 
 ![]({{ site.url }}/images/posts/2017/2017-10-01-why-do-i-run/13miles.png)
 
-I've also run a few NYRR races, my official results are [here](http://results.nyrr.org/runner/14721676/races), including the 2017 4M Race to Deliver, the awesome [2017 4M Midnight Run](/2017/12/31/run-4.12mi-0h30m42s.html) (in 7 degree weather), and the [2018 Fred Lebow Manhattan Half](/2018/01/21/run-13.34mi-1h47m18s.html).
+I've also run a few NYRR races, my official results are [here](http://results.nyrr.org/runner/14721676/races), including the 2017 4M Race to Deliver, the awesome [2017 4M Midnight Run](/2017/12/31/run-4.12mi-0h30m42s.html) (in 7 degree weather), and the [2018 Fred Lebow Manhattan Half](/2018/01/21/run-13.34mi-1h47m18s.html). I also [ran the United Airlines Half for charity](/2018/03/18/thank-you-on-behalf-of-team-for-kids.html) and am running my first marathon this year!
 
 I am hooked. I am now using Strava to log my runs (please [follow me](https://www.strava.com/athletes/dblockdotorg)) and this blog is updated automatically from the app data.
 
