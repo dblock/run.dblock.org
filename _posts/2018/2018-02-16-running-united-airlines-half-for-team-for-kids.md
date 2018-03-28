@@ -5,7 +5,7 @@ date: "2018-02-16 16:16"
 tags: [charity]
 race: false
 ---
-I'm running the [#UnitedAirlinesHalf](http://www.nyrr.org/races-and-events/2018/united-airlines-nyc-half) for [@TeamForKids](https://www.runwithtfk.org/Events/Details/101). My fundraising goal of $1,310.00 has been reached and [stands](https://runwithtfk.org/Profile/PublicPage/57858) at $1,640.00 now. Thank you!
+I'm running the [#UnitedAirlinesHalf](http://www.nyrr.org/races-and-events/2018/united-airlines-nyc-half) for [@TeamForKids](https://runwithtfk.org/Events/Details/101). My fundraising goal of $1,310.00 has been reached and [stands](https://runwithtfk.org/Profile/PublicPage/57858) at $1,640.00 now. Thank you!
 
 You can still donate money to the children on my [fundraising page](https://runwithtfk.org/Profile/PublicPage/57858) or venmo me at [@dblockdotorg](https://venmo.com/dblockdotorg) and I will apply this money to my next fundraise, which should be the 2018 Marathon in New York, my first!
 

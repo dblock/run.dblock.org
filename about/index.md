@@ -12,6 +12,8 @@ I always hated running. And now I have a running blog. Read [Why do I run?](/201
 
 Like what you read here? Have questions? <a href='https://github.com/dblock/run.dblock.org/issues/new'>Open an issue</a> for this blog. Feel free to <a href='mailto:dblock@dblock.org'>e-mail me</a>, too.
 
+I'm running the NYC TCS Marathon in 2018 for TeamForKids charity. <a target='_blank' href='https://runwithtfk.org/Profile/PublicPage/61018'>Please donate here.</a>
+
 Finally, if you had enough of running, check out [my art blog](http://art.dblock.org) and [my tech blog](http://code.dblock.org).
 
 ![]({{ site.url }}/images/shoes.jpg)

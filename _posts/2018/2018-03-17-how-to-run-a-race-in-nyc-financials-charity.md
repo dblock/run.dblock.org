@@ -41,7 +41,7 @@ Since you probably don't qualify with super-human running time you may qualify f
 
 If you don't get into a race with the lottery or by being qualified, or a race has sold out, you can still run for a charity.
 
-The default charity for NYRR is [TeamForKids](http://teamforkids.nyrr.org), but there are many other worthy ones. By running with a charity you're committing to give at least $100 per mile, so thousands of dollars. I had to fundraise $1,310 for the United Airlines Half and [am findraising $2,620 for the 2018 marathon](https://www.runwithtfk.org/Profile/PublicPage/61018). If you can't raise the entire amount, it's out of your pocket, so best is to be prepared to fork the entire amount in cash, and then to beg people to help you.
+The default charity for NYRR is [TeamForKids](http://teamforkids.nyrr.org), but there are many other worthy ones. By running with a charity you're committing to give at least $100 per mile, so thousands of dollars. I had to fundraise $1,310 for the United Airlines Half and [am findraising $2,620 for the 2018 marathon](https://runwithtfk.org/Profile/PublicPage/61018). If you can't raise the entire amount, it's out of your pocket, so best is to be prepared to fork the entire amount in cash, and then to beg people to help you.
 
 The charity gives you a unique check-out code to register for the race, as above. You will get an extra t-shirt and maybe a special bib. But you still have to pay the race entry fees on top of the money raised for the charity. It's all tax deductible, of course.
 
@@ -71,7 +71,4 @@ Your bib contains an RFID strip, which will automatically be detected as you run
 
 Running a race with thousands of people gives you incredible energy. Give it a try!
 
-If this post was helpful, you can help me raise $2,620 to run the NYC TCS Marathon 2018 with TeamForKids by donating a few bucks [here](https://www.runwithtfk.org/Profile/PublicPage/61018).
-
-
-
+Was this post helpful? I'm running the NYC TCS Marathon in 2018 for TeamForKids charity. <a target='_blank' href='https://runwithtfk.org/Profile/PublicPage/61018'>Please donate here.</a>

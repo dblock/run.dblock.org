@@ -19,6 +19,6 @@ As for the run, I accomplished my personal goal of finishing under 1h45m. My uno
 
 ![]({{ site.url }}/images/posts/2018/2018-03-18-thank-you-on-behalf-of-team-for-kids/badge.png)
 
-Your support gave me confidence that I can nag enough of my friends to donate money to charity. I've watched with envy many NYC marathons from the sidelines, never thinking I could run one. And so I will be running the 2018 NYC TCS Marathon on November 4th with your help. I am asking you to support TeamForKids by donating a few tax-deductible dollars [here](https://www.runwithtfk.org/Profile/PublicPage/61018).
+Your support gave me confidence that I can nag enough of my friends to donate money to charity. I've watched with envy many NYC marathons from the sidelines, never thinking I could run one. And so I will be running the 2018 NYC TCS Marathon on November 4th with your help. I am asking you to support TeamForKids by donating a few tax-deductible dollars [here](https://runwithtfk.org/Profile/PublicPage/61018).
 
 Finally, I also want to take this opportunity to encourage you to run. I have only started running myself in summer 2017. It has given me tremendous vitality and renewed confidence to overcome a challenging time of my life (and I lost 20 lbs :). To help you with the basics I have published [a blog post on How to Run a Race in NYC](/2018/03/17/how-to-run-a-race-in-nyc-financials-charity.html).
