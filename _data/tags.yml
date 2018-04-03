@@ -52,6 +52,12 @@ races:
 runs:
   name: runs
   count: 41
+slack:
+  name: slack
+  count: 1
+strava:
+  name: strava
+  count: 1
 tracking:
   name: tracking
   count: 1
