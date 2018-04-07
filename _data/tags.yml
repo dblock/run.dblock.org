@@ -34,6 +34,9 @@
 apps:
   name: apps
   count: 1
+books:
+  name: books
+  count: 1
 charity:
   name: charity
   count: 3
