@@ -51,7 +51,9 @@ namespace :strava do
     require 'strava/api/v3'
 
     require './_lib/strava'
+    require './_lib/moving'
     require './_lib/map'
+    require './_lib/split'
     require './_lib/activity'
 
     require 'fileutils'
@@ -69,12 +71,10 @@ namespace :strava do
       activities = Strava.client.list_athlete_activities(page: page, per_page: 10)
       break unless activities.any?
       activities.each do |data|
-        activity = Activity.new(data)
+        detailed_activity = Strava.client.retrieve_an_activity(data['id'])
+        activity = Activity.new(data.merge(detailed_activity))
 
         FileUtils.mkdir_p "_posts/#{activity.start_date_local.year}"
-
-        retrieved_activity = Strava.client.retrieve_an_activity(activity.strava_id)
-        activity.description = retrieved_activity['description']
 
         File.open activity.filename, 'w' do |file|
           file.write <<-EOS
@@ -85,18 +85,33 @@ date: "#{activity.start_date_local.strftime('%F %T')}"
 tags: [#{activity.type.downcase}s, #{activity.rounded_distance_in_miles_s} miles]
 race: #{activity.race?}
 ---
-<ul>
- <li>Distance: #{activity.distance_in_miles_s}</li>
- <li>Time: #{activity.moving_time_in_hours_s}</li>
- <li>Pace: #{activity.pace_per_mile_s}</li>
-</ul>
   EOS
-          file.write "\n#{activity.description}" if activity.description && activity.description.length > 0
+
+          file.write "\n### Stats\n"
+          file.write "\n| Distance | Time | Pace |"
+          file.write "\n|----------|------|------|"
+          file.write "\n|#{activity.distance_in_miles_s}|#{activity.moving_time_in_hours_s}|#{activity.pace_per_mile_s}|\n"
+
+          file.write "\n#{activity.description}\n" if activity.description && activity.description.length > 0
           file.write "\n<img src='#{activity.map.image_url}'>\n"if activity.map && activity.map.image_url
 
-          Strava.client.list_activity_photos(activity.strava_id, size: '600').each do |photo|
-            url = photo['urls']['600']
-            file.write "\n<img src='#{url}'>\n"
+          if activity.splits.any?
+            file.write "\n### Splits\n"
+            file.write "\n| Mile | Pace | Elevation |"
+            file.write "\n|------|------|-----------|"
+            activity.splits.each do |split|
+              file.write "\n|#{split.split}|#{split.pace_per_mile_s}|#{split.total_elevation_gain_in_feet_s}|"
+            end
+            file.write "\n"
+          end
+
+          photos = Strava.client.list_activity_photos(activity.strava_id, size: '600')
+          if photos.any?
+            file.write "\n### Photos"
+            photos.each do |photo|
+              url = photo['urls']['600']
+              file.write "\n<img src='#{url}'>\n"
+            end
           end
         end
         puts activity.filename
