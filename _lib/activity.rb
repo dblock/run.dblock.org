@@ -13,6 +13,14 @@ class Activity < Hashie::Trash
   property :type, from: 'type'
   property :map, from: 'map', with: ->(data) { Map.new(data) }
   property :description, from: 'description'
+  property :workout_type, from: 'workout_type', with: ->(data) {
+    case data
+    when 1 then 'race'
+    when 2 then 'long run'
+    when 3 then 'workout'
+    else 'run'
+    end
+  }
 
   def start_date_local_s
     return unless start_date_local
@@ -131,7 +139,7 @@ class Activity < Hashie::Trash
   end
 
   def race?
-    type == 'Race'
+    workout_type == 'race'
   end
 
   def rounded_distance_in_miles_s
