@@ -71,6 +71,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 2.0)
       typhoeus (~> 0.7)
+    hashie (3.5.7)
     html-pipeline (2.7.1)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -241,6 +242,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   github-pages
+  hashie
   html-proofer
   polylines
   rake
