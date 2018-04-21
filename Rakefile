@@ -59,6 +59,11 @@ namespace :strava do
 
     require 'dotenv/load'
 
+    Dir['_posts/*'].each do |folder|
+      year = folder.split('/').last
+      FileUtils.rm(Dir.glob("#{folder}/#{year}-*-run-*mi-*s.md"))
+    end
+
     page = 1
     loop do
       activities = Strava.client.list_athlete_activities(page: page, per_page: 10)
