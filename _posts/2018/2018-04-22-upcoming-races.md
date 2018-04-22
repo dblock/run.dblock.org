@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Upcoming Races"
-date: "2018-04-20 15:22"
+date: "2018-04-22 15:22"
 tags: [races]
 race: true
 ---
-#### [Run as One 4M](http://www.nyrr.org/races-and-events/2018/run-as-one-4m-presented-by-jpmorgan-chase)<br><small>Sunday, April 22, 2018 @ Central Park</small>
-
 #### [Red Hook Crit 5K](https://redhookcrit.com/5k-run)<br><small>Saturday, April 28, 2018 @ Brooklyn Cruise Terminal</small>
 
 #### [2018 Popular Brooklyn Half](https://www.nyrr.org/races-and-events/2018/popular-brooklyn-half)<br><small>Saturday, May 19, 2018 @ Brooklyn</small>
