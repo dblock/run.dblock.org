@@ -9,13 +9,13 @@
   count: 1
 4-5 miles:
   name: 4-5 miles
-  count: 6
+  count: 7
 5-6 miles:
   name: 5-6 miles
   count: 5
 6-7 miles:
   name: 6-7 miles
-  count: 8
+  count: 9
 7-8 miles:
   name: 7-8 miles
   count: 8
@@ -57,7 +57,7 @@ races:
   count: 3
 runs:
   name: runs
-  count: 55
+  count: 57
 slack:
   name: slack
   count: 1
