@@ -63,6 +63,16 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
 	font-size: 10pt;
 }
 
+article h2 .race {
+  font-size: 9px;
+  letter-spacing: 1px;
+  background-color: #fc4c02;
+  padding: 2px 4px;
+  color: white;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
 table {
   padding: 0; }
   table tr {

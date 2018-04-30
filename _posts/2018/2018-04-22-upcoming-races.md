@@ -3,7 +3,7 @@ layout: post
 title: "Upcoming Races"
 date: "2018-04-22 15:22"
 tags: [races]
-race: true
+races: true
 ---
 #### [Red Hook Crit 5K](https://redhookcrit.com/5k-run)<br><small>Saturday, April 28, 2018 @ Brooklyn Cruise Terminal</small>
 
