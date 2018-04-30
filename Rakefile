@@ -95,7 +95,7 @@ race: #{activity.race?}
           file.write "\n#{activity.description}\n" if activity.description && activity.description.length > 0
           file.write "\n<img src='#{activity.map.image_url}'>\n"if activity.map && activity.map.image_url
 
-          if activity.splits.any?
+          if activity.splits && activity.splits.any?
             file.write "\n### Splits\n"
             file.write "\n| Mile | Pace | Elevation |"
             file.write "\n|------|------|-----------|"
