@@ -77,12 +77,19 @@ namespace :strava do
         FileUtils.mkdir_p "_posts/#{activity.start_date_local.year}"
 
         File.open activity.filename, 'w' do |file|
+
+          tags = [
+            "#{activity.type.downcase}s",
+            "#{activity.rounded_distance_in_miles_s} miles",
+            activity.race? ? 'races' : nil
+          ].compact
+
           file.write <<-EOS
 ---
 layout: post
 title: "#{activity.name}"
 date: "#{activity.start_date_local.strftime('%F %T')}"
-tags: [#{activity.type.downcase}s, #{activity.rounded_distance_in_miles_s} miles]
+tags: [#{tags.join(', ')}]
 race: #{activity.race?}
 ---
   EOS
