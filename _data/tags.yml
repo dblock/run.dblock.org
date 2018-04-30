@@ -54,7 +54,7 @@ nyrr:
   count: 1
 races:
   name: races
-  count: 3
+  count: 10
 runs:
   name: runs
   count: 59
