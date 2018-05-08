@@ -1,52 +1,53 @@
+---
 title: run.dblock.org | running blog
 locale: en_US
-url:
+url: 
 markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-redirect-from
 kramdown:
   input: GFM
 owner:
   name: Daniel Doubrovkine
   avatar: blog.png
-  bio: "aka dB., NYC"
+  bio: aka dB., NYC
   email: dblock@dblock.org
-  disqus-shortname:
+  disqus-shortname: 
   twitter: dblockdotorg
-  facebook:
+  facebook: 
   google:
-    plus:
+    plus: 
     analytics: UA-4756101-5
     verify: o1dQjOsMqvIla4zMSdwhkmHSa-0mLMMi-v_ITY1BEhc
-    ad-client:
-    ad-slot:
-  bing-verify:
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
   github: dblock
-  stackoverflow:
+  stackoverflow: 
   linkedin: dblock
-  instagram:
-  lastfm:
-  tumblr:
-  pinterest:
-  foursquare:
-  steam:
-  dribbble:
-  youtube:
-  soundcloud:
+  instagram: 
+  lastfm: 
+  tumblr: 
+  pinterest: 
+  foursquare: 
+  steam: 
+  dribbble: 
+  youtube: 
+  soundcloud: 
   strava: dblockdotorg
-  nyrr-results: 15421666
+  nyrr-results: 15681832
 paginate: 30
-google_custom_search:
+google_custom_search: 
 edit_url: https://github.com/dblock/run.dblock.org/edit/gh-pages/
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
-  - CRON.md
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor
+- README.md
+- CRON.md
