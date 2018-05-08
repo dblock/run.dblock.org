@@ -81,14 +81,17 @@ namespace :strava do
 
     require 'dotenv/load'
 
+    start_at_year = 2018
+
     Dir['_posts/*'].each do |folder|
       year = folder.split('/').last
+      next if year.to_i < start_at_year
       FileUtils.rm(Dir.glob("#{folder}/#{year}-*-run-*mi-*s.md"))
     end
 
     page = 1
     loop do
-      activities = Strava.client.list_athlete_activities(page: page, per_page: 10)
+      activities = Strava.client.list_athlete_activities(page: page, per_page: 10, after: Time.new(start_at_year).to_i)
       break unless activities.any?
       activities.each do |data|
         detailed_activity = Strava.client.retrieve_an_activity(data['id'])
