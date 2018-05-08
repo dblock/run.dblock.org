@@ -43,6 +43,26 @@ task :check do
   ).run
 end
 
+desc 'Update NYRR ID.'
+namespace :nyrr do
+  namespace :results do
+    task :update do
+      require './_lib/nyrr_results'
+      config = YAML.load_file('_config.yml')
+      name = config['owner']['name']
+      puts "Searching NYRR for #{name} ..."
+      runner_id = NYRR::Results.search(name).first['runnerId']
+      if config['owner']['nyrr-results'] != runner_id
+        puts "Updated runner ID #{runner_id} ..."
+        config['owner']['nyrr-results'] = runner_id
+        File.write('_config.yml', config.to_yaml)
+      else
+        puts "Unchanged runner ID #{runner_id} ..."
+      end
+    end
+  end
+end
+
 desc 'Generate runs from Strava.'
 namespace :strava do
   task :update do
@@ -77,7 +97,6 @@ namespace :strava do
         FileUtils.mkdir_p "_posts/#{activity.start_date_local.year}"
 
         File.open activity.filename, 'w' do |file|
-
           tags = [
             "#{activity.type.downcase}s",
             "#{activity.rounded_distance_in_miles_s} miles",
@@ -99,8 +118,8 @@ race: #{activity.race?}
           file.write "\n|----------|------|------|"
           file.write "\n|#{activity.distance_in_miles_s}|#{activity.moving_time_in_hours_s}|#{activity.pace_per_mile_s}|\n"
 
-          file.write "\n#{activity.description}\n" if activity.description && activity.description.length > 0
-          file.write "\n<img src='#{activity.map.image_url}'>\n"if activity.map && activity.map.image_url
+          file.write "\n#{activity.description}\n" if activity.description && !activity.description.empty?
+          file.write "\n<img src='#{activity.map.image_url}'>\n" if activity.map && activity.map.image_url
 
           if activity.splits && activity.splits.any?
             file.write "\n### Splits\n"
