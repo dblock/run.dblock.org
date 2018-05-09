@@ -51,13 +51,16 @@ gear:
   count: 1
 motivation:
   name: motivation
-  count: 1
+  count: 2
 nyrr:
   name: nyrr
   count: 1
 races:
   name: races
   count: 11
+running clubs:
+  name: running clubs
+  count: 1
 runs:
   name: runs
   count: 64
