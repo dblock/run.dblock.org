@@ -39,7 +39,7 @@
   count: 1
 15-16 miles:
   name: 15-16 miles
-  count: 1
+  count: 2
 apps:
   name: apps
   count: 1
@@ -66,7 +66,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 66
+  count: 67
 slack:
   name: slack
   count: 1
