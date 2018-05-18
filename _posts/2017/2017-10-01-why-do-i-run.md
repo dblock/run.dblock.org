@@ -2,7 +2,7 @@
 layout: post
 title: "Why Do I Run"
 date: 2017-10-01 12:42
-tags: [motivation]
+tags: [motivation, read]
 ---
 I always hated running. And now I have a running blog.
 

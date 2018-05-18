@@ -2,7 +2,7 @@
 layout: post
 title: "Uploading Runs to Strava from MapMyRun"
 date: "2018-03-05 10:15"
-tags: [tracking, apps]
+tags: [tracking, apps, read]
 race: false
 ---
 I used MapMyRun at first, but switched to Strava. I think both work fine, but most of my friends use Strava, follow each-other, and it looks much more polished. The Strava support FAQ on [Moving your activity history from MapMyRun to Strava](https://support.strava.com/hc/en-us/articles/216917757-Moving-your-activity-history-from-MapMyRun-to-Strava) is missing a step of making the run public. Here's what you have to do.

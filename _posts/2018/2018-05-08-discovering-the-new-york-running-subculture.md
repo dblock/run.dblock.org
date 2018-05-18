@@ -2,7 +2,7 @@
 layout: post
 title: Discovering the New York Running Subculture
 date: "2018-05-08 19:01"
-tags: [running clubs, motivation]
+tags: [running clubs, motivation, read]
 ---
 ### OSR
 

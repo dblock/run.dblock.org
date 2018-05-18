@@ -61,6 +61,9 @@ nyrr:
 races:
   name: races
   count: 11
+read:
+  name: read
+  count: 9
 running clubs:
   name: running clubs
   count: 1

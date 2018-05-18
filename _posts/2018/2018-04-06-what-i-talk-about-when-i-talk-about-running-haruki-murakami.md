@@ -2,7 +2,7 @@
 layout: post
 title: Haruki Murakami's "What I Talk About When I Talk About Running"
 date: "2018-04-06 23:37"
-tags: [books]
+tags: [books, read]
 ---
 I picked up ["What I Talk About When I Talk About Running"](https://www.amazon.com/What-Talk-About-When-Running/dp/0307389839) after reading Hauki Murakami's "Sputnik Sweetheart". It really spoke to me as a newbie runner and inspired me.
 

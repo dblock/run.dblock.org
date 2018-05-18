@@ -2,7 +2,7 @@
 layout: post
 title: "My Running Gear in 2018"
 date: "2018-03-04 19:44"
-tags: [gear]
+tags: [gear, read]
 race: false
 ---
 As a beginner runner I have no idea what I am doing as far as running gear is concerned. So I go by trial and error.

@@ -2,7 +2,7 @@
 layout: post
 title: "Running the #UnitedAirlinesHalf for TeamForKids"
 date: "2018-02-16 16:16"
-tags: [charity]
+tags: [charity, read]
 race: false
 ---
 I'm running the [#UnitedAirlinesHalf](http://www.nyrr.org/races-and-events/2018/united-airlines-nyc-half) for [@TeamForKids](https://runwithtfk.org/Events/Details/101). My fundraising goal of $1,310.00 has been reached and [stands](https://runwithtfk.org/Profile/PublicPage/57858) at $1,640.00 now. Thank you!

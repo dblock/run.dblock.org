@@ -113,6 +113,7 @@ title: "#{activity.name}"
 date: "#{activity.start_date_local.strftime('%F %T')}"
 tags: [#{tags.join(', ')}]
 race: #{activity.race?}
+strava: true
 ---
   EOS
 

@@ -2,7 +2,7 @@
 layout: post
 title: "How to Run a Race in NYC"
 date: "2018-03-17 12:42"
-tags: [races, nyrr, charity]
+tags: [races, nyrr, charity, read]
 race: false
 ---
 Tomorrow I'll be running the [United Airlines Half Marathon](http://www.nyrr.org/races-and-events/2018/united-airlines-nyc-half) after [successfully fundraising $1,765 for TeamForKids](/2018/02/16/running-united-airlines-half-for-team-for-kids.html). It's an epic race that takes you from Prospect Park to Central Park. It's the only time other than NYE that Times Square is closed to foot and car traffic and I can't be more excited.
