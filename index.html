@@ -6,7 +6,7 @@ comments: false
 {% for post in paginator.posts %}
 
   {% unless post.next %}
-    <h3>{{ post.date | date: '%Y' }}</h3>
+    <h3 class='next'>{{ post.date | date: '%Y' }}</h3>
   {% else %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
@@ -19,16 +19,18 @@ comments: false
   {% capture current_year %}{{ 'now' | date: '%Y' }}{% endcapture %}
 
   {% unless post.races or post.race and year == current_year %}
-    <article>
-      <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        {% if post.race %}
-          <span class='race'>RACE</span>
-        {% endif %}
-        {% unless post.strava %}
-          <span class='read'>READ</span>
-        {% endunless %}
-      </h2>
-    </article>
+    {% if post.strava or year != current_year %}
+      <article>
+        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          {% if post.race %}
+            <span class='race'>RACE</span>
+          {% endif %}
+          {% unless post.strava %}
+            <span class='read'>READ</span>
+          {% endunless %}
+        </h2>
+      </article>
+    {% endif %}
   {% endunless %}
 {% endfor %}
 

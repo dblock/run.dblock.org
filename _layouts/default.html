@@ -20,10 +20,11 @@
     {% include _rss.html %}
   </div>
   {% include _donate.html %}
-  {% if paginator.page == 1 %}
-    {% include _races.html %}
-  {% endif %}
   <div id="index">
+    {% if paginator.page == 1 %}
+      {% include _races.html %}
+      {% include _reads.html %}
+    {% endif %}
     {{ content }}
   </div><!-- /#index -->
 </div><!-- /#main -->

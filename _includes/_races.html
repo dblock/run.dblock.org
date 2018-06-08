@@ -1,34 +1,32 @@
-<div id="index">
-  {% for post in site.posts %}
-    {% if post.races %}
-      {% capture upcoming-races %}{{post.url}}{% endcapture %}
-    {% endif %}
-  {% endfor %}
-  <h3>
-    Races
-    <span class='nyrr-results'>
-      {% if upcoming-races %}
-        &gt;
-        <a href="{{ site.url }}{{ upcoming-races }}" title="Upcoming Races">Upcoming Races</a>
-      {% endif %}
+{% for post in site.posts %}
+  {% if post.races %}
+    {% capture upcoming-races %}{{post.url}}{% endcapture %}
+  {% endif %}
+{% endfor %}
+<h3>
+  Races
+  <span class='nyrr-results'>
+    {% if upcoming-races %}
       &gt;
-      <a href="https://results.nyrr.org/runner/{{ site.owner.nyrr-results }}/races" target="_blank">Official NYRR Results</a>
-    </span>
-  </h3>
-  {% for post in site.posts %}
-    {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-    {% capture current_year %}{{'now' | date: "%Y"}}{% endcapture %}
-    {% if post.race %}
-      {% if year == current_year %}
-        <article>
-          <h2>
-            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-            <span class='race'>RACE</span>
-          </h2>
-        </article>
-      {% endif %}
+      <a href="{{ site.url }}{{ upcoming-races }}" title="Upcoming Races">Upcoming Races</a>
     {% endif %}
-  {% endfor %}
-</div>
+    &gt;
+    <a href="https://results.nyrr.org/runner/{{ site.owner.nyrr-results }}/races" target="_blank">Official NYRR Results</a>
+  </span>
+</h3>
+{% for post in site.posts %}
+  {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% capture current_year %}{{'now' | date: "%Y"}}{% endcapture %}
+  {% if post.race %}
+    {% if year == current_year %}
+      <article>
+        <h2>
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          <span class='race'>RACE</span>
+        </h2>
+      </article>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 
