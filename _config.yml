@@ -17,32 +17,32 @@ owner:
   avatar: blog.png
   bio: aka dB., NYC
   email: dblock@dblock.org
-  disqus-shortname:
+  disqus-shortname: 
   twitter: dblockdotorg
-  facebook:
+  facebook: 
   google:
-    plus:
+    plus: 
     analytics: UA-4756101-5
     verify: o1dQjOsMqvIla4zMSdwhkmHSa-0mLMMi-v_ITY1BEhc
-    ad-client:
-    ad-slot:
-  bing-verify:
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
   github: dblock
-  stackoverflow:
+  stackoverflow: 
   linkedin: dblock
-  instagram:
-  lastfm:
-  tumblr:
-  pinterest:
-  foursquare:
-  steam:
-  dribbble:
-  youtube:
-  soundcloud:
+  instagram: 
+  lastfm: 
+  tumblr: 
+  pinterest: 
+  foursquare: 
+  steam: 
+  dribbble: 
+  youtube: 
+  soundcloud: 
   strava: dblockdotorg
-  nyrr-results: 16317179
+  nyrr-results: 16375049
 paginate: 30
-google_custom_search:
+google_custom_search: 
 edit_url: https://github.com/dblock/run.dblock.org/edit/gh-pages/
 exclude:
 - Gemfile
