@@ -21,10 +21,10 @@
   count: 12
 7-8 miles:
   name: 7-8 miles
-  count: 11
+  count: 12
 8-9 miles:
   name: 8-9 miles
-  count: 9
+  count: 8
 9-10 miles:
   name: 9-10 miles
   count: 4
@@ -63,7 +63,7 @@ nyrr:
   count: 1
 races:
   name: races
-  count: 15
+  count: 14
 read:
   name: read
   count: 9
