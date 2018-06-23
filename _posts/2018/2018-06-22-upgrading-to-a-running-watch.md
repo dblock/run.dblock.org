@@ -4,7 +4,7 @@ title: Upgrading to a Running Watch
 date: "2018-06-22 21:37"
 tags: [gear, read]
 ---
-I spent an unreasonable amount of time researching and buying a running watch. I ended up with a [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM).
+I spent an unreasonable amount of time researching and buying a running watch. I ended up with a [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM) and would definitely recommend it. The Adidas edition is a must for any [Russian that wants to stay on brand](https://weirdrussia.com/2015/01/04/why-is-adidas-so-popular-among-russians).
 
 ![]({{ site.url }}/images/posts/2018/2018-06-22-upgrading-to-a-running-watch/watch.jpg)
 
@@ -26,19 +26,19 @@ Nothing worked with an iPhone. The iOS app was [crippled to a point of being use
 
 ### Fitbit Ionic
 
-I bought the [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM). This one was just a Fitbit Ionic, but with a nicer looking color band and some more software for $30 more. Why did I pay extra? Because [I am Russian and I had to stay on brand](https://weirdrussia.com/2015/01/04/why-is-adidas-so-popular-among-russians)!
+I bought the [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM) and I am keeping it.
 
-This watch had GPS, Strava, music and payments, but has no cell service. [This review](https://www.amazon.com/gp/customer-reviews/RXFWADPCNX3XK/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B074VDF16R) changed my mind about needing to have a phone on me. In hindsight, I have been really enjoying focusing on my run before, during and especially after. I used to fiddle with my phone to upload the run to Strava or take selfies instead of what I should have really been doing -  stretching.
+This watch has GPS, Strava, music and payments, but no cell service. [This review](https://www.amazon.com/gp/customer-reviews/RXFWADPCNX3XK/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B074VDF16R) changed my mind about needing to have a phone on me. In hindsight, I really enjoy focusing on my run before, during and especially after. I used to fiddle with my phone to upload the run to Strava or take selfies instead of what I should have really been doing -  stretching and rolling.
 
 #### Setup
 
-Setup and the firmware upgrade were pretty slow, but worked. The watch would only see my 2G WiFi and not to anything faster. The iOS app seemed reasonable.
+Setup and the firmware upgrade are pretty slow, but work. The watch sees my 2G WiFi and not anything faster. The iOS app is fine.
 
 #### Music
 
-I wanted either [di.fm](https://www.di.fm) or long tracks from [Soundcloud](https://soundcloud.com/stream). I learned that to sync music with the Ionic you needed a computer, which was odd but survivable. I [downloaded](https://www.klickaud.com) some SoundCloud tracks onto my laptop and spent a while looking for a way to just copy MP3 files to the watch. The process was actually much more bizarre as the Ionic Mac app only synced iTunes playlists with the watch, so I had to add the MP3s to iTunes, then choose which playlists to sync. That worked well, albeit slowly.
+I wanted either [di.fm](https://www.di.fm) or long tracks from [Soundcloud](https://soundcloud.com/stream). I learned that to sync music with the Ionic you needed a computer, which was odd but survivable. I [downloaded](https://www.klickaud.com) some SoundCloud tracks onto my laptop and spent a while looking for a way to just copy MP3 files to the watch. The process is actually much more bizarre as the Ionic Mac app only syncs iTunes playlists with the watch, so I had to add the MP3s to iTunes, then choose which playlists to sync. That works well, albeit slowly.
 
-The watch easily connected to my bluetooth headphones and played music well. It cut off occasionally for a split second, but it hasn't been bad, annoying or janky.
+The watch easily connects to my bluetooth headphones and plays music well. It will cut off occasionally for a split second, but it hasn't been too annoying or janky.
 
 ![]({{ site.url }}/images/posts/2018/2018-06-22-upgrading-to-a-running-watch/music.jpg)
 
@@ -48,7 +48,7 @@ I went running with OSR on Tuesday and started a warm-up run from home. The watc
 
 ![]({{ site.url }}/images/posts/2018/2018-06-22-upgrading-to-a-running-watch/run.jpg)
 
-I later learned that GPS had a cold start and needed to download some local satellite data. This took almost 15 minutes in the dense New York city. The watch took under a minute to acquire a GPS signal for my second run.
+I later learned that GPS has a cold start and needs to download some local satellite data. This usually takes 15 minutes in the dense New York city. The watch now acquires GPS in about 30 seconds.
 
 #### Strava
 
@@ -56,27 +56,29 @@ I installed the Strava app on the watch, connected it on the iPhone, and saw my 
 
 ![]({{ site.url }}/images/posts/2018/2018-06-22-upgrading-to-a-running-watch/strava.jpg)
 
-To sync my runs I had to go to [strava.fitbit.com](https://strava.fitbit.com) and authorized Fitbit with Strava through the website. The Fitbit + Strava app then showed up in [my settings](https://www.fitbit.com/settings/applications).
-
-<small>This still didn't work as expected and I [am still trying to get help from Fitbit](https://community.fitbit.com/t5/Third-Party-Integrations/Fitbit-Ionic-not-Syncing-to-Strava/td-p/2789043). Since it works for many people I imagine this is going to be fixed.</small>
+To sync my runs I had to go to [strava.fitbit.com](https://strava.fitbit.com) and authorize Fitbit with Strava through the website. The Fitbit + Strava app then showed up in [my settings](https://www.fitbit.com/settings/applications). Runs upload to Strava a few minutes after the watch syncs with the phone.
 
 #### Payments
 
-Payments worked flawlessly with an American Express card at the Walgreens in Union Square to buy me a Gatorade after this morning's 9 mile run. Money clearly solved all many problems.
+Payments worked flawlessly with an American Express card at the Walgreens in Union Square to buy me a Gatorade after this morning's 9 mile run. Anything involving money clearly got a lot of attention.
 
 #### Barcodes
 
-It was nice to find a [barcode app](https://gam.fitbit.com/gallery/app/20ba8b5a-f3f9-4f8c-a5a3-10d9eacbd846) on the Fitbit. I could go to the Equinox without carrying ID.
+It was nice to find a [barcode app](https://gam.fitbit.com/gallery/app/20ba8b5a-f3f9-4f8c-a5a3-10d9eacbd846) on the Fitbit. I ran to the very hip Williamsburg Equinox without carrying ID.
 
 ![]({{ site.url }}/images/posts/2018/2018-06-22-upgrading-to-a-running-watch/barcode.jpg)
 
 #### Battery
 
-With the display always on, GPS and playing music the Ionic ate roughly 50% of battery in an hour and a half. I will do a better measurement next time I run with a full charge.
+With the display always on, GPS and playing music the Ionic ate roughly 40% of the battery in a couple of hours.
+
+#### Sleep Tracking
+
+I wore the Fitbit at night and got a nice looking sleep tracking chart that broke down REM, Light and Deep sleep. I really like it!
 
 ### Apple iWatch
 
-This one had everything. But it was a watch, not a running watch, and I wouldn't buy it out of principle. I wear a Panerai Luminor Marina.
+This one was definitely an option and had all the features. But it's a watch, not a _running_ watch, and I wouldn't buy it out of principle. I wear a real watch, a Panerai Luminor Marina.
 
 ### Garmin Forerunner 645 Music
 
