@@ -27,7 +27,7 @@
   count: 8
 9-10 miles:
   name: 9-10 miles
-  count: 4
+  count: 5
 10-11 miles:
   name: 10-11 miles
   count: 7
@@ -54,7 +54,7 @@ charity:
   count: 3
 gear:
   name: gear
-  count: 1
+  count: 2
 motivation:
   name: motivation
   count: 2
@@ -66,13 +66,13 @@ races:
   count: 14
 read:
   name: read
-  count: 9
+  count: 10
 running clubs:
   name: running clubs
   count: 1
 runs:
   name: runs
-  count: 81
+  count: 82
 slack:
   name: slack
   count: 1
