@@ -63,7 +63,7 @@ nyrr:
   count: 1
 races:
   name: races
-  count: 15
+  count: 4
 read:
   name: read
   count: 10
