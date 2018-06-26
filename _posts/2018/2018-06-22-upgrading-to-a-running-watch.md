@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Upgrading to a Running Watch
+title: Upgrading to a Fitbit Ionic Running Watch
 date: "2018-06-22 21:37"
 tags: [gear, read]
 ---
@@ -80,6 +80,8 @@ I wore the Fitbit at night and got a nice looking sleep tracking chart that brok
 
 This one was definitely an option and had all the features. But it's a watch, not a _running_ watch, and I wouldn't buy it out of principle. I wear a real watch, a Panerai Luminor Marina.
 
-### Garmin Forerunner 645 Music
+### Garmin Vivoactive and Forerunner Music
 
 The [Garmin Forerunner 645 Music](https://www.amazon.com/Garmin-Forerunner-contactless-wrist-based-010-01863-20/dp/B078H244WN) seemed to be a slightly more advanced version of the Fitbit Ionic for an extra price. I haven't tried it, but heard great things.
+
+There's a newly released [Garmin Vivoactive 3 Music](https://buy.garmin.com/en-US/US/p/602068) that matches closely the specs and is similarly priced to the Fitbit Ionic. YMMV.
