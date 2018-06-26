@@ -122,7 +122,12 @@ module Moving
                     when :"100yd" then 91.44 / speed
                     end
     minutes, seconds = total_seconds.divmod(60)
-    seconds = seconds.round < 10 ? "0#{seconds.round}" : seconds.round.to_s
+    seconds = seconds.round
+    if seconds == 60
+      minutes += 1
+      seconds = 0
+    end
+    seconds = seconds < 10 ? "0#{seconds}" : seconds.to_s
     "#{minutes}m#{seconds}s/#{unit}"
   end
 end
