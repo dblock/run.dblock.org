@@ -61,12 +61,18 @@ motivation:
 nyrr:
   name: nyrr
   count: 1
+osr:
+  name: osr
+  count: 1
+race:
+  name: race
+  count: 1
 races:
   name: races
   count: 15
 read:
   name: read
-  count: 10
+  count: 11
 running clubs:
   name: running clubs
   count: 1
