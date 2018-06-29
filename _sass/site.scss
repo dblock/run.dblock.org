@@ -98,3 +98,25 @@ table {
       margin-top: 0; }
     table tr th :last-child, table tr td :last-child {
       margin-bottom: 0; }
+
+div.thumbnail-grid {
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+
+img.thumbnail {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin: 2px;
+  @media #{$large} {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  &:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+}
