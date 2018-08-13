@@ -6,7 +6,7 @@ module NYRR
     base_uri 'https://results.nyrr.org/api'
 
     def self.search(name)
-      JSON.parse(
+      body = JSON.parse(
         post('/runners/search',
              body: {
                searchString: name,
@@ -14,10 +14,15 @@ module NYRR
                pageSize: 1
              }.to_json,
              headers: {
-               'token' => 'eb9dc6e334b64d77',
+               'token' => 'ebe04e9c08064536',
                'Content-Type' => 'application/json'
-             }).body
-      )['response']['items']
+             }).body)
+
+      if body['ErrorCode']
+        raise "Error #{body['ErrorCode']}: #{body['Message']}"
+      else
+        body['response']['items']
+      end
     end
   end
 end
