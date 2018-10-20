@@ -43,6 +43,9 @@
 15-16 miles:
   name: 15-16 miles
   count: 3
+17-18 miles:
+  name: 17-18 miles
+  count: 1
 18-19 miles:
   name: 18-19 miles
   count: 1
@@ -78,7 +81,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 121
+  count: 122
 slack:
   name: slack
   count: 1
