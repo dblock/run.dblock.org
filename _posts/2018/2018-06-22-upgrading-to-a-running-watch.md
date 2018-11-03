@@ -4,11 +4,23 @@ title: Upgrading to a Fitbit Ionic Running Watch
 date: "2018-06-22 21:37"
 tags: [gear, read]
 ---
-I spent an unreasonable amount of time researching and buying a running watch. I ended up with a [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM) and would definitely recommend it. The Adidas edition is a must for any [Russian that wants to stay on brand](https://weirdrussia.com/2015/01/04/why-is-adidas-so-popular-among-russians).
+I spent an unreasonable amount of time researching and buying a running watch. I ended up with a [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM) and would have recommended it if only it did what it advertises.
+
+### Don't Buy a Fitbit Ionic
+
+Don't buy it for 3 reasons:
+
+* My Ionic's GPS dies consistently at 7-10 miles. The only workaround is to restart your run. See [this post](https://community.fitbit.com/t5/Ionic/GPS-dies-at-around-7-10-miles-consistently/m-p/2967988) and [this post](https://community.fitbit.com/t5/Ionic/Ionic-losing-GPS-connection-during-activity/m-p/3043253) with dozens of people complaining. While Fitbit support recommends restarting the watch before each run, which doesn't fix anything, I recommend buying another watch.
+* Bluetooth range is horrible and wearing the watch of my left hand works extremely poorly, constantly cutting out and glitching, with a pair of bluetooth headphones with a receiver in the right ear. See [this post](https://community.fitbit.com/t5/Ionic/Abysmal-Bluetooth-Range/m-p/3012393). While Fitbit support recommends wearing the watch on the right hand, I recommend buying another watch.
+* Fitbit is not fixing any issues, but is creating a ton of new ones. Firmware updates are bricking watches and frustrate lots of users. See [this post about the 32.12.19 firmware release](https://community.fitbit.com/t5/Ionic/Fitbit-OS-2-2-Ionic-Firmware-Release-32-12-19/m-p/3030841). While Fitbit support recommends doing a factory reset to recover from a failed firmware upgrade, I recommend buying another watch.
+
+### Brand
+
+Maybe Fitbit will fix these issues one day. Ignoring that, the Adidas edition is a must for any [Russian that wants to stay on brand](https://weirdrussia.com/2015/01/04/why-is-adidas-so-popular-among-russians).
 
 ![]({{ site.url }}/images/posts/2018/2018-06-22-upgrading-to-a-running-watch/watch.jpg)
 
-### Motivation
+### Motivation for a Watch
 
 I used an armband for over a year with my iPhone. The armband got very worn out and it felt like throwing money away to get a new one.
 
@@ -38,7 +50,7 @@ Setup and the firmware upgrade are pretty slow, but work. The watch sees my 2G W
 
 I wanted either [di.fm](https://www.di.fm) or long tracks from [Soundcloud](https://soundcloud.com/stream). I learned that to sync music with the Ionic you needed a computer, which was odd but survivable. I [downloaded](https://www.klickaud.com) some SoundCloud tracks onto my laptop and spent a while looking for a way to just copy MP3 files to the watch. The process is actually much more bizarre as the Ionic Mac app only syncs iTunes playlists with the watch, so I had to add the MP3s to iTunes, then choose which playlists to sync. That works well, albeit slowly.
 
-The watch easily connects to my bluetooth headphones and plays music well. It will cut off occasionally for a split second, but it hasn't been too annoying or janky.
+The watch easily connects to my bluetooth headphones and plays music. It will cut off often for a split second, and will cut off a lot in a crowded race if you wear it on the opposite hand of your bluetooth headphones receiver. See [this post](https://community.fitbit.com/t5/Ionic/Abysmal-Bluetooth-Range/m-p/3012393) for details.
 
 ![]({{ site.url }}/images/posts/2018/2018-06-22-upgrading-to-a-running-watch/music.jpg)
 
@@ -50,13 +62,15 @@ I went running with OSR on Tuesday and started a warm-up run from home. The watc
 
 I later learned that GPS has a cold start and needs to download some local satellite data. This usually takes 15 minutes in the dense New York city. The watch now acquires GPS in about 30 seconds.
 
+Ionic GPS fails at around 7-10 miles. See [this post](https://community.fitbit.com/t5/Ionic/GPS-dies-at-around-7-10-miles-consistently/m-p/2967988).
+
 #### Strava
 
 I installed the Strava app on the watch, connected it on the iPhone, and saw my past runs. It quickly turned out that this app was totally useless and confusing because it didn't sync anything from the watch.
 
 ![]({{ site.url }}/images/posts/2018/2018-06-22-upgrading-to-a-running-watch/strava.jpg)
 
-To sync my runs I had to go to [strava.fitbit.com](https://strava.fitbit.com) and authorize Fitbit with Strava through the website. The Fitbit + Strava app then showed up in [my settings](https://www.fitbit.com/settings/applications). Runs upload to Strava a few minutes after the watch syncs with the phone.
+To sync my runs I had to go to [strava.fitbit.com](https://strava.fitbit.com) and authorize Fitbit with Strava through the website. The Fitbit + Strava app then showed up in [my settings](https://www.fitbit.com/settings/applications). Runs upload to Strava a few minutes after the watch syncs with the phone. This works.
 
 #### Payments
 
@@ -84,4 +98,4 @@ This one was definitely an option and had all the features. But it's a watch, no
 
 The [Garmin Forerunner 645 Music](https://www.amazon.com/Garmin-Forerunner-contactless-wrist-based-010-01863-20/dp/B078H244WN) seemed to be a slightly more advanced version of the Fitbit Ionic for an extra price. I haven't tried it, but heard great things.
 
-There's a newly released [Garmin Vivoactive 3 Music](https://buy.garmin.com/en-US/US/p/602068) that matches closely the specs and is similarly priced to the Fitbit Ionic. YMMV.
+There's a newly released [Garmin Vivoactive 3 Music](https://buy.garmin.com/en-US/US/p/602068) that matches closely the specs and is similarly priced to the Fitbit Ionic. I would have bought this one today, but I haven't tried it myself.
