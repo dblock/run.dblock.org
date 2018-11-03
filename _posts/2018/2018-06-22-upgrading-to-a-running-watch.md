@@ -4,7 +4,7 @@ title: Upgrading to a Fitbit Ionic Running Watch
 date: "2018-06-22 21:37"
 tags: [gear, read]
 ---
-I spent an unreasonable amount of time researching and buying a running watch. I ended up with a [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM) and would have recommended it if only it did what it advertises.
+I spent an unreasonable amount of time researching and buying a running watch. I ended up with a [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM) and would have recommended it if only it did what it advertised.
 
 ### Don't Buy a Fitbit Ionic
 
@@ -38,7 +38,7 @@ Nothing worked with an iPhone. The iOS app was [crippled to a point of being use
 
 ### Fitbit Ionic
 
-I bought the [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM) and I am keeping it.
+I bought the [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM) and kept it. I did try to return or exchange it months later, but it was too late. Fitbit support agreed to make an exception, but I haven't bought it directly from their website because I am Russian and wanted the Adidas version. Lesson learned.
 
 This watch has GPS, Strava, music and payments, but no cell service. [This review](https://www.amazon.com/gp/customer-reviews/RXFWADPCNX3XK/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B074VDF16R) changed my mind about needing to have a phone on me. In hindsight, I really enjoy focusing on my run before, during and especially after. I used to fiddle with my phone to upload the run to Strava or take selfies instead of what I should have really been doing -  stretching and rolling.
 
