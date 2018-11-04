@@ -49,6 +49,9 @@
 18-19 miles:
   name: 18-19 miles
   count: 1
+26-27 miles:
+  name: 26-27 miles
+  count: 1
 apps:
   name: apps
   count: 1
@@ -81,7 +84,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 126
+  count: 127
 slack:
   name: slack
   count: 1
