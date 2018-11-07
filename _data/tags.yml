@@ -60,22 +60,25 @@ books:
   count: 1
 charity:
   name: charity
-  count: 3
+  count: 4
 gear:
   name: gear
   count: 2
+marathon:
+  name: marathon
+  count: 1
 motivation:
   name: motivation
   count: 2
 nyrr:
   name: nyrr
-  count: 1
+  count: 2
 osr:
   name: osr
   count: 1
 races:
   name: races
-  count: 23
+  count: 24
 read:
   name: read
   count: 11
