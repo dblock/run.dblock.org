@@ -5,6 +5,7 @@ module Moving
 
   def distance_in_miles_s
     return unless distance && distance.positive?
+
     format('%gmi', format('%.2f', distance_in_miles))
   end
 
@@ -14,6 +15,7 @@ module Moving
 
   def distance_in_yards_s
     return unless distance && distance.positive?
+
     format('%gyd', format('%.1f', distance_in_yards))
   end
 
@@ -23,6 +25,7 @@ module Moving
 
   def distance_in_kilometers_s
     return unless distance && distance.positive?
+
     format('%gkm', format('%.2f', distance_in_kilometers))
   end
 
@@ -67,11 +70,13 @@ module Moving
 
   def total_elevation_gain_in_meters_s
     return unless total_elevation_gain && total_elevation_gain != 0
+
     format('%gm', format('%.1f', total_elevation_gain_in_meters))
   end
 
   def total_elevation_gain_in_feet_s
     return unless total_elevation_gain && total_elevation_gain != 0
+
     format('%gft', format('%.1f', total_elevation_gain_in_feet))
   end
 
@@ -101,6 +106,7 @@ module Moving
 
   def time_in_hours_s(time)
     return unless time
+
     hours = time / 3600 % 24
     minutes = time / 60 % 60
     seconds = time % 60
@@ -111,11 +117,11 @@ module Moving
     ].compact.join
   end
 
-
   # Convert speed (m/s) to pace (min/mile or min/km) in the format of 'x:xx'
   # http://yizeng.me/2017/02/25/convert-speed-to-pace-programmatically-using-ruby
   def convert_meters_per_second_to_pace(speed, unit = :mi)
     return unless speed && speed.positive?
+
     total_seconds = case unit
                     when :mi then 1609.344 / speed
                     when :km then 1000 / speed

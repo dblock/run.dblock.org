@@ -31,6 +31,7 @@ class Activity < Hashie::Trash
 
   def start_date_local_s
     return unless start_date_local
+
     start_date_local.strftime('%A, %B %d, %Y at %I:%M %p')
   end
 

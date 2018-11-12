@@ -16,7 +16,8 @@ module NYRR
              headers: {
                'token' => 'ebe04e9c08064536',
                'Content-Type' => 'application/json'
-             }).body)
+             }).body
+      )
 
       if body['ErrorCode']
         raise "Error #{body['ErrorCode']}: #{body['Message']}"
