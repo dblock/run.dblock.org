@@ -5,8 +5,10 @@ task :tags do
   Dir['_posts/**/*.md'].each do |file|
     tagline = File.read(file).split("\n").detect { |line| line.start_with?('tags: ') }
     next unless tagline
+
     tagline.tr('[', '').tr(']', '').split(':').last.split(',').map(&:strip).each do |tag|
       next if tag.empty?
+
       tags[tag] ||= 0
       tags[tag] += 1
     end
@@ -23,13 +25,13 @@ permalink: /tags/#{tag}/
 ---
     EOS
   end
-  File.write '_data/tags.yml', tags.keys.sort_by { |tag|
+  File.write '_data/tags.yml', tags.keys.sort_by do |tag|
     # mile ranges in order
     m = tag.match(/^\d*/)
     m && m[0].to_i > 0 ? format('%02d', m[0].to_i) : tag
-  }.map { |tag|
+  end.map do |tag|
     "#{tag}:\n  name: #{tag}\n  count: #{tags[tag]}"
-  }.join("\n")
+  end.join("\n")
 end
 
 desc 'Check for broken links and such.'
@@ -83,16 +85,20 @@ namespace :strava do
 
     start_at_year = 2018
 
+    activities_options = { per_page: 10, after: Time.new(start_at_year).to_i }
+    activities = Strava.client.list_athlete_activities(activities_options.merge(page: 1))
+
     Dir['_posts/*'].each do |folder|
       year = folder.split('/').last
       next if year.to_i < start_at_year
+
       FileUtils.rm(Dir.glob("#{folder}/#{year}-*-run-*mi-*s.md"))
     end
 
     page = 1
     loop do
-      activities = Strava.client.list_athlete_activities(page: page, per_page: 10, after: Time.new(start_at_year).to_i)
       break unless activities.any?
+
       activities.each do |data|
         detailed_activity = Strava.client.retrieve_an_activity(data['id'])
         activity = Activity.new(data.merge(detailed_activity))
@@ -115,7 +121,7 @@ tags: [#{tags.join(', ')}]
 race: #{activity.race?}
 strava: true
 ---
-  EOS
+          EOS
 
           file.write "\n### Stats\n"
           file.write "\n| Distance | Time | Pace |"
@@ -147,6 +153,7 @@ strava: true
         puts activity.filename
       end
       page += 1
+      activities = Strava.client.list_athlete_activities(activities_options.merge(page: page))
     end
   end
 end
