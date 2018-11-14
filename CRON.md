@@ -4,7 +4,9 @@ This project uses a Travis CI cronjob to automatically sync with Strava once a d
 
 ## Strava Token
 
-Create an app and obtain a public token from [strava.com/settings/api](https://www.strava.com/settings/api). Set it as `STRAVA_API_TOKEN` in Travis-CI.
+Create an app and obtain a Strava Client ID and secret from [strava.com/settings/api](https://www.strava.com/settings/api). Set it as `STRAVA_CLIENT_ID` and `STRAVA_CLIENT_SECRET` in Travis-CI.
+
+Run `bundle exec ruby _bin/strava_oauth` and follow instructions to get a `refresh_token` and `access_token`.
 
 ## Github Token
 
