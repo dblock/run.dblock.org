@@ -17,8 +17,9 @@ module Strava
 
       refresh_token = response['refresh_token']
       if refresh_token != ENV['STRAVA_API_REFRESH_TOKEN']
-        puts "Warning, the Strava API refresh token has changed."
-        # TODO: store the new refresh token
+        puts "The Strava API refresh token has changed, updating .travis.yml."
+        rc = system("travis encrypt STRAVA_API_REFRESH_TOKEN=#{refresh_token} --add env")
+        fail "travis encrypt failed with exit code #{$CHILD_STATUS.exitstatus}" if rc.nil? || !rc || $CHILD_STATUS.exitstatus != 0
       end
 
       Strava::Api::V3::Client.new(access_token: response['access_token'])
