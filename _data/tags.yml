@@ -1,6 +1,6 @@
 0-1 miles:
   name: 0-1 miles
-  count: 1
+  count: 5
 1-2 miles:
   name: 1-2 miles
   count: 7
@@ -97,3 +97,6 @@ strava:
 tracking:
   name: tracking
   count: 1
+weighttrainings:
+  name: weighttrainings
+  count: 4
