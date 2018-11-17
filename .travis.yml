@@ -1,13 +1,9 @@
 language: ruby
-
 cache: bundler
-
 rvm:
-  - 2.4.1
-
+- 2.4.1
 script:
-  - bash ./_scripts/update.sh
-
+- bash ./_scripts/update.sh
 branches:
   only:
-    - gh-pages
+  - gh-pages
