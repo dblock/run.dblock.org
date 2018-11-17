@@ -25,13 +25,18 @@ permalink: /tags/#{tag}/
 ---
     EOS
   end
-  File.write '_data/tags.yml', tags.keys.sort_by do |tag|
+
+  tag_keys = tags.keys.sort_by do |tag|
     # mile ranges in order
     m = tag.match(/^\d*/)
     m && m[0].to_i > 0 ? format('%02d', m[0].to_i) : tag
-  end.map do |tag|
+  end
+
+  tag_lines = tag_keys.map do |tag|
     "#{tag}:\n  name: #{tag}\n  count: #{tags[tag]}"
-  end.join("\n")
+  end
+
+  File.write '_data/tags.yml', tag_lines.join("\n")
 end
 
 desc 'Check for broken links and such.'
