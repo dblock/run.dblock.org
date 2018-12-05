@@ -1,9 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rake'
+gem 'dotenv'
 gem 'github-pages'
 gem 'hashie'
 gem 'html-proofer'
-gem 'strava-ruby-client', github: 'dblock/strava-ruby-client'
-gem 'dotenv'
+gem 'httparty'
 gem 'polylines'
+gem 'rake'
+gem 'strava-ruby-client', github: 'dblock/strava-ruby-client'
