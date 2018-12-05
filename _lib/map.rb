@@ -1,9 +1,7 @@
-class Map < Hashie::Trash
-  include Hashie::Extensions::IgnoreUndeclared
-
-  property :strava_id, from: 'id'
-  property :summary_polyline, from: 'summary_polyline'
-  property :decoded_summary_polyline, from: 'summary_polyline', with: ->(data) { Polylines::Decoder.decode_polyline(data) }
+class Strava::Models::Map < Strava::Model
+  def decoded_summary_polyline
+    Polylines::Decoder.decode_polyline(summary_polyline) if summary_polyline
+  end
 
   def image_url
     return unless decoded_summary_polyline

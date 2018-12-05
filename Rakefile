@@ -75,12 +75,10 @@ namespace :strava do
   task :update do
     require 'hashie'
 
-    require 'strava/api/v3'
+    require 'strava-ruby-client'
 
     require './_lib/strava'
-    require './_lib/moving'
     require './_lib/map'
-    require './_lib/split'
     require './_lib/activity'
 
     require 'fileutils'
@@ -91,7 +89,7 @@ namespace :strava do
     start_at_year = 2018
 
     activities_options = { per_page: 10, after: Time.new(start_at_year).to_i }
-    activities = Strava.client.list_athlete_activities(activities_options.merge(page: 1))
+    activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
 
     Dir['_posts/*'].each do |folder|
       year = folder.split('/').last
@@ -104,9 +102,9 @@ namespace :strava do
     loop do
       break unless activities.any?
 
-      activities.each do |data|
-        detailed_activity = Strava.client.retrieve_an_activity(data['id'])
-        activity = Activity.new(data.merge(detailed_activity))
+      activities.each do |activity|
+        next unless activity.type == 'Run'
+        activity = Strava.client.activity(activity.id)
 
         FileUtils.mkdir_p "_posts/#{activity.start_date_local.year}"
 
@@ -136,21 +134,21 @@ strava: true
           file.write "\n#{activity.description}\n" if activity.description && !activity.description.empty?
           file.write "\n<img src='#{activity.map.image_url}'>\n" if activity.map && activity.map.image_url
 
-          if activity.splits && activity.splits.any?
+          if activity.splits_standard && activity.splits_standard.any?
             file.write "\n### Splits\n"
             file.write "\n| Mile | Pace | Elevation |"
             file.write "\n|------|------|-----------|"
-            activity.splits.each do |split|
+            activity.splits_standard.each do |split|
               file.write "\n|#{split.split}|#{split.pace_per_mile_s}|#{split.total_elevation_gain_in_feet_s}|"
             end
             file.write "\n"
           end
 
-          photos = Strava.client.list_activity_photos(activity.strava_id, size: '600')
+          photos = Strava.client.activity_photos(activity.id, size: '600')
           if photos.any?
             file.write "\n### Photos"
             photos.each do |photo|
-              url = photo['urls']['600']
+              url = photo.urls['600']
               file.write "\n<img src='#{url}'>\n"
             end
           end
@@ -158,7 +156,7 @@ strava: true
         puts activity.filename
       end
       page += 1
-      activities = Strava.client.list_athlete_activities(activities_options.merge(page: page))
+      activities = Strava.client.athlete_activities(activities_options.merge(page: page))
     end
   end
 end
