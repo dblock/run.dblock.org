@@ -38,7 +38,10 @@ TFK got me into the 12, 15 and 18-mile training runs in summer and fall of the y
 
 If you are lucky to live in New York and are fine waiting for another year before running the marathon, commit to the [NYRR 9+1 program](https://www.nyrr.org/join-and-give/become-a-member/run-9-give-1). This involves running at least 9 qualifying races during the year and volunteering for 1 (or giving $1K to charity) to receive guaranteed marathon entry the year after. You can read my post on [how to run a race in NYC](/2018/03/17/how-to-run-a-race-in-nyc-financials-charity.html) for details.
 
-I earned my guaranteed spot for next year's 2019 marathon through this program.
+I earned my guaranteed spot for next year's 2019 marathon (and a few other races) through this program.
+
+![]({{ site.url }}/images/posts/2018/2018-11-16-how-to-run-your-first-nyc-marathon/9plus1.png)
+<br><small><em>... guaranteed entry into 2019 Marathon, United Airlines and Popular Brooklyn Halfs</em></small>
 
 ## Training
 
@@ -103,7 +106,11 @@ Despite a perfectly sunny November day, the corrals were mostly entirely in the 
 
 ### The Start
 
-I heard multiple cannons announcing the start of the professional wheelchair division, the Achilles handcycle category and select athletes with disabilities while packed inside the corrals. Every participant and volunteer helping in these categories should get two medals, IMHO. Professional women started next. There was be a little bit of cheering in the far that you could hear from the village, but nothing major. I chatted with some French-speaking runners who traveled to New York for the marathon.
+I heard multiple cannons announcing the start of the professional wheelchair division, the Achilles handcycle category and select athletes with disabilities while packed inside the corrals. Every participant and volunteer helping in these categories should get two medals, IMHO. Professional women started next. There was be a little bit of cheering in the far that you could hear from the village, but nothing major.
+
+I chatted with some French-speaking runners who traveled to New York for the marathon. One of them landed me into a local French newspaper.
+
+![]({{ site.url }}/images/posts/2018/2018-11-16-how-to-run-your-first-nyc-marathon/erde-article.jpg)
 
 I began realizing how massive the marathon was only when I got out to the starting line on that incredible Verrazano bridge. There were people climbing on the divider to take selfies. Police helicopters flew super low above us. The national anthem was performed and I jumped, feeling the cannon bang in my stomach. We started running.
 
