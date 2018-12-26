@@ -5,6 +5,11 @@ module NYRR
     include HTTParty
     base_uri 'https://results.nyrr.org/api'
 
+    def self.token
+      regex = /n\.defaults\.headers\.common\.Token\=\"(?<token>\w*)\"/
+      HTTParty.get('https://results.nyrr.org/bundles/app').body.match(regex)['token']
+    end
+
     def self.search(name)
       body = JSON.parse(
         post('/runners/search',
@@ -14,16 +19,14 @@ module NYRR
                pageSize: 1
              }.to_json,
              headers: {
-               'token' => 'ebe04e9c08064536',
+               'token' => NYRR::Results.token,
                'Content-Type' => 'application/json'
              }).body
       )
 
-      if body['ErrorCode']
-        raise "Error #{body['ErrorCode']}: #{body['Message']}"
-      else
-        body['response']['items']
-      end
+      raise "Error #{body['ErrorCode']}: #{body['Message']}" if body['ErrorCode']
+
+      body['response']['items']
     end
   end
 end
