@@ -6,8 +6,12 @@ module NYRR
     base_uri 'https://results.nyrr.org/api'
 
     def self.token
-      regex = /n\.defaults\.headers\.common\.Token\=\"(?<token>\w*)\"/
-      HTTParty.get('https://results.nyrr.org/bundles/app').body.match(regex)['token']
+      regex = /\"token\"\:\"(?<token>\w*)\"/
+      body = HTTParty.get('https://results.nyrr.org/GetSettings/rms-settings.rjs').body
+      token_match = body.match(regex)
+      raise "Error locating token in RMS settings: #{body}" unless token_match
+
+      token_match['token']
     end
 
     def self.search(name)
