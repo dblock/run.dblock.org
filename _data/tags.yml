@@ -18,7 +18,7 @@
   count: 14
 6-7 miles:
   name: 6-7 miles
-  count: 25
+  count: 26
 7-8 miles:
   name: 7-8 miles
   count: 17
@@ -78,7 +78,7 @@ osr:
   count: 1
 races:
   name: races
-  count: 35
+  count: 36
 read:
   name: read
   count: 11
@@ -87,7 +87,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 160
+  count: 161
 slack:
   name: slack
   count: 1
