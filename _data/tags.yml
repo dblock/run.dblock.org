@@ -6,7 +6,7 @@
   count: 8
 2-3 miles:
   name: 2-3 miles
-  count: 6
+  count: 7
 3-4 miles:
   name: 3-4 miles
   count: 16
@@ -87,7 +87,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 169
+  count: 170
 slack:
   name: slack
   count: 1
