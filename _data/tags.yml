@@ -78,7 +78,7 @@ osr:
   count: 1
 races:
   name: races
-  count: 39
+  count: 40
 read:
   name: read
   count: 11
