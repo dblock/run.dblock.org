@@ -28,4 +28,21 @@ class Strava::Models::Activity < Strava::Model
   def rounded_distance_in_miles_s
     format('%d-%0d', distance_in_miles, distance_in_miles + 1)
   end
+
+  def round_up(n, increment)
+    increment * (( n + increment - 1) / increment)
+  end
+
+  def rounded_pace_per_mile_s
+    total_seconds = 1609.344 / average_speed
+    minutes, seconds = total_seconds.divmod(60)
+    # round the seconds to the nearest 15
+    seconds = round_up(seconds.round, 15)
+    if seconds == 60
+      minutes += 1
+      seconds = 0
+    end
+    seconds = seconds < 10 ? "0#{seconds}" : seconds.to_s
+    "<#{minutes}m#{seconds}s/mi"
+  end
 end

@@ -15,13 +15,14 @@ task :tags do
   end
   # tags.delete_if { |_k, v| v < 5 }
   tags.keys.each do |tag|
-    filename = "tags/#{tag}.md"
+    tag_filename = tag.gsub('<', 'lt').gsub('/', '_')
+    filename = "tags/#{tag_filename}.md"
     puts filename
     File.write filename, <<-EOS
 ---
 layout: tag
 tag: #{tag}
-permalink: /tags/#{tag}/
+permalink: /tags/#{tag_filename}/
 ---
     EOS
   end
@@ -34,6 +35,8 @@ permalink: /tags/#{tag}/
 
   tag_lines = tag_keys.map do |tag|
     "#{tag}:\n  name: #{tag}\n  count: #{tags[tag]}"
+    tag_filename = tag.gsub('<', 'lt').gsub('/', '_')
+    "#{tag_filename}:\n  name: #{tag}\n  count: #{tags[tag]}"
   end
 
   File.write '_data/tags.yml', tag_lines.join("\n")
@@ -112,6 +115,7 @@ namespace :strava do
           tags = [
             "#{activity.type.downcase}s",
             "#{activity.rounded_distance_in_miles_s} miles",
+            activity.rounded_pace_per_mile_s,
             activity.race? ? 'races' : nil
           ].compact
 

@@ -1,11 +1,15 @@
 {% assign tags_ary = "" | split: "" %}
 {% for post_tag in page.tags %}
-  {% assign tag = site.data.tags[post_tag] %}
+  {% assign tag_key = post_tag | replace: "<", "lt" %}
+  {% assign tag_key = tag_key | replace: "/", "_" %}
+  {% assign tag = site.data.tags[tag_key] %}
   {% if tag %}
     {% capture tag_content %}
-      <a href='/tags/{{ post_tag }}/'>{{ tag.name }}</a>
+      <a href='/tags/{{ tag_key }}/'>{{ tag.name }}</a>
     {% endcapture %}
     {% assign tags_ary = tags_ary | push: tag_content %}
+  {% else %}
+    {% assign tags_ary = tags_ary | push: tag_key %}
   {% endif %}
 {% endfor %}
 {% capture tags_content %}
