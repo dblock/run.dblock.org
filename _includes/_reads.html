@@ -4,7 +4,7 @@
 {% for post in site.posts %}
   {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
   {% capture current_year %}{{'now' | date: "%Y"}}{% endcapture %}
-  {% unless post.strava or post.races %}
+  {% unless post.strava %}
     <article>
       <h2>
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>

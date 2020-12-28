@@ -1,16 +1,6 @@
-{% for post in site.posts %}
-  {% if post.races %}
-    {% capture upcoming-races %}{{post.url}}{% endcapture %}
-  {% endif %}
-{% endfor %}
 <h3 class='next'>
   Races
   <span class='nyrr-results'>
-    {% if upcoming-races %}
-      &gt;
-      <a href="{{ site.url }}{{ upcoming-races }}" title="Upcoming Races">Upcoming Races</a>
-    {% endif %}
-    &gt;
     <a href="https://results.nyrr.org/runner/{{ site.owner.nyrr-results }}/races" target="_blank">Official NYRR Results</a>
   </span>
 </h3>
