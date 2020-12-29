@@ -55,6 +55,75 @@
 26-27 miles:
   name: 26-27 miles
   count: 2
+lt10m00s_mi:
+  name: <10m00s/mi
+  count: 3
+lt10m15s_mi:
+  name: <10m15s/mi
+  count: 6
+lt10m30s_mi:
+  name: <10m30s/mi
+  count: 2
+lt10m45s_mi:
+  name: <10m45s/mi
+  count: 1
+lt11m00s_mi:
+  name: <11m00s/mi
+  count: 1
+lt11m15s_mi:
+  name: <11m15s/mi
+  count: 1
+lt12m00s_mi:
+  name: <12m00s/mi
+  count: 1
+lt12m30s_mi:
+  name: <12m30s/mi
+  count: 1
+lt14m15s_mi:
+  name: <14m15s/mi
+  count: 1
+lt28m30s_mi:
+  name: <28m30s/mi
+  count: 1
+lt6m30s_mi:
+  name: <6m30s/mi
+  count: 2
+lt7m00s_mi:
+  name: <7m00s/mi
+  count: 3
+lt7m15s_mi:
+  name: <7m15s/mi
+  count: 5
+lt7m30s_mi:
+  name: <7m30s/mi
+  count: 11
+lt7m45s_mi:
+  name: <7m45s/mi
+  count: 19
+lt8m00s_mi:
+  name: <8m00s/mi
+  count: 22
+lt8m15s_mi:
+  name: <8m15s/mi
+  count: 47
+lt8m30s_mi:
+  name: <8m30s/mi
+  count: 54
+lt8m45s_mi:
+  name: <8m45s/mi
+  count: 47
+lt9m00s_mi:
+  name: <9m00s/mi
+  count: 29
+lt9m15s_mi:
+  name: <9m15s/mi
+  count: 17
+lt9m30s_mi:
+  name: <9m30s/mi
+  count: 9
+lt9m45s_mi:
+  name: <9m45s/mi
+  count: 7
 apps:
   name: apps
   count: 1
