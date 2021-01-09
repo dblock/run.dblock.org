@@ -57,7 +57,7 @@
   count: 2
 lt10m00s_mi:
   name: <10m00s/mi
-  count: 3
+  count: 2
 lt10m15s_mi:
   name: <10m15s/mi
   count: 6
@@ -108,22 +108,22 @@ lt8m15s_mi:
   count: 48
 lt8m30s_mi:
   name: <8m30s/mi
-  count: 54
+  count: 56
 lt8m45s_mi:
   name: <8m45s/mi
-  count: 48
+  count: 47
 lt9m00s_mi:
   name: <9m00s/mi
   count: 29
 lt9m15s_mi:
   name: <9m15s/mi
-  count: 17
+  count: 18
 lt9m30s_mi:
   name: <9m30s/mi
   count: 9
 lt9m45s_mi:
   name: <9m45s/mi
-  count: 7
+  count: 6
 apps:
   name: apps
   count: 1
