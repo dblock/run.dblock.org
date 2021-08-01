@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dblock/run.dblock.org.svg?branch=gh-pages)](https://travis-ci.org/dblock/run.dblock.org)
+[![Build Status](https://travis-ci.com/dblock/run.dblock.org.svg?branch=gh-pages)](https://travis-ci.com/dblock/run.dblock.org)
 
 This is my personal running blog, see it at [run.dblock.org](http://run.dblock.org).
 
