@@ -61,7 +61,9 @@ namespace :nyrr do
       config = YAML.load_file('_config.yml')
       name = config['owner']['name']
       puts "Searching NYRR for #{name} ..."
-      runner_id = NYRR::Results.search(name).first['runnerId']
+      runner = NYRR::Results.search(name).first
+      raise "Cannot find runner #{name}." unless runner
+      runner_id = runner['runnerId']
       if config['owner']['nyrr-results'] != runner_id
         puts "Updated runner ID #{runner_id} ..."
         config['owner']['nyrr-results'] = runner_id
