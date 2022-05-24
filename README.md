@@ -1,4 +1,4 @@
-[![Strava](https://github.com/dblock/run.dblock.org/actions/workflows/strava.yml/badge.svg?branch=gh-pages)](https://github.com/dblock/run.dblock.org/actions/workflows/strava.yml)
+[![cron](https://github.com/dblock/run.dblock.org/actions/workflows/strava.yml/badge.svg?branch=gh-pages)](https://github.com/dblock/run.dblock.org/actions/workflows/strava.yml)
 
 This is my personal running blog, see it at [run.dblock.org](http://run.dblock.org).
 
