@@ -1,0 +1,16 @@
+name: Strava
+on:
+  schedule:
+    - cron: '00 01,13 * * *'
+jobs:
+  build:
+    name: Update
+    runs-on: ubuntu-latest
+    env:
+      STRAVA_CLIENT_ID: 23518
+      STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+      STRAVA_API_REFRESH_TOKEN: ${{ secrets.STRAVA_API_REFRESH_TOKEN }}
+      GOOGLE_STATIC_MAPS_API_KEY: AIzaSyC1MId7bFpkLXNAaYhBSTb8jLyiSqzbDtM
+    steps:
+      - name: Update from Strava
+        run: _scripts/update.sh
