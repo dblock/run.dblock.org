@@ -13,5 +13,10 @@ jobs:
       STRAVA_API_REFRESH_TOKEN: ${{ secrets.STRAVA_API_REFRESH_TOKEN }}
       GOOGLE_STATIC_MAPS_API_KEY: AIzaSyC1MId7bFpkLXNAaYhBSTb8jLyiSqzbDtM
     steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler-cache: true      
       - name: update from strava
         run: _scripts/update.sh
