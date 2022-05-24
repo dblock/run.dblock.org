@@ -18,5 +18,4 @@ jobs:
         with:
           ruby-version: 2.6
           bundler-cache: true      
-      - name: update from strava
-        run: _scripts/update.sh
+      - run: _scripts/update.sh
