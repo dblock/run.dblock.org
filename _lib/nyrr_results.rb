@@ -5,16 +5,12 @@ module NYRR
     include HTTParty
     base_uri 'https://results.nyrr.org/'
 
-    def self.token_and_cookie
-      regex = /\"token\"\:\"(?<token>\w*)\"/
+    def self.token
       response = HTTParty.get('https://results.nyrr.org/GetSettings/rms-settings.rjs')
-      cookies = response.headers['set-cookie']
-      cookie = cookies.match(/(?<cookie>QueueITAccepted.*); expires=+/)['cookie']
-      raise "Error locating QueueITAccepted cookie in RMS settings: #{response.body}" unless cookie
-      token_match = response.body.match(regex)
+      token_match = response.body.match(/\"token\"\:\"(?<token>\w*)\"/)
       raise "Error locating token in RMS settings: #{response.body}" unless token_match
 
-      return token_match['token'], cookie
+      return token_match['token']
     end
 
     def self.search(name)
@@ -24,11 +20,10 @@ module NYRR
           pageSize: 1
       }.to_json
 
-      token, cookie = NYRR::Results.token_and_cookie
+      token = NYRR::Results.token
 
       headers = {
         'token' => token,
-        'cookie' => cookie,
         'Content-Type' => 'application/json;charset=UTF-8'
       }
 
