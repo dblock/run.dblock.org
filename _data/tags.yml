@@ -15,7 +15,7 @@
   count: 65
 5-6 miles:
   name: 5-6 miles
-  count: 55
+  count: 56
 6-7 miles:
   name: 6-7 miles
   count: 53
@@ -117,7 +117,7 @@ lt8m15s_mi:
   count: 60
 lt8m30s_mi:
   name: <8m30s/mi
-  count: 64
+  count: 65
 lt8m45s_mi:
   name: <8m45s/mi
   count: 69
@@ -168,7 +168,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 396
+  count: 397
 slack:
   name: slack
   count: 1
