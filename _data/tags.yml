@@ -58,6 +58,9 @@
 19-20 miles:
   name: 19-20 miles
   count: 1
+21-22 miles:
+  name: 21-22 miles
+  count: 1
 26-27 miles:
   name: 26-27 miles
   count: 2
@@ -132,7 +135,7 @@ lt9m15s_mi:
   count: 33
 lt9m30s_mi:
   name: <9m30s/mi
-  count: 13
+  count: 14
 lt9m45s_mi:
   name: <9m45s/mi
   count: 10
@@ -171,7 +174,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 400
+  count: 401
 slack:
   name: slack
   count: 1
