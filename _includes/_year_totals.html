@@ -1,0 +1,13 @@
+{% assign total_distance = 0 %}
+{% assign total_time = 0 %}
+{% for post in site.posts %}
+  {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if include.year == post_year %}
+    {% assign total_distance = total_distance | plus: post.distance %}
+    {% assign total_time = total_time | plus: post.time %}
+  {% endif %}
+{% endfor %}
+
+{{ total_distance | round: 1 }}mi
+in
+{{ total_time | divided_by: 3600.0 | round }}h

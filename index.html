@@ -5,13 +5,19 @@ comments: false
 
 {% for post in paginator.posts %}
 
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% unless post.next %}
-    <h3 class='next'>{{ post.date | date: '%Y' }}</h3>
+    <h3 class='next'>
+      {{ year }}
+      <span class="totals">{% include _year_totals.html year=year %}</span>
+    </h3>
   {% else %}
-    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
-      <h3 class='next'>{{ post.date | date: '%Y' }}</h3>
+      <h3 class='next'>
+          {{ year }}
+          <span class="totals">{% include _year_totals.html year=year %}</span>
+      </h3>
     {% endif %}
   {% endunless %}
 

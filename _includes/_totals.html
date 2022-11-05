@@ -1,0 +1,6 @@
+{% assign total_distance = 0 %}
+{% assign total_time = 0 %}
+{% for post in site.posts %}
+  {% assign total_distance = total_distance | plus: post.distance %}
+  {% assign total_time = total_time | plus: post.time %}
+{% endfor %}
