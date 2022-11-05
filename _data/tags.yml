@@ -6,7 +6,7 @@
   count: 19
 2-3 miles:
   name: 2-3 miles
-  count: 14
+  count: 15
 3-4 miles:
   name: 3-4 miles
   count: 40
@@ -141,7 +141,7 @@ lt9m30s_mi:
   count: 14
 lt9m45s_mi:
   name: <9m45s/mi
-  count: 14
+  count: 15
 apps:
   name: apps
   count: 1
@@ -177,7 +177,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 420
+  count: 421
 slack:
   name: slack
   count: 1
@@ -187,3 +187,84 @@ strava:
 tracking:
   name: tracking
   count: 1
+μ140-145 bpm:
+  name: μ140-145 bpm
+  count: 1
+μ145-150 bpm:
+  name: μ145-150 bpm
+  count: 7
+μ150-155 bpm:
+  name: μ150-155 bpm
+  count: 2
+μ155-160 bpm:
+  name: μ155-160 bpm
+  count: 9
+μ160-165 bpm:
+  name: μ160-165 bpm
+  count: 10
+μ165-170 bpm:
+  name: μ165-170 bpm
+  count: 20
+μ170-175 bpm:
+  name: μ170-175 bpm
+  count: 38
+μ175-180 bpm:
+  name: μ175-180 bpm
+  count: 94
+μ180-185 bpm:
+  name: μ180-185 bpm
+  count: 86
+μ185-190 bpm:
+  name: μ185-190 bpm
+  count: 49
+μ190-195 bpm:
+  name: μ190-195 bpm
+  count: 14
+μ195-200 bpm:
+  name: μ195-200 bpm
+  count: 4
+μ200-205 bpm:
+  name: μ200-205 bpm
+  count: 1
+μ205-210 bpm:
+  name: μ205-210 bpm
+  count: 2
+→120-125 bpm:
+  name: →120-125 bpm
+  count: 2
+→125-130 bpm:
+  name: →125-130 bpm
+  count: 3
+→130-135 bpm:
+  name: →130-135 bpm
+  count: 9
+→135-140 bpm:
+  name: →135-140 bpm
+  count: 5
+→140-145 bpm:
+  name: →140-145 bpm
+  count: 8
+→145-150 bpm:
+  name: →145-150 bpm
+  count: 11
+→150-155 bpm:
+  name: →150-155 bpm
+  count: 25
+→155-160 bpm:
+  name: →155-160 bpm
+  count: 61
+→160-165 bpm:
+  name: →160-165 bpm
+  count: 70
+→165-170 bpm:
+  name: →165-170 bpm
+  count: 96
+→170-175 bpm:
+  name: →170-175 bpm
+  count: 34
+→175-180 bpm:
+  name: →175-180 bpm
+  count: 6
+→180-185 bpm:
+  name: →180-185 bpm
+  count: 7

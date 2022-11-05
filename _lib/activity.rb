@@ -29,6 +29,16 @@ class Strava::Models::Activity < Strava::Model
     format('%d-%0d', distance_in_miles, distance_in_miles + 1)
   end
 
+  def rounded_max_heartrate_s
+    rounded_max_heartrate = (max_heartrate / 5).to_i * 5
+    format('%d-%d', rounded_max_heartrate, rounded_max_heartrate + 5)
+  end
+
+  def rounded_average_heartrate_s
+    rounded_average_heartrate = (average_heartrate / 5).to_i * 5
+    format('%d-%d', rounded_average_heartrate, rounded_average_heartrate + 5)
+  end
+
   def round_up(n, increment)
     increment * (( n + increment - 1) / increment)
   end

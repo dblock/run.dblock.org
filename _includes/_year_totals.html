@@ -1,13 +1,21 @@
 {% assign total_distance = 0 %}
 {% assign total_time = 0 %}
+{% assign total_heartrates = 0 %}
+{% assign total_heartrate = 0 %}
 {% for post in site.posts %}
   {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if include.year == post_year %}
     {% assign total_distance = total_distance | plus: post.distance %}
     {% assign total_time = total_time | plus: post.time %}
+    {% if post.average_heartrate %}
+      {% assign total_heartrate = total_heartrate | plus: post.average_heartrate %}
+      {% assign total_heartrates = total_heartrates | plus: 1 %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
 {{ total_distance | round: 1 }}mi
-in
 {{ total_time | divided_by: 3600.0 | round }}h
+{% if total_heartrates > 0 %}
+  μ{{ total_heartrate | divided_by: total_heartrates | round }}bpm
+{% endif %}

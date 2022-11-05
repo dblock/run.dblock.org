@@ -118,21 +118,29 @@ namespace :strava do
             "#{activity.type.downcase}s",
             "#{activity.rounded_distance_in_miles_s} miles",
             activity.rounded_pace_per_mile_s,
-            activity.race? ? 'races' : nil
+            activity.race? ? 'races' : nil,
+            activity.max_heartrate ? "μ#{activity.rounded_max_heartrate_s} bpm" : nil,
+            activity.average_heartrate ? "→#{activity.rounded_average_heartrate_s} bpm" : nil,
           ].compact
 
-          file.write <<-EOS
----
-layout: post
-title: "#{activity.name}"
-date: "#{activity.start_date_local.strftime('%F %T')}"
-tags: [#{tags.join(', ')}]
-race: #{activity.race?}
-distance: #{activity.distance_in_miles}
-time: #{activity.moving_time}
-strava: true
----
-          EOS
+          data = {
+            layout: 'post',
+            title: "\"#{activity.name}\"",
+            date: "\"#{activity.start_date_local.strftime('%F %T')}\"",
+            tags: "[#{tags.join(', ')}]",
+            race: activity.race?,
+            distance: activity.distance_in_miles,
+            time: activity.moving_time,
+            average_heartrate: activity.average_heartrate,
+            max_heartrate: activity.max_heartrate,
+            strava: true
+          }.compact
+
+          file.write "---\n"
+          data.each_pair do |k, v|
+            file.write "#{k}: #{v}\n"
+          end
+          file.write "---\n"
 
           file.write "\n### Stats\n"
           file.write "\n| Distance | Time | Pace |"
