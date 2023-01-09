@@ -91,10 +91,16 @@ namespace :strava do
 
     require 'dotenv/load'
 
-    start_at_year = (Date.today - 30).year
+    start_at_year = Date.today.year
 
     activities_options = { per_page: 10, after: Time.new(start_at_year).to_i }
     activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
+
+    if activities.none?
+      start_at_year = start_at_year - 1
+      activities_options[:after] = Time.new(start_at_year).to_i
+      activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
+    end
 
     Dir['_posts/*'].each do |folder|
       year = folder.split('/').last
