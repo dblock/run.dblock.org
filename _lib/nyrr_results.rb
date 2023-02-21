@@ -20,7 +20,6 @@ module NYRR
         post('/api/v2/runners/search', body: body, headers: headers).body
       )
 
-      raise "Error #{response['ErrorCode']}: #{response['Message']}" if response['ErrorCode']
       raise "Error, unexpected response: #{response}" unless response.key?('items')
 
       response['items']
