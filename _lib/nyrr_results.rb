@@ -9,7 +9,7 @@ module NYRR
       body = {
         searchString: name,
         pageIndex: 1,
-        pageSize: 4
+        pageSize: 1
       }.to_json
 
       headers = {
