@@ -1,5 +1,5 @@
-class Strava::Models::Activity < Strava::Model
-  property :workout_type, from: 'workout_type', with: ->(data) {
+class Strava::Models::Activity < Strava::Models::Response
+  property :workout_type, from: 'workout_type', with: lambda { |data|
     case data
     when 1 then 'race'
     when 2 then 'long run'
@@ -40,7 +40,7 @@ class Strava::Models::Activity < Strava::Model
   end
 
   def round_up(n, increment)
-    increment * (( n + increment - 1) / increment)
+    increment * ((n + increment - 1) / increment)
   end
 
   def rounded_pace_per_mile_s

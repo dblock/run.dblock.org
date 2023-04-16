@@ -1,4 +1,4 @@
-class Strava::Models::Map < Strava::Model
+class Strava::Models::Map < Strava::Models::Response
   def decoded_summary_polyline
     Polylines::Decoder.decode_polyline(summary_polyline) if summary_polyline
   end
