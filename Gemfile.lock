@@ -222,6 +222,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.5)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -229,6 +230,9 @@ GEM
     minitest (5.19.0)
     multi_xml (0.6.0)
     multipart-post (2.3.0)
+    nokogiri (1.14.3)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.14.3-x86_64-linux)
@@ -281,6 +285,7 @@ GEM
     zeitwerk (2.6.7)
 
 PLATFORMS
+  ruby
   x86_64-darwin-21
   x86_64-linux
 

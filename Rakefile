@@ -119,6 +119,12 @@ namespace :strava do
 
         FileUtils.mkdir_p "_posts/#{activity.start_date_local.year}"
 
+        run_with_names = []
+        [/run with (?<name>\w*)/i, /run with .* and (?<name>\w*)/i].each do |regex|
+          run_with_match = activity.name.match(regex)
+          run_with_names << run_with_match['name'] if run_with_match
+        end
+
         File.open activity.filename, 'w' do |file|
           tags = [
             "#{activity.type.downcase}s",
@@ -127,6 +133,7 @@ namespace :strava do
             activity.race? ? 'races' : nil,
             activity.max_heartrate ? "μ#{activity.rounded_max_heartrate_s} bpm" : nil,
             activity.average_heartrate ? "→#{activity.rounded_average_heartrate_s} bpm" : nil,
+            run_with_names.any? ? run_with_names.map { |name| "w/#{name.downcase}" } : nil
           ].compact
 
           data = {
