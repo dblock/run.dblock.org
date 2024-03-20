@@ -93,6 +93,11 @@ namespace :strava do
 
     start_at_year = Date.today.year
 
+    Strava::Web::Client.configure do |config|
+      config.ca_file = nil
+      config.ca_path = nil
+    end
+
     activities_options = { per_page: 10, after: Time.new(start_at_year).to_i }
     activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
 
