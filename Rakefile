@@ -91,27 +91,32 @@ namespace :strava do
 
     require 'dotenv/load'
 
-    start_at_year = Date.today.year
+    require 'active_support'
+    require 'active_support/core_ext/date/calculations'
+
+    start_at_month = Date.today.at_beginning_of_month.prev_month
+    start_at_year = start_at_month.year
 
     Strava::Web::Client.configure do |config|
       config.ca_file = nil
       config.ca_path = nil
     end
 
-    activities_options = { per_page: 10, after: Time.new(start_at_year).to_i }
+    activities_options = { per_page: 10, after: start_at_month.to_datetime.to_i }
     activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
 
     if activities.none?
-      start_at_year = start_at_year - 1
-      activities_options[:after] = Time.new(start_at_year).to_i
+      start_at_month = start_at_month.prev_month
+      activities_options[:after] = start_at_month.to_datetime.to_i
       activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
     end
 
-    Dir['_posts/*'].each do |folder|
-      year = folder.split('/').last
-      next if year.to_i < start_at_year
-
-      FileUtils.rm(Dir.glob("#{folder}/#{year}-*-run-*mi-*s.md"))
+    current_month = start_at_month
+    while current_month < Date.today
+      glob = "_posts/#{current_month.year}/#{current_month.year}-#{"%02d" % current_month.month}-*-run-*mi-*s.md"
+      puts "Deleting #{glob}"
+      FileUtils.rm(Dir.glob(glob))
+      current_month = current_month.next_month
     end
 
     page = 1
