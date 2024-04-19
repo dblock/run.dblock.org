@@ -115,7 +115,7 @@ namespace :strava do
     while current_month < Date.today
       glob = "_posts/#{current_month.year}/#{current_month.year}-#{"%02d" % current_month.month}-*-run-*mi-*s.md"
       puts "Deleting #{glob}"
-      FileUtils.rm(Dir.glob(glob))
+      FileUtils.rm_f(Dir.glob(glob))
       current_month = current_month.next_month
     end
 
