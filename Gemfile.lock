@@ -314,6 +314,7 @@ GEM
     unf_ext (0.0.9.1)
     unicode-display_width (1.8.0)
     uri (0.13.0)
+    webrick (1.8.1)
     yell (2.2.2)
     zeitwerk (2.6.13)
 
@@ -329,6 +330,7 @@ DEPENDENCIES
   polylines
   rake
   strava-ruby-client (= 1.0.1)
+  webrick
 
 BUNDLED WITH
    2.1.4
