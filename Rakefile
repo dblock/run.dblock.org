@@ -1,3 +1,51 @@
+desc 'Generate PRs.'
+task :prs do
+  require 'yaml'
+  prs = {
+    1 => nil,
+    3.1 => nil,
+    6.2 => nil,
+    13.1 => nil,
+    26.2 => nil
+  }
+  Dir['_posts/**/*.md'].each do |file|
+    distance = nil
+    time = nil
+    title = nil
+    distance_s = nil
+    time_s = nil
+    pace_s = nil
+    File.read(file).split("\n").each do |line|
+      distance = line.split(':', 2)[1].to_f if line.start_with?('distance: ')
+      time = line.split(':', 2)[1].to_f if line.start_with?('time: ')
+      title = line.split(':', 2)[1].strip.delete_prefix('"').delete_suffix('"') if line.start_with?('title: ')
+      distance_s, time_s, pace_s = line.split('|')[1..3] if line.start_with?('|') && line.end_with?('/mi|')
+    end
+    next unless distance && time
+    pr_key = nil
+    prs.each_pair do |pr_distance, _|
+      if distance > pr_distance && (distance - pr_distance) <= 0.2
+        pr_key = pr_distance
+        break
+      end
+    end
+    next unless pr_key
+    file = file.split('/')[2].split('-')[0...3].join('/') + '/' + file.split('/')[2].split('-', 4)[3].gsub('.md', '.html')
+    prs[pr_key] = { 
+      'file' => file, 
+      'time' => time, 
+      'title' => title,
+      'distance_s' => distance_s,
+      'time_s' => time_s,
+      'pace_s' => pace_s
+    } if prs[pr_key].nil? || prs[pr_key]['time'] > time
+  end
+  File.open('_data/prs.yml', 'w') do |f| 
+    f.write prs.to_yaml
+  end
+  puts "Written data/prs.yml with #{prs}."
+end
+
 desc 'Re-generate tag pages.'
 task :tags do
   Dir['tags/*.md'].each { |f| File.delete(f) }

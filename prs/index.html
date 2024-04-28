@@ -1,0 +1,17 @@
+---
+layout: default
+title: PRs
+comments: false
+---
+<h1>PRs</h1>
+<ul>
+  {% for pr_hash in site.data.prs %}
+    {% assign key = pr_hash[0] %}
+    {% assign pr = pr_hash[1] %}
+    <li>
+        {{ key }}{% if pr_hash[0] == 1 %} mile {% else %} miles {% endif %}:
+        <a href='{{ site.url }}/{{ pr.file }}'>{{ pr.title }}</a>
+        <small>{{ pr.time_s }} @ {{ pr.pace_s }}</small>
+    </li>
+  {% endfor %}
+</ul>
