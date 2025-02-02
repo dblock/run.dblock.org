@@ -219,7 +219,13 @@ namespace :strava do
           file.write "\n|#{activity.distance_in_miles_s}|#{activity.moving_time_in_hours_s}|#{activity.pace_per_mile_s}|\n"
 
           file.write "\n#{activity.description}\n" if activity.description && !activity.description.empty?
-          file.write "\n{% raw %}\n<img src='#{activity.map.image_url}'>\n{% endraw %}\n" if activity.map && activity.map.image_url
+
+          unless File.exist?(activity.map_filename)
+            FileUtils.mkdir_p(File.dirname(activity.map_filename))
+            File.write(activity.map_filename, activity.map.png)
+          end
+
+          file.write "\n![]({{ site.url }}/#{activity.map_filename})\n"
 
           if activity.splits_standard && activity.splits_standard.any?
             file.write "\n### Splits\n"

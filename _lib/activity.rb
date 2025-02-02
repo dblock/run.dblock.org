@@ -12,13 +12,21 @@ class Strava::Models::Activity < Strava::Models::Response
     "name=#{name}, start_date=#{start_date}, distance=#{distance_s}, moving time=#{moving_time_in_hours_s}, pace=#{pace_s}, #{map}"
   end
 
-  def filename
-    [
-      "_posts/#{start_date_local.year}/#{start_date_local.strftime('%Y-%m-%d')}",
+  def key
+    @key ||= [
+      "#{start_date_local.year}/#{start_date_local.strftime('%Y-%m-%d')}",
       type.downcase,
       distance_in_miles_s,
       moving_time_in_hours_s
-    ].join('-') + '.md'
+    ].join('-')
+  end
+
+  def filename
+    @filename ||= "_posts/#{key}.md"
+  end
+
+  def map_filename
+    @map_filename ||= "images/maps/#{key}.png"
   end
 
   def race?
