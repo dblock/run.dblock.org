@@ -8,10 +8,10 @@ jobs:
     name: update
     runs-on: ubuntu-latest
     env:
-      STRAVA_CLIENT_ID: 23518
+      STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
       STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
       STRAVA_API_REFRESH_TOKEN: ${{ secrets.STRAVA_API_REFRESH_TOKEN }}
-      GOOGLE_STATIC_MAPS_API_KEY: AIzaSyC1MId7bFpkLXNAaYhBSTb8jLyiSqzbDtM
+      GOOGLE_STATIC_MAPS_API_KEY: ${{ secrets.GOOGLE_STATIC_MAPS_API_KEY }}
     steps:
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
