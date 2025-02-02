@@ -12,7 +12,7 @@
   count: 165
 4-5 miles:
   name: 4-5 miles
-  count: 120
+  count: 121
 5-6 miles:
   name: 5-6 miles
   count: 112
@@ -159,7 +159,7 @@ lt7m45s_mi:
   count: 28
 lt8m00s_mi:
   name: <8m00s/mi
-  count: 44
+  count: 45
 lt8m15s_mi:
   name: <8m15s/mi
   count: 78
@@ -216,7 +216,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 781
+  count: 782
 slack:
   name: slack
   count: 1
@@ -282,7 +282,7 @@ w_v:
   count: 150
 μ180-185 bpm:
   name: μ180-185 bpm
-  count: 116
+  count: 117
 μ185-190 bpm:
   name: μ185-190 bpm
   count: 58
@@ -327,7 +327,7 @@ w_v:
   count: 68
 →150-155 bpm:
   name: →150-155 bpm
-  count: 89
+  count: 90
 →155-160 bpm:
   name: →155-160 bpm
   count: 95
