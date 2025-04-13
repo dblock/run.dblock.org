@@ -4,7 +4,9 @@ task :prs do
   prs = {
     1 => nil,
     3.1 => nil,
+    4.0 => nil,
     6.2 => nil,
+    10.0 => nil,
     13.1 => nil,
     26.2 => nil
   }

@@ -13,6 +13,13 @@
   distance_s: 3.23mi
   time_s: 22m30s
   pace_s: 6m58s/mi
+4.0:
+  file: 2018/04/22/run-4.12mi-28m20s.html
+  time: 1700.0
+  title: Run as One
+  distance_s: 4.12mi
+  time_s: 28m20s
+  pace_s: 6m52s/mi
 6.2:
   file: 2018/06/16/run-6.38mi-46m40s.html
   time: 2800.0
@@ -20,6 +27,13 @@
   distance_s: 6.38mi
   time_s: 46m40s
   pace_s: 7m19s/mi
+10.0:
+  file: 2018/09/30/run-10.08mi-1h15m15s.html
+  time: 4515.0
+  title: Bronx 10M
+  distance_s: 10.08mi
+  time_s: 1h15m15s
+  pace_s: 7m28s/mi
 13.1:
   file: 2018/10/14/run-13.12mi-1h39m45s.html
   time: 5985.0
