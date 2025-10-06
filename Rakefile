@@ -145,9 +145,9 @@ namespace :strava do
     require 'active_support/core_ext/date/calculations'
 
     year = ENV['YEAR']
-    start_at = year ? Date.new(year.to_i, 1, 1) : Date.today.at_beginning_of_month.prev_month
+    start_at = year ? Time.local(year.to_i, 1, 1, 0, 0, 0) : Date.today.at_beginning_of_month.prev_month
     start_at_year = year ? year.to_i : start_at.year
-    end_at = year ? Date.new(year.to_i + 1, 1, 1) : Date.today
+    end_at = year ? Time.local(year.to_i + 1, 1, 1, 0, 0, 0) : Date.today
 
     Strava::Web::Client.configure do |config|
       config.ca_file = nil
@@ -173,18 +173,22 @@ namespace :strava do
         puts "Deleting #{glob}"
         FileUtils.rm_f(Dir.glob(glob))
       end
-      current = current.next_month
+      next_month = current.to_date.next_month
+      current = Time.local(next_month.year, next_month.month, 1)
     end
 
     page = 1
+    done = false
     loop do
       break unless activities.any?
 
       activities.each do |activity|
         next unless activity.type == 'Run'
-        activity = Strava.client.activity(activity.id)
 
-        break if activity.start_date_local > end_at
+        done = activity.start_date_local > end_at
+        break if done
+
+        activity = Strava.client.activity(activity.id)
 
         FileUtils.mkdir_p "_activities/#{activity.start_date_local.year}"
         File.open activity.json_filename, 'w' do |file|
@@ -265,6 +269,7 @@ namespace :strava do
         end
         puts activity.filename
       end
+      break if done
       page += 1
       activities = Strava.client.athlete_activities(activities_options.merge(page: page))
     end
