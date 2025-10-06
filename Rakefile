@@ -144,31 +144,36 @@ namespace :strava do
     require 'active_support'
     require 'active_support/core_ext/date/calculations'
 
-    start_at_month = Date.today.at_beginning_of_month.prev_month
-    start_at_year = start_at_month.year
+    year = ENV['YEAR']
+    start_at = year ? Date.new(year.to_i, 1, 1) : Date.today.at_beginning_of_month.prev_month
+    start_at_year = year ? year.to_i : start_at.year
+    end_at = year ? Date.new(year.to_i + 1, 1, 1) : Date.today
 
     Strava::Web::Client.configure do |config|
       config.ca_file = nil
       config.ca_path = nil
     end
 
-    activities_options = { per_page: 10, after: start_at_month.to_datetime.to_i }
+    activities_options = { per_page: 10, after: start_at.to_datetime.to_i }
     activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
 
     if activities.none?
-      start_at_month = start_at_month.prev_month
-      activities_options[:after] = start_at_month.to_datetime.to_i
+      start_at = start_at.prev_month
+      activities_options[:after] = start_at.to_datetime.to_i
       activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
     end
 
-    current_month = start_at_month
-    while current_month < Date.today
-      ['_posts', '_activities'].each do |path|
-        glob = "#{path}/#{current_month.year}/#{current_month.year}-#{"%02d" % current_month.month}-*-run-*mi-*s.md"
+    current = start_at
+    while current < end_at
+      {
+        '_posts' => 'md',
+        '_activities' => 'json'
+      }.each_pair do |path, ext|
+        glob = "#{path}/#{current.year}/#{current.year}-#{"%02d" % current.month}-*-run-*mi-*s.#{ext}"
         puts "Deleting #{glob}"
         FileUtils.rm_f(Dir.glob(glob))
       end
-      current_month = current_month.next_month
+      current = current.next_month
     end
 
     page = 1
@@ -178,6 +183,8 @@ namespace :strava do
       activities.each do |activity|
         next unless activity.type == 'Run'
         activity = Strava.client.activity(activity.id)
+
+        break if activity.start_date_local > end_at
 
         FileUtils.mkdir_p "_activities/#{activity.start_date_local.year}"
         File.open activity.json_filename, 'w' do |file|
