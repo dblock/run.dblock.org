@@ -25,6 +25,10 @@ class Strava::Models::Activity < Strava::Models::Response
     @filename ||= "_posts/#{key}.md"
   end
 
+  def json_filename
+    @json_filename ||= "_activities/#{key}.json"
+  end
+
   def map_filename
     @map_filename ||= "images/maps/#{key}.png"
   end

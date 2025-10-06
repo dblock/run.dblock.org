@@ -163,9 +163,11 @@ namespace :strava do
 
     current_month = start_at_month
     while current_month < Date.today
-      glob = "_posts/#{current_month.year}/#{current_month.year}-#{"%02d" % current_month.month}-*-run-*mi-*s.md"
-      puts "Deleting #{glob}"
-      FileUtils.rm_f(Dir.glob(glob))
+      ['_posts', '_activities'].each do |path|
+        glob = "#{path}/#{current_month.year}/#{current_month.year}-#{"%02d" % current_month.month}-*-run-*mi-*s.md"
+        puts "Deleting #{glob}"
+        FileUtils.rm_f(Dir.glob(glob))
+      end
       current_month = current_month.next_month
     end
 
@@ -176,6 +178,11 @@ namespace :strava do
       activities.each do |activity|
         next unless activity.type == 'Run'
         activity = Strava.client.activity(activity.id)
+
+        FileUtils.mkdir_p "_activities/#{activity.start_date_local.year}"
+        File.open activity.json_filename, 'w' do |file|
+          file.write(JSON.pretty_generate(activity.to_h))
+        end
 
         FileUtils.mkdir_p "_posts/#{activity.start_date_local.year}"
 
@@ -206,6 +213,7 @@ namespace :strava do
             time: activity.moving_time,
             average_heartrate: activity.average_heartrate,
             max_heartrate: activity.max_heartrate,
+            strava_id: activity.id,
             strava: true
           }.compact
 
