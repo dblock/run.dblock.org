@@ -11821,24 +11821,25 @@
     "count": 2
   },
   "similar_activities": {
-    "average_speed": 3.1052459646425827,
+    "average_speed": 3.1094306049822062,
     "resource_state": 2,
-    "effort_count": 1,
+    "effort_count": 2,
     "frequency_milestone": null,
-    "max_average_speed": 3.1052459646425827,
-    "mid_average_speed": 3.105245964642583,
+    "max_average_speed": 3.1138640065146577,
+    "mid_average_speed": 3.109549014415057,
     "min_average_speed": 3.1052459646425827,
     "mid_speed": null,
     "min_speed": null,
     "speeds": null,
     "trend": {
       "speeds": [
-        3.105245964642583
+        3.105245964642583,
+        3.109549014415057
       ],
       "current_activity_index": 0,
       "min_speed": 3.1052459646425827,
-      "mid_speed": 3.105245964642583,
-      "max_speed": 3.1052459646425827,
+      "mid_speed": 3.109549014415057,
+      "max_speed": 3.1138640065146577,
       "direction": 0
     }
   },
@@ -13603,7 +13604,7 @@
     }
   ],
   "gear": {
-    "distance": 243091,
+    "distance": 258386,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
