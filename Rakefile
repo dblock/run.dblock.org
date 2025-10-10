@@ -24,6 +24,7 @@ task :prs do
       distance_s, time_s, pace_s = line.split('|')[1..3] if line.start_with?('|') && line.end_with?('/mi|')
     end
     next unless distance && time
+
     pr_key = nil
     prs.each_pair do |pr_distance, _|
       if distance > pr_distance && (distance - pr_distance) <= 0.2
@@ -32,17 +33,28 @@ task :prs do
       end
     end
     next unless pr_key
-    file = file.split('/')[2].split('-')[0...3].join('/') + '/' + file.split('/')[2].split('-', 4)[3].gsub('.md', '.html')
-    prs[pr_key] = { 
-      'file' => file, 
-      'time' => time, 
+
+    file = file
+           .split('/')[2]
+           .split('-')[0...3]
+           .join('/') +
+           '/' +
+           file
+           .split('/')[2]
+           .split('-', 4)[3]
+           .gsub('.md', '.html')
+    next unless prs[pr_key].nil? || prs[pr_key]['time'] > time
+
+    prs[pr_key] = {
+      'file' => file,
+      'time' => time,
       'title' => title,
       'distance_s' => distance_s,
       'time_s' => time_s,
       'pace_s' => pace_s
-    } if prs[pr_key].nil? || prs[pr_key]['time'] > time
+    }
   end
-  File.open('_data/prs.yml', 'w') do |f| 
+  File.open('_data/prs.yml', 'w') do |f|
     f.write prs.to_yaml
   end
   puts "Written data/prs.yml with #{prs}."
@@ -68,12 +80,12 @@ task :tags do
     tag_filename = tag.gsub('<', 'lt').gsub('/', '_')
     filename = "tags/#{tag_filename}.md"
     puts filename
-    File.write filename, <<-EOS
----
-layout: tag
-tag: #{tag}
-permalink: /tags/#{tag_filename}/
----
+    File.write filename, <<~EOS
+      ---
+      layout: tag
+      tag: #{tag}
+      permalink: /tags/#{tag_filename}/
+      ---
     EOS
   end
 
@@ -84,7 +96,6 @@ permalink: /tags/#{tag_filename}/
   end
 
   tag_lines = tag_keys.map do |tag|
-    "#{tag}:\n  name: #{tag}\n  count: #{tags[tag]}"
     tag_filename = tag.gsub('<', 'lt').gsub('/', '_')
     "#{tag_filename}:\n  name: #{tag}\n  count: #{tags[tag]}"
   end
@@ -113,6 +124,7 @@ namespace :nyrr do
       puts "Searching NYRR for #{name} ..."
       runner = NYRR::Results.search(name).first
       raise "Cannot find runner #{name}." unless runner
+
       runner_id = runner['runnerId']
       if config['owner']['nyrr-results'] != runner_id
         puts "Updated runner ID #{runner_id} ..."
@@ -133,7 +145,7 @@ namespace :strava do
 
     year = ENV['YEAR']
     start_at = year ? Time.local(year.to_i, 1, 1, 0, 0, 0) : Date.today.at_beginning_of_month.prev_month
-    start_at_year = year ? year.to_i : start_at.year
+    year ? year.to_i : start_at.year
     end_at = year ? Time.local(year.to_i + 1, 1, 1, 0, 0, 0) : Date.today
 
     activities_options = { per_page: 10, after: start_at.to_datetime.to_i }
@@ -151,7 +163,7 @@ namespace :strava do
         '_posts' => 'md',
         '_activities' => 'json'
       }.each_pair do |path, ext|
-        glob = "#{path}/#{current.year}/#{current.year}-#{"%02d" % current.month}-*-run-*mi-*s.#{ext}"
+        glob = "#{path}/#{current.year}/#{current.year}-#{'%02d' % current.month}-*-run-*mi-*s.#{ext}"
         puts "Deleting #{glob}"
         FileUtils.rm_f(Dir.glob(glob))
       end
@@ -175,6 +187,7 @@ namespace :strava do
         puts post.filename
       end
       break if done
+
       page += 1
       activities = Strava.client.athlete_activities(activities_options.merge(page: page))
     end
@@ -205,39 +218,6 @@ namespace :strava do
         puts post.filename
 
         sleep 45 # avoid rate limits
-      end
-      page += 1
-      activities = Strava.client.athlete_activities(activities_options.merge(page: page))
-    end
-  end
-
-  desc 'Update all photos from Strava.'
-  task :update_all_photos do
-    require './_lib/post'
-    require 'dotenv/load'
-
-    start_at_year = 2017
-    start_at = Time.local(start_at_year, 1, 1, 0, 0, 0)
-
-    activities_options = { per_page: 10, after: start_at.to_datetime.to_i }
-    activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
-
-    page = 1
-    loop do
-      break unless activities.any?
-
-      activities.each do |activity|
-        next unless activity.type == 'Run'
-
-        next unless File.exist?(activity.json_filename)
-
-        post = Strava::Post.new(activity.id)
-        photos = post.update_photos!
-        next unless photos
-
-        puts "#{post.filename} (#{photos.count})"
-
-        sleep 60
       end
       page += 1
       activities = Strava.client.athlete_activities(activities_options.merge(page: page))
