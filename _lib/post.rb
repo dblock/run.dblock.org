@@ -27,16 +27,6 @@ module Strava
       @photos ||= Strava.client.activity_photos(activity.id, size: '600')
     end
 
-    def update_photos!
-      h = JSON.load_file(activity.json_filename)
-      return if h.key?("activity_photos")
-      h = h.merge("activity_photos" => photos.map(&:to_h))
-      File.open activity.json_filename, 'w' do |file|
-        file.write(JSON.pretty_generate(h))
-      end
-      photos
-    end
-
     def save!
       FileUtils.mkdir_p "_activities/#{activity.start_date_local.year}"
 
