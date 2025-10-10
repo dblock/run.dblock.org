@@ -42,7 +42,7 @@
   "description": "#NYRRVirtualRacing #GlobalRunningDay",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "3FF6956A-DBEB-4442-BEEA-8444FF7219F8",
   "upload_id": 1744510608,
   "start_date": "2018-06-07 15:18:59 UTC",
@@ -178,8 +178,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -392,8 +391,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -464,5 +462,5 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "activity_photos": []
 }

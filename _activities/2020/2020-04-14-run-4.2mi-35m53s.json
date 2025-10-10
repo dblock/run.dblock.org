@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "30355173210.tcx",
   "upload_id": 3527578676,
   "start_date": "2020-04-14 23:05:35 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -358,8 +357,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -539,8 +537,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -714,8 +711,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -889,8 +885,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1070,8 +1065,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1251,8 +1245,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1432,8 +1425,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1613,8 +1605,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1794,8 +1785,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1975,8 +1965,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2158,8 +2147,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2290,8 +2278,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2422,8 +2409,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2554,8 +2540,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2686,8 +2671,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2818,8 +2802,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3140,8 +3123,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3212,5 +3194,52 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "B0BD5E51-3138-463C-A581-DF22B2F9BCB0",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/A_P7nv9YiV21BUGlN9oOO-pPsUKe5PncOPI60zq3XfU-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3300148590,
+      "activity_name": "Covid-11, 8 to go",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-04-13 01:45:55 UTC",
+      "created_at_local": "2020-04-12 21:45:55 UTC",
+      "uploaded_at": "2020-04-15 05:03:24 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "FB93FD1F-D971-4303-873E-FEA0F585206D",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/mmzn-UBwn2Gh46icvLTR8TSSSfsLXEMOjfJcVk1k8wQ-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3300148590,
+      "activity_name": "Covid-11, 8 to go",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-04-13 15:22:05 UTC",
+      "created_at_local": "2020-04-13 11:22:05 UTC",
+      "uploaded_at": "2020-04-15 05:04:05 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

@@ -14913,7 +14913,7 @@
     }
   ],
   "gear": {
-    "distance": 268085,
+    "distance": 258386,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
@@ -14936,5 +14936,53 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "long run"
+  "workout_type": "long run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "473CBA82-FCB7-4404-A84B-D975EDC61D7D",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/QQ6X3a7148n3D9d6_iqa48aD505nuxL1J7VTKegOrgo-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15955495969,
+      "activity_name": "Brighton Beach Annual",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-27 16:42:42 UTC",
+      "created_at_local": "2025-09-27 12:42:42 UTC",
+      "uploaded_at": "2025-09-27 16:43:53 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "8F190FE6-C919-414F-9B47-3B6E3D23C2CF",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/WPDr-FZYHS5NtzIQZCcj3PfJhR9FnJIn7jf0yb-zbn8-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15955495969,
+      "activity_name": "Brighton Beach Annual",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-27 16:42:27 UTC",
+      "created_at_local": "2025-09-27 12:42:27 UTC",
+      "uploaded_at": "2025-09-27 16:43:53 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

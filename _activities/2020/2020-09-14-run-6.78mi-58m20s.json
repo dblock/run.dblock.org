@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "garmin_push_5538056057",
   "upload_id": 4346006918,
   "start_date": "2020-09-14 22:46:22 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -358,8 +357,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -539,8 +537,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -720,8 +717,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -901,8 +897,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1082,8 +1077,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1263,8 +1257,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1444,8 +1437,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1625,8 +1617,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1806,8 +1797,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1989,8 +1979,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2121,8 +2110,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2253,8 +2241,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2385,8 +2372,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2517,8 +2503,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2649,8 +2634,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2781,8 +2765,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3168,8 +3151,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3299,8 +3281,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3430,8 +3411,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3561,8 +3541,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3692,8 +3671,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3823,8 +3801,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3954,8 +3931,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -4026,5 +4002,52 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "30FC2277-DAF9-435B-A185-8119CFB5EC83",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/w-6wrCz1ugimfJq-ZXDZynn97wI8YMMzy79PtSWS_nU-354x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 4060946219,
+      "activity_name": "Baylander by way of Garden People",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-09-14 22:05:55 UTC",
+      "created_at_local": "2020-09-14 18:05:55 UTC",
+      "uploaded_at": "2020-09-16 04:02:15 UTC",
+      "sizes": {
+        "600": [
+          354,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "68229804-AE35-40D3-8FA2-49C15CC7893A",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/dxx4XipgPs99Fh8T1hRCYthCdwli4zywddyd2MqaF6s-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 4060946219,
+      "activity_name": "Baylander by way of Garden People",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-09-13 02:15:35 UTC",
+      "created_at_local": "2020-09-12 22:15:35 UTC",
+      "uploaded_at": "2020-09-16 04:02:15 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

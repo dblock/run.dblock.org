@@ -3605,5 +3605,30 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "06F4CB56-6F09-418F-8242-6A5632991537",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/W7ZudWwoB1lXbkWf7HV95GB9d1AZdG83sYHwCFhJZ14-768x526.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15798715170,
+      "activity_name": "Watchung Reservation",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-13 13:06:11 UTC",
+      "created_at_local": "2025-09-13 09:06:11 UTC",
+      "uploaded_at": "2025-09-13 15:43:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          526
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

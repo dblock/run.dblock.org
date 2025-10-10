@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "30454737959.tcx",
   "upload_id": 3552593724,
   "start_date": "2020-04-19 20:34:08 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -352,8 +351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -527,8 +525,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -704,8 +701,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -836,8 +832,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -968,8 +963,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1100,8 +1094,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1232,8 +1225,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1364,8 +1356,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1696,8 +1687,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1768,5 +1758,29 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "961CF2FF-6974-48FE-9567-28693C82631D",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/M15Ye6K3EN00gub5czb4X2WzeVOGKxFefu17e0ZnUJc-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3323885820,
+      "activity_name": "Covid-13, 6 to go",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-04-19 21:16:02 UTC",
+      "created_at_local": "2020-04-19 17:16:02 UTC",
+      "uploaded_at": "2020-04-19 21:16:15 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    }
+  ]
 }

@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "16009703701.tcx",
   "upload_id": 1882866244,
   "start_date": "2018-08-06 10:47:44 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -352,8 +351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -527,8 +525,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -702,8 +699,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -877,8 +873,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1054,8 +1049,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1186,8 +1180,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1318,8 +1311,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1450,8 +1442,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1582,8 +1573,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1714,8 +1704,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1846,8 +1835,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2255,8 +2243,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2327,5 +2314,75 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "FDE96B7D-C8FA-433E-9F9A-43BD51791BE8",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/9I4SubyOVacdty4CYm0PRJMp2rliS7w00MONrzaWQ-E-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1753734721,
+      "activity_name": "Martha’s Vineyard 1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-08-05 18:43:45 UTC",
+      "created_at_local": "2018-08-05 14:43:45 UTC",
+      "uploaded_at": "2018-08-06 13:07:08 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "882C7B47-95D4-4982-AD37-0841A7ED5395",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/U_UkvdaS0ghQursA9_WRYsQWSCKQSZwxeaThVdoSPbg-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1753734721,
+      "activity_name": "Martha’s Vineyard 1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-08-05 18:52:32 UTC",
+      "created_at_local": "2018-08-05 14:52:32 UTC",
+      "uploaded_at": "2018-08-06 13:07:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "DEA56CBE-714D-4331-B3CA-DD2BD78FCDC6",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/zoHR1r8E750vBqEXLblgPztkwDczLbJJTemNXpEX_JU-768x575.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1753734721,
+      "activity_name": "Martha’s Vineyard 1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-08-04 21:53:25 UTC",
+      "created_at_local": "2018-08-04 17:53:25 UTC",
+      "uploaded_at": "2018-08-06 13:07:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          575
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

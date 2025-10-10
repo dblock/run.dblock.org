@@ -6584,7 +6584,7 @@
     }
   ],
   "gear": {
-    "distance": 268085,
+    "distance": 258386,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
@@ -6607,5 +6607,6 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": []
 }

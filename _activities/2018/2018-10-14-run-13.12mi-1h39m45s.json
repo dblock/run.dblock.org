@@ -42,7 +42,7 @@
   "description": "Tailed a runner from Adidas Running NYC for the first 8 miles (I *am* Russian, so running on brand) before I almost knocked him over and lost all sense of pace. Official time 1:39:38.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "17474884162.tcx",
   "upload_id": 2038985443,
   "start_date": "2018-10-14 12:07:56 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -352,8 +351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -527,8 +525,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -702,8 +699,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -877,8 +873,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1052,8 +1047,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1233,8 +1227,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1408,8 +1401,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1583,8 +1575,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1760,8 +1751,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1892,8 +1882,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2024,8 +2013,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2156,8 +2144,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2288,8 +2275,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2420,8 +2406,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2552,8 +2537,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2690,8 +2674,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2822,8 +2805,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2954,8 +2936,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3092,8 +3073,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3686,8 +3666,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3758,5 +3737,75 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "829AEB79-2145-42C1-8917-F7C2D986DFF0",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/c_JSXk_HmY0phna_Zdnz0AzrgxdTltiWpRJ_jV8Xa1o-768x399.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1904418549,
+      "activity_name": "Staten Island Half",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-10-14 11:04:22 UTC",
+      "created_at_local": "2018-10-14 07:04:22 UTC",
+      "uploaded_at": "2018-10-14 14:11:39 UTC",
+      "sizes": {
+        "600": [
+          768,
+          399
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "28EF8EC5-7BCB-42E2-BB91-FC91D56D6045",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/M96t9NE2kEO5IEeKIECi14KTGe6qMskFRB-FcldQuJA-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1904418549,
+      "activity_name": "Staten Island Half",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-10-14 15:00:39 UTC",
+      "created_at_local": "2018-10-14 11:00:39 UTC",
+      "uploaded_at": "2018-10-14 15:01:28 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "415CA692-A399-4423-8B22-00687B4E5E13",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/WObWuNkT-RREFUcMT9Ti2-MEdT_YB8VuVGCe2Y6nFEE-511x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1904418549,
+      "activity_name": "Staten Island Half",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-10-14 12:33:20 UTC",
+      "created_at_local": "2018-10-14 08:33:20 UTC",
+      "uploaded_at": "2018-10-24 20:15:15 UTC",
+      "sizes": {
+        "600": [
+          511,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

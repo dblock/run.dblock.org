@@ -5904,5 +5904,53 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "workout_type": "race",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "A3EAA41E-D0F6-46AB-A097-E10325A93403",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/q370owOMIgTjaxwUgh_eVaV8blnb-nmEOsu3rtOGUiI-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15810287155,
+      "activity_name": "Bronx 10M and some",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-14 15:16:11 UTC",
+      "created_at_local": "2025-09-14 11:16:11 UTC",
+      "uploaded_at": "2025-09-14 15:18:22 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "724787D6-2906-4EE6-B991-83ACA6ED6632",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/KTQXF0BmgEYjsVz0ag95tV0aOtxWZOenG14vAUSN1PE-525x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15810287155,
+      "activity_name": "Bronx 10M and some",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-14 15:19:57 UTC",
+      "created_at_local": "2025-09-14 11:19:57 UTC",
+      "uploaded_at": "2025-09-14 15:19:57 UTC",
+      "sizes": {
+        "600": [
+          525,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

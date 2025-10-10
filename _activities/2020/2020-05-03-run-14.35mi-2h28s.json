@@ -42,7 +42,7 @@
   "description": "Longest and last in the covid-19 series.\n\n#NYRRVolvoVirtualRacing",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "30799213759.tcx",
   "upload_id": 3624040794,
   "start_date": "2020-05-03 13:17:50 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -354,8 +353,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -486,8 +484,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -618,8 +615,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -750,8 +746,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -882,8 +877,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1014,8 +1008,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1146,8 +1139,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1278,8 +1270,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1410,8 +1401,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1542,8 +1532,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1674,8 +1663,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2292,8 +2280,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2364,5 +2351,52 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "6AFE1393-40C6-4EB4-93FD-4731594ABD06",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/5esRqT10rKVpKypcL-1AeyX-cxuZ2h-_4D9EqXijsWE-614x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3391891246,
+      "activity_name": "Covid-19, NYRR Virtual Brooklyn Half",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-01 23:29:22 UTC",
+      "created_at_local": "2020-05-01 19:29:22 UTC",
+      "uploaded_at": "2020-05-03 15:24:39 UTC",
+      "sizes": {
+        "600": [
+          614,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "EA437C89-77BE-461E-9BAF-F7BC7190D8EF",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Oa10z5mkhay_Rk70SZoRAowvC4xC7E8yl7FR4E2jj-U-722x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3391891246,
+      "activity_name": "Covid-19, NYRR Virtual Brooklyn Half",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-02 20:20:58 UTC",
+      "created_at_local": "2020-05-02 16:20:58 UTC",
+      "uploaded_at": "2020-05-03 15:24:39 UTC",
+      "sizes": {
+        "600": [
+          722,
+          768
+        ]
+      },
+      "default_photo": true
+    }
+  ]
 }

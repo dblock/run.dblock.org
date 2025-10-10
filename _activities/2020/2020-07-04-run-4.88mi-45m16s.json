@@ -42,7 +42,7 @@
   "description": "Residents only with a sheriff who “doesn’t make the rules”. Dipped in another private lake nearby and were threatened to be told to never come back.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "D9C186AE-B643-42EE-A12A-6589F000EA77-activity.fit",
   "upload_id": 3965033337,
   "start_date": "2020-07-04 14:50:48 UTC",
@@ -178,8 +178,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -310,8 +309,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -442,8 +440,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -574,8 +571,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -706,8 +702,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -838,8 +833,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1169,8 +1163,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1241,5 +1234,29 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "0A297A09-0972-46B8-A134-402DD5606141",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/5UAGvGMmB0eE-i6m5qO51BRtNPw6UpTBOI45spq7on8-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3712763362,
+      "activity_name": "Freedom Park",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-07-04 14:01:41 UTC",
+      "created_at_local": "2020-07-04 10:01:41 UTC",
+      "uploaded_at": "2020-07-04 16:29:47 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": true
+    }
+  ]
 }

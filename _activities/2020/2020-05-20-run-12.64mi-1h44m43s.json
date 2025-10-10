@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "8505222307558976.gpx",
   "upload_id": 3721889878,
   "start_date": "2020-05-20 20:54:18 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -358,8 +357,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -539,8 +537,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -720,8 +717,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -901,8 +897,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1082,8 +1077,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1263,8 +1257,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1438,8 +1431,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1619,8 +1611,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1794,8 +1785,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1969,8 +1959,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2144,8 +2133,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2319,8 +2307,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2494,8 +2481,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2669,8 +2655,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2844,8 +2829,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3025,8 +3009,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3208,8 +3191,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3340,8 +3322,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3472,8 +3453,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3604,8 +3584,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3736,8 +3715,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -3868,8 +3846,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -4000,8 +3977,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -4132,8 +4108,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -4264,8 +4239,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -4827,8 +4801,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -4899,5 +4872,213 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "D0EABCA3-D86C-4C97-A22A-DC7B4596C445",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/rk-Z-W_qHdy_uhHguocPs-IRo4w5pMvtyD2lBZnFnac-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3485180603,
+      "activity_name": "Two Bridges",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-20 20:03:57 UTC",
+      "created_at_local": "2020-05-20 16:03:57 UTC",
+      "uploaded_at": "2020-05-20 23:22:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "0B70A071-144D-4245-8A84-4F79C38855B3",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/7EuclUBVeDZp0W65Q_PneJ7OWpBMxmHYgaNGDMOpHy4-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3485180603,
+      "activity_name": "Two Bridges",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-20 13:47:53 UTC",
+      "created_at_local": "2020-05-20 09:47:53 UTC",
+      "uploaded_at": "2020-05-20 23:22:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "CF383711-C1A7-4278-A285-6F84970C8494",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/wU5p9IHjVNCLudx6w5XHwox03SJqd5tmRcmhYQWR_ig-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3485180603,
+      "activity_name": "Two Bridges",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-18 20:08:43 UTC",
+      "created_at_local": "2020-05-18 16:08:43 UTC",
+      "uploaded_at": "2020-05-20 23:22:09 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "B23BF8D4-11CC-4D42-940F-B9BA2B458B2E",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/36ps4VaCz5WabNYavsLikYMfiN42TnSwm-SKdN_TNpY-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3485180603,
+      "activity_name": "Two Bridges",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-18 12:42:17 UTC",
+      "created_at_local": "2020-05-18 08:42:17 UTC",
+      "uploaded_at": "2020-05-20 23:22:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "F1984D10-EF1A-43A2-ABA8-BFA29C633EAE",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/P-izhATNchOqDzGVU9lirybXcFX516q4ei5sK90iwJo-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3485180603,
+      "activity_name": "Two Bridges",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-18 12:42:17 UTC",
+      "created_at_local": "2020-05-18 08:42:17 UTC",
+      "uploaded_at": "2020-05-20 23:22:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "B56B3979-D5E6-42B5-AAA7-811C668EF428",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/NdRG4SQBEPoj8ghpEmYEV4JG3nLiViY-KFcDIQACFm0-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3485180603,
+      "activity_name": "Two Bridges",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-16 19:58:02 UTC",
+      "created_at_local": "2020-05-16 15:58:02 UTC",
+      "uploaded_at": "2020-05-20 23:22:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "C222A64B-0A79-4275-A858-3BB0B4F89F3C",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/CRyMSKG6djumHnXqXR6eB_fmpJDlOPblENmBXNrHFBU-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3485180603,
+      "activity_name": "Two Bridges",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-16 19:58:02 UTC",
+      "created_at_local": "2020-05-16 15:58:02 UTC",
+      "uploaded_at": "2020-05-20 23:22:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "A0E0E9E5-198A-40C0-9472-E76A7120D98A",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/v0SQpatkLV-cCdxSb6aaYCs3osMdqAgeujlezAzeHjs-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3485180603,
+      "activity_name": "Two Bridges",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-15 02:03:03 UTC",
+      "created_at_local": "2020-05-14 22:03:03 UTC",
+      "uploaded_at": "2020-05-20 23:22:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "98F72C8D-B762-4F9C-AC8E-2389718403FE",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/um3T3I8wH50JS9QW5msJJ9nh8HB17HDBtQSXp0querU-768x767.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3485180603,
+      "activity_name": "Two Bridges",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-05-15 02:03:03 UTC",
+      "created_at_local": "2020-05-14 22:03:03 UTC",
+      "uploaded_at": "2020-05-20 23:22:09 UTC",
+      "sizes": {
+        "600": [
+          768,
+          767
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

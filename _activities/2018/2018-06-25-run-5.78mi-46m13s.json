@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "15105663937.tcx",
   "upload_id": 1784509828,
   "start_date": "2018-06-25 14:19:42 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -352,8 +351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -527,8 +525,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -704,8 +701,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -836,8 +832,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -968,8 +963,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1100,8 +1094,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1232,8 +1225,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1364,8 +1356,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1729,8 +1720,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1801,5 +1791,52 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "E7C2BC83-7EEE-4C2C-AFAA-2E45945367F9",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Gm0zSkINTQ075dSfwrG9HOex-pgWKLSMMrJGp8qpmOM-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1661315347,
+      "activity_name": "Accord, NY",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-06-24 18:59:23 UTC",
+      "created_at_local": "2018-06-24 14:59:23 UTC",
+      "uploaded_at": "2018-06-25 15:45:08 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "F7485C99-EBEF-4AED-A701-87C235CF1BA1",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/gRRFqadStW086jsM5i4VrxKEdIZkDO2rwZTXlzTY_qo-768x575.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1661315347,
+      "activity_name": "Accord, NY",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-06-24 17:19:37 UTC",
+      "created_at_local": "2018-06-24 13:19:37 UTC",
+      "uploaded_at": "2018-06-25 15:45:08 UTC",
+      "sizes": {
+        "600": [
+          768,
+          575
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

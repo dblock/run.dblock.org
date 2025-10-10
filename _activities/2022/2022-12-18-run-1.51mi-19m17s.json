@@ -42,7 +42,7 @@
   "description": "Noo shoos!",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "garmin_ping_251531997541",
   "upload_id": 8857500944,
   "start_date": "2022-12-18 16:38:09 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -358,8 +357,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -535,8 +533,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -667,8 +664,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -799,8 +795,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -931,8 +926,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1176,8 +1170,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1307,8 +1300,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1379,5 +1371,75 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "381F9C8B-A793-41C0-B56A-C14FDFE63812",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/xshcnmBhPe5-Iv_ykh_kD0oMCVG9wygk2yHCvBGzDkI-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 8264073338,
+      "activity_name": "Run with Milla 4",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2022-12-18 16:28:18 UTC",
+      "created_at_local": "2022-12-18 11:28:18 UTC",
+      "uploaded_at": "2022-12-18 17:34:38 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "F131B846-522E-4767-A5C7-217F472DEBAE",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/nyjDXNHZ95n5C48fjes64on46GS3y1gnDBZSo9f0L0k-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 8264073338,
+      "activity_name": "Run with Milla 4",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2022-12-18 16:33:39 UTC",
+      "created_at_local": "2022-12-18 11:33:39 UTC",
+      "uploaded_at": "2022-12-18 17:34:38 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "DFD38244-2276-408C-9ADF-796FEB4408A6",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/KBJZooEn49APrlCrVBVLL_lCdqcUPuMnSE9sRa9Kcps-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 8264073338,
+      "activity_name": "Run with Milla 4",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2022-12-18 16:28:13 UTC",
+      "created_at_local": "2022-12-18 11:28:13 UTC",
+      "uploaded_at": "2022-12-18 17:34:38 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

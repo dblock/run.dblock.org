@@ -42,7 +42,7 @@
   "description": "Clocking in the NYRR Virtual 5K GOOAAALLL on a new pair of Adidas Supernova ST (old, 2017 model) that should become my TCS Marathon 2018 shoes, all while recovering from an injury. Right leg has been hurting literally everywhere, limping for a week and finally feeling normal for a couple of days.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "15497396234.tcx",
   "upload_id": 1823512436,
   "start_date": "2018-07-13 00:34:40 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -360,8 +359,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -492,8 +490,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -624,8 +621,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -756,8 +752,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -888,8 +883,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1020,8 +1014,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1319,8 +1312,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1391,5 +1383,52 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "1E933AA0-5022-4AA6-A052-DE4BE7414A0D",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Ald7zXGV091cbLV9E8nTe_1DiSyktj5vTTJyE1ItI_M-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1698914734,
+      "activity_name": "NYRR Virtual 5K GOOAAALLL",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-07-13 00:19:44 UTC",
+      "created_at_local": "2018-07-12 20:19:44 UTC",
+      "uploaded_at": "2018-07-13 02:15:42 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "67E5E0A9-0E2D-4773-987A-704A3B3C856D",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Y1ALlWmNmje1ihbOfr6hNhuDvkfUTDBuaVguhkOsz5A-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1698914734,
+      "activity_name": "NYRR Virtual 5K GOOAAALLL",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-07-13 00:19:30 UTC",
+      "created_at_local": "2018-07-12 20:19:30 UTC",
+      "uploaded_at": "2018-07-13 02:15:42 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

@@ -42,7 +42,7 @@
   "description": "Goal was to run under 21. Remains a goal. This is gun time so I probably did just under 22.\r\n\r\nDiscovering how net time vs. gun time in official @usatf races is the new popular vote vs. electoral college.\r\n\r\nUpdate: the course was measured wrong, so it was 5.190m not 5K.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": null,
   "upload_id": null,
   "start_date": "2018-04-28 21:45:51 UTC",
@@ -163,5 +163,98 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "3A5E5820-4E20-4E0A-AFCC-5F6CBE85DF0C",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Ll0gTkI1yF-P_2TmAPdmY8KJ9LmocnPbjQzogUbb6lU-431x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1537690511,
+      "activity_name": "RedHookCrit 5K",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-04-28 22:32:01 UTC",
+      "created_at_local": "2018-04-28 18:32:01 UTC",
+      "uploaded_at": "2018-04-28 22:47:13 UTC",
+      "sizes": {
+        "600": [
+          431,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "7385D61C-F3DE-4225-B5FA-6928580DC0F8",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/2Sn5-mqhS0qekvbLiEsV1JX7mYOXL9ksU0rU6wLGS9g-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1537690511,
+      "activity_name": "RedHookCrit 5K",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-04-28 22:09:55 UTC",
+      "created_at_local": "2018-04-28 18:09:55 UTC",
+      "uploaded_at": "2018-04-28 23:06:58 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "9B318DC3-0F3B-4FC7-A791-B7FE829F5500",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/g0sXAXHwm1Xpq38C3IGqPeS7_z5WWqAC1Wd0RxNf1c4-768x206.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1537690511,
+      "activity_name": "RedHookCrit 5K",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-04-29 00:56:30 UTC",
+      "created_at_local": "2018-04-28 20:56:30 UTC",
+      "uploaded_at": "2018-04-29 00:58:06 UTC",
+      "sizes": {
+        "600": [
+          768,
+          206
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "2C9470A9-0C7C-4BB7-BB18-1830E8C459D5",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/HaIGf8ku69yBUs2t6-2hW78GhZ2GvsuZqAuqYKCDi_o-431x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1537690511,
+      "activity_name": "RedHookCrit 5K",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-01 02:51:39 UTC",
+      "created_at_local": "2018-04-30 22:51:39 UTC",
+      "uploaded_at": "2018-05-01 02:51:51 UTC",
+      "sizes": {
+        "600": [
+          431,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

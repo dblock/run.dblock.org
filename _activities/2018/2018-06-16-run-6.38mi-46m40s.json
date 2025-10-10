@@ -42,7 +42,7 @@
   "description": "Should have stayed in bed? #Queens10K\r\nPosted 46:18 at 7:27/mi.\r\n\r\n",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "23939405-10FD-402F-999E-68B7B2612641",
   "upload_id": 1764151971,
   "start_date": "2018-06-16 11:51:05 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -352,8 +351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -527,8 +525,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -704,8 +701,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -836,8 +832,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -968,8 +963,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1100,8 +1094,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1232,8 +1225,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1364,8 +1356,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1496,8 +1487,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1888,8 +1878,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1960,5 +1949,121 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "411BA67C-9D3E-4124-B955-E0DB3F85B62F",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/hYauyaICx_PZILlwEKheZ05WeuGxx0mPdwdZaZe-jUg-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1641875634,
+      "activity_name": "Queens 10K",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-06-16 11:18:29 UTC",
+      "created_at_local": "2018-06-16 07:18:29 UTC",
+      "uploaded_at": "2018-06-16 12:42:01 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "BA9F96EB-2BE6-4014-A1C2-9E77ADF7EB61",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/YKOtfJNgDgGfNiaigIc-3QJT1jcK0KNd8TCNcBl2a70-577x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1641875634,
+      "activity_name": "Queens 10K",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-06-16 10:27:58 UTC",
+      "created_at_local": "2018-06-16 06:27:58 UTC",
+      "uploaded_at": "2018-06-16 12:42:03 UTC",
+      "sizes": {
+        "600": [
+          577,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "ADF62283-B2ED-4FB3-80C7-62056BEFB983",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/gbSwJCexlWcR9yTo7R6c56Hd0Q-VZX62hCoMQNiRmzY-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1641875634,
+      "activity_name": "Queens 10K",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-06-16 12:52:30 UTC",
+      "created_at_local": "2018-06-16 08:52:30 UTC",
+      "uploaded_at": "2018-06-16 12:59:33 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "986C00CE-9D72-438C-B99D-4427230B4FD0",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/RvAc4SNnzvB704PHQSCO5Cdq6PNkzbqY6oTq6KC9f64-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1641875634,
+      "activity_name": "Queens 10K",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-06-16 12:56:23 UTC",
+      "created_at_local": "2018-06-16 08:56:23 UTC",
+      "uploaded_at": "2018-06-16 12:59:33 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "A31E34E4-6D64-4DAA-B71A-FBD89E486BC7",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/EQ00c1FWNp-gSK6wsPSWfFHkDgZB7EPO1_JpTXjfOL4-398x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1641875634,
+      "activity_name": "Queens 10K",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-06-16 20:40:56 UTC",
+      "created_at_local": "2018-06-16 16:40:56 UTC",
+      "uploaded_at": "2018-06-16 20:42:31 UTC",
+      "sizes": {
+        "600": [
+          398,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

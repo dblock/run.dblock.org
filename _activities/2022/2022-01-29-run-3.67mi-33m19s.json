@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "garmin_push_8204051332",
   "upload_id": 7019388825,
   "start_date": "2022-01-29 18:20:04 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -358,8 +357,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -533,8 +531,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -708,8 +705,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -885,8 +881,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1017,8 +1012,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1149,8 +1143,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1281,8 +1274,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1413,8 +1405,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1545,8 +1536,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1844,8 +1834,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1975,8 +1964,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2106,8 +2094,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2237,8 +2224,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2309,5 +2295,121 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "8031FB55-2913-4C68-9B8C-FEB9A0566C99",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/UnP6hc6OdIPKYHxlUcjzOmkg6RV_enDlknHWZaGp8Hg-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 6601020527,
+      "activity_name": "Seattle",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2022-01-27 20:07:37 UTC",
+      "created_at_local": "2022-01-27 12:07:37 UTC",
+      "uploaded_at": "2022-01-29 19:06:45 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "B3BA8F2F-8CFC-42BA-915D-F7D61F8190F7",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/f348JOWeM_0jzskjf_-3My57DMsmekBxaplXOVTgG3w-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 6601020527,
+      "activity_name": "Seattle",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2022-01-27 23:53:16 UTC",
+      "created_at_local": "2022-01-27 15:53:16 UTC",
+      "uploaded_at": "2022-01-29 19:06:45 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "A037B5BF-17AC-4C7C-8711-0375F4AA9328",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/025ZHxJAk00-MmJgj1dVedCe58TDNHSUdoosd2DD3EA-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 6601020527,
+      "activity_name": "Seattle",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2022-01-28 05:33:07 UTC",
+      "created_at_local": "2022-01-27 21:33:07 UTC",
+      "uploaded_at": "2022-01-29 19:06:45 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "80553E7F-B863-4B63-A408-43A1FF3BB65D",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/9o0oTJvkNtq_79BDcNUbCBz-2gFxSUT4FnNqLMeBWQQ-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 6601020527,
+      "activity_name": "Seattle",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2022-01-28 01:26:31 UTC",
+      "created_at_local": "2022-01-27 17:26:31 UTC",
+      "uploaded_at": "2022-01-29 19:06:45 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "A65F707A-ED50-4752-936D-4FDF6D855271",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/lUbFos3x_zrRVdsDL_k4tFd7CltztvdiqVQsdn6LSLc-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 6601020527,
+      "activity_name": "Seattle",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2022-01-28 05:49:01 UTC",
+      "created_at_local": "2022-01-27 21:49:01 UTC",
+      "uploaded_at": "2022-01-29 19:06:45 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

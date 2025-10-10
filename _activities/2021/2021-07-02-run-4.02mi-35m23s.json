@@ -42,7 +42,7 @@
   "description": "Barefoot on the beach.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "garmin_push_7057091222",
   "upload_id": 5920238657,
   "start_date": "2021-07-02 13:01:14 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -354,8 +353,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -486,8 +484,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -618,8 +615,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -750,8 +746,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -882,8 +877,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1014,8 +1008,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1335,8 +1328,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1466,8 +1458,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1597,8 +1588,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1728,8 +1718,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1859,8 +1848,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1919,5 +1907,98 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "32A1CF8B-2A02-48D0-960C-E3DE4D16EE92",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/yjHCNN2TKf5462SrtS1tP5GdMUGsdzJWbtUhWSGPaSc-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 5563147958,
+      "activity_name": "Jamaica, Man 🇯🇲 ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2021-06-28 22:27:42 UTC",
+      "created_at_local": "2021-06-28 17:27:42 UTC",
+      "uploaded_at": "2021-07-02 13:56:44 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "FCFA57F8-2920-4DA0-96D1-1EA853E33F7A",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/tFUfXp_l9ISP0lrj_EgQEX4Z_Ew24YlF9o2Gfqw-yNI-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 5563147958,
+      "activity_name": "Jamaica, Man 🇯🇲 ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2021-06-30 14:29:26 UTC",
+      "created_at_local": "2021-06-30 09:29:26 UTC",
+      "uploaded_at": "2021-07-02 13:56:44 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "FC003489-0E2E-4CDB-964C-62CDA2886DBD",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/u1kb2GC8spoO8vEnBbgeQnyGbqpYgJRoL0f9TVUP8vs-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 5563147958,
+      "activity_name": "Jamaica, Man 🇯🇲 ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2021-07-03 22:40:55 UTC",
+      "created_at_local": "2021-07-03 17:40:55 UTC",
+      "uploaded_at": "2021-07-03 22:40:55 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "98ADC7C3-1F52-412B-B73F-8C7C0F999AEA",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/fdE5JjiLgFTEsDtVdI58A9RfTZzIT0P61tbr4xKOrT0-768x767.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 5563147958,
+      "activity_name": "Jamaica, Man 🇯🇲 ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2021-07-03 22:40:55 UTC",
+      "created_at_local": "2021-07-03 17:40:55 UTC",
+      "uploaded_at": "2021-07-03 22:40:55 UTC",
+      "sizes": {
+        "600": [
+          768,
+          767
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

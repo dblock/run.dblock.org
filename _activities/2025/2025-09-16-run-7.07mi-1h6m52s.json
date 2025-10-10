@@ -10409,7 +10409,7 @@
     }
   ],
   "gear": {
-    "distance": 268085,
+    "distance": 258386,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
@@ -10432,5 +10432,30 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "99A63F71-E012-4636-8796-B67AEBCB3C97",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Rb05TvHpfwr2nHjMYLWKxSPqFBc7m_iuSXaNFqGJdok-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15831204239,
+      "activity_name": "7M Easy",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-14 16:36:22 UTC",
+      "created_at_local": "2025-09-14 12:36:22 UTC",
+      "uploaded_at": "2025-09-16 21:41:44 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

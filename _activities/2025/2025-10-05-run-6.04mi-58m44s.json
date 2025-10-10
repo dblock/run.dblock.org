@@ -6777,7 +6777,7 @@
     }
   ],
   "gear": {
-    "distance": 268085,
+    "distance": 258386,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
@@ -6800,5 +6800,76 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "5685C0C5-6B47-4606-A46F-261221C20FFF",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/9ATtcmKfqkng6czfFKAo31FJbMtsb3JAwK9EwO0L0tA-624x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 16041856368,
+      "activity_name": "Run with Ilan 88",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-10-05 12:15:41 UTC",
+      "created_at_local": "2025-10-05 08:15:41 UTC",
+      "uploaded_at": "2025-10-05 13:39:09 UTC",
+      "sizes": {
+        "600": [
+          624,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "53381F01-529D-456F-8099-05ACAEC87EE5",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/cOrm7Qv8mOHrYlOiLE1hu93honGcJ3XShAVcFEsWgfk-599x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 16041856368,
+      "activity_name": "Run with Ilan 88",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-10-05 12:17:09 UTC",
+      "created_at_local": "2025-10-05 08:17:09 UTC",
+      "uploaded_at": "2025-10-05 13:39:09 UTC",
+      "sizes": {
+        "600": [
+          599,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "395DE473-72C5-49AF-B6DE-3C910F33937E",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/tmtD6YYXtBVP_YNtYxo9EMDqkx_YHDdgL14nbf4HZpA-768x623.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 16041856368,
+      "activity_name": "Run with Ilan 88",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-10-04 22:34:21 UTC",
+      "created_at_local": "2025-10-04 18:34:21 UTC",
+      "uploaded_at": "2025-10-05 13:45:13 UTC",
+      "sizes": {
+        "600": [
+          768,
+          623
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

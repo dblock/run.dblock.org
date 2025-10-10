@@ -42,7 +42,7 @@
   "description": "The cemetery of Père-Lachaise with graves of Oscar Wilde, Chopin and Jim Morrison. #NB5thAveMile",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "16588927458.tcx",
   "upload_id": 1946025739,
   "start_date": "2018-09-01 10:01:39 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -354,8 +353,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -486,8 +484,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -618,8 +615,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -750,8 +746,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -994,8 +989,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1066,5 +1060,52 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "6DA7C627-09D0-4678-AA57-8A11B6A529D8",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/pjcxcU0tcusijQd7WX-ZgbYII-fHtC3nf9lPYcgLDUg-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1814549396,
+      "activity_name": "#NB5thAveMile to Jim Morrison’s Grave",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-09-01 10:42:00 UTC",
+      "created_at_local": "2018-09-01 12:42:00 UTC",
+      "uploaded_at": "2018-09-02 14:45:04 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "76C359CF-EA98-4C67-9A38-F71A6C110130",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/ZrMOtiCfOUdR5uUHKx9ReFjm96t683v8f0qfF5sFJbM-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1814549396,
+      "activity_name": "#NB5thAveMile to Jim Morrison’s Grave",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-09-02 14:41:59 UTC",
+      "created_at_local": "2018-09-02 16:41:59 UTC",
+      "uploaded_at": "2018-09-02 14:45:04 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

@@ -62,7 +62,7 @@
   "start_latitude": null,
   "start_longitude": null,
   "achievement_count": 0,
-  "kudos_count": 7,
+  "kudos_count": 6,
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
@@ -13657,7 +13657,7 @@
     }
   ],
   "gear": {
-    "distance": 268085,
+    "distance": 258386,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
@@ -13680,5 +13680,53 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "85092732-F39F-463A-AFB1-30A927ED504E",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/d3pzOVqAxVGW-wfm0R1HIpqMpki9EviIqpzvVevuMxU-354x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 16077815072,
+      "activity_name": "Fall is Here 🍁",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-10-07 23:54:20 UTC",
+      "created_at_local": "2025-10-07 19:54:20 UTC",
+      "uploaded_at": "2025-10-08 18:25:20 UTC",
+      "sizes": {
+        "600": [
+          354,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "22962B2D-81E3-4541-BFF0-77DFFDE49877",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/72y5QY80hq7FQV9UgxCr62PUSjTXUcx81F84ApHZa-A-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 16077815072,
+      "activity_name": "Fall is Here 🍁",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-10-08 00:08:03 UTC",
+      "created_at_local": "2025-10-07 20:08:03 UTC",
+      "uploaded_at": "2025-10-08 18:25:21 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

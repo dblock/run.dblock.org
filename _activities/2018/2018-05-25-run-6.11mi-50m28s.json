@@ -42,7 +42,7 @@
   "description": "Sleeping outside and waking up to run with the deer before the kids take over.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": null,
+  "workout_type": "run",
   "external_id": "3825336D-2829-4D4B-8AC3-AA5AB5BEF4B7",
   "upload_id": 1713961145,
   "start_date": "2018-05-25 09:31:19 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -354,8 +353,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -486,8 +484,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -618,8 +615,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -750,8 +746,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -882,8 +877,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1014,8 +1008,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1389,8 +1382,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1461,5 +1453,121 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "043CA30C-34D6-43FA-9CD8-189065AC56D6",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/y2qZeosJrtV1p8FGpHB57eawyux_kWi8esgavx1N4wo-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1594712231,
+      "activity_name": "Chaperoning",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-25 10:14:47 UTC",
+      "created_at_local": "2018-05-25 06:14:47 UTC",
+      "uploaded_at": "2018-05-25 10:28:16 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "CC0E9698-7E11-4575-9110-16C9F082D127",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/lP2jPGjLUfcHq03If1sg4n2r46FX2UDZNlNaFTqGvcw-563x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1594712231,
+      "activity_name": "Chaperoning",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-25 10:05:42 UTC",
+      "created_at_local": "2018-05-25 06:05:42 UTC",
+      "uploaded_at": "2018-05-25 10:28:16 UTC",
+      "sizes": {
+        "600": [
+          563,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "F2DE5B88-E372-45BB-AF25-E8CB53262077",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/d4tdfcGvecYO11-CcJYfyB_y9Oc_N29IW_Hu6-sV9FU-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1594712231,
+      "activity_name": "Chaperoning",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-25 10:05:26 UTC",
+      "created_at_local": "2018-05-25 06:05:26 UTC",
+      "uploaded_at": "2018-05-25 10:28:16 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "F41B7AAD-4976-4982-81F8-92C6D9650F20",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/pPrLIt2-Q7wvHq0_33w9NnswxEcH2Lurwg_eb8zynrE-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1594712231,
+      "activity_name": "Chaperoning",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-25 09:49:30 UTC",
+      "created_at_local": "2018-05-25 05:49:30 UTC",
+      "uploaded_at": "2018-05-25 10:28:17 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "9533FF2F-E36A-484F-AE0D-F275366EE708",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/1I4HzsAFchkiLwzlOOwtXlxg8YXj5deB6N2ix_y8p1s-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1594712231,
+      "activity_name": "Chaperoning",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-25 09:46:54 UTC",
+      "created_at_local": "2018-05-25 05:46:54 UTC",
+      "uploaded_at": "2018-05-25 10:28:17 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

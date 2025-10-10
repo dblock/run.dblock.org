@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": null,
+  "workout_type": "run",
   "external_id": "A8D42978-4209-4DBA-855F-FA007BE81E17",
   "upload_id": 1540274329,
   "start_date": "2018-02-26 17:47:06 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -352,8 +351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -529,8 +527,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -661,8 +658,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -793,8 +789,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -925,8 +920,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1057,8 +1051,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1189,8 +1182,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1321,8 +1313,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1751,8 +1742,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1823,5 +1813,75 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "04B57C2D-1E4C-4172-9157-C043701D773A",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/KZe3lQqe5SiF9jG-0sXDdqjvez6-VNhXKUxhd1IwAIs-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1427453933,
+      "activity_name": "Willow to Phoenicia",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-02-26 19:17:30 UTC",
+      "created_at_local": "2018-02-26 14:17:30 UTC",
+      "uploaded_at": "2018-02-26 20:32:51 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "C847CCC9-F652-4DA0-B178-D25F29F6BFF2",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/IFGvawiCJ0Ixn841vp8ddvluy8Tq2xxlTUFtTYPkVzM-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1427453933,
+      "activity_name": "Willow to Phoenicia",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-02-26 19:40:14 UTC",
+      "created_at_local": "2018-02-26 14:40:14 UTC",
+      "uploaded_at": "2018-02-26 20:33:56 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "02E7F12F-BFEC-40D4-B61C-1406F351D8D5",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/JQBa7_YavWI69pExlBilZ07P2tawB8OTInGbZYO1dG4-577x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1427453933,
+      "activity_name": "Willow to Phoenicia",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-02-26 19:02:51 UTC",
+      "created_at_local": "2018-02-26 14:02:51 UTC",
+      "uploaded_at": "2018-02-26 20:34:52 UTC",
+      "sizes": {
+        "600": [
+          577,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

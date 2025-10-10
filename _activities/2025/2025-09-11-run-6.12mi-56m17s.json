@@ -6633,5 +6633,30 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "002C0C81-BC0A-4372-8882-60B121EFB309",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/PXBCPK46ejmYG-FNY7KoJI_G_G4Oxfs5YSu0cKMxlmk-512x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15774290933,
+      "activity_name": "Digesting the shake shacks 🍔",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-11 22:15:40 UTC",
+      "created_at_local": "2025-09-11 18:15:40 UTC",
+      "uploaded_at": "2025-09-11 22:15:40 UTC",
+      "sizes": {
+        "600": [
+          512,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

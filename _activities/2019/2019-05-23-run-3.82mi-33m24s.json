@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "6B0A346E-71BC-4259-AA03-CFC4EEC36575",
   "upload_id": 2541366417,
   "start_date": "2019-05-23 05:34:05 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -352,8 +351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -527,8 +525,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -702,8 +699,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -877,8 +873,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1052,8 +1047,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1227,8 +1221,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1404,8 +1397,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1536,8 +1528,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1668,8 +1659,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1800,8 +1790,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1932,8 +1921,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2064,8 +2052,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2373,8 +2360,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2445,5 +2431,144 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "857AFC65-B289-44DB-858B-D98C360136B1",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Ia3SmmEpDRZKTyg_7ImwolFnmgcFU-2boN4A-5bE-7M-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2389914176,
+      "activity_name": "Москва, Пушкин",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-23 05:39:52 UTC",
+      "created_at_local": "2019-05-23 08:39:52 UTC",
+      "uploaded_at": "2019-05-23 06:33:13 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "5B2A7393-E139-4559-B0F1-E44443A10E60",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/r_iNSJr-K2Q1VydbvY9LY_805MYxTYn4vstN4yndFgE-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2389914176,
+      "activity_name": "Москва, Пушкин",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-23 05:39:50 UTC",
+      "created_at_local": "2019-05-23 08:39:50 UTC",
+      "uploaded_at": "2019-05-23 06:33:13 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "35E9EC59-4DAD-4D63-AFD4-2BF0C7E67D0E",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/j7nkZhNGku1diD73eM3Qeq90PFtsiGhIk1S3JmN1P-4-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2389914176,
+      "activity_name": "Москва, Пушкин",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-23 06:08:42 UTC",
+      "created_at_local": "2019-05-23 09:08:42 UTC",
+      "uploaded_at": "2019-05-23 06:34:06 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "64CEF9A0-95E8-4618-ACD2-D062CF935B47",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/JakcsdoIQk2rXcCS25DIh6FOK4WcnrmEd48Ya_aJ9Yw-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2389914176,
+      "activity_name": "Москва, Пушкин",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-23 05:57:38 UTC",
+      "created_at_local": "2019-05-23 08:57:38 UTC",
+      "uploaded_at": "2019-05-23 06:33:13 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "EA1A97C8-9D2C-4AFE-B892-733E25000831",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/uti-3Y6r1b9mVUY1SFMkqOKM4WB4a6TcXRkZu1JmNTM-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2389914176,
+      "activity_name": "Москва, Пушкин",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-23 05:57:33 UTC",
+      "created_at_local": "2019-05-23 08:57:33 UTC",
+      "uploaded_at": "2019-05-23 06:33:13 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "A38CD210-38DD-484C-9766-41AD7339F902",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/2sMo2Xui4Htzabj-nAhDE5M431PT-ZGYhHvIgc2L30U-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2389914176,
+      "activity_name": "Москва, Пушкин",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-23 06:38:49 UTC",
+      "created_at_local": "2019-05-23 09:38:49 UTC",
+      "uploaded_at": "2019-05-23 06:39:26 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

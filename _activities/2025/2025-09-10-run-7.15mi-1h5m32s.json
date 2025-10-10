@@ -9020,5 +9020,30 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "EAC2C5FE-44BC-4EF7-8FDE-522196AB4296",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/4mlhR7mAIc9CciGdxe67rLOTg8TdH6-AZ3HDspRnhps-728x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15763654783,
+      "activity_name": "7 mi (4 mi @ MP) 🌧️ ☔️",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-09 23:10:42 UTC",
+      "created_at_local": "2025-09-09 19:10:42 UTC",
+      "uploaded_at": "2025-09-10 13:13:13 UTC",
+      "sizes": {
+        "600": [
+          728,
+          768
+        ]
+      },
+      "default_photo": true
+    }
+  ]
 }

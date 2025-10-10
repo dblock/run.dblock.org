@@ -7688,7 +7688,7 @@
     }
   ],
   "gear": {
-    "distance": 268085,
+    "distance": 258386,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
@@ -7711,5 +7711,30 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "BAFA6EA7-A2A2-47CD-97F7-39B1CD17C9EB",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/fE7lytNwwk2c1RqAjEkODinAlknUIQPWjGGohcw80n0-624x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15878564739,
+      "activity_name": "Greenbelt TrailTroop Run",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-20 16:37:52 UTC",
+      "created_at_local": "2025-09-20 12:37:52 UTC",
+      "uploaded_at": "2025-09-20 16:37:52 UTC",
+      "sizes": {
+        "600": [
+          624,
+          768
+        ]
+      },
+      "default_photo": true
+    }
+  ]
 }

@@ -42,7 +42,7 @@
   "description": "First Halsey was the wrong Halsey. Hello goats!",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "garmin_push_5457922904",
   "upload_id": 4263173581,
   "start_date": "2020-08-29 14:51:24 UTC",
@@ -178,8 +178,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -310,8 +309,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -442,8 +440,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -664,8 +661,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -795,8 +791,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -926,8 +921,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -998,5 +992,52 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "7B5700F1-8342-4BFC-8529-DCB008DB2ABB",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/lqtN6sHSahOiNeRMCO6oqXj36mF0KXVl7kGtP9FxElU-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3982660424,
+      "activity_name": "Dash to the right Halsey Ln.",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-08-29 15:00:53 UTC",
+      "created_at_local": "2020-08-29 11:00:53 UTC",
+      "uploaded_at": "2020-08-29 16:05:06 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "FF08CD85-805D-40D5-B8B2-346AE73F3736",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/RMGyzymbdJuZwatKuXqIpd6qkZOiKzwypOvBx4wDmP0-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3982660424,
+      "activity_name": "Dash to the right Halsey Ln.",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-08-29 15:21:20 UTC",
+      "created_at_local": "2020-08-29 11:21:20 UTC",
+      "uploaded_at": "2020-08-29 16:05:06 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

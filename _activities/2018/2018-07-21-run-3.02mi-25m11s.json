@@ -42,7 +42,7 @@
   "description": "Watch died half way.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": "run",
   "external_id": "15660241755.tcx",
   "upload_id": 1842064044,
   "start_date": "2018-07-21 08:01:43 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -352,8 +351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -529,8 +527,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -661,8 +658,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -793,8 +789,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -925,8 +920,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1057,8 +1051,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1345,8 +1338,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1417,5 +1409,144 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "58AE5C47-81D2-4838-BBCD-62882913E0CC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/JHuoeXceTjifHK9qI5QtcyuDg5LMojYsJ_ewCXNmPtU-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1716795423,
+      "activity_name": "Rome 1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-07-20 18:17:33 UTC",
+      "created_at_local": "2018-07-20 20:17:33 UTC",
+      "uploaded_at": "2018-07-21 09:26:06 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "53F68058-AA21-4863-86E5-96FF6BB1727C",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/VCaUFAEA9K-njtfzUPjXd7H9_dEubTsWFb_mkEch0Yo-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1716795423,
+      "activity_name": "Rome 1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-07-20 16:34:42 UTC",
+      "created_at_local": "2018-07-20 18:34:42 UTC",
+      "uploaded_at": "2018-07-21 09:26:06 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "E96E7CD4-4F91-440A-9D0C-191D8272C8FC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/TwNmLXioTYQ1USHpydzZw5J_XN5nM19PGjAtUjU1Klg-768x575.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1716795423,
+      "activity_name": "Rome 1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-07-20 16:01:23 UTC",
+      "created_at_local": "2018-07-20 18:01:23 UTC",
+      "uploaded_at": "2018-07-21 09:26:06 UTC",
+      "sizes": {
+        "600": [
+          768,
+          575
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "21E798EF-A96D-448E-A1CD-EB31FF9E6566",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/2iYWUCKdG9Ievt5a6b1dsQr7XC78_fzgkT4u7saXCQk-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1716795423,
+      "activity_name": "Rome 1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-07-21 08:33:06 UTC",
+      "created_at_local": "2018-07-21 10:33:06 UTC",
+      "uploaded_at": "2018-07-21 09:26:06 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "34588BE7-76C5-4D3C-B973-C46FB6EBBDD1",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/hK_6Pza0uhBaUChMxaHZjbjs6d32FZ3SCYIveBMITfM-768x767.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1716795423,
+      "activity_name": "Rome 1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-07-21 11:37:20 UTC",
+      "created_at_local": "2018-07-21 13:37:20 UTC",
+      "uploaded_at": "2018-07-22 20:23:26 UTC",
+      "sizes": {
+        "600": [
+          768,
+          767
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "9F122B7E-022A-46B4-AA8F-44BE5FE8B5DC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/vaRJQD16lYzQpv1Fwb-F2Hxs0QKQzIqP6BaDsRFrxfQ-768x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1716795423,
+      "activity_name": "Rome 1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-07-21 11:16:55 UTC",
+      "created_at_local": "2018-07-21 13:16:55 UTC",
+      "uploaded_at": "2018-07-22 20:23:26 UTC",
+      "sizes": {
+        "600": [
+          768,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

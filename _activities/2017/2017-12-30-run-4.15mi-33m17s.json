@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": null,
+  "workout_type": "run",
   "external_id": "905BD6A5-D81F-476B-BA32-12F0F488F950",
   "upload_id": 1441757120,
   "start_date": "2017-12-30 22:52:31 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -354,8 +353,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -486,8 +484,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -624,8 +621,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -762,8 +758,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -900,8 +895,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1038,8 +1032,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1358,8 +1351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1430,5 +1422,52 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "F2BCDFC6-86BA-4072-B469-DC678174E6F1",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/NGJru78EyetFDAE1-P3eAHbQPvv5U1BpotOmSyPf94Q-577x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1333794157,
+      "activity_name": "Prep for tomorrow’s midnight run in Central Park ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2017-12-30 23:26:56 UTC",
+      "created_at_local": "2017-12-30 18:26:56 UTC",
+      "uploaded_at": "2017-12-30 23:27:44 UTC",
+      "sizes": {
+        "600": [
+          577,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "963BCE7D-9D0E-4457-AECE-943D885D8F1A",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/ui8BNNTLlrF8G1tCFb_fPsUSq4WSIE-b7fBD8EjuiGY-431x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1333794157,
+      "activity_name": "Prep for tomorrow’s midnight run in Central Park ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2017-12-30 23:47:44 UTC",
+      "created_at_local": "2017-12-30 18:47:44 UTC",
+      "uploaded_at": "2017-12-30 23:47:58 UTC",
+      "sizes": {
+        "600": [
+          431,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

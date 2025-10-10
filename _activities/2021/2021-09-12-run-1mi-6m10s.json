@@ -42,7 +42,7 @@
   "description": "Garmin time of 6:08 says I beat my run from last year, but official NYRR time thinks it’s 6:21. Weird.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_push_7474640757",
   "upload_id": 6322609596,
   "start_date": "2021-09-12 11:45:48 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -354,8 +353,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -486,8 +484,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -618,8 +615,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -750,8 +746,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -975,8 +970,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1047,5 +1041,52 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "E484A9AE-C393-4C2D-B46A-B2B2DBF271C5",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/LG64G_OSio2Od1kZXe12fLOYxsxXbTcHXl3_GL6lzLg-768x739.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 5947807261,
+      "activity_name": "5th Ave Mile",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2021-09-12 12:05:01 UTC",
+      "created_at_local": "2021-09-12 08:05:01 UTC",
+      "uploaded_at": "2021-09-12 12:05:01 UTC",
+      "sizes": {
+        "600": [
+          768,
+          739
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "F448E9D2-7DB8-40DF-8EC8-26B7CE878176",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/IAJvjdCk69HWhm29UkxT9eNnKBeTSHkZol8s6hR8JZA-566x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 5947807261,
+      "activity_name": "5th Ave Mile",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2021-09-23 21:10:51 UTC",
+      "created_at_local": "2021-09-23 17:10:51 UTC",
+      "uploaded_at": "2021-09-23 21:10:51 UTC",
+      "sizes": {
+        "600": [
+          566,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

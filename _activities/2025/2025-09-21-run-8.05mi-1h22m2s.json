@@ -9499,7 +9499,7 @@
     }
   ],
   "gear": {
-    "distance": 268085,
+    "distance": 258386,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
@@ -9522,5 +9522,30 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "CCF57A50-92C3-4BE3-99F4-BF15EFC014D3",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/ZsEyEl0NusiE_IivxX3Co5tupNmEul0RFl7jXbrUUb4-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15889469592,
+      "activity_name": "Run with Dimitri",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-21 14:15:42 UTC",
+      "created_at_local": "2025-09-21 10:15:42 UTC",
+      "uploaded_at": "2025-09-21 14:59:10 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    }
+  ]
 }

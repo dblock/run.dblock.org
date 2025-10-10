@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": null,
+  "workout_type": "run",
   "external_id": "3BBF6224-1E9F-459E-85CD-8960A56C3514",
   "upload_id": 1678873302,
   "start_date": "2018-05-10 00:01:25 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -354,8 +353,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -486,8 +484,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -618,8 +615,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -750,8 +746,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -882,8 +877,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1014,8 +1008,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1334,8 +1327,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1406,5 +1398,98 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "2A3DFB29-2B3C-4135-9491-AE09AB4F430C",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Q06hH4P_E-EwcDc7HhtWzbp7rJxVSRpi2rYabWTEmoc-575x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1561234626,
+      "activity_name": "Run to the Hippest Equinox ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-10 01:10:04 UTC",
+      "created_at_local": "2018-05-09 21:10:04 UTC",
+      "uploaded_at": "2018-05-10 01:12:05 UTC",
+      "sizes": {
+        "600": [
+          575,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "29BE0534-3346-488C-BE48-1D96131FB6D2",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/4KfQXN40L_OcOlI8TDUFOfu4_rIuDUBVKvLitJTHyNM-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1561234626,
+      "activity_name": "Run to the Hippest Equinox ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-10 01:10:22 UTC",
+      "created_at_local": "2018-05-09 21:10:22 UTC",
+      "uploaded_at": "2018-05-10 01:12:04 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "4B9C334E-DFBA-40AE-B5F8-861D398B467D",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/SYHxNFfvUZqvBMe0QQF-h8iOhMLzSYyp7yU-0hqa-u0-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1561234626,
+      "activity_name": "Run to the Hippest Equinox ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-10 00:34:48 UTC",
+      "created_at_local": "2018-05-09 20:34:48 UTC",
+      "uploaded_at": "2018-05-10 01:12:05 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "51645B04-20D0-4E3A-871A-572C29694321",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/4tna7fK3eMALDaSt-PLuZr91v_rtr2KPle1dtlRHYMU-646x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1561234626,
+      "activity_name": "Run to the Hippest Equinox ",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-10 01:08:08 UTC",
+      "created_at_local": "2018-05-09 21:08:08 UTC",
+      "uploaded_at": "2018-05-10 01:12:05 UTC",
+      "sizes": {
+        "600": [
+          646,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

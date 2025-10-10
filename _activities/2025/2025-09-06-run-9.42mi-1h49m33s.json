@@ -3704,5 +3704,30 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "EA1E3775-127F-4FF1-9080-04091D0FEB59",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/pX7sf3wI22t7En8ULoeOWyv7PZ-UzjfjqKQGWesyPsE-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15718675679,
+      "activity_name": "Palisades",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-06 16:08:22 UTC",
+      "created_at_local": "2025-09-06 12:08:22 UTC",
+      "uploaded_at": "2025-09-06 17:16:14 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

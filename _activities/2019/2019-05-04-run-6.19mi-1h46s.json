@@ -42,7 +42,7 @@
   "description": "First trail run!",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "21782321340.tcx",
   "upload_id": 2491000421,
   "start_date": "2019-05-04 14:00:07 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -352,8 +351,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -527,8 +525,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -702,8 +699,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -877,8 +873,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1054,8 +1049,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1186,8 +1180,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1318,8 +1311,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1450,8 +1442,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1582,8 +1573,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1714,8 +1704,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2090,8 +2079,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -2162,5 +2150,98 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "E7957972-8013-4C4D-B367-131CFE5552A1",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/BkDVqbI4fcKhg_6Ugr6OtD-cg5RdVwgYkPXDGJAyrtA-768x575.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2341300221,
+      "activity_name": "North Face ECS Relay",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-04 12:23:11 UTC",
+      "created_at_local": "2019-05-04 08:23:11 UTC",
+      "uploaded_at": "2019-05-04 15:14:37 UTC",
+      "sizes": {
+        "600": [
+          768,
+          575
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "BE3D73B1-81C5-44C6-B7F5-B8F4A17D369A",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/1ZumJ3ps3C6aAdtPJr3ZkI8ksx1_d9flA-HriFDnSkw-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2341300221,
+      "activity_name": "North Face ECS Relay",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-04 15:15:13 UTC",
+      "created_at_local": "2019-05-04 11:15:13 UTC",
+      "uploaded_at": "2019-05-04 15:15:38 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "82116341-9498-4C3C-BE5B-7A57AB03FC09",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/LrTmM76IL6c38c8-7wZVDtdQLSGgMykUoAx1BUBBI3o-768x517.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2341300221,
+      "activity_name": "North Face ECS Relay",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-04 17:50:58 UTC",
+      "created_at_local": "2019-05-04 13:50:58 UTC",
+      "uploaded_at": "2019-05-04 17:52:18 UTC",
+      "sizes": {
+        "600": [
+          768,
+          517
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "37D2E7BD-FBAF-41BC-9828-0B862C8D9068",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/QbD1bZTmo-KwgHxfR6Ka2ZMKZyBB9VMKls4m4LjGnrc-492x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 2341300221,
+      "activity_name": "North Face ECS Relay",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2019-05-04 19:40:53 UTC",
+      "created_at_local": "2019-05-04 15:40:53 UTC",
+      "uploaded_at": "2019-05-04 19:42:30 UTC",
+      "sizes": {
+        "600": [
+          492,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

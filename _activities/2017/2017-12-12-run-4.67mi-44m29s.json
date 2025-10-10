@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": null,
+  "workout_type": "run",
   "external_id": "28332977-629C-482F-81FC-431A41A7EE86",
   "upload_id": 1419934400,
   "start_date": "2017-12-12 13:34:15 UTC",
@@ -178,8 +178,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -310,8 +309,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -442,8 +440,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -574,8 +571,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -706,8 +702,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -838,8 +833,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1151,8 +1145,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1223,5 +1216,75 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "B242F565-26A0-42F2-BB47-5A1E2BF0FE02",
+      "urls": {
+        "1800": "https://d3nn82uaxijpm6.cloudfront.net/assets/media/placeholder-photo@4x-6c5d2aaeadca1292be72943c04ea6defe7dcd610da7dc87a1ccaad30e134b2d6.png"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1312653803,
+      "activity_name": "Running Through Streets of Havana",
+      "resource_state": 2,
+      "caption": null,
+      "created_at": null,
+      "created_at_local": null,
+      "uploaded_at": null,
+      "sizes": {
+        "1800": [
+          1372,
+          1000
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "D3A4FC29-489A-40B6-874C-85186E091538",
+      "urls": {
+        "1800": "https://d3nn82uaxijpm6.cloudfront.net/assets/media/placeholder-photo@4x-6c5d2aaeadca1292be72943c04ea6defe7dcd610da7dc87a1ccaad30e134b2d6.png"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1312653803,
+      "activity_name": "Running Through Streets of Havana",
+      "resource_state": 2,
+      "caption": null,
+      "created_at": null,
+      "created_at_local": null,
+      "uploaded_at": null,
+      "sizes": {
+        "1800": [
+          1372,
+          1000
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "6F87D253-2763-4D09-8F0F-A4F5224AC11C",
+      "urls": {
+        "1800": "https://d3nn82uaxijpm6.cloudfront.net/assets/media/placeholder-photo@4x-6c5d2aaeadca1292be72943c04ea6defe7dcd610da7dc87a1ccaad30e134b2d6.png"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1312653803,
+      "activity_name": "Running Through Streets of Havana",
+      "resource_state": 2,
+      "caption": null,
+      "created_at": null,
+      "created_at_local": null,
+      "uploaded_at": null,
+      "sizes": {
+        "1800": [
+          1372,
+          1000
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

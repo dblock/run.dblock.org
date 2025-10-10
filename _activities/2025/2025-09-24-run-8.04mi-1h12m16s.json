@@ -11343,7 +11343,7 @@
     }
   ],
   "gear": {
-    "distance": 268085,
+    "distance": 258386,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
@@ -11366,5 +11366,30 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "workout_type": "run",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "D704A4D4-CFD8-4564-9BF7-8E857A06A722",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Ikuk620PfoG0VJCe5GzVlXpbNn5PfAeQFKlBDaOLObs-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 15922145265,
+      "activity_name": "Run with Ilan 86",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2025-09-21 21:40:30 UTC",
+      "created_at_local": "2025-09-21 17:40:30 UTC",
+      "uploaded_at": "2025-09-24 15:34:36 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    }
+  ]
 }

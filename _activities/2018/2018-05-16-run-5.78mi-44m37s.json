@@ -42,7 +42,7 @@
   "description": "",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": null,
+  "workout_type": "run",
   "external_id": "4DFC89F6-620D-435B-A5B8-7608F4F3CE59",
   "upload_id": 1695583433,
   "start_date": "2018-05-17 00:14:06 UTC",
@@ -177,8 +177,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -354,8 +353,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -486,8 +484,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -618,8 +615,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -750,8 +746,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -882,8 +877,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1014,8 +1008,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1378,8 +1371,7 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null,
-        "workout_type": null
+        "leaderboard_opt_out": null
       },
       "athlete": {
         "id": 26462176,
@@ -1450,5 +1442,75 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run"
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "DFAB1383-BE3A-4895-87C8-4ED23E16789B",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/M8pq2xfRLKLAeNzHORse0hE9qome3OBzzyMA7pKEvI8-575x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1577003079,
+      "activity_name": "Picking up #PopularBKHalf Bib",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-17 01:07:51 UTC",
+      "created_at_local": "2018-05-16 21:07:51 UTC",
+      "uploaded_at": "2018-05-17 01:14:07 UTC",
+      "sizes": {
+        "600": [
+          575,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "4E434024-2C41-406D-B360-DAAC5BA957B0",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/wmWYzfqVay6GMMk-8RUgOiAph96RXc4AIARbUIBNHhw-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1577003079,
+      "activity_name": "Picking up #PopularBKHalf Bib",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-17 01:07:06 UTC",
+      "created_at_local": "2018-05-16 21:07:06 UTC",
+      "uploaded_at": "2018-05-17 01:14:07 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "9AE0C064-1EAD-4640-84FD-CCD8A4CD1E19",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/D27HUfyDAuIpo9xYSDeoFtQzCnElhka9QHJAa8yHkxU-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 1577003079,
+      "activity_name": "Picking up #PopularBKHalf Bib",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2018-05-17 01:04:40 UTC",
+      "created_at_local": "2018-05-16 21:04:40 UTC",
+      "uploaded_at": "2018-05-17 01:14:07 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }

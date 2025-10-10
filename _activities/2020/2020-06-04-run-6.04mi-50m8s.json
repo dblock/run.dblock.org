@@ -4757,77 +4757,29 @@
       "is_kom": null
     }
   ],
-  "photos": [
-    {
+  "photos": {
+    "primary": {
       "id": null,
       "unique_id": "6DCB2FC2-B9BD-4890-A8E3-95C73282837F",
       "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/fNadeeFj6yGrLcbxvj9Jw0zgKW9_bN3MPn9jvYmEVc8-576x768.jpg"
+        "600": "https://dgtzuqphqg23d.cloudfront.net/fNadeeFj6yGrLcbxvj9Jw0zgKW9_bN3MPn9jvYmEVc8-576x768.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/fNadeeFj6yGrLcbxvj9Jw0zgKW9_bN3MPn9jvYmEVc8-96x128.jpg"
       },
       "source": 1,
-      "athlete_id": 26462176,
-      "activity_id": 3562750679,
-      "activity_name": "#Run1Tag1",
-      "resource_state": 2,
-      "caption": "",
-      "created_at": "2020-06-02 22:43:43 UTC",
-      "created_at_local": "2020-06-02 18:43:43 UTC",
-      "uploaded_at": "2020-06-04 13:28:02 UTC",
-      "sizes": {
-        "600": [
-          576,
-          768
-        ]
-      },
-      "default_photo": true
+      "athlete_id": null,
+      "activity_id": null,
+      "activity_name": null,
+      "resource_state": null,
+      "caption": null,
+      "created_at": null,
+      "created_at_local": null,
+      "uploaded_at": null,
+      "sizes": null,
+      "default_photo": null
     },
-    {
-      "id": null,
-      "unique_id": "C971AB2B-ACCF-40F1-A338-CB60775F1BAE",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/wuTD1IdmbqenDdZ_PnQcyc9Aiatsq7hqWF__FMn1Sr0-576x768.jpg"
-      },
-      "source": 1,
-      "athlete_id": 26462176,
-      "activity_id": 3562750679,
-      "activity_name": "#Run1Tag1",
-      "resource_state": 2,
-      "caption": "",
-      "created_at": "2020-06-02 20:56:59 UTC",
-      "created_at_local": "2020-06-02 16:56:59 UTC",
-      "uploaded_at": "2020-06-04 13:28:02 UTC",
-      "sizes": {
-        "600": [
-          576,
-          768
-        ]
-      },
-      "default_photo": false
-    },
-    {
-      "id": null,
-      "unique_id": "C1AE3EE7-94F0-4BAE-865D-D5C7EF979D32",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/4gwEql54pkRUBrVYbklq_hOT901yCCfn4h-wYMWMtVk-768x576.jpg"
-      },
-      "source": 1,
-      "athlete_id": 26462176,
-      "activity_id": 3562750679,
-      "activity_name": "#Run1Tag1",
-      "resource_state": 2,
-      "caption": "",
-      "created_at": "2020-06-02 20:57:30 UTC",
-      "created_at_local": "2020-06-02 16:57:30 UTC",
-      "uploaded_at": "2020-06-04 13:28:02 UTC",
-      "sizes": {
-        "600": [
-          768,
-          576
-        ]
-      },
-      "default_photo": false
-    }
-  ],
+    "use_primary_photo": true,
+    "count": 3
+  },
   "similar_activities": {
     "average_speed": 0,
     "resource_state": 2,
@@ -5201,5 +5153,76 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "race"
+  "workout_type": "race",
+  "activity_photos": [
+    {
+      "id": null,
+      "unique_id": "6DCB2FC2-B9BD-4890-A8E3-95C73282837F",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/fNadeeFj6yGrLcbxvj9Jw0zgKW9_bN3MPn9jvYmEVc8-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3562750679,
+      "activity_name": "#Run1Tag1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-06-02 22:43:43 UTC",
+      "created_at_local": "2020-06-02 18:43:43 UTC",
+      "uploaded_at": "2020-06-04 13:28:02 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true
+    },
+    {
+      "id": null,
+      "unique_id": "C971AB2B-ACCF-40F1-A338-CB60775F1BAE",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/wuTD1IdmbqenDdZ_PnQcyc9Aiatsq7hqWF__FMn1Sr0-576x768.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3562750679,
+      "activity_name": "#Run1Tag1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-06-02 20:56:59 UTC",
+      "created_at_local": "2020-06-02 16:56:59 UTC",
+      "uploaded_at": "2020-06-04 13:28:02 UTC",
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false
+    },
+    {
+      "id": null,
+      "unique_id": "C1AE3EE7-94F0-4BAE-865D-D5C7EF979D32",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/4gwEql54pkRUBrVYbklq_hOT901yCCfn4h-wYMWMtVk-768x576.jpg"
+      },
+      "source": 1,
+      "athlete_id": 26462176,
+      "activity_id": 3562750679,
+      "activity_name": "#Run1Tag1",
+      "resource_state": 2,
+      "caption": "",
+      "created_at": "2020-06-02 20:57:30 UTC",
+      "created_at_local": "2020-06-02 16:57:30 UTC",
+      "uploaded_at": "2020-06-04 13:28:02 UTC",
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false
+    }
+  ]
 }
