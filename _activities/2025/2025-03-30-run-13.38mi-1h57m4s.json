@@ -42,7 +42,7 @@
   "description": "#runphilly\n\nCongrats Ilan Doubrovkine-Paskar on the first half!",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_424197134108",
   "upload_id": 14976991674,
   "start_date": "2025-03-30 11:40:52 UTC",

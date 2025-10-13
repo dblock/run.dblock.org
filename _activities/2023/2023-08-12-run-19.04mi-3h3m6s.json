@@ -42,7 +42,7 @@
   "description": "So I got http://ciclovia.nyc - what now? 🤣",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_289187915966",
   "upload_id": 10329353629,
   "start_date": "2023-08-12 12:45:11 UTC",
@@ -7404,7 +7404,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

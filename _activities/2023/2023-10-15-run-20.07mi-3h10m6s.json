@@ -42,7 +42,7 @@
   "description": "Run 39 1/2 with Ilan Doubrovkine-Paskar and the rest with Jessica Gordon",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_299717772520",
   "upload_id": 10762637725,
   "start_date": "2023-10-15 15:08:55 UTC",
@@ -15630,7 +15630,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

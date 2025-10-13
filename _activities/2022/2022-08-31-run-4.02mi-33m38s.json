@@ -42,7 +42,7 @@
   "description": "24h post anesthesia",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": "run",
+  "workout_type": null,
   "external_id": "garmin_ping_237143914693",
   "upload_id": 8253699962,
   "start_date": "2022-08-31 11:40:06 UTC",
@@ -177,7 +177,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -357,7 +358,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -531,7 +533,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -705,7 +708,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -885,7 +889,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -1059,7 +1064,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -1233,7 +1239,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -1413,7 +1420,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -1595,7 +1603,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -1726,7 +1735,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -1857,7 +1867,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -1988,7 +1999,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -2119,7 +2131,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -2250,7 +2263,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -2570,7 +2584,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -2700,7 +2715,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -2830,7 +2846,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -2960,7 +2977,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -3090,7 +3108,8 @@
         "max_watts": null,
         "highlighted_kudosers": null,
         "segment_leaderboard_opt_out": null,
-        "leaderboard_opt_out": null
+        "leaderboard_opt_out": null,
+        "workout_type": null
       },
       "athlete": {
         "id": 26462176,
@@ -3161,6 +3180,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

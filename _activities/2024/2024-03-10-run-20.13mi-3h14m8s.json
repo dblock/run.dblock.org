@@ -42,7 +42,7 @@
   "description": "Only a few minutes of freezing wind and rain today! If you don’t count being caught in the deluge before and after Thievery Corporation at Terminal 5 last night.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_326068712702",
   "upload_id": 11690083905,
   "start_date": "2024-03-10 16:28:01 UTC",
@@ -13772,7 +13772,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

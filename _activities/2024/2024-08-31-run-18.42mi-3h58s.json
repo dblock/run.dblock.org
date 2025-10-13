@@ -42,7 +42,7 @@
   "description": "Cramped and died at 17.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_366693322980",
   "upload_id": 13103017722,
   "start_date": "2024-08-31 14:24:10 UTC",
@@ -24613,7 +24613,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

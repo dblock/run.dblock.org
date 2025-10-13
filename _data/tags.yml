@@ -181,6 +181,45 @@ lt9m30s_mi:
 lt9m45s_mi:
   name: <9m45s/mi
   count: 56
+adidas adizero sl 24:
+  name: adidas adizero sl 24
+  count: 81
+adidas adizero sl2:
+  name: adidas adizero sl2
+  count: 18
+adidas boston 10:
+  name: adidas boston 10
+  count: 62
+adidas cs 2022:
+  name: adidas cs 2022
+  count: 123
+adidas cs 2023:
+  name: adidas cs 2023
+  count: 78
+adidas eqt 2019:
+  name: adidas eqt 2019
+  count: 8
+adidas eqt 2021:
+  name: adidas eqt 2021
+  count: 24
+adidas solarglide 19:
+  name: adidas solarglide 19
+  count: 78
+adidas supernova glide boost adidas blue:
+  name: adidas supernova glide boost adidas blue
+  count: 82
+adidas supernova st:
+  name: adidas supernova st
+  count: 85
+adidas switch fwd 2:
+  name: adidas switch fwd 2
+  count: 62
+adidas ultraboost 20:
+  name: adidas ultraboost 20
+  count: 51
+adidas ultraboost 5x:
+  name: adidas ultraboost 5x
+  count: 63
 apps:
   name: apps
   count: 1
@@ -190,6 +229,15 @@ books:
 charity:
   name: charity
   count: 4
+fitbit ionic:
+  name: fitbit ionic
+  count: 168
+garmin forerunner 45:
+  name: garmin forerunner 45
+  count: 1
+garmin forerunner 945:
+  name: garmin forerunner 945
+  count: 647
 gear:
   name: gear
   count: 2
@@ -199,6 +247,9 @@ marathon:
 motivation:
   name: motivation
   count: 2
+nike fitsole lite 3:
+  name: nike fitsole lite 3
+  count: 55
 nyrr:
   name: nyrr
   count: 2
@@ -223,9 +274,15 @@ slack:
 strava:
   name: strava
   count: 1
+strava iphone app:
+  name: strava iphone app
+  count: 67
 tracking:
   name: tracking
   count: 1
+vibram v-run:
+  name: vibram v-run
+  count: 25
 w_alan:
   name: w/alan
   count: 1

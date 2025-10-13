@@ -42,7 +42,7 @@
   "description": "With Ilan Doubrovkine-Paskar and Milla Doubrovkine Paskar",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_308934240816",
   "upload_id": 11082895236,
   "start_date": "2023-12-09 13:11:09 UTC",

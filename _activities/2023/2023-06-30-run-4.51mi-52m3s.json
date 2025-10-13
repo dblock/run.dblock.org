@@ -42,7 +42,7 @@
   "description": "Working up those vertical miles with Jessica Gordon !",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_282153733730",
   "upload_id": 10042574101,
   "start_date": "2023-06-30 13:39:15 UTC",
@@ -1766,7 +1766,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

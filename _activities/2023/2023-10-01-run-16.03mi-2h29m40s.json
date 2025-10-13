@@ -42,7 +42,7 @@
   "description": "The plan was to run 20 with Jessica Gordon, but got dizzy and failed at 16. It didn’t help that Garmin connect was down, been totally off today.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_297383125499",
   "upload_id": 10671588278,
   "start_date": "2023-10-01 14:15:41 UTC",
@@ -12421,7 +12421,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

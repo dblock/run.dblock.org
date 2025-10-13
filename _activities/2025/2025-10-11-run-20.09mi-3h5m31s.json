@@ -42,7 +42,7 @@
   "description": "Training said to run 16, which I thought was meh, so I aimed for 18, but forgot to stop and looped where the path uptown ends.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": null,
+  "workout_type": "run",
   "external_id": "garmin_ping_489796706699",
   "upload_id": 17190795009,
   "start_date": "2025-10-11 12:40:29 UTC",
@@ -14123,7 +14123,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

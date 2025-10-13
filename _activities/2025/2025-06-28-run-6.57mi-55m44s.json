@@ -42,7 +42,7 @@
   "description": "Run into Front Runners LGBT Pride Run",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_453633953760",
   "upload_id": 15948524806,
   "start_date": "2025-06-28 11:37:52 UTC",

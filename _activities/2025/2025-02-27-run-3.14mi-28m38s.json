@@ -42,7 +42,7 @@
   "description": "Forgot my garmin, 📱 Strava.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "173A7191-003F-4859-ADDB-41DE0A868E7B-activity.fit",
   "upload_id": 14668972692,
   "start_date": "2025-02-27 20:30:17 UTC",
@@ -2245,6 +2245,6 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": []
 }

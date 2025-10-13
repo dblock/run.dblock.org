@@ -42,7 +42,7 @@
   "description": "Too hot to push. With a 2 min break waiting for the start.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_453976253749",
   "upload_id": 15961091562,
   "start_date": "2025-06-29 12:01:11 UTC",

@@ -42,7 +42,7 @@
   "description": "Inca Inca beach run",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_285408388610",
   "upload_id": 10174851524,
   "start_date": "2023-07-20 11:24:37 UTC",
@@ -3419,7 +3419,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

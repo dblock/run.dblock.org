@@ -42,7 +42,7 @@
   "description": "Here we go again Toronto. 🥵",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_452789020239",
   "upload_id": 15920693999,
   "start_date": "2025-06-25 21:20:17 UTC",
@@ -1602,7 +1602,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

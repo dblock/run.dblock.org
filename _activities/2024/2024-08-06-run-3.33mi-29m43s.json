@@ -42,7 +42,7 @@
   "description": "Missed the lightning ⛈️",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_360536160858",
   "upload_id": 12877770654,
   "start_date": "2024-08-06 20:58:18 UTC",
@@ -2639,6 +2639,6 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": []
 }

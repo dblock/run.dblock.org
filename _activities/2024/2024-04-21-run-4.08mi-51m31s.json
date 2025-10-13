@@ -42,7 +42,7 @@
   "description": "#RBCRaceforthekids",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_335118595361",
   "upload_id": 12000514604,
   "start_date": "2024-04-21 12:22:50 UTC",

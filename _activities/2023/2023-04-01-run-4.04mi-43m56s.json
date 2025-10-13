@@ -42,7 +42,7 @@
   "description": "First race tomorrow in Central Park!",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_267128994788",
   "upload_id": 9458557013,
   "start_date": "2023-04-01 15:15:53 UTC",
@@ -4572,7 +4572,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

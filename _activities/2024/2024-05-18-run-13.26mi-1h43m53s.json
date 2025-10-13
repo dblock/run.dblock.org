@@ -42,7 +42,7 @@
   "description": "+ dip!",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_341374768145",
   "upload_id": 12214636586,
   "start_date": "2024-05-18 11:10:24 UTC",

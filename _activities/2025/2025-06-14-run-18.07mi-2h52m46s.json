@@ -42,7 +42,7 @@
   "description": "Woke up early and decided to run to Queens.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_449047375337",
   "upload_id": 15791789952,
   "start_date": "2025-06-14 10:27:30 UTC",

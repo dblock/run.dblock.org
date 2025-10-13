@@ -42,7 +42,7 @@
   "description": "A bit rushed running in. Last to start in the coral. Hit GPS start a few seconds off too.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_293874871856",
   "upload_id": 10527872149,
   "start_date": "2023-09-10 11:41:51 UTC",

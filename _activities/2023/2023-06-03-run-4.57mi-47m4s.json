@@ -42,7 +42,7 @@
   "description": "Hace mucho calor! 🥵",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_277624365215",
   "upload_id": 9865749223,
   "start_date": "2023-06-03 15:30:32 UTC",
@@ -2292,7 +2292,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

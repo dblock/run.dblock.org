@@ -42,7 +42,7 @@
   "description": "Had a runners high on top of the queensboro bridge, so fucking happy. Race started at 18, got real tough for me. Ran all the way, saved the throwing up for after.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_303300873120",
   "upload_id": 10890181881,
   "start_date": "2023-11-05 14:48:15 UTC",

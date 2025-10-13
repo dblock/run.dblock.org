@@ -42,7 +42,7 @@
   "description": "Work out at Gimnasio Libre",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_283123262982",
   "upload_id": 10081835839,
   "start_date": "2023-07-06 12:32:12 UTC",
@@ -1319,7 +1319,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

@@ -42,7 +42,7 @@
   "description": "New building coming up on my south windows. This one won’t be blocking the view, phew. 😅",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_414170510737",
   "upload_id": 14645529785,
   "start_date": "2025-02-25 14:20:26 UTC",
@@ -3188,7 +3188,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

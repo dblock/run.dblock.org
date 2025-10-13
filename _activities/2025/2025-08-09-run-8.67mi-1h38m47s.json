@@ -42,7 +42,7 @@
   "description": "Saw a wild turkey. 🦃",
   "type": "Run",
   "sport_type": "TrailRun",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_467781141071",
   "upload_id": 16446420440,
   "start_date": "2025-08-09 13:14:51 UTC",
@@ -3945,7 +3945,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

@@ -42,7 +42,7 @@
   "description": "Meeting Milla Doubrovkine Paskar after 🥊.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_403435090641",
   "upload_id": 14281406789,
   "start_date": "2025-01-18 16:32:22 UTC",
@@ -4735,7 +4735,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

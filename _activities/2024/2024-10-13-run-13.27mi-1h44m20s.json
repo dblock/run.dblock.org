@@ -42,7 +42,7 @@
   "description": "1:44:15 official, beat last year by 30s",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_377429731622",
   "upload_id": 13482846794,
   "start_date": "2024-10-13 12:13:18 UTC",

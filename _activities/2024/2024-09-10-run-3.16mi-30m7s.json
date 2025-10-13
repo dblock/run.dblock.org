@@ -42,7 +42,7 @@
   "description": "I’ve been telling the kid to run before school. I should have anticipated being woken up at 6am for the same.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_369023221904",
   "upload_id": 13191981902,
   "start_date": "2024-09-10 10:10:46 UTC",
@@ -2289,6 +2289,6 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": []
 }

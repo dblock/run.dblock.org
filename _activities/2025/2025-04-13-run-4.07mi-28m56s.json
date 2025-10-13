@@ -42,7 +42,7 @@
   "description": "7:14 💨",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_428687470070",
   "upload_id": 15118675827,
   "start_date": "2025-04-13 12:05:50 UTC",

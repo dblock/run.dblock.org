@@ -42,7 +42,7 @@
   "description": "Back to Millburn, on the 🚂",
   "type": "Run",
   "sport_type": "TrailRun",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_463381498354",
   "upload_id": 16291682161,
   "start_date": "2025-07-27 15:01:35 UTC",
@@ -2544,7 +2544,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

@@ -1,10 +1,9 @@
 class Strava::Models::Activity < Strava::Models::Response
   property :workout_type, from: 'workout_type', with: lambda { |data|
     case data
-    when 1 then 'race'
-    when 2 then 'long run'
-    when 3 then 'workout'
-    else 'run'
+    when 1, 'race' then 'race'
+    when 2, 'long run' then 'long run'
+    when 3, 'workout' then 'workout'
     end
   }
 
@@ -35,6 +34,15 @@ class Strava::Models::Activity < Strava::Models::Response
 
   def race?
     workout_type == 'race'
+  end
+
+  def device_logo
+    @device_logo ||= case device_name
+    when /garmin/i then 'images/devices/garmin.png'
+    when /strava/i then 'images/devices/strava.png'
+    when /fitbit/i then 'images/devices/fitbit.png'
+    else nil
+    end
   end
 
   def rounded_distance_in_miles_s

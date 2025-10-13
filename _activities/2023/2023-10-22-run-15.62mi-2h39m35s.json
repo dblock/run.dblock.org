@@ -42,7 +42,7 @@
   "description": "First ten with Ilan Doubrovkine-Paskar and up to East Harlem for soup.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_300862711075",
   "upload_id": 10804774721,
   "start_date": "2023-10-22 14:03:25 UTC",
@@ -8737,7 +8737,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

@@ -234,4 +234,17 @@ namespace :strava do
     post.save!
     puts post.filename
   end
+
+  desc 'Generate markdown content from JSON.'
+  task :generate_md do
+    require './_lib/post'
+    require 'dotenv/load'
+
+    Dir.glob("_activities/**/*.json").each do |filename|
+      json = JSON.load_file(filename)
+      post = Strava::Post.new(json["id"], json)
+      post.save!
+      puts post.filename
+    end
+  end
 end

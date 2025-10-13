@@ -42,7 +42,7 @@
   "description": "Back in NYC. Long run tomorrow to Brighton Beach!",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_292804982891",
   "upload_id": 10483124425,
   "start_date": "2023-09-03 22:29:20 UTC",
@@ -2310,7 +2310,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

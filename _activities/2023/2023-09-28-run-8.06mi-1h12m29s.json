@@ -42,7 +42,7 @@
   "description": "Seattle’s move to tear down the viaduct to replace it with a 4 lane highway is just brilliant.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_296853483865",
   "upload_id": 10649577465,
   "start_date": "2023-09-28 12:35:42 UTC",
@@ -5563,7 +5563,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

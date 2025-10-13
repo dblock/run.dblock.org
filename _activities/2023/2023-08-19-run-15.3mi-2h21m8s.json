@@ -42,7 +42,7 @@
   "description": "Zombified look at 6am, run 3 miles into the 12M marathon training and a ride down ciclovia.nyc! Felt like a perfect run.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_290309162728",
   "upload_id": 10376810648,
   "start_date": "2023-08-19 10:45:32 UTC",

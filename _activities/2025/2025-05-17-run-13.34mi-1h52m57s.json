@@ -42,7 +42,7 @@
   "description": "Gave up pace at 10M. 2 spectacular runner’s highs. First dip into the cold and wonderful ocean at Coney Island. 🌊\n\nThere was a wave 1 runner unconscious being given CPR at mile 8-9. I just learned that he unfortunately died.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 1,
+  "workout_type": "race",
   "external_id": "garmin_ping_439608888384",
   "upload_id": 15480724722,
   "start_date": "2025-05-17 11:06:09 UTC",

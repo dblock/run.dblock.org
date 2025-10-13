@@ -42,7 +42,7 @@
   "description": "Fancy a duplex in my building?",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_421428134215",
   "upload_id": 14887185118,
   "start_date": "2025-03-21 16:44:11 UTC",
@@ -3693,7 +3693,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

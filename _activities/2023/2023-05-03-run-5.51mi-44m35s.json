@@ -42,7 +42,7 @@
   "description": "Garmin decided it’s better I don’t know my heart rate.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_272347080802",
   "upload_id": 9658746099,
   "start_date": "2023-05-03 12:24:06 UTC",
@@ -7161,6 +7161,6 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": []
 }

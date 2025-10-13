@@ -42,7 +42,7 @@
   "description": "Should have aimed for a wider loop. Did a lot of Retiro, it’s so beautiful!",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_294853923225",
   "upload_id": 10568102052,
   "start_date": "2023-09-16 07:35:31 UTC",
@@ -17965,7 +17965,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

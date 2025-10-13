@@ -42,7 +42,7 @@
   "description": "It’s a little floody.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_370289719010",
   "upload_id": 13239891251,
   "start_date": "2024-09-15 15:44:41 UTC",
@@ -2303,7 +2303,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,

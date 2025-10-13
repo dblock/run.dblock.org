@@ -42,7 +42,7 @@
   "description": "Took Milla Doubrovkine Paskar on a citibike to school, first!",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": 0,
+  "workout_type": null,
   "external_id": "garmin_ping_279311597773",
   "upload_id": 9931107971,
   "start_date": "2023-06-13 12:23:11 UTC",
@@ -9544,7 +9544,7 @@
   "highlighted_kudosers": null,
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
-  "workout_type": "run",
+  "workout_type": null,
   "activity_photos": [
     {
       "id": null,
