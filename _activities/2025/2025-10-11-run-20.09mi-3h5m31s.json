@@ -62,7 +62,7 @@
   "start_latitude": null,
   "start_longitude": null,
   "achievement_count": 25,
-  "kudos_count": 11,
+  "kudos_count": 14,
   "comment_count": 1,
   "athlete_count": 1,
   "photo_count": 0,
@@ -14100,7 +14100,7 @@
     }
   ],
   "gear": {
-    "distance": 300411,
+    "distance": 310541,
     "id": "g26020551",
     "resource_state": 2,
     "name": "Adidas Adizero SL2",
