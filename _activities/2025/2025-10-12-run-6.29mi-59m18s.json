@@ -42,7 +42,7 @@
   "description": "The missing six miles from yesterday.",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": "run",
+  "workout_type": 0,
   "external_id": "garmin_ping_490122829576",
   "upload_id": 17201332867,
   "start_date": "2025-10-12 13:29:28 UTC",

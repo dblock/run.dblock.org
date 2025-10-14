@@ -3,48 +3,48 @@
   file: 2022/09/11/run-1mi-6m1s.html
   time: 361.0
   title: "#NB5thAveMile PR!"
-  distance_s: 1mi
-  time_s: 6m1s
-  pace_s: 6m01s/mi
+  distance_s:
+  time_s:
+  pace_s:
 3.1:
   file: 2018/04/28/run-3.23mi-22m30s.html
   time: 1350.0
   title: RedHookCrit 5K
-  distance_s: 3.23mi
-  time_s: 22m30s
-  pace_s: 6m58s/mi
+  distance_s:
+  time_s:
+  pace_s:
 4.0:
   file: 2018/04/22/run-4.12mi-28m20s.html
   time: 1700.0
   title: Run as One
-  distance_s: 4.12mi
-  time_s: 28m20s
-  pace_s: 6m52s/mi
+  distance_s:
+  time_s:
+  pace_s:
 6.2:
   file: 2018/06/16/run-6.38mi-46m40s.html
   time: 2800.0
   title: Queens 10K
-  distance_s: 6.38mi
-  time_s: 46m40s
-  pace_s: 7m19s/mi
+  distance_s:
+  time_s:
+  pace_s:
 10.0:
   file: 2018/09/30/run-10.08mi-1h15m15s.html
   time: 4515.0
   title: Bronx 10M
-  distance_s: 10.08mi
-  time_s: 1h15m15s
-  pace_s: 7m28s/mi
+  distance_s:
+  time_s:
+  pace_s:
 13.1:
   file: 2018/10/14/run-13.12mi-1h39m45s.html
   time: 5985.0
   title: Staten Island Half
-  distance_s: 13.12mi
-  time_s: 1h39m45s
-  pace_s: 7m36s/mi
+  distance_s:
+  time_s:
+  pace_s:
 26.2:
   file: 2018/11/04/run-26.26mi-3h38m5s.html
   time: 13085.0
   title: TCS NYC Marathon 2018
-  distance_s: 26.26mi
-  time_s: 3h38m5s
-  pace_s: 8m28s/mi
+  distance_s:
+  time_s:
+  pace_s:

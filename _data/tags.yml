@@ -186,7 +186,7 @@ adidas adizero sl 24:
   count: 81
 adidas adizero sl2:
   name: adidas adizero sl2
-  count: 18
+  count: 20
 adidas boston 10:
   name: adidas boston 10
   count: 62
@@ -237,7 +237,7 @@ garmin forerunner 45:
   count: 1
 garmin forerunner 945:
   name: garmin forerunner 945
-  count: 647
+  count: 649
 gear:
   name: gear
   count: 2
