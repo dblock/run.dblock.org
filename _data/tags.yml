@@ -24,7 +24,7 @@
   count: 41
 8-9 miles:
   name: 8-9 miles
-  count: 55
+  count: 56
 9-10 miles:
   name: 9-10 miles
   count: 36
@@ -162,7 +162,7 @@ lt8m00s_mi:
   count: 45
 lt8m15s_mi:
   name: <8m15s/mi
-  count: 87
+  count: 88
 lt8m30s_mi:
   name: <8m30s/mi
   count: 92
@@ -186,7 +186,7 @@ adidas adizero sl 24:
   count: 81
 adidas adizero sl2:
   name: adidas adizero sl2
-  count: 21
+  count: 22
 adidas boston 10:
   name: adidas boston 10
   count: 62
@@ -237,7 +237,7 @@ garmin forerunner 45:
   count: 1
 garmin forerunner 945:
   name: garmin forerunner 945
-  count: 650
+  count: 651
 gear:
   name: gear
   count: 2
@@ -267,7 +267,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 905
+  count: 906
 slack:
   name: slack
   count: 1
@@ -339,7 +339,7 @@ w_v:
   count: 93
 μ170-175 bpm:
   name: μ170-175 bpm
-  count: 118
+  count: 119
 μ175-180 bpm:
   name: μ175-180 bpm
   count: 163
@@ -393,7 +393,7 @@ w_v:
   count: 115
 →155-160 bpm:
   name: →155-160 bpm
-  count: 103
+  count: 104
 →160-165 bpm:
   name: →160-165 bpm
   count: 94
