@@ -81,16 +81,21 @@ module Strava
         file.write "---\n"
 
         file.write "\n### Stats\n"
-        file.write "\n| Distance | Time | Pace | Device | Gear |"
-        file.write "\n|:--------:|:----:|:----:|:------:|:----:|"
+        file.write "\n| Distance | Time | Pace |"
+        file.write "\n|:--------:|:----:|:----:|"
         file.write "\n|" + [
             activity.distance_in_miles_s,
             activity.moving_time_in_hours_s,
-            activity.pace_per_mile_s,
-            activity.device_logo ? "![#{activity.device_name}]({{ site.url }}/#{activity.device_logo})" : activity.device_name,
-            activity.gear&.name
+            activity.pace_per_mile_s
           ].join('|') + "|\n"
 
+          file.write "\n| Device | Gear |"
+          file.write "\n|:------:|:----:|"
+          file.write "\n|" + [
+              activity.device_logo ? "![#{activity.device_name}]({{ site.url }}/#{activity.device_logo})" : activity.device_name,
+              activity.gear&.name
+            ].join('|') + "|\n"
+  
         file.write "\n#{activity.description.strip}\n" if activity.description && !activity.description.strip.empty?
 
         if activity.map.image_url
