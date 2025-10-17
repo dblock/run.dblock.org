@@ -56,8 +56,8 @@ module Strava
           activity.max_heartrate ? "μ#{activity.rounded_max_heartrate_s} bpm" : nil,
           activity.average_heartrate ? "→#{activity.rounded_average_heartrate_s} bpm" : nil,
           run_with_names.any? ? run_with_names.map { |name| "w/#{name.downcase}" } : nil,
-          activity.device_name&.downcase,
-          activity.gear&.name&.downcase
+          activity.device_name&.downcase&.split&.first,
+          activity.gear&.name&.downcase&.split&.first
         ].compact
 
         data = {
