@@ -42,7 +42,7 @@
   "description": "☔️",
   "type": "Run",
   "sport_type": "Run",
-  "workout_type": null,
+  "workout_type": 0,
   "external_id": "garmin_ping_484137926534",
   "upload_id": 17014723259,
   "start_date": "2025-09-25 16:12:17 UTC",
