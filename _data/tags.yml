@@ -228,7 +228,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 908
+  count: 902
 slack:
   name: slack
   count: 1
@@ -238,6 +238,9 @@ strava:
 tracking:
   name: tracking
   count: 1
+trailruns:
+  name: trailruns
+  count: 6
 vibram:
   name: vibram
   count: 25
