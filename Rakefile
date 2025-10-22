@@ -144,7 +144,7 @@ namespace :strava do
     require 'dotenv/load'
 
     year = ENV['YEAR']
-    start_at = year ? Time.local(year.to_i, 1, 1, 0, 0, 0) : Date.today.at_beginning_of_month.prev_month
+    start_at = year ? Time.local(year.to_i, 1, 1, 0, 0, 0) : Date.today.at_beginning_of_month
     year ? year.to_i : start_at.year
     end_at = year ? Time.local(year.to_i + 1, 1, 1, 0, 0, 0) : Date.today
 
