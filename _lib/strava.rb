@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Strava
   def self.client
     @client ||= begin
@@ -17,6 +19,9 @@ module Strava
       end
 
       Strava::Api::Client.new(access_token: response.access_token)
+    rescue Strava::Errors::Fault => e
+      puts "ERROR: #{e.response[:body]}"
+      raise
     end
   end
 end
