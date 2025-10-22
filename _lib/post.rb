@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'hashie'
 require 'strava-ruby-client'
 
@@ -17,10 +19,10 @@ module Strava
 
     def initialize(id, data = nil)
       @id = id
-      if data
-        @activity = Strava::Models::DetailedActivity.new(data)
-        @photos = data["activity_photos"]&.map { |ap| Strava::Models::DetailedPhoto.new(ap) }
-      end
+      return unless data
+
+      @activity = Strava::Models::DetailedActivity.new(data)
+      @photos = data['activity_photos']&.map { |ap| Strava::Models::DetailedPhoto.new(ap) }
     end
 
     def activity
@@ -35,7 +37,7 @@ module Strava
       FileUtils.mkdir_p "_activities/#{activity.start_date_local.year}"
 
       File.open activity.json_filename, 'w' do |file|
-        h = activity.to_h.merge("activity_photos" => photos.map(&:to_h))
+        h = activity.to_h.merge('activity_photos' => photos.map(&:to_h))
         file.write(JSON.pretty_generate(h))
       end
 
@@ -84,18 +86,18 @@ module Strava
         file.write "\n| Distance | Time | Pace |"
         file.write "\n|:--------:|:----:|:----:|"
         file.write "\n|" + [
-            activity.distance_in_miles_s,
-            activity.moving_time_in_hours_s,
-            activity.pace_per_mile_s
-          ].join('|') + "|\n"
+          activity.distance_in_miles_s,
+          activity.moving_time_in_hours_s,
+          activity.pace_per_mile_s
+        ].join('|') + "|\n"
 
-          file.write "\n| Device | Gear |"
-          file.write "\n|:------:|:----:|"
-          file.write "\n|" + [
-              activity.device_logo ? "![#{activity.device_name}]({{ site.url }}/#{activity.device_logo})" : activity.device_name,
-              activity.gear&.name
-            ].join('|') + "|\n"
-  
+        file.write "\n| Device | Gear |"
+        file.write "\n|:------:|:----:|"
+        file.write "\n|" + [
+          activity.device_logo ? "![#{activity.device_name}]({{ site.url }}/#{activity.device_logo})" : activity.device_name,
+          activity.gear&.name
+        ].join('|') + "|\n"
+
         file.write "\n#{activity.description.strip}\n" if activity.description && !activity.description.strip.empty?
 
         if activity.map.image_url
@@ -109,7 +111,7 @@ module Strava
           File.delete activity.map_filename
         end
 
-        if activity.splits_standard && activity.splits_standard.any?
+        if activity.splits_standard&.any?
           file.write "\n### Splits\n"
           file.write "\n| Mile | Pace | Elevation |"
           file.write "\n|:----:|:----:|:---------:|"
