@@ -1,3 +1,12 @@
+PATH
+  remote: ../strava-ruby-client
+  specs:
+    strava-ruby-client (3.0.0.pre.2)
+      activesupport
+      faraday (>= 2.0)
+      faraday-multipart (>= 1.0)
+      hashie
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -332,11 +341,6 @@ GEM
       faraday (>= 0.17.3, < 3)
     securerandom (0.4.1)
     simpleidn (0.2.3)
-    strava-ruby-client (1.0.1)
-      activesupport
-      faraday (>= 2.0)
-      faraday-multipart (>= 1.0)
-      hashie
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     traces (0.18.2)
@@ -371,7 +375,7 @@ DEPENDENCIES
   httparty
   polylines
   rake
-  strava-ruby-client (= 1.0.1)
+  strava-ruby-client!
   webrick
 
 BUNDLED WITH

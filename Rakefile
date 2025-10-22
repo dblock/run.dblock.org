@@ -163,7 +163,7 @@ namespace :strava do
         '_posts' => 'md',
         '_activities' => 'json'
       }.each_pair do |path, ext|
-        glob = "#{path}/#{current.year}/#{current.year}-#{'%02d' % current.month}-*-run-*mi-*s.#{ext}"
+        glob = "#{path}/#{current.year}/#{current.year}-#{'%02d' % current.month}-*-*-*mi-*s.#{ext}"
         puts "Deleting #{glob}"
         FileUtils.rm_f(Dir.glob(glob))
       end
@@ -177,7 +177,7 @@ namespace :strava do
       break unless activities.any?
 
       activities.each do |activity|
-        next unless activity.type == 'Run'
+        next unless activity.sport_type == 'Run' || activity.sport_type == 'TrailRun'
 
         done = activity.start_date_local > end_at
         break if done
@@ -209,7 +209,7 @@ namespace :strava do
       break unless activities.any?
 
       activities.each do |activity|
-        next unless activity.type == 'Run'
+        next unless activity.sport_type == 'Run' || activity.sport_type == 'TrailRun'
 
         next if File.exist?(activity.json_filename)
 

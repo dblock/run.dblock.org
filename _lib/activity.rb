@@ -1,4 +1,4 @@
-class Strava::Models::Activity < Strava::Models::Response
+class Strava::Models::DetailedActivity < Strava::Models::Response
   property :workout_type, from: 'workout_type', with: lambda { |data|
     case data
     when 1, 'race' then 'race'
@@ -14,7 +14,7 @@ class Strava::Models::Activity < Strava::Models::Response
   def key
     @key ||= [
       "#{start_date_local.year}/#{start_date_local.strftime('%Y-%m-%d')}",
-      type.downcase,
+      sport_type.downcase,
       distance_in_miles_s,
       moving_time_in_hours_s
     ].join('-')

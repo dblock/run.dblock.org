@@ -18,8 +18,8 @@ module Strava
     def initialize(id, data = nil)
       @id = id
       if data
-        @activity = Strava::Models::Activity.new(data)
-        @photos = data["activity_photos"]&.map { |ap| Strava::Models::Photo.new(ap) }
+        @activity = Strava::Models::DetailedActivity.new(data)
+        @photos = data["activity_photos"]&.map { |ap| Strava::Models::DetailedPhoto.new(ap) }
       end
     end
 
@@ -49,7 +49,7 @@ module Strava
 
       File.open activity.filename, 'w' do |file|
         tags = [
-          "#{activity.type.downcase}s",
+          "#{activity.sport_type.humanize.downcase}s",
           "#{activity.rounded_distance_in_miles_s} miles",
           activity.rounded_pace_per_mile_s,
           activity.race? ? 'races' : nil,
@@ -114,7 +114,7 @@ module Strava
           file.write "\n| Mile | Pace | Elevation |"
           file.write "\n|:----:|:----:|:---------:|"
           activity.splits_standard.each do |split|
-            file.write "\n|#{split.split}|#{split.pace_per_mile_s}|#{split.total_elevation_gain_in_feet_s}|"
+            file.write "\n|#{split.split}|#{split.pace_per_mile_s}|#{split.elevation_difference_in_feet_s}|"
           end
           file.write "\n"
         end
