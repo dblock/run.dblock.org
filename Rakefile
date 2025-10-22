@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 desc 'Generate PRs.'
 task :prs do
   require 'yaml'
@@ -76,7 +78,7 @@ task :tags do
     end
   end
   # tags.delete_if { |_k, v| v < 5 }
-  tags.keys.each do |tag|
+  tags.each_key do |tag|
     tag_filename = tag.gsub('<', 'lt').gsub('/', '_')
     filename = "tags/#{tag_filename}.md"
     puts filename
@@ -92,7 +94,7 @@ task :tags do
   tag_keys = tags.keys.sort_by do |tag|
     # mile ranges in order
     m = tag.match(/^\d*/)
-    m && m[0].to_i > 0 ? format('%02d', m[0].to_i) : tag
+    m && m[0].to_i.positive? ? format('%02d', m[0].to_i) : tag
   end
 
   tag_lines = tag_keys.map do |tag|
@@ -148,13 +150,13 @@ namespace :strava do
     year ? year.to_i : start_at.year
     end_at = year ? Time.local(year.to_i + 1, 1, 1, 0, 0, 0) : Date.today
 
-    activities_options = { per_page: 10, after: start_at.to_datetime.to_i }
-    activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
+    activities_options = { per_page: 3, after: start_at.to_datetime.to_i }
+    activities = Strava.client.athlete_activities(activities_options)
 
     if activities.none?
       start_at = start_at.prev_month
       activities_options[:after] = start_at.to_datetime.to_i
-      activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
+      activities = Strava.client.athlete_activities(activities_options)
     end
 
     current = start_at
@@ -171,25 +173,15 @@ namespace :strava do
       current = Time.local(next_month.year, next_month.month, 1)
     end
 
-    page = 1
-    done = false
-    loop do
-      break unless activities.any?
+    activities.each do |activity|
+      next unless %w[Run TrailRun].include?(activity.sport_type)
 
-      activities.each do |activity|
-        next unless activity.sport_type == 'Run' || activity.sport_type == 'TrailRun'
-
-        done = activity.start_date_local > end_at
-        break if done
-
-        post = Strava::Post.new(activity.id)
-        post.save!
-        puts post.filename
-      end
+      done = activity.start_date_local > end_at
       break if done
 
-      page += 1
-      activities = Strava.client.athlete_activities(activities_options.merge(page: page))
+      post = Strava::Post.new(activity.id)
+      post.save!
+      puts post.filename
     end
   end
 
@@ -201,26 +193,16 @@ namespace :strava do
     start_at_year = 2017
     start_at = Time.local(start_at_year, 1, 1, 0, 0, 0)
 
-    activities_options = { per_page: 10, after: start_at.to_datetime.to_i }
-    activities = Strava.client.athlete_activities(activities_options.merge(page: 1))
+    Strava.client.athlete_activities({ per_page: 10, after: start_at.to_datetime.to_i }).each do |activity|
+      next unless %w[Run TrailRun].include?(activity.sport_type)
 
-    page = 1
-    loop do
-      break unless activities.any?
+      next if File.exist?(activity.json_filename)
 
-      activities.each do |activity|
-        next unless activity.sport_type == 'Run' || activity.sport_type == 'TrailRun'
+      post = Strava::Post.new(activity.id)
+      post.save!
+      puts post.filename
 
-        next if File.exist?(activity.json_filename)
-
-        post = Strava::Post.new(activity.id)
-        post.save!
-        puts post.filename
-
-        sleep 45 # avoid rate limits
-      end
-      page += 1
-      activities = Strava.client.athlete_activities(activities_options.merge(page: page))
+      sleep 45 # avoid rate limits
     end
   end
 
@@ -240,9 +222,9 @@ namespace :strava do
     require './_lib/post'
     require 'dotenv/load'
 
-    Dir.glob("_activities/**/*.json").each do |filename|
+    Dir.glob('_activities/**/*.json').each do |filename|
       json = JSON.load_file(filename)
-      post = Strava::Post.new(json["id"], json)
+      post = Strava::Post.new(json['id'], json)
       post.save!
       puts post.filename
     end
