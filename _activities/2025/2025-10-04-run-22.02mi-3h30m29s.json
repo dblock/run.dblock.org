@@ -40,10 +40,10 @@
   "private": false,
   "flagged": false,
   "workout_type": null,
-  "upload_id_str": null,
+  "upload_id_str": "17114196577",
   "max_speed": 5.967,
   "has_kudoed": false,
-  "hide_from_home": null,
+  "hide_from_home": false,
   "gear_id": "g26020551",
   "kilojoules": null,
   "average_watts": null,
@@ -62,7 +62,7 @@
         "600": "https://dgtzuqphqg23d.cloudfront.net/1sl_y_Rzz1mlyoGqIAQR8xV8Kv7Knah5RZHIerPYnWU-576x768.jpg",
         "100": "https://dgtzuqphqg23d.cloudfront.net/1sl_y_Rzz1mlyoGqIAQR8xV8Kv7Knah5RZHIerPYnWU-96x128.jpg"
       },
-      "media_type": null
+      "media_type": 1
     }
   },
   "gear": {
@@ -73,7 +73,7 @@
     "distance": 343094,
     "nickname": null,
     "retired": false,
-    "converted_distance": null
+    "converted_distance": 213.2
   },
   "calories": 3037.0,
   "segment_efforts": [
@@ -136,7 +136,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -198,7 +198,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -260,7 +260,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -322,7 +322,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -390,7 +390,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -452,7 +452,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -514,7 +514,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -576,7 +576,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -638,7 +638,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -700,7 +700,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -762,7 +762,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -824,7 +824,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -886,7 +886,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -948,7 +948,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1010,7 +1010,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1072,7 +1072,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1134,7 +1134,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1196,7 +1196,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1264,7 +1264,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1326,7 +1326,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1388,7 +1388,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1450,7 +1450,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1512,7 +1512,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1574,7 +1574,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1636,7 +1636,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1698,7 +1698,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1760,7 +1760,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1828,7 +1828,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1896,7 +1896,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1958,7 +1958,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2020,7 +2020,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2088,7 +2088,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2156,7 +2156,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2224,7 +2224,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2292,7 +2292,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2360,7 +2360,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2422,7 +2422,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2490,7 +2490,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2558,7 +2558,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2620,7 +2620,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2682,7 +2682,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2750,7 +2750,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2818,7 +2818,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2886,7 +2886,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -2948,7 +2948,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -3016,7 +3016,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -3078,7 +3078,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -3140,7 +3140,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -3208,7 +3208,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -3270,7 +3270,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -3338,7 +3338,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -3400,7 +3400,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -3462,7 +3462,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -3524,7 +3524,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     }
   ],
@@ -3539,7 +3539,7 @@
       "pace_zone": 2,
       "moving_time": 344,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.95,
       "average_heartrate": 126.86046511627907
     },
     {
@@ -3550,7 +3550,7 @@
       "pace_zone": 2,
       "moving_time": 357,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.78,
       "average_heartrate": 137.6778711484594
     },
     {
@@ -3561,7 +3561,7 @@
       "pace_zone": 2,
       "moving_time": 330,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.08,
       "average_heartrate": 137.96666666666667
     },
     {
@@ -3572,7 +3572,7 @@
       "pace_zone": 1,
       "moving_time": 367,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.7,
       "average_heartrate": 136.05994550408718
     },
     {
@@ -3583,7 +3583,7 @@
       "pace_zone": 2,
       "moving_time": 352,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.81,
       "average_heartrate": 139.53714285714287
     },
     {
@@ -3594,7 +3594,7 @@
       "pace_zone": 2,
       "moving_time": 357,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.79,
       "average_heartrate": 137.21008403361344
     },
     {
@@ -3605,7 +3605,7 @@
       "pace_zone": 2,
       "moving_time": 355,
       "split": 7,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.81,
       "average_heartrate": 139.50704225352112
     },
     {
@@ -3616,7 +3616,7 @@
       "pace_zone": 1,
       "moving_time": 368,
       "split": 8,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.75,
       "average_heartrate": 137.42391304347825
     },
     {
@@ -3627,7 +3627,7 @@
       "pace_zone": 2,
       "moving_time": 354,
       "split": 9,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.76,
       "average_heartrate": 137.76271186440678
     },
     {
@@ -3638,7 +3638,7 @@
       "pace_zone": 2,
       "moving_time": 352,
       "split": 10,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.85,
       "average_heartrate": 137.58238636363637
     },
     {
@@ -3649,7 +3649,7 @@
       "pace_zone": 2,
       "moving_time": 358,
       "split": 11,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.83,
       "average_heartrate": 138.2709497206704
     },
     {
@@ -3660,7 +3660,7 @@
       "pace_zone": 2,
       "moving_time": 355,
       "split": 12,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.78,
       "average_heartrate": 138.4676056338028
     },
     {
@@ -3671,7 +3671,7 @@
       "pace_zone": 1,
       "moving_time": 368,
       "split": 13,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.72,
       "average_heartrate": 139.85597826086956
     },
     {
@@ -3682,7 +3682,7 @@
       "pace_zone": 2,
       "moving_time": 414,
       "split": 14,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.8,
       "average_heartrate": 143.48910411622276
     },
     {
@@ -3693,7 +3693,7 @@
       "pace_zone": 1,
       "moving_time": 365,
       "split": 15,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.75,
       "average_heartrate": 136.71506849315068
     },
     {
@@ -3704,7 +3704,7 @@
       "pace_zone": 1,
       "moving_time": 342,
       "split": 16,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.74,
       "average_heartrate": 131.52785923753666
     },
     {
@@ -3715,7 +3715,7 @@
       "pace_zone": 2,
       "moving_time": 359,
       "split": 17,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.76,
       "average_heartrate": 138.07799442896936
     },
     {
@@ -3726,7 +3726,7 @@
       "pace_zone": 1,
       "moving_time": 381,
       "split": 18,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.59,
       "average_heartrate": 137.5695538057743
     },
     {
@@ -3737,7 +3737,7 @@
       "pace_zone": 2,
       "moving_time": 366,
       "split": 19,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.79,
       "average_heartrate": 139.56830601092895
     },
     {
@@ -3748,7 +3748,7 @@
       "pace_zone": 1,
       "moving_time": 370,
       "split": 20,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.72,
       "average_heartrate": 139.34054054054053
     },
     {
@@ -3759,7 +3759,7 @@
       "pace_zone": 1,
       "moving_time": 385,
       "split": 21,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.67,
       "average_heartrate": 140.6103896103896
     },
     {
@@ -3770,7 +3770,7 @@
       "pace_zone": 1,
       "moving_time": 416,
       "split": 22,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.63,
       "average_heartrate": 145.5096618357488
     },
     {
@@ -3781,7 +3781,7 @@
       "pace_zone": 2,
       "moving_time": 359,
       "split": 23,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.85,
       "average_heartrate": 147.11699164345404
     },
     {
@@ -3792,7 +3792,7 @@
       "pace_zone": 1,
       "moving_time": 355,
       "split": 24,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.71,
       "average_heartrate": 142.9180790960452
     },
     {
@@ -3803,7 +3803,7 @@
       "pace_zone": 1,
       "moving_time": 368,
       "split": 25,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.72,
       "average_heartrate": 146.5461956521739
     },
     {
@@ -3814,7 +3814,7 @@
       "pace_zone": 1,
       "moving_time": 365,
       "split": 26,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.72,
       "average_heartrate": 147.72876712328767
     },
     {
@@ -3825,7 +3825,7 @@
       "pace_zone": 1,
       "moving_time": 395,
       "split": 27,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.56,
       "average_heartrate": 146.26582278481013
     },
     {
@@ -3836,7 +3836,7 @@
       "pace_zone": 1,
       "moving_time": 383,
       "split": 28,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.6,
       "average_heartrate": 146.55874673629242
     },
     {
@@ -3847,7 +3847,7 @@
       "pace_zone": 2,
       "moving_time": 329,
       "split": 29,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.0,
       "average_heartrate": 160.62006079027356
     },
     {
@@ -3858,7 +3858,7 @@
       "pace_zone": 2,
       "moving_time": 327,
       "split": 30,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.15,
       "average_heartrate": 165.8868501529052
     },
     {
@@ -3869,7 +3869,7 @@
       "pace_zone": 2,
       "moving_time": 323,
       "split": 31,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.16,
       "average_heartrate": 166.55108359133126
     },
     {
@@ -3880,7 +3880,7 @@
       "pace_zone": 2,
       "moving_time": 312,
       "split": 32,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.2,
       "average_heartrate": 168.3397435897436
     },
     {
@@ -3891,7 +3891,7 @@
       "pace_zone": 2,
       "moving_time": 334,
       "split": 33,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.07,
       "average_heartrate": 168.09580838323353
     },
     {
@@ -3902,7 +3902,7 @@
       "pace_zone": 2,
       "moving_time": 321,
       "split": 34,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.04,
       "average_heartrate": 170.26791277258567
     },
     {
@@ -3913,7 +3913,7 @@
       "pace_zone": 3,
       "moving_time": 307,
       "split": 35,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.29,
       "average_heartrate": 172.01628664495115
     },
     {
@@ -3924,7 +3924,7 @@
       "pace_zone": 3,
       "moving_time": 136,
       "split": 36,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.39,
       "average_heartrate": 174.59558823529412
     }
   ],
@@ -3937,7 +3937,7 @@
       "pace_zone": 2,
       "moving_time": 560,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.89,
       "average_heartrate": 130.73035714285714
     },
     {
@@ -3948,7 +3948,7 @@
       "pace_zone": 2,
       "moving_time": 540,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.98,
       "average_heartrate": 138.1648148148148
     },
     {
@@ -3959,7 +3959,7 @@
       "pace_zone": 1,
       "moving_time": 589,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.73,
       "average_heartrate": 137.46678023850086
     },
     {
@@ -3970,7 +3970,7 @@
       "pace_zone": 2,
       "moving_time": 571,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.81,
       "average_heartrate": 137.37127845884413
     },
     {
@@ -3981,7 +3981,7 @@
       "pace_zone": 2,
       "moving_time": 579,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.77,
       "average_heartrate": 139.01208981001727
     },
     {
@@ -3992,7 +3992,7 @@
       "pace_zone": 2,
       "moving_time": 573,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.81,
       "average_heartrate": 137.8586387434555
     },
     {
@@ -4003,7 +4003,7 @@
       "pace_zone": 2,
       "moving_time": 571,
       "split": 7,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.81,
       "average_heartrate": 137.8879159369527
     },
     {
@@ -4014,7 +4014,7 @@
       "pace_zone": 1,
       "moving_time": 589,
       "split": 8,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.74,
       "average_heartrate": 139.09847198641765
     },
     {
@@ -4025,7 +4025,7 @@
       "pace_zone": 2,
       "moving_time": 634,
       "split": 9,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.79,
       "average_heartrate": 140.7962085308057
     },
     {
@@ -4036,7 +4036,7 @@
       "pace_zone": 2,
       "moving_time": 554,
       "split": 10,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.78,
       "average_heartrate": 134.0506329113924
     },
     {
@@ -4047,7 +4047,7 @@
       "pace_zone": 1,
       "moving_time": 604,
       "split": 11,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.66,
       "average_heartrate": 138.53476821192052
     },
     {
@@ -4058,7 +4058,7 @@
       "pace_zone": 1,
       "moving_time": 592,
       "split": 12,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.74,
       "average_heartrate": 139.0472972972973
     },
     {
@@ -4069,7 +4069,7 @@
       "pace_zone": 1,
       "moving_time": 608,
       "split": 13,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.66,
       "average_heartrate": 139.34046052631578
     },
     {
@@ -4080,7 +4080,7 @@
       "pace_zone": 1,
       "moving_time": 636,
       "split": 14,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.71,
       "average_heartrate": 146.17350157728706
     },
     {
@@ -4091,7 +4091,7 @@
       "pace_zone": 1,
       "moving_time": 579,
       "split": 15,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.73,
       "average_heartrate": 144.3114186851211
     },
     {
@@ -4102,7 +4102,7 @@
       "pace_zone": 2,
       "moving_time": 588,
       "split": 16,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.76,
       "average_heartrate": 147.18537414965985
     },
     {
@@ -4113,7 +4113,7 @@
       "pace_zone": 1,
       "moving_time": 623,
       "split": 17,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.6,
       "average_heartrate": 146.45104333868377
     },
     {
@@ -4124,7 +4124,7 @@
       "pace_zone": 2,
       "moving_time": 569,
       "split": 18,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.81,
       "average_heartrate": 154.55008787346222
     },
     {
@@ -4135,7 +4135,7 @@
       "pace_zone": 2,
       "moving_time": 521,
       "split": 19,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.14,
       "average_heartrate": 165.79654510556622
     },
     {
@@ -4146,7 +4146,7 @@
       "pace_zone": 2,
       "moving_time": 511,
       "split": 20,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.19,
       "average_heartrate": 168.37964774951075
     },
     {
@@ -4157,7 +4157,7 @@
       "pace_zone": 2,
       "moving_time": 516,
       "split": 21,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.11,
       "average_heartrate": 169.17248062015503
     },
     {
@@ -4168,7 +4168,7 @@
       "pace_zone": 3,
       "moving_time": 510,
       "split": 22,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.22,
       "average_heartrate": 172.0313725490196
     },
     {
@@ -4179,7 +4179,7 @@
       "pace_zone": 2,
       "moving_time": 12,
       "split": 23,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.95,
       "average_heartrate": 176.08333333333334
     }
   ],
@@ -5430,7 +5430,28 @@
   "suffer_score": 448.0,
   "perceived_exertion": null,
   "prefer_perceived_exertion": null,
-  "stats_visibility": null,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
   "available_zones": [
     "heartrate",
     "pace"
@@ -5472,9 +5493,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2025-10-04 19:07:14 UTC",
       "created_at": "2025-10-03 16:48:01 UTC",
       "created_at_local": "2025-10-03 12:48:01 UTC",
@@ -5492,7 +5513,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        40.752905,
+        -74.002525
+      ]
     }
   ]
 }

@@ -39,11 +39,11 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": null,
-  "upload_id_str": null,
+  "workout_type": 0,
+  "upload_id_str": "17279496051",
   "max_speed": 11.486,
   "has_kudoed": false,
-  "hide_from_home": null,
+  "hide_from_home": false,
   "gear_id": "g26020551",
   "kilojoules": null,
   "average_watts": null,
@@ -62,7 +62,7 @@
         "600": "https://dgtzuqphqg23d.cloudfront.net/3BZARft4jlUIRu3VN4XzWCRxzn8XXIpR5aw3xio7JNc-698x768.jpg",
         "100": "https://dgtzuqphqg23d.cloudfront.net/3BZARft4jlUIRu3VN4XzWCRxzn8XXIpR5aw3xio7JNc-116x128.jpg"
       },
-      "media_type": null
+      "media_type": 1
     }
   },
   "gear": {
@@ -73,7 +73,7 @@
     "distance": 343094,
     "nickname": null,
     "retired": false,
-    "converted_distance": null
+    "converted_distance": 213.2
   },
   "calories": 564.0,
   "segment_efforts": [
@@ -136,7 +136,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -198,7 +198,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -266,7 +266,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -328,7 +328,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -390,7 +390,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -452,7 +452,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     }
   ],
@@ -467,7 +467,7 @@
       "pace_zone": 2,
       "moving_time": 330,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.05,
       "average_heartrate": 137.14545454545456
     },
     {
@@ -478,7 +478,7 @@
       "pace_zone": 2,
       "moving_time": 338,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.98,
       "average_heartrate": 148.32047477744808
     },
     {
@@ -489,7 +489,7 @@
       "pace_zone": 3,
       "moving_time": 300,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.39,
       "average_heartrate": 146.6406779661017
     },
     {
@@ -500,7 +500,7 @@
       "pace_zone": 3,
       "moving_time": 303,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.29,
       "average_heartrate": 146.54635761589404
     },
     {
@@ -511,7 +511,7 @@
       "pace_zone": 3,
       "moving_time": 310,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.28,
       "average_heartrate": 146.51612903225808
     },
     {
@@ -522,7 +522,7 @@
       "pace_zone": 2,
       "moving_time": 320,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.1,
       "average_heartrate": 150.50943396226415
     },
     {
@@ -533,7 +533,7 @@
       "pace_zone": 2,
       "moving_time": 250,
       "split": 7,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.19,
       "average_heartrate": 153.224
     }
   ],
@@ -546,7 +546,7 @@
       "pace_zone": 2,
       "moving_time": 525,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.08,
       "average_heartrate": 141.2247619047619
     },
     {
@@ -557,7 +557,7 @@
       "pace_zone": 2,
       "moving_time": 510,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.19,
       "average_heartrate": 147.44444444444446
     },
     {
@@ -568,7 +568,7 @@
       "pace_zone": 3,
       "moving_time": 497,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.24,
       "average_heartrate": 145.87298387096774
     },
     {
@@ -579,7 +579,7 @@
       "pace_zone": 3,
       "moving_time": 503,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.24,
       "average_heartrate": 150.92015968063873
     },
     {
@@ -590,7 +590,7 @@
       "pace_zone": 2,
       "moving_time": 116,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.01,
       "average_heartrate": 154.54310344827587
     }
   ],
@@ -1007,7 +1007,28 @@
   "suffer_score": 76.0,
   "perceived_exertion": null,
   "prefer_perceived_exertion": null,
-  "stats_visibility": null,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
   "available_zones": [
     "heartrate",
     "pace"
@@ -1037,7 +1058,7 @@
       "max_speed": 3.2058767772511847,
       "direction": 1
     },
-    "pr_rank": null
+    "pr_rank": 3
   },
   "average_cadence": 78.4,
   "highlighted_kudosers": null,
@@ -1053,9 +1074,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2025-10-19 21:00:20 UTC",
       "created_at": "2025-10-19 19:45:19 UTC",
       "created_at_local": "2025-10-19 15:45:19 UTC",
@@ -1073,7 +1094,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        40.756011666666666,
+        -73.997125
+      ]
     },
     {
       "unique_id": "4839CFAA-EDDA-41F1-82C4-8FB9517F9773",
@@ -1083,9 +1107,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2025-10-19 21:00:20 UTC",
       "created_at": "2025-10-19 19:53:37 UTC",
       "created_at_local": "2025-10-19 15:53:37 UTC",
@@ -1103,7 +1127,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        40.75425833333333,
+        -74.00195278333334
+      ]
     },
     {
       "unique_id": "953ACFA5-7541-431C-A3A3-9747B0B12600",
@@ -1113,9 +1140,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2025-10-19 21:00:20 UTC",
       "created_at": "2025-10-19 01:03:46 UTC",
       "created_at_local": "2025-10-18 21:03:46 UTC",
@@ -1133,7 +1160,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        40.746375,
+        -73.94497833333334
+      ]
     }
   ]
 }
