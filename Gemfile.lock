@@ -331,7 +331,7 @@ GEM
       faraday (>= 0.17.3, < 3)
     securerandom (0.4.1)
     simpleidn (0.2.3)
-    strava-ruby-client (3.0.0.pre.2)
+    strava-ruby-client (3.0.0)
       activesupport
       faraday (>= 2.0)
       faraday-multipart (>= 1.0)
