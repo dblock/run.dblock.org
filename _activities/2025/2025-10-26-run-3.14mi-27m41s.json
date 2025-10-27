@@ -1,0 +1,413 @@
+{
+  "id": 16265834740,
+  "external_id": "garmin_ping_495157243576",
+  "upload_id": 17350382849,
+  "athlete": {
+    "id": 26462176,
+    "resource_state": 1,
+    "firstname": null,
+    "lastname": null
+  },
+  "name": "Seattle Treadmill",
+  "distance": 5053.3,
+  "moving_time": 1661,
+  "elapsed_time": 1661,
+  "average_speed": 3.042,
+  "total_elevation_gain": 0,
+  "elev_high": 0.0,
+  "elev_low": 0.0,
+  "sport_type": "Run",
+  "start_date": "2025-10-26 19:10:30 UTC",
+  "start_date_local": "2025-10-26 12:10:30 UTC",
+  "timezone": "(GMT-07:00) America/Creston",
+  "start_latlng": [],
+  "end_latlng": [],
+  "achievement_count": 0,
+  "kudos_count": 2,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "total_photo_count": 2,
+  "map": {
+    "id": "a16265834740",
+    "summary_polyline": "",
+    "resource_state": 3,
+    "polyline": ""
+  },
+  "trainer": true,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "flagged": false,
+  "workout_type": null,
+  "upload_id_str": "17350382849",
+  "max_speed": 3.136,
+  "has_kudoed": false,
+  "hide_from_home": false,
+  "gear_id": "g26020551",
+  "kilojoules": null,
+  "average_watts": null,
+  "device_watts": null,
+  "max_watts": null,
+  "weighted_average_watts": null,
+  "description": "Was hoping to run outside but 🌧️ \nITBS doing ok 👌",
+  "photos": {
+    "count": 2,
+    "use_primary_photo": true,
+    "primary": {
+      "id": null,
+      "source": 1,
+      "unique_id": "AE1D14CB-9F43-4E94-90A4-DDC219945FFB",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/v0EeQRd-z9kcqqNBYCB8bgwjs0HePm7BeyIGF8Hbw9A-470x768.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/v0EeQRd-z9kcqqNBYCB8bgwjs0HePm7BeyIGF8Hbw9A-78x128.jpg"
+      },
+      "media_type": 1
+    }
+  },
+  "gear": {
+    "id": "g26020551",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adizero SL2",
+    "distance": 357226,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 222.0
+  },
+  "calories": 431.0,
+  "segment_efforts": [],
+  "device_name": "Garmin Forerunner 945",
+  "embed_token": "b633b83a2320381e35d6a91b7b2045f6451a131a",
+  "splits_metric": [
+    {
+      "average_speed": 2.66,
+      "distance": 1004.3,
+      "elapsed_time": 378,
+      "elevation_difference": 0.0,
+      "pace_zone": 1,
+      "moving_time": 378,
+      "split": 1,
+      "average_grade_adjusted_speed": 2.66,
+      "average_heartrate": 126.02910052910053
+    },
+    {
+      "average_speed": 2.88,
+      "distance": 1010.5,
+      "elapsed_time": 351,
+      "elevation_difference": 0.0,
+      "pace_zone": 2,
+      "moving_time": 351,
+      "split": 2,
+      "average_grade_adjusted_speed": 2.88,
+      "average_heartrate": 145.43874643874645
+    },
+    {
+      "average_speed": 2.89,
+      "distance": 998.4,
+      "elapsed_time": 345,
+      "elevation_difference": 0.0,
+      "pace_zone": 2,
+      "moving_time": 345,
+      "split": 3,
+      "average_grade_adjusted_speed": 2.89,
+      "average_heartrate": 153.1391304347826
+    },
+    {
+      "average_speed": 2.86,
+      "distance": 993.9,
+      "elapsed_time": 348,
+      "elevation_difference": 0.0,
+      "pace_zone": 2,
+      "moving_time": 348,
+      "split": 4,
+      "average_grade_adjusted_speed": 2.86,
+      "average_heartrate": 159.4022988505747
+    },
+    {
+      "average_speed": 2.7,
+      "distance": 645.7,
+      "elapsed_time": 239,
+      "elevation_difference": 0.0,
+      "pace_zone": 1,
+      "moving_time": 239,
+      "split": 5,
+      "average_grade_adjusted_speed": 2.7,
+      "average_heartrate": 169.84937238493723
+    }
+  ],
+  "splits_standard": [
+    {
+      "average_speed": 2.73,
+      "distance": 1610.5,
+      "elapsed_time": 591,
+      "elevation_difference": 0.0,
+      "pace_zone": 1,
+      "moving_time": 591,
+      "split": 1,
+      "average_grade_adjusted_speed": 2.73,
+      "average_heartrate": 132.7005076142132
+    },
+    {
+      "average_speed": 2.9,
+      "distance": 1610.4,
+      "elapsed_time": 555,
+      "elevation_difference": 0.0,
+      "pace_zone": 2,
+      "moving_time": 555,
+      "split": 2,
+      "average_grade_adjusted_speed": 2.9,
+      "average_heartrate": 152.07567567567568
+    },
+    {
+      "average_speed": 2.78,
+      "distance": 1431.9,
+      "elapsed_time": 515,
+      "elevation_difference": 0.0,
+      "pace_zone": 2,
+      "moving_time": 515,
+      "split": 3,
+      "average_grade_adjusted_speed": 2.78,
+      "average_heartrate": 164.58058252427185
+    }
+  ],
+  "laps": [
+    {
+      "id": 57968444352,
+      "activity": {
+        "id": 16265834740,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 76.4,
+      "average_speed": 2.72,
+      "distance": 1609.34,
+      "moving_time": 591,
+      "elapsed_time": 591,
+      "start_index": 0,
+      "end_index": 88,
+      "lap_index": 1,
+      "max_speed": 2.98182,
+      "name": "Lap 1",
+      "pace_zone": 1,
+      "split": 1,
+      "start_date": "2025-10-26 19:10:30 UTC",
+      "start_date_local": "2025-10-26 12:10:30 UTC",
+      "total_elevation_gain": 0,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 132.9,
+      "max_heartrate": 152.0
+    },
+    {
+      "id": 57968444357,
+      "activity": {
+        "id": 16265834740,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 78.5,
+      "average_speed": 2.9,
+      "distance": 1609.34,
+      "moving_time": 554,
+      "elapsed_time": 554,
+      "start_index": 89,
+      "end_index": 169,
+      "lap_index": 2,
+      "max_speed": 2.97778,
+      "name": "Lap 2",
+      "pace_zone": 2,
+      "split": 2,
+      "start_date": "2025-10-26 19:20:35 UTC",
+      "start_date_local": "2025-10-26 12:20:35 UTC",
+      "total_elevation_gain": 0,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 152.1,
+      "max_heartrate": 160.0
+    },
+    {
+      "id": 57968444362,
+      "activity": {
+        "id": 16265834740,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 78.5,
+      "average_speed": 2.78,
+      "distance": 1434.07,
+      "moving_time": 515,
+      "elapsed_time": 515,
+      "start_index": 170,
+      "end_index": 240,
+      "lap_index": 3,
+      "max_speed": 3.13571,
+      "name": "Lap 3",
+      "pace_zone": 2,
+      "split": 3,
+      "start_date": "2025-10-26 19:29:50 UTC",
+      "start_date_local": "2025-10-26 12:29:50 UTC",
+      "total_elevation_gain": 0,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 164.9,
+      "max_heartrate": 176.0
+    }
+  ],
+  "best_efforts": [],
+  "resource_state": 3,
+  "utc_offset": -25200.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "visibility": "everyone",
+  "average_temp": 26,
+  "has_heartrate": true,
+  "average_heartrate": 149.1,
+  "max_heartrate": 176.0,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": true,
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "suffer_score": 69.0,
+  "perceived_exertion": null,
+  "prefer_perceived_exertion": null,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
+  "available_zones": [
+    "heartrate",
+    "pace"
+  ],
+  "similar_activities": {
+    "average_speed": 0,
+    "resource_state": 2,
+    "effort_count": 0,
+    "frequency_milestone": null,
+    "max_average_speed": 0,
+    "mid_average_speed": 0,
+    "min_average_speed": 0,
+    "mid_speed": null,
+    "min_speed": null,
+    "speeds": null,
+    "trend": {
+      "speeds": [],
+      "current_activity_index": null,
+      "min_speed": 0,
+      "mid_speed": 0,
+      "max_speed": 0,
+      "direction": 0
+    },
+    "pr_rank": null
+  },
+  "average_cadence": 77.7,
+  "highlighted_kudosers": null,
+  "segment_leaderboard_opt_out": null,
+  "leaderboard_opt_out": null,
+  "workout_type": null,
+  "activity_photos": [
+    {
+      "unique_id": "AE1D14CB-9F43-4E94-90A4-DDC219945FFB",
+      "athlete_id": 26462176,
+      "activity_id": 16265834740,
+      "activity_name": "Seattle Treadmill",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-10-26 19:42:07 UTC",
+      "created_at": "2025-10-26 19:39:56 UTC",
+      "created_at_local": "2025-10-26 12:39:56 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/v0EeQRd-z9kcqqNBYCB8bgwjs0HePm7BeyIGF8Hbw9A-470x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          470,
+          768
+        ]
+      },
+      "default_photo": true,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        47.635625,
+        -122.1374445
+      ]
+    },
+    {
+      "unique_id": "D04A815D-A820-45EA-9445-EE50979421DB",
+      "athlete_id": 26462176,
+      "activity_id": 16265834740,
+      "activity_name": "Seattle Treadmill",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-10-26 19:42:17 UTC",
+      "created_at": "2025-10-26 19:42:17 UTC",
+      "created_at_local": "2025-10-26 12:42:17 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/Mo8qJ5Wge3UNIWgxJrH3wkKYfngfBfVnQcit3qzJbdQ-581x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          581,
+          768
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": null
+    }
+  ]
+}
