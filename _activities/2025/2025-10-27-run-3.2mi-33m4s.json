@@ -1,0 +1,1016 @@
+{
+  "id": 16270939237,
+  "external_id": "garmin_ping_495401381805",
+  "upload_id": 17355568923,
+  "athlete": {
+    "id": 26462176,
+    "resource_state": 1,
+    "firstname": null,
+    "lastname": null
+  },
+  "name": "Redmond 1",
+  "distance": 5148.1,
+  "moving_time": 1984,
+  "elapsed_time": 2018,
+  "average_speed": 2.595,
+  "total_elevation_gain": 86.0,
+  "elev_high": 137.8,
+  "elev_low": 88.4,
+  "sport_type": "Run",
+  "start_date": "2025-10-27 12:10:43 UTC",
+  "start_date_local": "2025-10-27 05:10:43 UTC",
+  "timezone": "(GMT-08:00) America/Los_Angeles",
+  "start_latlng": [47.635327,-122.137545],
+  "end_latlng": [47.635312,-122.136867],
+  "achievement_count": 0,
+  "kudos_count": 5,
+  "comment_count": 1,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "total_photo_count": 6,
+  "map": {
+    "id": "a16270939237",
+    "summary_polyline": "wwvaHt~mhVED]Kq@@YH]De@?a@Ba@Ec@@]C]Mk@mAu@sAQ[qAyASw@C_@Dm@Eq@SSCKB_@CiEHmAEmA@_AG}@MMMu@CAa@Bg@GwCF_@Bg@EQBgBAm@C_@F{@GeBEi@HQKyBLk@AyAI[ASBkAAe@Fq@C]F{@Ce@Cs@?wAGI?a@KCCQgGPiB@{@MyDNqCGkAIm@A_@BgAO}BD}CEwIHoBCm@@_AEsBF_A@}CBKN?FCCQC_@N{@ZEV@|@Sd@BJGPHl@?dATJKXG\\Ut@@z@HRGXR^GF@NC^QJHP@NFDFh@OPAHDd@DFB@h@D`@N\\BPTt@OhAKV@XWfADj@G~@DXZP^FVWh@YJSNs@JGLHHNVP^l@PKRWD?F@XZ|@RNIb@K^UJSTW`@Gb@AH@t@^JNDL?FDZHXd@p@\\t@PLFL\\ZF@DDLf@Hn@LJXb@LZDBJ@TCHFNZVVP\\f@f@\\x@PJf@zAbAvBZb@Nf@V`@Xx@d@d@l@pAz@tAt@lB~@|Af@vAT\\Tn@LXVhAl@fA\\^T`@Xt@I\\CFWDc@N[Zc@@o@OYCOMK?e@Fi@@QDk@AUPCHWt@G\\KdBApAKd@Jf@LTZ^HPT\\LFFJNr@^z@Rx@Hv@?b@AHCBo@Ja@CYIe@LWd@IBE^GPC^L?",
+    "resource_state": 3,
+    "polyline": "wwvaHt~mhVED]Kq@@YH]De@?a@Ba@Ec@@]C]Mk@mAu@sAQ[qAyASw@C_@Dm@Eq@SSCKB_@CiEHmAEmA@_AG}@MMMu@CAa@Bg@GwCF_@Bg@EQBgBAm@C_@F{@GeBEi@HQKyBLk@AyAI[ASBkAAe@Fq@C]F{@Ce@Cs@?wAGI?a@KCCQgGPiB@{@MyDNqCGkAIm@A_@BgAO}BD}CEwIHoBCm@@_AEsBF_A@}CBKN?FCCQC_@N{@ZEV@|@Sd@BJGPHl@?dATJKXG\\Ut@@z@HRGXR^GF@NC^QJHP@NFDFh@OPAHDd@DFB@h@D`@N\\BPTt@OhAKV@XWfADj@G~@DXZP^FVWh@YJSNs@JGLHHNVP^l@PKRWD?F@XZ|@RNIb@K^UJSTW`@Gb@AH@t@^JNDL?FDZHXd@p@\\t@PLFL\\ZF@DDLf@Hn@LJXb@LZDBJ@TCHFNZVVP\\f@f@\\x@PJf@zAbAvBZb@Nf@V`@Xx@d@d@l@pAz@tAt@lB~@|Af@vAT\\Tn@LXVhAl@fA\\^T`@Xt@I\\CFWDc@N[Zc@@o@OYCOMK?e@Fi@@QDk@AUPCHWt@G\\KdBApAKd@Jf@LTZ^HPT\\LFFJNr@^z@Rx@Hv@?b@AHCBo@Ja@CYIe@LWd@IBE^GPC^L?"
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "flagged": false,
+  "workout_type": 0,
+  "upload_id_str": "17355568923",
+  "max_speed": 3.592,
+  "has_kudoed": false,
+  "hide_from_home": false,
+  "gear_id": "g26020551",
+  "kilojoules": null,
+  "average_watts": null,
+  "device_watts": null,
+  "max_watts": null,
+  "weighted_average_watts": null,
+  "description": "Pacific Northwest air is delightful as always.",
+  "photos": {
+    "count": 6,
+    "use_primary_photo": true,
+    "primary": {
+      "id": null,
+      "source": 1,
+      "unique_id": "B27F4B09-D6FB-4D7A-9F40-A561DB4038DA",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/L4zuwW6CgDh7gUG83cT5xAZN6kS0twsJO0S2RyxpS7w-576x768.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/L4zuwW6CgDh7gUG83cT5xAZN6kS0twsJO0S2RyxpS7w-96x128.jpg"
+      },
+      "media_type": 1
+    }
+  },
+  "gear": {
+    "id": "g26020551",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adizero SL2",
+    "distance": 362374,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 225.2
+  },
+  "calories": 478.0,
+  "segment_efforts": [
+    {
+      "id": 3417872623721208038,
+      "activity_id": null,
+      "elapsed_time": 93,
+      "start_date": "2025-10-27 12:11:41 UTC",
+      "start_date_local": "2025-10-27 05:11:41 UTC",
+      "distance": 247.0,
+      "is_kom": null,
+      "name": "152nd Ave NE Hill Sprint (250m)",
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 93,
+      "start_index": 23,
+      "end_index": 56,
+      "average_cadence": 76.3,
+      "average_watts": null,
+      "device_watts": false,
+      "average_heartrate": 144.5,
+      "max_heartrate": 154.0,
+      "segment": {
+        "id": 14418162,
+        "name": "152nd Ave NE Hill Sprint (250m)",
+        "activity_type": "Run",
+        "distance": 247.0,
+        "average_grade": 3.7,
+        "maximum_grade": 5.0,
+        "elevation_high": 113.0,
+        "elevation_low": 103.9,
+        "start_latlng": [47.636762,-122.137814],
+        "end_latlng": [47.638403,-122.135673],
+        "climb_category": 0,
+        "city": "Redmond",
+        "state": "Washington",
+        "country": "United States",
+        "private": false,
+        "athlete_pr_effort": null,
+        "athlete_segment_stats": null,
+        "resource_state": 2,
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "hazardous": false,
+        "starred": false,
+        "starred_date": null,
+        "pr_time": null
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": false,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": "everyone",
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 3417872623719683302,
+      "activity_id": null,
+      "elapsed_time": 307,
+      "start_date": "2025-10-27 12:19:54 UTC",
+      "start_date_local": "2025-10-27 05:19:54 UTC",
+      "distance": 819.8,
+      "is_kom": null,
+      "name": "MS Trail 156th NE along NE 40th",
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 306,
+      "start_index": 159,
+      "end_index": 238,
+      "average_cadence": 76.7,
+      "average_watts": null,
+      "device_watts": false,
+      "average_heartrate": 134.5,
+      "max_heartrate": 142.0,
+      "segment": {
+        "id": 23145976,
+        "name": "MS Trail 156th NE along NE 40th",
+        "activity_type": "Run",
+        "distance": 819.8,
+        "average_grade": -3.0,
+        "maximum_grade": 9.9,
+        "elevation_high": 103.0,
+        "elevation_low": 76.8,
+        "start_latlng": [47.646023,-122.131913],
+        "end_latlng": [47.645764,-122.120951],
+        "climb_category": 0,
+        "city": "Redmond",
+        "state": "Washington",
+        "country": "United States",
+        "private": false,
+        "athlete_pr_effort": null,
+        "athlete_segment_stats": null,
+        "resource_state": 2,
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "hazardous": false,
+        "starred": false,
+        "starred_date": null,
+        "pr_time": null
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": false,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": "everyone",
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 3417872623721158886,
+      "activity_id": null,
+      "elapsed_time": 612,
+      "start_date": "2025-10-27 12:26:04 UTC",
+      "start_date_local": "2025-10-27 05:26:04 UTC",
+      "distance": 1314.33,
+      "is_kom": null,
+      "name": "Microsoft Campus Trail Bel Red Climb",
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 596,
+      "start_index": 255,
+      "end_index": 455,
+      "average_cadence": 72.3,
+      "average_watts": null,
+      "device_watts": false,
+      "average_heartrate": 151.4,
+      "max_heartrate": 165.0,
+      "segment": {
+        "id": 2140819,
+        "name": "Microsoft Campus Trail Bel Red Climb",
+        "activity_type": "Run",
+        "distance": 1314.33,
+        "average_grade": 3.4,
+        "maximum_grade": 17.3,
+        "elevation_high": 121.2,
+        "elevation_low": 76.9,
+        "start_latlng": [47.6452168,-122.1202988],
+        "end_latlng": [47.6363685,-122.1265487],
+        "climb_category": 0,
+        "city": "Redmond",
+        "state": "WA",
+        "country": "United States",
+        "private": false,
+        "athlete_pr_effort": null,
+        "athlete_segment_stats": null,
+        "resource_state": 2,
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "hazardous": false,
+        "starred": false,
+        "starred_date": null,
+        "pr_time": null
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": false,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": "everyone",
+      "athlete_segment_stats": null
+    }
+  ],
+  "device_name": "Garmin Forerunner 945",
+  "embed_token": "88b08fb928e83914b05f20512f9beaebe5d4f6ef",
+  "splits_metric": [
+    {
+      "average_speed": 2.73,
+      "distance": 1003.6,
+      "elapsed_time": 373,
+      "elevation_difference": 30.8,
+      "pace_zone": 2,
+      "moving_time": 368,
+      "split": 1,
+      "average_grade_adjusted_speed": 3.08,
+      "average_heartrate": 141.9538043478261
+    },
+    {
+      "average_speed": 2.82,
+      "distance": 999.9,
+      "elapsed_time": 354,
+      "elevation_difference": -18.2,
+      "pace_zone": 1,
+      "moving_time": 354,
+      "split": 2,
+      "average_grade_adjusted_speed": 2.73,
+      "average_heartrate": 136.74011299435028
+    },
+    {
+      "average_speed": 2.45,
+      "distance": 996.8,
+      "elapsed_time": 433,
+      "elevation_difference": -12.4,
+      "pace_zone": 1,
+      "moving_time": 407,
+      "split": 3,
+      "average_grade_adjusted_speed": 2.5,
+      "average_heartrate": 141.0493827160494
+    },
+    {
+      "average_speed": 2.4,
+      "distance": 1003.6,
+      "elapsed_time": 419,
+      "elevation_difference": 30.6,
+      "pace_zone": 1,
+      "moving_time": 419,
+      "split": 4,
+      "average_grade_adjusted_speed": 2.7,
+      "average_heartrate": 155.0286396181384
+    },
+    {
+      "average_speed": 2.66,
+      "distance": 996.7,
+      "elapsed_time": 375,
+      "elevation_difference": -19.8,
+      "pace_zone": 1,
+      "moving_time": 375,
+      "split": 5,
+      "average_grade_adjusted_speed": 2.58,
+      "average_heartrate": 142.06666666666666
+    },
+    {
+      "average_speed": 2.42,
+      "distance": 147.5,
+      "elapsed_time": 64,
+      "elevation_difference": -1.2,
+      "pace_zone": 1,
+      "moving_time": 61,
+      "split": 6,
+      "average_grade_adjusted_speed": 2.39,
+      "average_heartrate": 133.59016393442624
+    }
+  ],
+  "splits_standard": [
+    {
+      "average_speed": 2.79,
+      "distance": 1611.5,
+      "elapsed_time": 583,
+      "elevation_difference": 16.2,
+      "pace_zone": 2,
+      "moving_time": 578,
+      "split": 1,
+      "average_grade_adjusted_speed": 2.96,
+      "average_heartrate": 140.28373702422147
+    },
+    {
+      "average_speed": 2.51,
+      "distance": 1608.5,
+      "elapsed_time": 668,
+      "elevation_difference": -9.4,
+      "pace_zone": 1,
+      "moving_time": 642,
+      "split": 2,
+      "average_grade_adjusted_speed": 2.57,
+      "average_heartrate": 141.878125
+    },
+    {
+      "average_speed": 2.51,
+      "distance": 1608.7,
+      "elapsed_time": 642,
+      "elevation_difference": 18.2,
+      "pace_zone": 1,
+      "moving_time": 642,
+      "split": 3,
+      "average_grade_adjusted_speed": 2.65,
+      "average_heartrate": 149.25077881619939
+    },
+    {
+      "average_speed": 2.62,
+      "distance": 319.4,
+      "elapsed_time": 125,
+      "elevation_difference": -15.2,
+      "pace_zone": 1,
+      "moving_time": 122,
+      "split": 4,
+      "average_grade_adjusted_speed": 2.44,
+      "average_heartrate": 134.80327868852459
+    }
+  ],
+  "laps": [
+    {
+      "id": 57984619526,
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 77.5,
+      "average_speed": 2.77,
+      "distance": 1609.34,
+      "moving_time": 581,
+      "elapsed_time": 581,
+      "start_index": 0,
+      "end_index": 166,
+      "lap_index": 1,
+      "max_speed": 3.429,
+      "name": "Lap 1",
+      "pace_zone": 2,
+      "split": 1,
+      "start_date": "2025-10-27 12:10:43 UTC",
+      "start_date_local": "2025-10-27 05:10:43 UTC",
+      "total_elevation_gain": 36.0,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 140.3,
+      "max_heartrate": 154.0
+    },
+    {
+      "id": 57984619532,
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 76.1,
+      "average_speed": 2.41,
+      "distance": 1609.34,
+      "moving_time": 668,
+      "elapsed_time": 668,
+      "start_index": 167,
+      "end_index": 358,
+      "lap_index": 2,
+      "max_speed": 3.188,
+      "name": "Lap 2",
+      "pace_zone": 1,
+      "split": 2,
+      "start_date": "2025-10-27 12:20:26 UTC",
+      "start_date_local": "2025-10-27 05:20:26 UTC",
+      "total_elevation_gain": 25.8,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 141.9,
+      "max_heartrate": 159.0
+    },
+    {
+      "id": 57984619537,
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 76.9,
+      "average_speed": 2.51,
+      "distance": 1609.34,
+      "moving_time": 642,
+      "elapsed_time": 642,
+      "start_index": 359,
+      "end_index": 533,
+      "lap_index": 3,
+      "max_speed": 3.592,
+      "name": "Lap 3",
+      "pace_zone": 1,
+      "split": 3,
+      "start_date": "2025-10-27 12:31:39 UTC",
+      "start_date_local": "2025-10-27 05:31:39 UTC",
+      "total_elevation_gain": 29.2,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 149.2,
+      "max_heartrate": 165.0
+    },
+    {
+      "id": 57984619542,
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 76.6,
+      "average_speed": 2.58,
+      "distance": 320.11,
+      "moving_time": 124,
+      "elapsed_time": 124,
+      "start_index": 534,
+      "end_index": 572,
+      "lap_index": 4,
+      "max_speed": 3.475,
+      "name": "Lap 4",
+      "pace_zone": 1,
+      "split": 4,
+      "start_date": "2025-10-27 12:42:25 UTC",
+      "start_date_local": "2025-10-27 05:42:25 UTC",
+      "total_elevation_gain": 0.0,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 134.3,
+      "max_heartrate": 141.0
+    }
+  ],
+  "best_efforts": [
+    {
+      "id": 68423939970,
+      "activity_id": null,
+      "elapsed_time": 136,
+      "start_date": "2025-10-27 12:10:43 UTC",
+      "start_date_local": "2025-10-27 05:10:43 UTC",
+      "distance": 400,
+      "is_kom": null,
+      "name": "400m",
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 136,
+      "start_index": 93,
+      "end_index": 126,
+      "average_cadence": null,
+      "average_watts": null,
+      "device_watts": null,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "segment": null,
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": null,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": null,
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 68423939971,
+      "activity_id": null,
+      "elapsed_time": 277,
+      "start_date": "2025-10-27 12:10:43 UTC",
+      "start_date_local": "2025-10-27 05:10:43 UTC",
+      "distance": 805,
+      "is_kom": null,
+      "name": "1/2 mile",
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 277,
+      "start_index": 97,
+      "end_index": 165,
+      "average_cadence": null,
+      "average_watts": null,
+      "device_watts": null,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "segment": null,
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": null,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": null,
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 68423939972,
+      "activity_id": null,
+      "elapsed_time": 346,
+      "start_date": "2025-10-27 12:10:43 UTC",
+      "start_date_local": "2025-10-27 05:10:43 UTC",
+      "distance": 1000,
+      "is_kom": null,
+      "name": "1K",
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 346,
+      "start_index": 76,
+      "end_index": 163,
+      "average_cadence": null,
+      "average_watts": null,
+      "device_watts": null,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "segment": null,
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": null,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": null,
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 68423939967,
+      "activity_id": null,
+      "elapsed_time": 566,
+      "start_date": "2025-10-27 12:10:43 UTC",
+      "start_date_local": "2025-10-27 05:10:43 UTC",
+      "distance": 1609,
+      "is_kom": null,
+      "name": "1 mile",
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 566,
+      "start_index": 77,
+      "end_index": 218,
+      "average_cadence": null,
+      "average_watts": null,
+      "device_watts": null,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "segment": null,
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": null,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": null,
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 68423939968,
+      "activity_id": null,
+      "elapsed_time": 1247,
+      "start_date": "2025-10-27 12:10:43 UTC",
+      "start_date_local": "2025-10-27 05:10:43 UTC",
+      "distance": 3219,
+      "is_kom": null,
+      "name": "2 mile",
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 1247,
+      "start_index": 2,
+      "end_index": 358,
+      "average_cadence": null,
+      "average_watts": null,
+      "device_watts": null,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "segment": null,
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": null,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": null,
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 68423939969,
+      "activity_id": null,
+      "elapsed_time": 1950,
+      "start_date": "2025-10-27 12:10:43 UTC",
+      "start_date_local": "2025-10-27 05:10:43 UTC",
+      "distance": 5000,
+      "is_kom": null,
+      "name": "5K",
+      "activity": {
+        "id": 16270939237,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 1950,
+      "start_index": 2,
+      "end_index": 553,
+      "average_cadence": null,
+      "average_watts": null,
+      "device_watts": null,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "segment": null,
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": null,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": null,
+      "athlete_segment_stats": null
+    }
+  ],
+  "resource_state": 3,
+  "utc_offset": -25200.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "visibility": "everyone",
+  "average_temp": 18,
+  "has_heartrate": true,
+  "average_heartrate": 143.4,
+  "max_heartrate": 165.0,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": true,
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "suffer_score": 66.0,
+  "perceived_exertion": null,
+  "prefer_perceived_exertion": null,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
+  "available_zones": [
+    "heartrate",
+    "pace"
+  ],
+  "similar_activities": {
+    "average_speed": 2.594808467741936,
+    "resource_state": 2,
+    "effort_count": 1,
+    "frequency_milestone": null,
+    "max_average_speed": 2.594808467741936,
+    "mid_average_speed": 2.594808467741936,
+    "min_average_speed": 2.594808467741936,
+    "mid_speed": null,
+    "min_speed": null,
+    "speeds": null,
+    "trend": {
+      "speeds": [
+        2.594808467741936
+      ],
+      "current_activity_index": 0,
+      "min_speed": 2.594808467741936,
+      "mid_speed": 2.594808467741936,
+      "max_speed": 2.594808467741936,
+      "direction": 0
+    },
+    "pr_rank": null
+  },
+  "average_cadence": 76.8,
+  "highlighted_kudosers": null,
+  "segment_leaderboard_opt_out": null,
+  "leaderboard_opt_out": null,
+  "workout_type": null,
+  "activity_photos": [
+    {
+      "unique_id": "B27F4B09-D6FB-4D7A-9F40-A561DB4038DA",
+      "athlete_id": 26462176,
+      "activity_id": 16270939237,
+      "activity_name": "Redmond 1",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-10-27 12:54:26 UTC",
+      "created_at": "2025-10-27 12:35:50 UTC",
+      "created_at_local": "2025-10-27 05:35:50 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/L4zuwW6CgDh7gUG83cT5xAZN6kS0twsJO0S2RyxpS7w-576x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        47.63651333333333,
+        -122.125825
+      ]
+    },
+    {
+      "unique_id": "01015FED-4D3A-4F2B-8E24-A0E4F1A4B6F0",
+      "athlete_id": 26462176,
+      "activity_id": 16270939237,
+      "activity_name": "Redmond 1",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-10-27 12:54:26 UTC",
+      "created_at": "2025-10-27 12:29:17 UTC",
+      "created_at_local": "2025-10-27 05:29:17 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/EYRYo89Bf-IYppcRcK_0UulDksBS0UcFw--sCNIbLjA-576x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        47.641725,
+        -122.12118616666666
+      ]
+    },
+    {
+      "unique_id": "48C43505-2B53-46F8-809B-81FA71ECAAFD",
+      "athlete_id": 26462176,
+      "activity_id": 16270939237,
+      "activity_name": "Redmond 1",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-10-27 12:54:26 UTC",
+      "created_at": "2025-10-27 12:26:23 UTC",
+      "created_at_local": "2025-10-27 05:26:23 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/hTtTORs6UI_fbUPPBA6CUkgUewNSXmGpyhxPoqQrdG8-576x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        47.64487833333333,
+        -122.12036116666667
+      ]
+    },
+    {
+      "unique_id": "1B2AC6F2-2D4A-43BA-9DB8-362E8A89C0EB",
+      "athlete_id": 26462176,
+      "activity_id": 16270939237,
+      "activity_name": "Redmond 1",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-10-27 12:54:26 UTC",
+      "created_at": "2025-10-27 12:26:16 UTC",
+      "created_at_local": "2025-10-27 05:26:16 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/LdrBbYNDcJ3xOxMbccYvUJLbFpsMiRBbUSLME5QrfeE-576x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        47.64492833333333,
+        -122.11985833333334
+      ]
+    },
+    {
+      "unique_id": "57D94DD4-7484-4CC5-B38E-CD700976A7F7",
+      "athlete_id": 26462176,
+      "activity_id": 16270939237,
+      "activity_name": "Redmond 1",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-10-27 12:54:26 UTC",
+      "created_at": "2025-10-27 12:25:28 UTC",
+      "created_at_local": "2025-10-27 05:25:28 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/hCzcXC1LsB3r3PRiDkaB9XAk1WdIq_1d_LrGH1Bu4Zo-576x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        47.64571333333333,
+        -122.12043883333334
+      ]
+    },
+    {
+      "unique_id": "C88D4B9E-E2AB-4307-AA78-A61CDE018D9F",
+      "athlete_id": 26462176,
+      "activity_id": 16270939237,
+      "activity_name": "Redmond 1",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 2,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-10-27 12:54:29 UTC",
+      "created_at": "2025-10-27 00:48:15 UTC",
+      "created_at_local": "2025-10-26 17:48:15 UTC",
+      "urls": {
+        "600": "https://d35tn3x5zm6xrc.cloudfront.net/WBpzkMOORUarCNXZH3zDP9Y1JXHIUCMGXPtZSWD3-Mk/thumbnails/WBpzkMOORUarCNXZH3zDP9Y1JXHIUCMGXPtZSWD3-Mk_600x600.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          600,
+          600
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": 1.766667,
+      "video_url": "https://d35tn3x5zm6xrc.cloudfront.net/WBpzkMOORUarCNXZH3zDP9Y1JXHIUCMGXPtZSWD3-Mk/hls/WBpzkMOORUarCNXZH3zDP9Y1JXHIUCMGXPtZSWD3-Mk.m3u8",
+      "location": [
+        47.6354,
+        -122.1351
+      ]
+    }
+  ]
+}
