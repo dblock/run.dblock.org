@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require 'httparty'
+require 'yaml'
+require 'json'
 
 module NYRR
   class Results
