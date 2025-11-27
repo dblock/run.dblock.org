@@ -1,0 +1,189 @@
+{
+  "id": 16576833084,
+  "external_id": null,
+  "upload_id": null,
+  "athlete": {
+    "id": 26462176,
+    "resource_state": 1,
+    "firstname": null,
+    "lastname": null
+  },
+  "name": "Tolerable",
+  "distance": 4989.0,
+  "moving_time": 2070,
+  "elapsed_time": 2070,
+  "average_speed": 2.41,
+  "total_elevation_gain": 0,
+  "elev_high": null,
+  "elev_low": null,
+  "sport_type": "Run",
+  "start_date": "2025-11-26 21:52:42 UTC",
+  "start_date_local": "2025-11-26 16:52:42 UTC",
+  "timezone": "(GMT-05:00) America/New_York",
+  "start_latlng": [],
+  "end_latlng": [],
+  "achievement_count": 0,
+  "kudos_count": 0,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "total_photo_count": 1,
+  "map": {
+    "id": "a16576833084",
+    "summary_polyline": "",
+    "resource_state": 3,
+    "polyline": ""
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": true,
+  "private": false,
+  "flagged": false,
+  "workout_type": null,
+  "upload_id_str": null,
+  "max_speed": 0,
+  "has_kudoed": false,
+  "hide_from_home": false,
+  "gear_id": "g26020551",
+  "kilojoules": null,
+  "average_watts": null,
+  "device_watts": null,
+  "max_watts": null,
+  "weighted_average_watts": null,
+  "description": "Tolerable but not pain free. Taking more time.",
+  "photos": {
+    "count": 1,
+    "use_primary_photo": true,
+    "primary": {
+      "id": null,
+      "source": 1,
+      "unique_id": "BFAEE1A2-140C-4416-8387-83459EB7D5D5",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/ZS36IFLrdJd6Ual7IL3m3Kdr7UXELzwA8JIAOjhdSnQ-768x576.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/ZS36IFLrdJd6Ual7IL3m3Kdr7UXELzwA8JIAOjhdSnQ-128x96.jpg"
+      },
+      "media_type": 1
+    }
+  },
+  "gear": {
+    "id": "g26020551",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adizero SL2",
+    "distance": 409715,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 254.6
+  },
+  "calories": 552.0,
+  "segment_efforts": [],
+  "device_name": null,
+  "embed_token": "3e5fbf4e86d1492220e4c803cf574e38053397f6",
+  "splits_metric": null,
+  "splits_standard": null,
+  "laps": null,
+  "best_efforts": [],
+  "resource_state": 3,
+  "utc_offset": -18000.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "visibility": "everyone",
+  "average_temp": null,
+  "has_heartrate": false,
+  "average_heartrate": null,
+  "max_heartrate": null,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": false,
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "suffer_score": null,
+  "perceived_exertion": null,
+  "prefer_perceived_exertion": null,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
+  "available_zones": [
+    "pace"
+  ],
+  "similar_activities": {
+    "average_speed": 0,
+    "resource_state": 2,
+    "effort_count": 0,
+    "frequency_milestone": null,
+    "max_average_speed": 0,
+    "mid_average_speed": 0,
+    "min_average_speed": 0,
+    "mid_speed": null,
+    "min_speed": null,
+    "speeds": null,
+    "trend": {
+      "speeds": [],
+      "current_activity_index": null,
+      "min_speed": 0,
+      "mid_speed": 0,
+      "max_speed": 0,
+      "direction": 0
+    },
+    "pr_rank": null
+  },
+  "average_cadence": null,
+  "highlighted_kudosers": null,
+  "segment_leaderboard_opt_out": null,
+  "leaderboard_opt_out": null,
+  "workout_type": null,
+  "activity_photos": [
+    {
+      "unique_id": "BFAEE1A2-140C-4416-8387-83459EB7D5D5",
+      "athlete_id": 26462176,
+      "activity_id": 16576833084,
+      "activity_name": "Tolerable",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-11-26 22:26:47 UTC",
+      "created_at": "2025-11-26 22:24:53 UTC",
+      "created_at_local": "2025-11-26 17:24:53 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/ZS36IFLrdJd6Ual7IL3m3Kdr7UXELzwA8JIAOjhdSnQ-768x576.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        40.75458833333333,
+        -74.002525
+      ]
+    }
+  ]
+}
