@@ -23,7 +23,7 @@
   "start_latlng": [40.756690999999996,-73.99816],
   "end_latlng": [40.756253,-73.997571],
   "achievement_count": 0,
-  "kudos_count": 5,
+  "kudos_count": 6,
   "comment_count": 0,
   "athlete_count": 2,
   "photo_count": 0,
@@ -70,10 +70,10 @@
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Adizero SL2",
-    "distance": 425008,
+    "distance": 430131,
     "nickname": null,
     "retired": false,
-    "converted_distance": 264.1
+    "converted_distance": 267.3
   },
   "calories": 477.0,
   "segment_efforts": [
