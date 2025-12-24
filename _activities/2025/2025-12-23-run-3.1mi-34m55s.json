@@ -1,0 +1,189 @@
+{
+  "id": 16823773634,
+  "external_id": null,
+  "upload_id": null,
+  "athlete": {
+    "id": 26462176,
+    "resource_state": 1,
+    "firstname": null,
+    "lastname": null
+  },
+  "name": "5K Treadmill",
+  "distance": 4989.0,
+  "moving_time": 2095,
+  "elapsed_time": 2095,
+  "average_speed": 2.381,
+  "total_elevation_gain": 0,
+  "elev_high": null,
+  "elev_low": null,
+  "sport_type": "Run",
+  "start_date": "2025-12-23 20:50:01 UTC",
+  "start_date_local": "2025-12-23 15:50:01 UTC",
+  "timezone": "(GMT-05:00) America/New_York",
+  "start_latlng": [],
+  "end_latlng": [],
+  "achievement_count": 0,
+  "kudos_count": 0,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "total_photo_count": 1,
+  "map": {
+    "id": "a16823773634",
+    "summary_polyline": "",
+    "resource_state": 3,
+    "polyline": ""
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": true,
+  "private": false,
+  "flagged": false,
+  "workout_type": null,
+  "upload_id_str": null,
+  "max_speed": 0,
+  "has_kudoed": false,
+  "hide_from_home": false,
+  "gear_id": "g20051782",
+  "kilojoules": null,
+  "average_watts": null,
+  "device_watts": null,
+  "max_watts": null,
+  "weighted_average_watts": null,
+  "description": "",
+  "photos": {
+    "count": 1,
+    "use_primary_photo": true,
+    "primary": {
+      "id": null,
+      "source": 1,
+      "unique_id": "B5F1BFBC-0547-45F0-9872-2BCAC6AF5EB4",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/X7--X7wCXcLipOjtk0HfG_OfBHU7RTqQEuNfHDPL_-s-768x576.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/X7--X7wCXcLipOjtk0HfG_OfBHU7RTqQEuNfHDPL_-s-128x96.jpg"
+      },
+      "media_type": 1
+    }
+  },
+  "gear": {
+    "id": "g20051782",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Ultraboost 5X",
+    "distance": 461955,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 287.0
+  },
+  "calories": 552.0,
+  "segment_efforts": [],
+  "device_name": null,
+  "embed_token": "185414fc299bbc11262d289a50efb8c56a7b1c74",
+  "splits_metric": null,
+  "splits_standard": null,
+  "laps": null,
+  "best_efforts": [],
+  "resource_state": 3,
+  "utc_offset": -18000.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "visibility": "everyone",
+  "average_temp": null,
+  "has_heartrate": false,
+  "average_heartrate": null,
+  "max_heartrate": null,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": false,
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "suffer_score": null,
+  "perceived_exertion": null,
+  "prefer_perceived_exertion": null,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
+  "available_zones": [
+    "pace"
+  ],
+  "similar_activities": {
+    "average_speed": 0,
+    "resource_state": 2,
+    "effort_count": 0,
+    "frequency_milestone": null,
+    "max_average_speed": 0,
+    "mid_average_speed": 0,
+    "min_average_speed": 0,
+    "mid_speed": null,
+    "min_speed": null,
+    "speeds": null,
+    "trend": {
+      "speeds": [],
+      "current_activity_index": null,
+      "min_speed": 0,
+      "mid_speed": 0,
+      "max_speed": 0,
+      "direction": 0
+    },
+    "pr_rank": null
+  },
+  "average_cadence": null,
+  "highlighted_kudosers": null,
+  "segment_leaderboard_opt_out": null,
+  "leaderboard_opt_out": null,
+  "workout_type": null,
+  "activity_photos": [
+    {
+      "unique_id": "B5F1BFBC-0547-45F0-9872-2BCAC6AF5EB4",
+      "athlete_id": 26462176,
+      "activity_id": 16823773634,
+      "activity_name": "5K Treadmill",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2025-12-23 21:24:41 UTC",
+      "created_at": "2025-12-23 21:23:57 UTC",
+      "created_at_local": "2025-12-23 16:23:57 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/X7--X7wCXcLipOjtk0HfG_OfBHU7RTqQEuNfHDPL_-s-768x576.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          768,
+          576
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        40.75458666666667,
+        -74.00246388333333
+      ]
+    }
+  ]
+}
