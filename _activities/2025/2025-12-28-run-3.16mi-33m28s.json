@@ -23,7 +23,7 @@
   "start_latlng": [40.754897,-74.002239],
   "end_latlng": [40.754444,-74.001739],
   "achievement_count": 0,
-  "kudos_count": 3,
+  "kudos_count": 4,
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
@@ -1034,9 +1034,9 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 2.8191071553472753,
+    "average_speed": 2.811964676126377,
     "resource_state": 2,
-    "effort_count": 63,
+    "effort_count": 64,
     "frequency_milestone": null,
     "max_average_speed": 3.623567335243553,
     "mid_average_speed": 2.675562008353897,
@@ -1046,17 +1046,17 @@
     "speeds": null,
     "trend": {
       "speeds": [
-        2.656980375573971,
         2.614269371418679,
         2.61505120987322,
         2.4631586377869823,
-        2.5116357562830403
+        2.5116357562830403,
+        2.547642430548705
       ],
-      "current_activity_index": 4,
+      "current_activity_index": 3,
       "min_speed": 2.1207317073170735,
       "mid_speed": 2.675562008353897,
       "max_speed": 3.623567335243553,
-      "direction": 1
+      "direction": 0
     },
     "pr_rank": null
   },
