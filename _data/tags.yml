@@ -1,6 +1,6 @@
 0-1 miles:
   name: 0-1 miles
-  count: 7
+  count: 6
 1-2 miles:
   name: 1-2 miles
   count: 25
@@ -136,9 +136,6 @@ lt14m45s_mi:
 lt28m30s_mi:
   name: <28m30s/mi
   count: 1
-lt30m45s_mi:
-  name: <30m45s/mi
-  count: 1
 lt6m15s_mi:
   name: <6m15s/mi
   count: 2
@@ -186,7 +183,7 @@ lt9m45s_mi:
   count: 56
 adidas:
   name: adidas
-  count: 845
+  count: 844
 apps:
   name: apps
   count: 1
@@ -201,7 +198,7 @@ fitbit:
   count: 168
 garmin:
   name: garmin
-  count: 673
+  count: 672
 gear:
   name: gear
   count: 2
@@ -231,7 +228,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 926
+  count: 925
 slack:
   name: slack
   count: 1
