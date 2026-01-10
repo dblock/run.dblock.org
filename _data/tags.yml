@@ -15,7 +15,7 @@
   count: 133
 5-6 miles:
   name: 5-6 miles
-  count: 118
+  count: 119
 6-7 miles:
   name: 6-7 miles
   count: 104
@@ -174,7 +174,7 @@ lt9m00s_mi:
   count: 105
 lt9m15s_mi:
   name: <9m15s/mi
-  count: 79
+  count: 80
 lt9m30s_mi:
   name: <9m30s/mi
   count: 78
@@ -183,7 +183,7 @@ lt9m45s_mi:
   count: 56
 adidas:
   name: adidas
-  count: 844
+  count: 845
 apps:
   name: apps
   count: 1
@@ -228,13 +228,13 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 925
+  count: 926
 slack:
   name: slack
   count: 1
 strava:
   name: strava
-  count: 68
+  count: 69
 tracking:
   name: tracking
   count: 1
