@@ -9,7 +9,7 @@
   count: 26
 3-4 miles:
   name: 3-4 miles
-  count: 233
+  count: 234
 4-5 miles:
   name: 4-5 miles
   count: 133
@@ -180,10 +180,10 @@ lt9m30s_mi:
   count: 78
 lt9m45s_mi:
   name: <9m45s/mi
-  count: 56
+  count: 57
 adidas:
   name: adidas
-  count: 845
+  count: 846
 apps:
   name: apps
   count: 1
@@ -228,7 +228,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 926
+  count: 927
 slack:
   name: slack
   count: 1
