@@ -1,5 +1,5 @@
 {
-  "id": 17005448780,
+  "id": 17083812207,
   "external_id": null,
   "upload_id": null,
   "athlete": {
@@ -10,15 +10,15 @@
   },
   "name": "Treadmill",
   "distance": 4989.0,
-  "moving_time": 1772,
-  "elapsed_time": 1772,
-  "average_speed": 2.815,
+  "moving_time": 1982,
+  "elapsed_time": 1982,
+  "average_speed": 2.517,
   "total_elevation_gain": 0,
   "elev_high": null,
   "elev_low": null,
   "sport_type": "Run",
-  "start_date": "2026-01-10 18:54:00 UTC",
-  "start_date_local": "2026-01-10 13:54:00 UTC",
+  "start_date": "2026-01-17 16:51:30 UTC",
+  "start_date_local": "2026-01-17 11:51:30 UTC",
   "timezone": "(GMT-05:00) America/New_York",
   "start_latlng": [],
   "end_latlng": [],
@@ -29,7 +29,7 @@
   "photo_count": 0,
   "total_photo_count": 1,
   "map": {
-    "id": "a17005448780",
+    "id": "a17083812207",
     "summary_polyline": "",
     "resource_state": 3,
     "polyline": ""
@@ -57,10 +57,10 @@
     "primary": {
       "id": null,
       "source": 1,
-      "unique_id": "3495E521-A65C-42D6-8CFD-48DF4AC6D43C",
+      "unique_id": "E896F5DA-71FF-4FC4-AB40-4F118AF381A1",
       "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/MB4iFv7J1Mum6JHu1ueTRdPU94W6-Y6PvGKgiyhbCjs-768x419.jpg",
-        "100": "https://dgtzuqphqg23d.cloudfront.net/MB4iFv7J1Mum6JHu1ueTRdPU94W6-Y6PvGKgiyhbCjs-128x69.jpg"
+        "600": "https://dgtzuqphqg23d.cloudfront.net/oRCX_Ndu-uGKWSDvbUP3x8HeP4eD2im0AVtyAPmKqcY-768x576.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/oRCX_Ndu-uGKWSDvbUP3x8HeP4eD2im0AVtyAPmKqcY-128x96.jpg"
       },
       "media_type": 1
     }
@@ -78,7 +78,7 @@
   "calories": 552.0,
   "segment_efforts": [],
   "device_name": null,
-  "embed_token": "c4cd43e76040f05718ece016c408f961ed4f7004",
+  "embed_token": "22cb6feca2f161c3f407fa3d2420f9fd234e005c",
   "splits_metric": null,
   "splits_standard": null,
   "laps": null,
@@ -153,9 +153,9 @@
   "workout_type": null,
   "activity_photos": [
     {
-      "unique_id": "3495E521-A65C-42D6-8CFD-48DF4AC6D43C",
+      "unique_id": "E896F5DA-71FF-4FC4-AB40-4F118AF381A1",
       "athlete_id": 26462176,
-      "activity_id": 17005448780,
+      "activity_id": 17083812207,
       "activity_name": "Treadmill",
       "post_id": null,
       "resource_state": 2,
@@ -163,17 +163,17 @@
       "type": 1,
       "source": 1,
       "status": 3,
-      "uploaded_at": "2026-01-10 21:59:33 UTC",
-      "created_at": "2026-01-10 18:54:15 UTC",
-      "created_at_local": "2026-01-10 13:54:15 UTC",
+      "uploaded_at": "2026-01-17 17:24:16 UTC",
+      "created_at": "2026-01-17 17:21:39 UTC",
+      "created_at_local": "2026-01-17 12:21:39 UTC",
       "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/MB4iFv7J1Mum6JHu1ueTRdPU94W6-Y6PvGKgiyhbCjs-768x419.jpg"
+        "600": "https://dgtzuqphqg23d.cloudfront.net/oRCX_Ndu-uGKWSDvbUP3x8HeP4eD2im0AVtyAPmKqcY-768x576.jpg"
       },
       "placeholder_image": null,
       "sizes": {
         "600": [
           768,
-          419
+          576
         ]
       },
       "default_photo": false,
@@ -181,8 +181,8 @@
       "duration": null,
       "video_url": null,
       "location": [
-        40.75463,
-        -74.00251111666667
+        40.75460833333333,
+        -74.00250278333333
       ]
     }
   ]
