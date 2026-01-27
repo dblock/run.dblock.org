@@ -75,7 +75,7 @@
     "retired": false,
     "converted_distance": 7.6
   },
-  "calories": 565.6,
+  "calories": 566.0,
   "segment_efforts": [
     {
       "id": 3449057616745894726,
@@ -1004,7 +1004,7 @@
   "display_hide_heartrate_option": true,
   "from_accepted_tag": false,
   "pr_count": 0,
-  "suffer_score": null,
+  "suffer_score": 72.0,
   "perceived_exertion": null,
   "prefer_perceived_exertion": null,
   "stats_visibility": [
