@@ -1,0 +1,383 @@
+{
+  "id": 17241053586,
+  "external_id": "garmin_ping_530059166744",
+  "upload_id": 18336814051,
+  "athlete": {
+    "id": 26462176,
+    "resource_state": 1,
+    "firstname": null,
+    "lastname": null
+  },
+  "name": "Treadmill",
+  "distance": 5053.3,
+  "moving_time": 1853,
+  "elapsed_time": 1853,
+  "average_speed": 2.727,
+  "total_elevation_gain": 0,
+  "elev_high": 0.0,
+  "elev_low": 0.0,
+  "sport_type": "Run",
+  "start_date": "2026-01-31 17:06:38 UTC",
+  "start_date_local": "2026-01-31 12:06:38 UTC",
+  "timezone": "(GMT-05:00) America/Atikokan",
+  "start_latlng": [],
+  "end_latlng": [],
+  "achievement_count": 0,
+  "kudos_count": 1,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "total_photo_count": 1,
+  "map": {
+    "id": "a17241053586",
+    "summary_polyline": "",
+    "resource_state": 3,
+    "polyline": ""
+  },
+  "trainer": true,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "flagged": false,
+  "workout_type": 0,
+  "upload_id_str": "18336814051",
+  "max_speed": 3.5,
+  "has_kudoed": false,
+  "hide_from_home": false,
+  "gear_id": "g28518037",
+  "kilojoules": null,
+  "average_watts": null,
+  "device_watts": null,
+  "max_watts": null,
+  "weighted_average_watts": null,
+  "description": "",
+  "photos": {
+    "count": 1,
+    "use_primary_photo": true,
+    "primary": {
+      "id": null,
+      "source": 1,
+      "unique_id": "75246334-D3BD-4AA2-8EE3-9C72A0433A2F",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/XkaAeoBq4qXQeYC5CIqBwVAl6Gy9H6v2dYpINei9WDo-576x768.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/XkaAeoBq4qXQeYC5CIqBwVAl6Gy9H6v2dYpINei9WDo-96x128.jpg"
+      },
+      "media_type": 1
+    }
+  },
+  "gear": {
+    "id": "g28518037",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adistar 4",
+    "distance": 23745,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 14.8
+  },
+  "calories": 441.0,
+  "segment_efforts": [],
+  "device_name": "Garmin Forerunner 945",
+  "embed_token": "819149191fd606b2f1121648964a7e16005da92f",
+  "splits_metric": [
+    {
+      "average_speed": 2.06,
+      "distance": 1019.9,
+      "elapsed_time": 496,
+      "elevation_difference": 0.0,
+      "pace_zone": 1,
+      "moving_time": 496,
+      "split": 1,
+      "average_grade_adjusted_speed": 2.06,
+      "average_heartrate": 120.07862903225806
+    },
+    {
+      "average_speed": 2.48,
+      "distance": 988.8,
+      "elapsed_time": 398,
+      "elevation_difference": 0.0,
+      "pace_zone": 1,
+      "moving_time": 398,
+      "split": 2,
+      "average_grade_adjusted_speed": 2.48,
+      "average_heartrate": 138.52763819095478
+    },
+    {
+      "average_speed": 2.49,
+      "distance": 1007.9,
+      "elapsed_time": 405,
+      "elevation_difference": 0.0,
+      "pace_zone": 1,
+      "moving_time": 405,
+      "split": 3,
+      "average_grade_adjusted_speed": 2.49,
+      "average_heartrate": 145.46172839506173
+    },
+    {
+      "average_speed": 2.76,
+      "distance": 992.7,
+      "elapsed_time": 360,
+      "elevation_difference": 0.0,
+      "pace_zone": 2,
+      "moving_time": 360,
+      "split": 4,
+      "average_grade_adjusted_speed": 2.76,
+      "average_heartrate": 161.48333333333332
+    },
+    {
+      "average_speed": 3.01,
+      "distance": 584.1,
+      "elapsed_time": 194,
+      "elevation_difference": 0.0,
+      "pace_zone": 2,
+      "moving_time": 194,
+      "split": 5,
+      "average_grade_adjusted_speed": 3.01,
+      "average_heartrate": 173.88144329896906
+    }
+  ],
+  "splits_standard": [
+    {
+      "average_speed": 2.19,
+      "distance": 1610.3,
+      "elapsed_time": 734,
+      "elevation_difference": 0.0,
+      "pace_zone": 1,
+      "moving_time": 734,
+      "split": 1,
+      "average_grade_adjusted_speed": 2.19,
+      "average_heartrate": 125.52724795640327
+    },
+    {
+      "average_speed": 2.52,
+      "distance": 1610.2,
+      "elapsed_time": 640,
+      "elevation_difference": 0.0,
+      "pace_zone": 1,
+      "moving_time": 640,
+      "split": 2,
+      "average_grade_adjusted_speed": 2.52,
+      "average_heartrate": 145.7046875
+    },
+    {
+      "average_speed": 2.87,
+      "distance": 1372.9,
+      "elapsed_time": 479,
+      "elevation_difference": 0.0,
+      "pace_zone": 2,
+      "moving_time": 479,
+      "split": 3,
+      "average_grade_adjusted_speed": 2.87,
+      "average_heartrate": 167.1899791231733
+    }
+  ],
+  "laps": [
+    {
+      "id": 61557212295,
+      "activity": {
+        "id": 17241053586,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 77.4,
+      "average_speed": 2.19,
+      "distance": 1609.34,
+      "moving_time": 734,
+      "elapsed_time": 734,
+      "start_index": 0,
+      "end_index": 89,
+      "lap_index": 1,
+      "max_speed": 2.65625,
+      "name": "Lap 1",
+      "pace_zone": 1,
+      "split": 1,
+      "start_date": "2026-01-31 17:06:38 UTC",
+      "start_date_local": "2026-01-31 12:06:38 UTC",
+      "total_elevation_gain": 0,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 125.6,
+      "max_heartrate": 144.0
+    },
+    {
+      "id": 61557212304,
+      "activity": {
+        "id": 17241053586,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 79.4,
+      "average_speed": 2.52,
+      "distance": 1609.34,
+      "moving_time": 639,
+      "elapsed_time": 639,
+      "start_index": 90,
+      "end_index": 170,
+      "lap_index": 2,
+      "max_speed": 2.87143,
+      "name": "Lap 2",
+      "pace_zone": 1,
+      "split": 2,
+      "start_date": "2026-01-31 17:19:06 UTC",
+      "start_date_local": "2026-01-31 12:19:06 UTC",
+      "total_elevation_gain": 0,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 146.0,
+      "max_heartrate": 160.0
+    },
+    {
+      "id": 61557212309,
+      "activity": {
+        "id": 17241053586,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "average_cadence": 81.2,
+      "average_speed": 2.88,
+      "distance": 1374.74,
+      "moving_time": 478,
+      "elapsed_time": 478,
+      "start_index": 171,
+      "end_index": 235,
+      "lap_index": 3,
+      "max_speed": 3.5,
+      "name": "Lap 3",
+      "pace_zone": 2,
+      "split": 3,
+      "start_date": "2026-01-31 17:29:49 UTC",
+      "start_date_local": "2026-01-31 12:29:49 UTC",
+      "total_elevation_gain": 0,
+      "resource_state": 2,
+      "device_watts": false,
+      "average_watts": null,
+      "average_heartrate": 167.6,
+      "max_heartrate": 178.0
+    }
+  ],
+  "best_efforts": [],
+  "resource_state": 3,
+  "utc_offset": -18000.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "visibility": "everyone",
+  "average_temp": 26,
+  "has_heartrate": true,
+  "average_heartrate": 143.3,
+  "max_heartrate": 178.0,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": true,
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "suffer_score": 56.0,
+  "perceived_exertion": null,
+  "prefer_perceived_exertion": null,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
+  "available_zones": [
+    "heartrate",
+    "pace"
+  ],
+  "similar_activities": {
+    "average_speed": 0,
+    "resource_state": 2,
+    "effort_count": 0,
+    "frequency_milestone": null,
+    "max_average_speed": 0,
+    "mid_average_speed": 0,
+    "min_average_speed": 0,
+    "mid_speed": null,
+    "min_speed": null,
+    "speeds": null,
+    "trend": {
+      "speeds": [],
+      "current_activity_index": null,
+      "min_speed": 0,
+      "mid_speed": 0,
+      "max_speed": 0,
+      "direction": 0
+    },
+    "pr_rank": null
+  },
+  "average_cadence": 79.0,
+  "highlighted_kudosers": null,
+  "segment_leaderboard_opt_out": null,
+  "leaderboard_opt_out": null,
+  "workout_type": null,
+  "activity_photos": [
+    {
+      "unique_id": "75246334-D3BD-4AA2-8EE3-9C72A0433A2F",
+      "athlete_id": 26462176,
+      "activity_id": 17241053586,
+      "activity_name": "Treadmill",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2026-01-31 19:10:23 UTC",
+      "created_at": "2026-01-31 17:38:27 UTC",
+      "created_at_local": "2026-01-31 12:38:27 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/XkaAeoBq4qXQeYC5CIqBwVAl6Gy9H6v2dYpINei9WDo-576x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": true,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        40.75463666666667,
+        -74.00250278333333
+      ]
+    }
+  ]
+}
