@@ -1,5 +1,5 @@
 {
-  "id": 17321812393,
+  "id": 17332428827,
   "external_id": null,
   "upload_id": null,
   "athlete": {
@@ -10,26 +10,26 @@
   },
   "name": "Treadmill",
   "distance": 1609.4,
-  "moving_time": 554,
-  "elapsed_time": 554,
-  "average_speed": 2.905,
+  "moving_time": 523,
+  "elapsed_time": 523,
+  "average_speed": 3.077,
   "total_elevation_gain": 0,
   "elev_high": null,
   "elev_low": null,
   "sport_type": "Run",
-  "start_date": "2026-02-07 19:06:00 UTC",
-  "start_date_local": "2026-02-07 14:06:00 UTC",
+  "start_date": "2026-02-08 17:15:00 UTC",
+  "start_date_local": "2026-02-08 12:15:00 UTC",
   "timezone": "(GMT-05:00) America/New_York",
   "start_latlng": [],
   "end_latlng": [],
   "achievement_count": 0,
-  "kudos_count": 4,
+  "kudos_count": 1,
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
-  "total_photo_count": 1,
+  "total_photo_count": 2,
   "map": {
-    "id": "a17321812393",
+    "id": "a17332428827",
     "summary_polyline": "",
     "resource_state": 3,
     "polyline": ""
@@ -50,17 +50,17 @@
   "device_watts": null,
   "max_watts": null,
   "weighted_average_watts": null,
-  "description": "",
+  "description": "After a 🦵 workout.",
   "photos": {
-    "count": 1,
+    "count": 2,
     "use_primary_photo": true,
     "primary": {
       "id": null,
       "source": 1,
-      "unique_id": "B84B648B-B16B-4067-B692-61B455B22F76",
+      "unique_id": "3EC659AE-879F-4444-8863-5CCD69B6DDC7",
       "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/iQGSR7i0lVYEfDQlBgGLYF4oVEgJOlCH8k32EskXq1E-768x427.jpg",
-        "100": "https://dgtzuqphqg23d.cloudfront.net/iQGSR7i0lVYEfDQlBgGLYF4oVEgJOlCH8k32EskXq1E-128x71.jpg"
+        "600": "https://dgtzuqphqg23d.cloudfront.net/c6FnOnt53Vlx-8WKM7G_6R2oVjJi-dWSd_nBGhv2QSA-576x768.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/c6FnOnt53Vlx-8WKM7G_6R2oVjJi-dWSd_nBGhv2QSA-96x128.jpg"
       },
       "media_type": 1
     }
@@ -78,7 +78,7 @@
   "calories": 178.0,
   "segment_efforts": [],
   "device_name": null,
-  "embed_token": "18b821f21077206d50b4d2d2ddd495980dd1a1eb",
+  "embed_token": "17e4de08cf2641f4bb4fe768493c776acdddc1a6",
   "splits_metric": null,
   "splits_standard": null,
   "laps": null,
@@ -153,9 +153,9 @@
   "workout_type": null,
   "activity_photos": [
     {
-      "unique_id": "B84B648B-B16B-4067-B692-61B455B22F76",
+      "unique_id": "3EC659AE-879F-4444-8863-5CCD69B6DDC7",
       "athlete_id": 26462176,
-      "activity_id": 17321812393,
+      "activity_id": 17332428827,
       "activity_name": "Treadmill",
       "post_id": null,
       "resource_state": 2,
@@ -163,17 +163,17 @@
       "type": 1,
       "source": 1,
       "status": 3,
-      "uploaded_at": "2026-02-07 21:32:47 UTC",
-      "created_at": "2026-02-07 19:06:41 UTC",
-      "created_at_local": "2026-02-07 14:06:41 UTC",
+      "uploaded_at": "2026-02-08 18:39:56 UTC",
+      "created_at": "2026-02-08 18:39:23 UTC",
+      "created_at_local": "2026-02-08 13:39:23 UTC",
       "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/iQGSR7i0lVYEfDQlBgGLYF4oVEgJOlCH8k32EskXq1E-768x427.jpg"
+        "600": "https://dgtzuqphqg23d.cloudfront.net/c6FnOnt53Vlx-8WKM7G_6R2oVjJi-dWSd_nBGhv2QSA-576x768.jpg"
       },
       "placeholder_image": null,
       "sizes": {
         "600": [
-          768,
-          427
+          576,
+          768
         ]
       },
       "default_photo": true,
@@ -181,8 +181,41 @@
       "duration": null,
       "video_url": null,
       "location": [
-        40.75458666666667,
-        -74.002525
+        40.754646666666666,
+        -74.00239445
+      ]
+    },
+    {
+      "unique_id": "2E790F53-F377-4DF6-87FE-6B8E75BD797E",
+      "athlete_id": 26462176,
+      "activity_id": 17332428827,
+      "activity_name": "Treadmill",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2026-02-08 19:41:38 UTC",
+      "created_at": "2026-02-08 19:35:01 UTC",
+      "created_at_local": "2026-02-08 14:35:01 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/RilaNNXNvGPwQ6CYZqqQF9YJpGzS6qquvd7RAvJldpI-576x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        40.755091666666665,
+        -74.001069445
       ]
     }
   ]
