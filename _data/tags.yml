@@ -18,7 +18,7 @@
   count: 119
 6-7 miles:
   name: 6-7 miles
-  count: 104
+  count: 105
 7-8 miles:
   name: 7-8 miles
   count: 41
@@ -180,10 +180,10 @@ lt9m30s_mi:
   count: 79
 lt9m45s_mi:
   name: <9m45s/mi
-  count: 58
+  count: 59
 adidas:
   name: adidas
-  count: 859
+  count: 860
 apps:
   name: apps
   count: 1
@@ -198,7 +198,7 @@ fitbit:
   count: 168
 garmin:
   name: garmin
-  count: 682
+  count: 683
 gear:
   name: gear
   count: 2
@@ -228,7 +228,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 940
+  count: 941
 slack:
   name: slack
   count: 1
@@ -306,7 +306,7 @@ w_v:
   count: 99
 μ170-175 bpm:
   name: μ170-175 bpm
-  count: 123
+  count: 124
 μ175-180 bpm:
   name: μ175-180 bpm
   count: 167
@@ -354,7 +354,7 @@ w_v:
   count: 76
 →145-150 bpm:
   name: →145-150 bpm
-  count: 95
+  count: 96
 →150-155 bpm:
   name: →150-155 bpm
   count: 117
