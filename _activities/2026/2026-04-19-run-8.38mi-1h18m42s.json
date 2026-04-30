@@ -643,7 +643,7 @@
       "start_date_local": "2026-04-19 11:37:38 UTC",
       "distance": 388.0,
       "is_kom": null,
-      "name": "Cat Hill Mile Segment",
+      "name": "Central Park Segment",
       "activity": {
         "id": 18175030955,
         "resource_state": 1,
@@ -665,7 +665,7 @@
       "max_heartrate": 143.0,
       "segment": {
         "id": 41322805,
-        "name": "Cat Hill Mile Segment",
+        "name": "Central Park Segment",
         "activity_type": "Run",
         "distance": 388.0,
         "average_grade": 0.9,
