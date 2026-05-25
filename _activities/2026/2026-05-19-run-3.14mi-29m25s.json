@@ -70,10 +70,10 @@
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Adistar 4",
-    "distance": 245330,
+    "distance": 250315,
     "nickname": null,
     "retired": false,
-    "converted_distance": 152.4
+    "converted_distance": 155.5
   },
   "calories": 442.0,
   "segment_efforts": [],
