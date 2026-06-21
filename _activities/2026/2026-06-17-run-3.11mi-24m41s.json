@@ -63,7 +63,7 @@
     "name": "Adidas EVO SL LightStrike Pro",
     "distance": 5001,
     "nickname": "LightStrike Pro",
-    "retired": false,
+    "retired": true,
     "converted_distance": 3.1
   },
   "calories": 421.0,
