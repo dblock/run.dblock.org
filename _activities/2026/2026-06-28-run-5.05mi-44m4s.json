@@ -27,7 +27,7 @@
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
-  "total_photo_count": 0,
+  "total_photo_count": 1,
   "map": {
     "id": "a19101634122",
     "summary_polyline": "ygwwFzrsbMBl@CXB`@AVWz@Op@]x@QLCNC`@~ApALX?FGrAKP?LKXCZING\\CL@POv@BJFAPVh@d@~@f@t@l@`@f@PLEFc@XG`@Uj@U`@Uh@s@hCQz@_@dAMl@DDn@Rl@^^FaAa@QMa@WI@IFWn@Ij@d@Xx@l@f@VPNZHz@h@^Xn@XLNb@^`@TXFd@Rh@tAZT^Pf@HRQDAHBHHHd@NZ`AJb@HF?jA`@j@XjBZl@PZFd@Rl@PP@NG^@f@KdA?d@BZFDAVLNLXP\\?PI^[l@Gh@FPIBOGi@Fy@JWD?HG\\BtA^rACPQTGn@@f@ELE\\Nd@FTE~@GfC@fANh@Nn@Vn@h@x@`@nAb@XRz@DJAhAc@X\\`A`@`@XfAN^NtAVXBHDb@?h@LbB`A`AZz@^d@FHFXFhADnAAh@CFDh@Af@FRC`@HV?^?x@Gd@@f@Nx@Hr@Cr@Bb@Jv@CVHb@En@Nj@Eh@IzALZM^C^b@jAL`@An@L`BDd@DVDvA@dACz@@AAe@Hq@@c@GuA@k@A{AMw@AwAUBCWBg@CUSUAg@Rk@@{@Kc@?k@IQ@g@E[?o@Ce@Ik@AuABaAK}@Ce@Ii@@gCMuAAi@Dg@Ay@Gu@Me@M}As@m@Og@Y_@]OI_@Ks@GkAWk@@aBQm@OmAWa@Q_BuAo@Wg@JUJg@?uAXa@EQ?e@Sq@Oe@UIIeBcAa@OK?QMK@EGGYq@Sw@BMGK?UEcAC@ECC]AeA@UCUPBVGRGBGHG@IPEh@u@hBW`BSp@Wr@KN]AmBe@O_@Mi@s@YWFu@jCSf@Op@]h@WJI?IG@KRc@T_@Bi@d@qAXg@Vu@C[}@II@gAQu@UmC_Aa@G]OaCe@KG{@UCAOWKc@?m@NeAH]Rm@Jg@J]LeA~@kBNSV?f@XBAFQLMB@?g@Gq@Mm@s@y@m@g@C?SQc@m@YYYOa@][Mg@a@c@Oc@LMEWOWQUa@[]k@e@GKUOWY]g@{@a@BEAIAQJ[BFNHnAV",
@@ -39,7 +39,7 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": 0,
+  "workout_type": null,
   "upload_id_str": "20216934647",
   "max_speed": 6.871,
   "has_kudoed": false,
@@ -52,9 +52,18 @@
   "weighted_average_watts": null,
   "description": "",
   "photos": {
-    "count": 0,
-    "use_primary_photo": null,
-    "primary": null
+    "count": 1,
+    "use_primary_photo": true,
+    "primary": {
+      "id": null,
+      "source": 1,
+      "unique_id": "1341CFEC-3659-4438-9ECC-0AA2B8728E12",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/SaH3aOtZV6wxNQ-LkqOzhLIFczqiZr8BsqZo_cbXFbQ-576x768.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/SaH3aOtZV6wxNQ-LkqOzhLIFczqiZr8BsqZo_cbXFbQ-96x128.jpg"
+      },
+      "media_type": 1
+    }
   },
   "gear": null,
   "calories": 691.0,
@@ -1794,5 +1803,39 @@
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
   "workout_type": null,
-  "activity_photos": []
+  "activity_photos": [
+    {
+      "unique_id": "1341CFEC-3659-4438-9ECC-0AA2B8728E12",
+      "athlete_id": 26462176,
+      "activity_id": 19101634122,
+      "activity_name": "5M + Ice Cold Plunge",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2026-06-29 21:12:58 UTC",
+      "created_at": "2026-06-29 14:27:55 UTC",
+      "created_at_local": "2026-06-29 10:27:55 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/SaH3aOtZV6wxNQ-LkqOzhLIFczqiZr8BsqZo_cbXFbQ-576x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        40.754128333333334,
+        -74.000930555
+      ]
+    }
+  ]
 }
