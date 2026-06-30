@@ -846,27 +846,28 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 2.5747805267358337,
+    "average_speed": 2.7081632653061223,
     "resource_state": 2,
-    "effort_count": 1,
+    "effort_count": 2,
     "frequency_milestone": null,
-    "max_average_speed": 2.5747805267358337,
-    "mid_average_speed": 2.5747805267358337,
+    "max_average_speed": 2.888355795148248,
+    "mid_average_speed": 2.722568802042096,
     "min_average_speed": 2.5747805267358337,
     "mid_speed": null,
     "min_speed": null,
     "speeds": null,
     "trend": {
       "speeds": [
-        2.5747805267358337
+        2.5747805267358337,
+        2.722568802042096
       ],
       "current_activity_index": 0,
       "min_speed": 2.5747805267358337,
-      "mid_speed": 2.5747805267358337,
-      "max_speed": 2.5747805267358337,
+      "mid_speed": 2.722568802042096,
+      "max_speed": 2.888355795148248,
       "direction": 0
     },
-    "pr_rank": null
+    "pr_rank": 1
   },
   "average_cadence": 74.4,
   "highlighted_kudosers": null,
