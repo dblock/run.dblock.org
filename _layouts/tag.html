@@ -7,7 +7,7 @@
 {% include _head.html %}
 </head>
 
-<body class="page">
+<body class="post-index">
 
 {% include _browser-upgrade.html %}
 
@@ -19,8 +19,7 @@
     {% include _search.html %}
     {% include _rss.html %}
   </div>
-  <article class="page">
-    <h1>Tagged "{{ page.tag }}"</h1>
+  <div id="index">
     {% assign total_distance = 0 %}
     {% assign total_time = 0 %}
     {% assign total_heartrates = 0 %}
@@ -52,21 +51,23 @@
         {% assign prev_tag_name = tag_hash[1].name %}
       {% endunless %}
     {% endfor %}
-    <p><small>{% if prev_tag_key %}<a href="/tags/{{ prev_tag_key }}/">&lt; {{ prev_tag_name }}</a> | {% endif %}{{ total_distance | round: 1 }}mi {{ total_time | divided_by: 3600.0 | round }}h{% if total_heartrates > 0 %} μ{{ total_heartrate | divided_by: total_heartrates | round }}bpm{% endif %}{% if next_tag_key %} | <a href="/tags/{{ next_tag_key }}/">{{ next_tag_name }} &gt;</a>{% endif %}</small></p>
-    <div class="article-wrap">
-      {% if site.tags[page.tag] %}
-        <ul>
-          {% for post in site.tags[page.tag] %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-      {% else %}
-          <p>There are no posts for {{ page.tag }}.</p>
-      {% endif %}
-
-    </div><!-- /.article-wrap -->
-  </article>
-</div><!-- /#index -->
+    <h1>{{ page.tag }}
+      <span class="totals"><small>{% if prev_tag_key %}<a href="/tags/{{ prev_tag_key }}/">&lt; {{ prev_tag_name }}</a> | {% endif %}{{ total_distance | round: 1 }}mi {{ total_time | divided_by: 3600.0 | round }}h{% if total_heartrates > 0 %} μ{{ total_heartrate | divided_by: total_heartrates | round }}bpm{% endif %}{% if next_tag_key %} | <a href="/tags/{{ next_tag_key }}/">{{ next_tag_name }} &gt;</a>{% endif %}</small></span>
+    </h1>
+    {% if site.tags[page.tag] %}
+      {% for post in site.tags[page.tag] %}
+        <article>
+          <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            {% if post.race %}<span class='race'>RACE</span>{% endif %}
+            {% unless post.strava_id %}<span class='read'>READ</span>{% endunless %}
+          </h2>
+        </article>
+      {% endfor %}
+    {% else %}
+      <p>There are no posts for {{ page.tag }}.</p>
+    {% endif %}
+  </div><!-- /#index -->
+</div><!-- /#main -->
 
 <div class="footer-wrap">
   <footer>

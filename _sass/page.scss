@@ -247,13 +247,22 @@ $button-size: 1.5rem;
 	@media #{$x-large} {
 		@include grid(12,4.5);
 	}
-	h3 {
+	h1 {
 		margin: 0;
 		padding-bottom: .5em;
 		@include font-rem(28);
 		border-bottom: 1px solid lighten($black,70);
-		&.next {
-			margin-top: 30px;
+		.totals {
+			font-size: 12px;
+		}
+	}
+	> h2 {
+		margin: 30px 0 0;
+		padding-bottom: .5em;
+		@include font-rem(28);
+		border-bottom: 1px solid lighten($black,70);
+		&:first-child {
+			margin-top: 0;
 		}
 		.totals {
 			font-size: 12px;
@@ -322,10 +331,12 @@ $button-size: 1.5rem;
 		}
 	}
 }
+
 .tags {
 	clear: both;
 	font-size: 12px;
-	margin-top: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 .fa-tag:before, .fa-tags:before {
 	margin-right: 5px;
@@ -425,6 +436,7 @@ $button-size: 1.5rem;
 	}
 }
 .article-wrap {
+	margin-top: 1em;
 	// Dotted line underlines for links
 	p > a,
 	li > a {

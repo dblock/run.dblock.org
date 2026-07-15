@@ -4,10 +4,12 @@ title: All Tags
 comments: false
 ---
 <h1>Tagged</h1>
-<ul>
-  {% for tag_hash in site.data.tags %}
-    {% assign key = tag_hash[0] %}
-    {% assign tag = tag_hash[1] %}
-    <li><a href='/tags/{{ key }}/'>{{ tag.name }}</a> ({{ tag.count }})</li>
-  {% endfor %}
-</ul>
+{% for tag_hash in site.data.tags %}
+  {% assign key = tag_hash[0] %}
+  {% assign tag = tag_hash[1] %}
+  <article>
+    <h2><a href='/tags/{{ key }}/'>{{ tag.name }}</a>
+      <span class="totals"><small>{{ tag.count }}</small></span>
+    </h2>
+  </article>
+{% endfor %}

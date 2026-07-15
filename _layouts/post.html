@@ -8,7 +8,7 @@
 {% include _capture_tags.html %}
 </head>
 
-<body class="post">
+<body class="post-index">
 
 {% include _browser-upgrade.html %}
 
@@ -20,21 +20,19 @@
     {% include _search.html %}
     {% include _rss.html %}
   </div>
-  <article class="post">
-    <div class="headline-wrap">
-      <h1>
-        {% if page.strava_id %}
-          <a href="https://www.strava.com/activities/{{ page.strava_id }}" target="_blank">{{ page.title }}</a>
-        {% elsif page.link %}
-          <a href="{{ page.link }}" target="_blank">{{ page.title }}</a>
-        {% else %}
-          <a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a>
-        {% endif %}
-        <div class="tags">
-          {{ tags_content }}
-        </div>
-      </h1>
-    </div><!--/ .headline-wrap -->
+  <div id="index">
+    <h1>
+      {% if page.strava_id %}
+        <a href="https://www.strava.com/activities/{{ page.strava_id }}" target="_blank">{{ page.title }}</a>
+      {% elsif page.link %}
+        <a href="{{ page.link }}" target="_blank">{{ page.title }}</a>
+      {% else %}
+        <a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a>
+      {% endif %}
+    </h1>
+    <div class="tags">
+      {{ tags_content }}
+    </div>
     <div class="article-wrap">
       {{ content }}
       <hr />
@@ -46,7 +44,7 @@
         {% if page.share != false %}{% include _social-share.html %}{% endif %}
       </footer>
     </div><!-- /.article-wrap -->
-  </article>
+  </div><!-- /#index -->
 </div><!-- /#main -->
 
 <div class="footer-wrap">

@@ -7,15 +7,11 @@ comments: false
 
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% unless post.next %}
-    <h3 class='next'>
-      <a href="/tags/y_{{ year }}/">{{ year }}</a>
-    </h3>
+    <h2><a href="/tags/y_{{ year }}/">{{ year }}</a></h2>
   {% else %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
-      <h3 class='next'>
-        <a href="/tags/y_{{ year }}/">{{ year }}</a>
-      </h3>
+      <h2><a href="/tags/y_{{ year }}/">{{ year }}</a></h2>
     {% endif %}
   {% endunless %}
 

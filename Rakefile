@@ -85,6 +85,7 @@ task :tags do
     File.write filename, <<~EOS
       ---
       layout: tag
+      title: "#{tag}"
       tag: #{tag}
       permalink: /tags/#{tag_filename}/
       ---
