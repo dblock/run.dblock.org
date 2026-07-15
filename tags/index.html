@@ -5,23 +5,9 @@ comments: false
 ---
 <h1>Tagged</h1>
 <ul>
-  {% assign with_pages = site.pages | where: "layout", "with" | sort: "with_name" %}
-  {% for wp in with_pages %}
-    {% assign wt = "w/" | append: wp.with_tag %}
-    <li><a href="{{ wp.permalink }}">w/{{ wp.with_name | downcase }}</a> ({{ site.tags[wt].size }})</li>
-  {% endfor %}
-  {% assign year_pages = site.pages | where: "layout", "year" | sort: "year" %}
-  {% for yp in year_pages %}
-    {% assign ycount = 0 %}
-    {% for post in site.posts %}
-      {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% if post_year == yp.year %}{% assign ycount = ycount | plus: 1 %}{% endif %}
-    {% endfor %}
-    <li><a href="/years/{{ yp.year }}/">y/{{ yp.year }}</a> ({{ ycount }})</li>
-  {% endfor %}
   {% for tag_hash in site.data.tags %}
     {% assign key = tag_hash[0] %}
     {% assign tag = tag_hash[1] %}
-    <li><a href='/tags/{{ key }}'>{{ tag.name }}</a> ({{ tag.count }})</li>
+    <li><a href='/tags/{{ key }}/'>{{ tag.name }}</a> ({{ tag.count }})</li>
   {% endfor %}
 </ul>

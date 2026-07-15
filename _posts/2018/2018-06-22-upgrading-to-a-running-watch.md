@@ -2,7 +2,7 @@
 layout: post
 title: Upgrading to a Running Watch
 date: "2018-06-22 21:37"
-tags: [gear, read]
+tags: [gear, read, y/2018]
 ---
 I spent an unreasonable amount of time researching and buying a running watch. I tried a Samsung, then a [Fitbit Ionic Adidas Edition](https://www.amazon.com/Fitbit-Ionic-Adidas-Silver-Included/dp/B079P2J6GM). I would have recommended the latter, if only it did what it advertised. After a lot of frustration, as of 2020 I am running with a [Garmin Forerunner® 945](https://buy.garmin.com/en-US/US/p/621922), and haven't looked back.
 

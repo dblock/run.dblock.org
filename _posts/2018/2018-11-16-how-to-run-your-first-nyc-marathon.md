@@ -2,7 +2,7 @@
 layout: post
 title: "How to Run Your First NYC Marathon"
 date: "2018-11-05 5:42"
-tags: [races, nyrr, charity, marathon]
+tags: [races, nyrr, charity, marathon, y/2018]
 race: false
 ---
 Yesterday I [ran](/2018/11/04/run-26.26mi-3h38m5s.html) my first ever marathon, the TCS NYC Marathon 2018.

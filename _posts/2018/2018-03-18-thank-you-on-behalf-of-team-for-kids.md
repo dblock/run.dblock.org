@@ -2,7 +2,7 @@
 layout: post
 title: "A Big Thank You!"
 date: "2018-03-18 12:42"
-tags: [races, charity, read]
+tags: [races, charity, read, y/2018]
 race: false
 ---
 I wanted to say THANK YOU for your incredible generosity on behalf of the [TeamForKids charity](http://teamforkids.nyrr.org). With your support I was able to enter and run the United Airlines Half Marathon this morning along with 22,500 runners from 80 countries.

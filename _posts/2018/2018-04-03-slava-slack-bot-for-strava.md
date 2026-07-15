@@ -2,7 +2,7 @@
 layout: post
 title: "Slava: a Slack Bot for Strava"
 date: "2018-04-03 12:16"
-tags: [strava, slack, read]
+tags: [strava, slack, read, y/2018]
 ---
 I made a Slack bot called ["Slava"](https://slava.playplay.io/) using some code that auto-publishes runs from Strava onto this blog. If you use Slack at work, enable Slack integration with Strava and help your colleagues to get motivated! Click [here](https://slava.playplay.io) to install it.
 

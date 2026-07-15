@@ -244,6 +244,63 @@ trailruns:
 vibram:
   name: vibram
   count: 25
+w_alan:
+  name: w/alan
+  count: 1
+w_artyom:
+  name: w/artyom
+  count: 1
+w_dimitri:
+  name: w/dimitri
+  count: 1
+w_g:
+  name: w/g
+  count: 22
+w_ilan:
+  name: w/ilan
+  count: 94
+w_isaac:
+  name: w/isaac
+  count: 1
+w_milla:
+  name: w/milla
+  count: 75
+w_p:
+  name: w/p
+  count: 1
+w_v:
+  name: w/v
+  count: 1
+y_2017:
+  name: y/2017
+  count: 30
+y_2018:
+  name: y/2018
+  count: 118
+y_2019:
+  name: y/2019
+  count: 66
+y_2020:
+  name: y/2020
+  count: 89
+y_2021:
+  name: y/2021
+  count: 53
+y_2022:
+  name: y/2022
+  count: 93
+y_2023:
+  name: y/2023
+  count: 160
+y_2024:
+  name: y/2024
+  count: 175
+y_2025:
+  name: y/2025
+  count: 156
+y_2026:
+  name: y/2026
+  count: 61
 μ115-120 bpm:
   name: μ115-120 bpm
   count: 3
