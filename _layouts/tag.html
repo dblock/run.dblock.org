@@ -51,9 +51,8 @@
         {% assign prev_tag_name = tag_hash[1].name %}
       {% endunless %}
     {% endfor %}
-    <h1>{{ page.tag }}
-      <span class="totals"><small>{% if prev_tag_key %}<a href="/tags/{{ prev_tag_key }}/">&lt; {{ prev_tag_name }}</a> | {% endif %}{{ total_distance | round: 1 }}mi {{ total_time | divided_by: 3600.0 | round }}h{% if total_heartrates > 0 %} μ{{ total_heartrate | divided_by: total_heartrates | round }}bpm{% endif %}{% if next_tag_key %} | <a href="/tags/{{ next_tag_key }}/">{{ next_tag_name }} &gt;</a>{% endif %}</small></span>
-    </h1>
+    <h1>{{ page.tag }}</h1>
+    <div class="totals">{% if prev_tag_key %}<a href="/tags/{{ prev_tag_key }}/">&lt; {{ prev_tag_name }}</a>{% endif %}{% if total_distance > 0 %}{% if prev_tag_key %} | {% endif %}{{ total_distance | round: 1 }}mi {{ total_time | divided_by: 3600.0 | round }}h{% if total_heartrates > 0 %} μ{{ total_heartrate | divided_by: total_heartrates | round }}bpm{% endif %}{% endif %}{% if next_tag_key %}{% if prev_tag_key or total_distance > 0 %} | {% endif %}<a href="/tags/{{ next_tag_key }}/">{{ next_tag_name }} &gt;</a>{% endif %}</div>
     {% if site.tags[page.tag] %}
       {% for post in site.tags[page.tag] %}
         <article>
