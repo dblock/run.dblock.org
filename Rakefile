@@ -72,6 +72,7 @@ task :tags do
 
     tagline.tr('[', '').tr(']', '').split(':').last.split(',').map(&:strip).each do |tag|
       next if tag.empty?
+      next if tag.start_with?('w/')
 
       tags[tag] ||= 0
       tags[tag] += 1
@@ -103,6 +104,40 @@ task :tags do
   end
 
   File.write '_data/tags.yml', tag_lines.join("\n")
+end
+
+desc 'Re-generate with pages.'
+task :with do
+  Dir['with/*.md'].each { |f| File.delete(f) }
+  FileUtils.mkdir_p('with')
+  with_tags = {}
+  Dir['_posts/**/*.md'].each do |file|
+    tagline = File.read(file).split("\n").detect { |line| line.start_with?('tags: ') }
+    next unless tagline
+
+    tagline.tr('[', '').tr(']', '').split(':').last.split(',').map(&:strip).each do |tag|
+      next unless tag.start_with?('w/')
+
+      with_tags[tag] ||= 0
+      with_tags[tag] += 1
+    end
+  end
+  with_tags.each_key do |tag|
+    name = tag.sub('w/', '')
+    display_name = name.capitalize
+    filename = "with/#{name}.md"
+    puts filename
+    File.write filename, <<~EOS
+      ---
+      layout: with
+      with_tag: #{name}
+      with_name: #{display_name}
+      permalink: /with/#{name}/
+      redirect_from:
+        - /tags/w_#{name}/
+      ---
+    EOS
+  end
 end
 
 desc 'Re-generate year pages.'
