@@ -8,7 +8,7 @@
     "firstname": null,
     "lastname": null
   },
-  "name": "Run with G",
+  "name": "Run with G 1",
   "distance": 5535.3,
   "moving_time": 2259,
   "elapsed_time": 2298,
@@ -70,10 +70,10 @@
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Switch FWD 2",
-    "distance": 762976,
+    "distance": 776251,
     "nickname": "",
-    "retired": false,
-    "converted_distance": 474.1
+    "retired": true,
+    "converted_distance": 482.3
   },
   "calories": 500.0,
   "segment_efforts": [
@@ -903,6 +903,10 @@
     {
       "type": "calories",
       "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
     }
   ],
   "available_zones": [
@@ -910,9 +914,9 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 2.811964676126377,
+    "average_speed": 2.799449585071823,
     "resource_state": 2,
-    "effort_count": 64,
+    "effort_count": 71,
     "frequency_milestone": null,
     "max_average_speed": 3.623567335243553,
     "mid_average_speed": 2.675562008353897,
@@ -922,17 +926,17 @@
     "speeds": null,
     "trend": {
       "speeds": [
-        2.614269371418679,
-        2.61505120987322,
         2.4631586377869823,
         2.5116357562830403,
-        2.547642430548705
+        2.547642430548705,
+        2.4584049060000894,
+        2.5789098292240227
       ],
-      "current_activity_index": 4,
+      "current_activity_index": 2,
       "min_speed": 2.1207317073170735,
       "mid_speed": 2.675562008353897,
       "max_speed": 3.623567335243553,
-      "direction": 1
+      "direction": 0
     },
     "pr_rank": null
   },
@@ -946,7 +950,7 @@
       "unique_id": "64F12709-25D3-4DB8-8B3A-23E3AB4951E4",
       "athlete_id": 26462176,
       "activity_id": 16873230579,
-      "activity_name": "Run with G",
+      "activity_name": "Run with G 1",
       "post_id": null,
       "resource_state": 2,
       "caption": "",
@@ -979,7 +983,7 @@
       "unique_id": "43417738-6987-4FD4-B44E-5791665FB895",
       "athlete_id": 26462176,
       "activity_id": 16873230579,
-      "activity_name": "Run with G",
+      "activity_name": "Run with G 1",
       "post_id": null,
       "resource_state": 2,
       "caption": "",

@@ -72,7 +72,7 @@
     "name": "Adidas Adizero SL2",
     "distance": 474374,
     "nickname": null,
-    "retired": false,
+    "retired": true,
     "converted_distance": 294.8
   },
   "calories": 563.0,
@@ -1268,6 +1268,10 @@
     },
     {
       "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
       "visibility": "everyone"
     }
   ],

@@ -8,7 +8,7 @@
     "firstname": null,
     "lastname": null
   },
-  "name": "Run with G.",
+  "name": "Run with G 5",
   "distance": 5050.4,
   "moving_time": 2126,
   "elapsed_time": 2252,
@@ -39,7 +39,7 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": 0,
+  "workout_type": null,
   "upload_id_str": "18783190065",
   "max_speed": 6.7,
   "has_kudoed": false,
@@ -70,10 +70,10 @@
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Adistar 4",
-    "distance": 134561,
+    "distance": 272181,
     "nickname": null,
     "retired": false,
-    "converted_distance": 83.6
+    "converted_distance": 169.1
   },
   "calories": 405.0,
   "segment_efforts": [
@@ -841,6 +841,10 @@
     {
       "type": "calories",
       "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
     }
   ],
   "available_zones": [
@@ -848,26 +852,29 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 2.42724651609803,
+    "average_speed": 2.6692101091933784,
     "resource_state": 2,
-    "effort_count": 2,
+    "effort_count": 12,
     "frequency_milestone": null,
-    "max_average_speed": 2.481237721021611,
-    "mid_average_speed": 2.4272391956192654,
-    "min_average_speed": 2.3755409219190966,
+    "max_average_speed": 3.37677245104659,
+    "mid_average_speed": 2.771986817908211,
+    "min_average_speed": 2.3509310986964618,
     "mid_speed": null,
     "min_speed": null,
     "speeds": null,
     "trend": {
       "speeds": [
         2.481237721021611,
-        2.4272391956192654
+        2.4272391956192654,
+        2.6258972543722665,
+        2.5702740610394237,
+        2.5339020365894704
       ],
       "current_activity_index": 1,
-      "min_speed": 2.3755409219190966,
-      "mid_speed": 2.4272391956192654,
-      "max_speed": 2.481237721021611,
-      "direction": -1
+      "min_speed": 2.3509310986964618,
+      "mid_speed": 2.771986817908211,
+      "max_speed": 3.37677245104659,
+      "direction": 0
     },
     "pr_rank": 2
   },
@@ -881,7 +888,7 @@
       "unique_id": "26A3B9EF-4B46-407B-8C13-4BE57BB97641",
       "athlete_id": 26462176,
       "activity_id": 17684756701,
-      "activity_name": "Run with G.",
+      "activity_name": "Run with G 5",
       "post_id": null,
       "resource_state": 2,
       "caption": "",
@@ -914,7 +921,7 @@
       "unique_id": "4383DECC-4C8C-4789-8F77-31299CB2BC66",
       "athlete_id": 26462176,
       "activity_id": 17684756701,
-      "activity_name": "Run with G.",
+      "activity_name": "Run with G 5",
       "post_id": null,
       "resource_state": 2,
       "caption": "",

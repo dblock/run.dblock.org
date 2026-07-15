@@ -22,10 +22,10 @@
   "timezone": "(GMT-05:00) America/New_York",
   "start_latlng": [40.773808,-73.972971],
   "end_latlng": [40.773865,-73.972982],
-  "achievement_count": 2,
+  "achievement_count": 4,
   "kudos_count": 3,
   "comment_count": 1,
-  "athlete_count": 82,
+  "athlete_count": 80,
   "photo_count": 0,
   "total_photo_count": 2,
   "map": {
@@ -72,7 +72,7 @@
     "name": "Adidas Switch FWD 2",
     "distance": 776251,
     "nickname": "",
-    "retired": false,
+    "retired": true,
     "converted_distance": 482.3
   },
   "calories": 591.0,
@@ -136,6 +136,74 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
+      "visibility": "everyone",
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 3483929870747303398,
+      "activity_id": null,
+      "elapsed_time": 157,
+      "start_date": "2026-01-01 05:06:00 UTC",
+      "start_date_local": "2026-01-01 00:06:00 UTC",
+      "distance": 388.0,
+      "is_kom": null,
+      "name": "Central Park Segment",
+      "activity": {
+        "id": 16900076660,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 157,
+      "start_index": 36,
+      "end_index": 72,
+      "average_cadence": 75.5,
+      "average_watts": null,
+      "device_watts": false,
+      "average_heartrate": 137.9,
+      "max_heartrate": 151.0,
+      "segment": {
+        "id": 41322805,
+        "name": "Central Park Segment",
+        "activity_type": "Run",
+        "distance": 388.0,
+        "average_grade": 0.9,
+        "maximum_grade": 6.7,
+        "elevation_high": 25.1,
+        "elevation_low": 18.6,
+        "start_latlng": [40.773514,-73.969058],
+        "end_latlng": [40.776365,-73.967283],
+        "climb_category": 0,
+        "city": "Manhattan",
+        "state": "New York",
+        "country": "USA",
+        "private": false,
+        "athlete_pr_effort": null,
+        "athlete_segment_stats": null,
+        "resource_state": 2,
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "hazardous": false,
+        "starred": false,
+        "starred_date": null,
+        "pr_time": null
+      },
+      "kom_rank": null,
+      "pr_rank": 2,
+      "hidden": false,
+      "resource_state": 2,
+      "achievements": [
+        {
+          "rank": 2,
+          "type": "pr",
+          "type_id": 3
+        }
+      ],
       "visibility": "everyone",
       "athlete_segment_stats": null
     },
@@ -3252,6 +3320,10 @@
     },
     {
       "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
       "visibility": "everyone"
     }
   ],

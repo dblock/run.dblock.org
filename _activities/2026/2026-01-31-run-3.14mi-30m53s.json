@@ -23,7 +23,7 @@
   "start_latlng": [],
   "end_latlng": [],
   "achievement_count": 0,
-  "kudos_count": 3,
+  "kudos_count": 5,
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
@@ -70,10 +70,10 @@
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Adistar 4",
-    "distance": 23745,
+    "distance": 272181,
     "nickname": null,
     "retired": false,
-    "converted_distance": 14.8
+    "converted_distance": 169.1
   },
   "calories": 441.0,
   "segment_efforts": [],
@@ -312,6 +312,10 @@
     },
     {
       "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
       "visibility": "everyone"
     }
   ],

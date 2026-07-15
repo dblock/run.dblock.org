@@ -70,10 +70,10 @@
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Ultraboost 5X",
-    "distance": 472036,
+    "distance": 475255,
     "nickname": null,
-    "retired": false,
-    "converted_distance": 293.3
+    "retired": true,
+    "converted_distance": 295.3
   },
   "calories": 443.0,
   "segment_efforts": [],
@@ -368,6 +368,10 @@
     },
     {
       "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
       "visibility": "everyone"
     }
   ],

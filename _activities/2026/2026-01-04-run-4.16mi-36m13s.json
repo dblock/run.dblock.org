@@ -63,7 +63,7 @@
     "name": "Adidas Switch FWD 2",
     "distance": 776251,
     "nickname": "",
-    "retired": false,
+    "retired": true,
     "converted_distance": 482.3
   },
   "calories": 582.0,
@@ -1327,6 +1327,10 @@
     },
     {
       "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
       "visibility": "everyone"
     }
   ],

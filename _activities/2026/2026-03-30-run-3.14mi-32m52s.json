@@ -8,7 +8,7 @@
     "firstname": null,
     "lastname": null
   },
-  "name": "Run with G.",
+  "name": "Run with G 9",
   "distance": 5059.2,
   "moving_time": 1972,
   "elapsed_time": 2206,
@@ -39,7 +39,7 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": 0,
+  "workout_type": null,
   "upload_id_str": "19012510130",
   "max_speed": 6.667,
   "has_kudoed": false,
@@ -70,10 +70,10 @@
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Adistar 4",
-    "distance": 134561,
+    "distance": 272181,
     "nickname": null,
     "retired": false,
-    "converted_distance": 83.6
+    "converted_distance": 169.1
   },
   "calories": 385.0,
   "segment_efforts": [
@@ -779,6 +779,10 @@
     {
       "type": "calories",
       "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
     }
   ],
   "available_zones": [
@@ -819,7 +823,7 @@
       "unique_id": "50741AE7-121D-4EFE-87B9-27918B06E1DF",
       "athlete_id": 26462176,
       "activity_id": 17912589503,
-      "activity_name": "Run with G.",
+      "activity_name": "Run with G 9",
       "post_id": null,
       "resource_state": 2,
       "caption": "",

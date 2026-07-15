@@ -70,10 +70,10 @@
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Switch FWD 2",
-    "distance": 762976,
+    "distance": 776251,
     "nickname": "",
-    "retired": false,
-    "converted_distance": 474.1
+    "retired": true,
+    "converted_distance": 482.3
   },
   "calories": 430.0,
   "segment_efforts": [
@@ -1027,6 +1027,10 @@
     {
       "type": "calories",
       "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
     }
   ],
   "available_zones": [
@@ -1034,9 +1038,9 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 2.811964676126377,
+    "average_speed": 2.799449585071823,
     "resource_state": 2,
-    "effort_count": 64,
+    "effort_count": 71,
     "frequency_milestone": null,
     "max_average_speed": 3.623567335243553,
     "mid_average_speed": 2.675562008353897,

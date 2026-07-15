@@ -70,10 +70,10 @@
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Adistar 4",
-    "distance": 67287,
+    "distance": 272181,
     "nickname": null,
     "retired": false,
-    "converted_distance": 41.8
+    "converted_distance": 169.1
   },
   "calories": 425.0,
   "segment_efforts": [
@@ -841,6 +841,10 @@
     {
       "type": "calories",
       "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
     }
   ],
   "available_zones": [
@@ -848,13 +852,13 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 3.0095104274515605,
+    "average_speed": 2.893770678836281,
     "resource_state": 2,
-    "effort_count": 4,
+    "effort_count": 5,
     "frequency_milestone": null,
     "max_average_speed": 3.1229053646775164,
-    "mid_average_speed": 2.9875584539098616,
-    "min_average_speed": 2.863456090651558,
+    "mid_average_speed": 2.778980529496212,
+    "min_average_speed": 2.503293413173653,
     "mid_speed": null,
     "min_speed": null,
     "speeds": null,
@@ -863,13 +867,14 @@
         3.0903304773561815,
         3.106532528854779,
         3.0210477732409107,
-        3.008857887546075
+        3.008857887546075,
+        2.8463838432563144
       ],
       "current_activity_index": 3,
-      "min_speed": 2.863456090651558,
-      "mid_speed": 2.9875584539098616,
+      "min_speed": 2.503293413173653,
+      "mid_speed": 2.778980529496212,
       "max_speed": 3.1229053646775164,
-      "direction": -1
+      "direction": 0
     },
     "pr_rank": 3
   },

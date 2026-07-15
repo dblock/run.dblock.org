@@ -8,7 +8,7 @@
     "firstname": null,
     "lastname": null
   },
-  "name": "Run with G",
+  "name": "Run with G 2",
   "distance": 5082.6,
   "moving_time": 2155,
   "elapsed_time": 2191,
@@ -63,7 +63,7 @@
     "name": "Adidas Adizero SL2",
     "distance": 474374,
     "nickname": null,
-    "retired": false,
+    "retired": true,
     "converted_distance": 294.8
   },
   "calories": 433.0,
@@ -1018,6 +1018,10 @@
     {
       "type": "calories",
       "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
     }
   ],
   "available_zones": [
@@ -1025,9 +1029,9 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 2.807495889591948,
+    "average_speed": 2.799449585071823,
     "resource_state": 2,
-    "effort_count": 66,
+    "effort_count": 71,
     "frequency_milestone": null,
     "max_average_speed": 3.623567335243553,
     "mid_average_speed": 2.675562008353897,
@@ -1037,13 +1041,13 @@
     "speeds": null,
     "trend": {
       "speeds": [
-        2.4631586377869823,
         2.5116357562830403,
         2.547642430548705,
         2.4584049060000894,
-        2.5789098292240227
+        2.5789098292240227,
+        2.624830530590294
       ],
-      "current_activity_index": 3,
+      "current_activity_index": 2,
       "min_speed": 2.1207317073170735,
       "mid_speed": 2.675562008353897,
       "max_speed": 3.623567335243553,
