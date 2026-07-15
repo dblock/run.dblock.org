@@ -6,6 +6,7 @@ set -o pipefail
 # bundle exec rake nyrr:results:update
 bundle exec rake strava:update
 bundle exec rake tags
+bundle exec rake years
 bundle exec rake prs
 
 git config --global user.name "Run Cron"

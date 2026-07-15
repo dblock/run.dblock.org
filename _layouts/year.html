@@ -1,0 +1,70 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="page">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+    {% include _search.html %}
+    {% include _rss.html %}
+  </div>
+  <article class="page">
+    <h1>{{ page.year }}</h1>
+    {% assign prev_year = page.year | minus: 1 %}
+    {% assign next_year = page.year | plus: 1 %}
+    {% assign prev_year_path = "/years/" | append: prev_year | append: "/" %}
+    {% assign next_year_path = "/years/" | append: next_year | append: "/" %}
+    {% assign prev_year_exists = false %}
+    {% assign next_year_exists = false %}
+    {% for p in site.pages %}
+      {% if p.permalink == prev_year_path %}{% assign prev_year_exists = true %}{% endif %}
+      {% if p.permalink == next_year_path %}{% assign next_year_exists = true %}{% endif %}
+    {% endfor %}
+    <p><small>{% include _year_totals.html year=page.year %}</small></p>
+    <div class="article-wrap">
+      <ul>
+        {% for post in site.posts %}
+          {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+          {% if post_year == page.year %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {% if post.race %}<span class='race'>RACE</span>{% endif %}
+              {% unless post.strava_id %}<span class='read'>READ</span>{% endunless %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div><!-- /.article-wrap -->
+    <p><small>
+      {% if prev_year_exists %}
+        <a href="/years/{{ prev_year }}/">&lt; {{ prev_year }}</a> &nbsp;|&nbsp;
+      {% endif %}
+      {% include _year_totals.html year=page.year %}
+      {% if next_year_exists %}
+        &nbsp;| <a href="/years/{{ next_year }}/">{{ next_year }} &gt;</a>
+      {% endif %}
+    </small></p>
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+
+</body>
+</html>

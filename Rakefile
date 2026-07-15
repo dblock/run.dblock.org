@@ -105,6 +105,26 @@ task :tags do
   File.write '_data/tags.yml', tag_lines.join("\n")
 end
 
+desc 'Re-generate year pages.'
+task :years do
+  Dir['years/*.md'].each { |f| File.delete(f) }
+  FileUtils.mkdir_p('years')
+  years = Dir['_posts/**/*.md'].filter_map do |file|
+    File.basename(file).split('-').first
+  end.uniq.sort
+  years.each do |year|
+    filename = "years/#{year}.md"
+    puts filename
+    File.write filename, <<~EOS
+      ---
+      layout: year
+      year: "#{year}"
+      permalink: /years/#{year}/
+      ---
+    EOS
+  end
+end
+
 desc 'Check for broken links and such.'
 task :check do
   require 'html-proofer'

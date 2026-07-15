@@ -8,14 +8,14 @@ comments: false
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% unless post.next %}
     <h3 class='next'>
-      {{ year }}
+      <a href="{{ site.url }}/years/{{ year }}/">{{ year }}</a>
       <span class="totals">{% include _year_totals.html year=year %}</span>
     </h3>
   {% else %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
       <h3 class='next'>
-          {{ year }}
+          <a href="{{ site.url }}/years/{{ year }}/">{{ year }}</a>
           <span class="totals">{% include _year_totals.html year=year %}</span>
       </h3>
     {% endif %}
