@@ -8,7 +8,7 @@
     "firstname": null,
     "lastname": null
   },
-  "name": "",
+  "name": "Ciclovia",
   "distance": 30646.7,
   "moving_time": 10986,
   "elapsed_time": 10993,
@@ -40,10 +40,10 @@
   "private": false,
   "flagged": false,
   "workout_type": null,
-  "upload_id_str": null,
+  "upload_id_str": "10329353629",
   "max_speed": 9.964,
   "has_kudoed": false,
-  "hide_from_home": null,
+  "hide_from_home": false,
   "gear_id": "g12012300",
   "kilojoules": null,
   "average_watts": null,
@@ -62,7 +62,7 @@
         "600": "https://dgtzuqphqg23d.cloudfront.net/CWjf_nPrelcysIYgspnZJZcl4JjdHc8SLQGTJWAQroU-576x768.jpg",
         "100": "https://dgtzuqphqg23d.cloudfront.net/CWjf_nPrelcysIYgspnZJZcl4JjdHc8SLQGTJWAQroU-96x128.jpg"
       },
-      "media_type": null
+      "media_type": 1
     }
   },
   "gear": {
@@ -71,9 +71,9 @@
     "primary": false,
     "name": "Adidas CS 2022",
     "distance": 1188285,
-    "nickname": null,
+    "nickname": "",
     "retired": true,
-    "converted_distance": null
+    "converted_distance": 738.4
   },
   "calories": 2794.0,
   "segment_efforts": [
@@ -136,7 +136,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -198,7 +198,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -260,7 +260,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -328,7 +328,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -396,7 +396,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -458,7 +458,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -520,7 +520,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -582,7 +582,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -644,7 +644,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -706,7 +706,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -768,7 +768,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -830,7 +830,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -892,7 +892,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -954,7 +954,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     }
   ],
@@ -969,7 +969,7 @@
       "pace_zone": 3,
       "moving_time": 318,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.22,
       "average_heartrate": 128.93015873015872
     },
     {
@@ -980,7 +980,7 @@
       "pace_zone": 2,
       "moving_time": 331,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.14,
       "average_heartrate": 144.19333333333333
     },
     {
@@ -991,7 +991,7 @@
       "pace_zone": 1,
       "moving_time": 374,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.69,
       "average_heartrate": 139.937125748503
     },
     {
@@ -1002,7 +1002,7 @@
       "pace_zone": 2,
       "moving_time": 357,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.84,
       "average_heartrate": 141.65266106442576
     },
     {
@@ -1013,7 +1013,7 @@
       "pace_zone": 2,
       "moving_time": 360,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.84,
       "average_heartrate": 140.99444444444444
     },
     {
@@ -1024,7 +1024,7 @@
       "pace_zone": 2,
       "moving_time": 357,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.9,
       "average_heartrate": 147.59943977591035
     },
     {
@@ -1035,7 +1035,7 @@
       "pace_zone": 2,
       "moving_time": 345,
       "split": 7,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.82,
       "average_heartrate": 144.77971014492755
     },
     {
@@ -1046,7 +1046,7 @@
       "pace_zone": 2,
       "moving_time": 344,
       "split": 8,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.84,
       "average_heartrate": 144.14285714285714
     },
     {
@@ -1057,7 +1057,7 @@
       "pace_zone": 2,
       "moving_time": 361,
       "split": 9,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.77,
       "average_heartrate": 147.48753462603878
     },
     {
@@ -1068,7 +1068,7 @@
       "pace_zone": 2,
       "moving_time": 364,
       "split": 10,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.77,
       "average_heartrate": 148.53846153846155
     },
     {
@@ -1079,7 +1079,7 @@
       "pace_zone": 2,
       "moving_time": 355,
       "split": 11,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.78,
       "average_heartrate": 147.2056338028169
     },
     {
@@ -1090,7 +1090,7 @@
       "pace_zone": 1,
       "moving_time": 360,
       "split": 12,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.75,
       "average_heartrate": 151.20833333333334
     },
     {
@@ -1101,7 +1101,7 @@
       "pace_zone": 1,
       "moving_time": 381,
       "split": 13,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.64,
       "average_heartrate": 151.69291338582678
     },
     {
@@ -1112,7 +1112,7 @@
       "pace_zone": 1,
       "moving_time": 408,
       "split": 14,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.44,
       "average_heartrate": 149.65135135135134
     },
     {
@@ -1123,7 +1123,7 @@
       "pace_zone": 1,
       "moving_time": 390,
       "split": 15,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.57,
       "average_heartrate": 148.95526315789473
     },
     {
@@ -1134,7 +1134,7 @@
       "pace_zone": 1,
       "moving_time": 380,
       "split": 16,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.65,
       "average_heartrate": 147.55968169761275
     },
     {
@@ -1145,7 +1145,7 @@
       "pace_zone": 1,
       "moving_time": 398,
       "split": 17,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.71,
       "average_heartrate": 159.59045226130652
     },
     {
@@ -1156,7 +1156,7 @@
       "pace_zone": 1,
       "moving_time": 373,
       "split": 18,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.68,
       "average_heartrate": 160.9811827956989
     },
     {
@@ -1167,7 +1167,7 @@
       "pace_zone": 2,
       "moving_time": 352,
       "split": 19,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.82,
       "average_heartrate": 159.5948275862069
     },
     {
@@ -1178,7 +1178,7 @@
       "pace_zone": 1,
       "moving_time": 363,
       "split": 20,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.71,
       "average_heartrate": 161.36158192090394
     },
     {
@@ -1189,7 +1189,7 @@
       "pace_zone": 2,
       "moving_time": 339,
       "split": 21,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.03,
       "average_heartrate": 161.579754601227
     },
     {
@@ -1200,7 +1200,7 @@
       "pace_zone": 2,
       "moving_time": 326,
       "split": 22,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.19,
       "average_heartrate": 168.875
     },
     {
@@ -1211,7 +1211,7 @@
       "pace_zone": 2,
       "moving_time": 332,
       "split": 23,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.97,
       "average_heartrate": 164.7846153846154
     },
     {
@@ -1222,7 +1222,7 @@
       "pace_zone": 2,
       "moving_time": 359,
       "split": 24,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.76,
       "average_heartrate": 161.9129213483146
     },
     {
@@ -1233,7 +1233,7 @@
       "pace_zone": 2,
       "moving_time": 363,
       "split": 25,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.76,
       "average_heartrate": 165.0716253443526
     },
     {
@@ -1244,7 +1244,7 @@
       "pace_zone": 1,
       "moving_time": 414,
       "split": 26,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.45,
       "average_heartrate": 163.59128065395095
     },
     {
@@ -1255,7 +1255,7 @@
       "pace_zone": 2,
       "moving_time": 371,
       "split": 27,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.81,
       "average_heartrate": 169.0
     },
     {
@@ -1266,7 +1266,7 @@
       "pace_zone": 2,
       "moving_time": 336,
       "split": 28,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.01,
       "average_heartrate": 167.73538461538462
     },
     {
@@ -1277,7 +1277,7 @@
       "pace_zone": 2,
       "moving_time": 325,
       "split": 29,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.1,
       "average_heartrate": 169.59567901234567
     },
     {
@@ -1288,7 +1288,7 @@
       "pace_zone": 2,
       "moving_time": 339,
       "split": 30,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.9,
       "average_heartrate": 174.48809523809524
     },
     {
@@ -1299,7 +1299,7 @@
       "pace_zone": 2,
       "moving_time": 211,
       "split": 31,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.98,
       "average_heartrate": 177.16746411483254
     }
   ],
@@ -1312,7 +1312,7 @@
       "pace_zone": 2,
       "moving_time": 537,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.11,
       "average_heartrate": 135.23552123552125
     },
     {
@@ -1323,7 +1323,7 @@
       "pace_zone": 2,
       "moving_time": 566,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.85,
       "average_heartrate": 140.0880626223092
     },
     {
@@ -1334,7 +1334,7 @@
       "pace_zone": 2,
       "moving_time": 573,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.85,
       "average_heartrate": 141.79057591623035
     },
     {
@@ -1345,7 +1345,7 @@
       "pace_zone": 2,
       "moving_time": 575,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.89,
       "average_heartrate": 146.9704347826087
     },
     {
@@ -1356,7 +1356,7 @@
       "pace_zone": 2,
       "moving_time": 551,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.81,
       "average_heartrate": 143.62545454545455
     },
     {
@@ -1367,7 +1367,7 @@
       "pace_zone": 2,
       "moving_time": 577,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.79,
       "average_heartrate": 148.26689774696706
     },
     {
@@ -1378,7 +1378,7 @@
       "pace_zone": 2,
       "moving_time": 582,
       "split": 7,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.76,
       "average_heartrate": 148.28006872852234
     },
     {
@@ -1389,7 +1389,7 @@
       "pace_zone": 1,
       "moving_time": 597,
       "split": 8,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.69,
       "average_heartrate": 151.2110552763819
     },
     {
@@ -1400,7 +1400,7 @@
       "pace_zone": 1,
       "moving_time": 639,
       "split": 9,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.52,
       "average_heartrate": 149.75207986688852
     },
     {
@@ -1411,7 +1411,7 @@
       "pace_zone": 1,
       "moving_time": 619,
       "split": 10,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.59,
       "average_heartrate": 147.83003300330034
     },
     {
@@ -1422,7 +1422,7 @@
       "pace_zone": 1,
       "moving_time": 632,
       "split": 11,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.69,
       "average_heartrate": 160.58320126782885
     },
     {
@@ -1433,7 +1433,7 @@
       "pace_zone": 2,
       "moving_time": 562,
       "split": 12,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.86,
       "average_heartrate": 160.67562724014337
     },
     {
@@ -1444,7 +1444,7 @@
       "pace_zone": 2,
       "moving_time": 584,
       "split": 13,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.77,
       "average_heartrate": 160.90391459074732
     },
     {
@@ -1455,7 +1455,7 @@
       "pace_zone": 2,
       "moving_time": 520,
       "split": 14,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.15,
       "average_heartrate": 167.58661417322836
     },
     {
@@ -1466,7 +1466,7 @@
       "pace_zone": 2,
       "moving_time": 562,
       "split": 15,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.84,
       "average_heartrate": 162.87275985663084
     },
     {
@@ -1477,7 +1477,7 @@
       "pace_zone": 1,
       "moving_time": 637,
       "split": 16,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.54,
       "average_heartrate": 163.8322033898305
     },
     {
@@ -1488,7 +1488,7 @@
       "pace_zone": 2,
       "moving_time": 571,
       "split": 17,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.9,
       "average_heartrate": 168.23851590106008
     },
     {
@@ -1499,7 +1499,7 @@
       "pace_zone": 2,
       "moving_time": 537,
       "split": 18,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.0,
       "average_heartrate": 168.9146110056926
     },
     {
@@ -1510,7 +1510,7 @@
       "pace_zone": 2,
       "moving_time": 541,
       "split": 19,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.94,
       "average_heartrate": 175.21641791044777
     },
     {
@@ -1521,7 +1521,7 @@
       "pace_zone": 2,
       "moving_time": 24,
       "split": 20,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.83,
       "average_heartrate": 180.29166666666666
     }
   ],
@@ -2669,8 +2669,33 @@
   "pr_count": 1,
   "suffer_score": 293.0,
   "perceived_exertion": null,
-  "prefer_perceived_exertion": null,
-  "stats_visibility": null,
+  "prefer_perceived_exertion": false,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
+    }
+  ],
   "available_zones": [
     "heartrate",
     "pace"
@@ -2708,13 +2733,13 @@
       "unique_id": "EBC5B8BA-BC9B-4B2D-BEF5-9E934FF28A00",
       "athlete_id": 26462176,
       "activity_id": 9633741340,
-      "activity_name": "",
+      "activity_name": "Ciclovia",
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2023-08-12 16:05:39 UTC",
       "created_at": "2023-08-12 13:02:38 UTC",
       "created_at_local": "2023-08-12 09:02:38 UTC",
@@ -2732,19 +2757,22 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        40.75848833333333,
+        -73.97286166666666
+      ]
     },
     {
       "unique_id": "7E703555-CBF0-457E-986D-34FBED85B1EB",
       "athlete_id": 26462176,
       "activity_id": 9633741340,
-      "activity_name": "",
+      "activity_name": "Ciclovia",
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2023-08-12 16:05:39 UTC",
       "created_at": "2023-08-11 21:40:47 UTC",
       "created_at_local": "2023-08-11 17:40:47 UTC",
@@ -2762,7 +2790,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        40.754261666666665,
+        -74.00273055
+      ]
     }
   ]
 }
