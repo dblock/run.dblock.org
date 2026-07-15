@@ -44,7 +44,7 @@ comments: false
   <div class="pagination">
     <small>
       {% if paginator.page == 1 %}
-        &lt; 1&nbsp;
+        1&nbsp;
       {% else %}
         <a href="/">&lt; 1</a>&nbsp;
       {% endif %}
@@ -80,7 +80,7 @@ comments: false
       {% assign last_minus_1 = paginator.total_pages | minus: 1 %}
       {% if prev_shown < last_minus_1 %}&hellip;&nbsp;{% endif %}
       {% if paginator.page == paginator.total_pages %}
-        {{ paginator.total_pages }} &gt;
+        {{ paginator.total_pages }}
       {% else %}
         <a href="/page{{ paginator.total_pages }}">{{ paginator.total_pages }} &gt;</a>
       {% endif %}

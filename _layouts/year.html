@@ -41,7 +41,7 @@
       {% assign first_year = year_pages | first %}
       {% assign last_year = year_pages | last %}
       {% if page.year == first_year.year %}
-        &lt; {{ first_year.year }}&nbsp;
+        {{ first_year.year }}&nbsp;
       {% else %}
         <a href="/years/{{ first_year.year }}/">&lt; {{ first_year.year }}</a>&nbsp;
       {% endif %}
@@ -55,7 +55,7 @@
         {% endunless %}
       {% endfor %}
       {% if page.year == last_year.year %}
-        {{ last_year.year }} &gt;
+        {{ last_year.year }}
       {% else %}
         <a href="/years/{{ last_year.year }}/">{{ last_year.year }} &gt;</a>
       {% endif %}
