@@ -7,7 +7,7 @@ require 'json'
 module NYRR
   class Results
     include HTTParty
-    base_uri 'https://results.nyrr.org/'
+    base_uri 'https://rmsprodapi.nyrr.org/'
 
     def self.search(name)
       body = {
