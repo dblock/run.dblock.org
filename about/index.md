@@ -14,7 +14,7 @@ I always hated running. And now I have a running blog. Read [Why do I run?](/201
 
 Since {{ site.posts.last.date | date: "%Y" }}, I've run a total of {{ total_distance | round: 1 }} miles in {{ total_time | divided_by: 3600.0 | round }} hours.
 
-I built and operate a [Slack bot for Strava](https://slava.playplay.io) service that publishes Strava runs into Slack. [Install it](https://slava.playplay.io) into your team's Slack and motivate your coworkers to go the distance.
+I built and operate [Slava](https://slava.playplay.io), a Strava integration with Slack, and [Strada](https://strada.playplay.io), a Strava integration with Discord. Install them into your team and motivate your coworkers to go the distance.
 
 Like what you read here? Have questions? <a href='https://github.com/dblock/run.dblock.org/issues/new'>Open an issue</a> for this blog. Feel free to <a href='mailto:dblock@dblock.org'>e-mail me</a>, too.
 

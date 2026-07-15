@@ -13,11 +13,12 @@ plugins:
 kramdown:
   input: GFM
 owner:
-  name: Doubrovkine Daniel
+  name: Daniel Doubrovkine
   avatar: blog.png
   bio: aka dB., NYC
   email: dblock@dblock.org
-  disqus-shortname:
+  website: https://code.dblock.org
+  repository: run.dblock.org
   twitter: dblockdotorg
   facebook:
   google:
