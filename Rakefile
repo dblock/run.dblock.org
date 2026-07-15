@@ -146,9 +146,28 @@ namespace :strava do
     require 'dotenv/load'
 
     year = ENV['YEAR']
-    start_at = year ? Time.local(year.to_i, 1, 1, 0, 0, 0) : Date.today.at_beginning_of_month
-    year ? year.to_i : start_at.year
-    end_at = year ? Time.local(year.to_i + 1, 1, 1, 0, 0, 0) : Date.today
+    from = ENV['FROM']
+    to = ENV['TO']
+
+    if from
+      parts = from.split('/')
+      start_at = Time.local(parts[0].to_i, parts[1].to_i, 1, 0, 0, 0)
+    elsif year
+      start_at = Time.local(year.to_i, 1, 1, 0, 0, 0)
+    else
+      start_at = Date.today.at_beginning_of_month
+    end
+
+    if to
+      parts = to.split('/')
+      end_month = Time.local(parts[0].to_i, parts[1].to_i, 1, 0, 0, 0)
+      end_at = end_month.to_date.next_month
+      end_at = Time.local(end_at.year, end_at.month, 1)
+    elsif year
+      end_at = Time.local(year.to_i + 1, 1, 1, 0, 0, 0)
+    else
+      end_at = Date.today
+    end
 
     activities_options = { per_page: 3, after: start_at.to_datetime.to_i }
     activities = Strava.client.athlete_activities(activities_options)
