@@ -2,15 +2,15 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
 {% endif %}
 
-<a href='{{ site.url }}/'>
+<a href='/'>
 {% if author.avatar contains 'http' %}
 	<img src="{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo">
 {% else %}
-	<img src="{{ site.url }}/images/{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo">
+	<img src="/images/{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo">
 {% endif %}
 </a>
 <h3>
-  <a href='{{ site.url }}/about'>
+  <a href='/about'>
     {{ author.name }}
   </a>
 </h3>

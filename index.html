@@ -8,14 +8,14 @@ comments: false
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% unless post.next %}
     <h3 class='next'>
-      <a href="{{ site.url }}/years/{{ year }}/">{{ year }}</a>
+      <a href="/years/{{ year }}/">{{ year }}</a>
       <span class="totals">{% include _year_totals.html year=year %}</span>
     </h3>
   {% else %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
       <h3 class='next'>
-        <a href="{{ site.url }}/years/{{ year }}/">{{ year }}</a>
+        <a href="/years/{{ year }}/">{{ year }}</a>
         <span class="totals">{% include _year_totals.html year=year %}</span>
       </h3>
     {% endif %}
@@ -27,7 +27,7 @@ comments: false
   {% unless post.race and year == current_year %}
     {% if post.strava_id or year != current_year %}
       <article>
-        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
           {% if post.race %}
             <span class='race'>RACE</span>
           {% endif %}
@@ -43,39 +43,46 @@ comments: false
 {% if paginator.total_pages > 1 %}
   <div class="pagination">
     <small>
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-          <a href="/">&lt; {{ paginator.previous_page }}</a>
-        {% else %}
-          <a href="/page{{ paginator.previous_page }}">&lt; {{ paginator.previous_page }}</a>
-        {% endif %}
-        &nbsp;|&nbsp;
+      {% if paginator.page == 1 %}
+        &lt; 1&nbsp;
+      {% else %}
+        <a href="/">&lt; 1</a>&nbsp;
       {% endif %}
       {% assign window = 5 %}
-      {% assign prev_shown = 0 %}
-      {% for count in (1..paginator.total_pages) %}
-        {% assign diff = count | minus: paginator.page | abs %}
-        {% assign show = false %}
-        {% if count == 1 or count == paginator.total_pages or diff <= window %}
-          {% assign show = true %}
-        {% endif %}
-        {% if show %}
+      {% assign range_start = paginator.page | minus: window %}
+      {% assign range_end = paginator.page | plus: window %}
+      {% if range_start < 2 %}
+        {% assign range_end = range_end | plus: 2 | minus: range_start %}
+        {% assign range_start = 2 %}
+      {% endif %}
+      {% assign total_minus_1 = paginator.total_pages | minus: 1 %}
+      {% if range_end > total_minus_1 %}
+        {% assign overflow = range_end | minus: total_minus_1 %}
+        {% assign range_start = range_start | minus: overflow %}
+        {% if range_start < 2 %}{% assign range_start = 2 %}{% endif %}
+        {% assign range_end = total_minus_1 %}
+      {% endif %}
+      {% assign prev_shown = 1 %}
+      {% for count in (2..paginator.total_pages) %}
+        {% assign last = paginator.total_pages | minus: 1 %}
+        {% if count > last %}{% break %}{% endif %}
+        {% if count >= range_start and count <= range_end %}
           {% assign prev_plus_1 = prev_shown | plus: 1 %}
-          {% if prev_shown > 0 and count > prev_plus_1 %}&hellip;&nbsp; {% endif %}
+          {% if count > prev_plus_1 %}&hellip;&nbsp;{% endif %}
           {% if count == paginator.page %}
-            <strong>{{ count }}</strong>
-          {% elsif count == 1 %}
-            <a href="/">{{ count }}</a>
+            <strong>{{ count }}</strong>&nbsp;
           {% else %}
-            <a href="/page{{ count }}">{{ count }}</a>
+            <a href="/page{{ count }}">{{ count }}</a>&nbsp;
           {% endif %}
-          &nbsp;
           {% assign prev_shown = count %}
         {% endif %}
       {% endfor %}
-      {% if paginator.next_page %}
-        |&nbsp;
-        <a href="/page{{ paginator.next_page }}">{{ paginator.next_page }} &gt;</a>
+      {% assign last_minus_1 = paginator.total_pages | minus: 1 %}
+      {% if prev_shown < last_minus_1 %}&hellip;&nbsp;{% endif %}
+      {% if paginator.page == paginator.total_pages %}
+        {{ paginator.total_pages }} &gt;
+      {% else %}
+        <a href="/page{{ paginator.total_pages }}">{{ paginator.total_pages }} &gt;</a>
       {% endif %}
     </small>
   </div><!-- /.pagination -->
