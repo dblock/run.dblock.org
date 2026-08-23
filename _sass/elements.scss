@@ -11,7 +11,8 @@ hr {
 figure {
 	margin-bottom: $indent-var;
 }
-article img {
+article img,
+.article-wrap img {
 	max-width: 100%;
 	height: auto;
 	border-width: 0; 
