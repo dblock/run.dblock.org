@@ -2,7 +2,7 @@
 layout: post
 title: "Life Update After 6 and a Half Marathons"
 date: "2026-08-22 19:00:00"
-tags: [life, marathon, data, y/2026]
+tags: [life, marathon, data, y/2026, read]
 race: false
 share: true
 ---
