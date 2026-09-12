@@ -259,7 +259,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (3.0.2)
+    json (2.21.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -372,6 +372,7 @@ DEPENDENCIES
   hashie
   html-proofer
   httparty
+  json (< 3.0)
   polylines
   rake
   strava-ruby-client
