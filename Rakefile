@@ -167,10 +167,10 @@ namespace :strava do
     elsif year
       end_at = Time.local(year.to_i + 1, 1, 1, 0, 0, 0)
     else
-      end_at = Date.today
+      end_at = Date.tomorrow
     end
 
-    activities_options = { per_page: 3, after: start_at.to_datetime.to_i }
+    activities_options = { per_page: 10, after: start_at.to_datetime.to_i }
     activities = Strava.client.athlete_activities(activities_options)
 
     if activities.none?
