@@ -10,10 +10,7 @@
   {% if post.race %}
     {% if year == current_year %}
       <article>
-        <h2>
-          <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-          <span class='race'>RACE</span>
-        </h2>
+        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class='race'>RACE</span></h2>
       </article>
     {% endif %}
   {% endif %}

@@ -21,14 +21,7 @@ comments: false
   {% unless post.race and year == current_year %}
     {% if post.strava_id or year != current_year %}
       <article>
-        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-          {% if post.race %}
-            <span class='race'>RACE</span>
-          {% endif %}
-          {% unless post.strava_id %}
-            <span class='read'>READ</span>
-          {% endunless %}
-        </h2>
+        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{% if post.race %}<span class='race'>RACE</span>{% endif %}{% unless post.strava_id %}<span class='read'>READ</span>{% endunless %}</h2>
       </article>
     {% endif %}
   {% endunless %}

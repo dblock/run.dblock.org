@@ -4,10 +4,7 @@
   {% capture current_year %}{{'now' | date: "%Y"}}{% endcapture %}
   {% unless post.strava_id %}
     <article>
-      <h2>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        <span class='read'>READ</span>
-      </h2>
+      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class='read'>READ</span></h2>
     </article>
   {% endunless %}
 {% endfor %}
