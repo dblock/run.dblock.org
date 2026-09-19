@@ -51,23 +51,30 @@ records:
     pace_s: 8m28s/mi
 averages:
   1:
+    race: 6m49s/mi
+    solo: 9m01s/mi
     with: 11m37s/mi
-    solo: 7m55s/mi
   3.1:
-    with: 11m09s/mi
-    solo: 9m11s/mi
+    race: 8m44s/mi
+    solo: 9m14s/mi
+    with: 11m08s/mi
   4.0:
-    with: 10m38s/mi
-    solo: 8m43s/mi
-  6.2:
-    with: 9m17s/mi
+    race: 8m32s/mi
     solo: 8m52s/mi
+    with: 10m31s/mi
+  6.2:
+    race: 7m41s/mi
+    solo: 8m59s/mi
+    with: 9m17s/mi
   10.0:
+    race: 7m59s/mi
+    solo: 8m47s/mi
     with: 9m29s/mi
-    solo: 8m43s/mi
   13.1:
+    race: 8m25s/mi
+    solo: 9m16s/mi
     with:
-    solo: 8m38s/mi
   26.2:
+    race: 8m18s/mi
+    solo:
     with:
-    solo: 8m18s/mi

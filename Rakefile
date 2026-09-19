@@ -26,13 +26,17 @@ task :prs do
   }
   totals = {}
   prs.each_key do |pr_distance|
-    totals[pr_distance] =
-      { 'with' => { 'distance' => 0.0, 'time' => 0.0 }, 'solo' => { 'distance' => 0.0, 'time' => 0.0 } }
+    totals[pr_distance] = {
+      'race' => { 'distance' => 0.0, 'time' => 0.0 },
+      'solo' => { 'distance' => 0.0, 'time' => 0.0 },
+      'with' => { 'distance' => 0.0, 'time' => 0.0 }
+    }
   end
   Dir['_posts/**/*.md'].each do |file|
     distance = nil
     time = nil
     title = nil
+    tags = []
     distance_s = nil
     time_s = nil
     pace_s = nil
@@ -40,6 +44,9 @@ task :prs do
       distance = line.split(':', 2)[1].to_f if line.start_with?('distance: ')
       time = line.split(':', 2)[1].to_f if line.start_with?('time: ')
       title = line.split(':', 2)[1].strip.delete_prefix('"').delete_suffix('"') if line.start_with?('title: ')
+      if line.start_with?('tags: ')
+        tags = line.split(':', 2)[1].strip.delete_prefix('[').delete_suffix(']').split(',').map(&:strip)
+      end
       distance_s, time_s, pace_s = line.split('|')[1..3] if line.start_with?('|') && line.end_with?('/mi|')
     end
     next unless distance && time
@@ -53,8 +60,11 @@ task :prs do
     end
     next unless pr_key
 
-    with = title&.downcase&.include?('with')
-    totals_key = with ? 'with' : 'solo'
+    totals_key = if tags.include?('races')
+                   'race'
+                 else
+                   title&.downcase&.include?('with') ? 'with' : 'solo'
+                 end
     totals[pr_key][totals_key]['distance'] += distance
     totals[pr_key][totals_key]['time'] += time
 

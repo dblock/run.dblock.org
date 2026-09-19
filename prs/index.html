@@ -8,9 +8,14 @@ comments: false
   {% assign key = pr_hash[0] %}
   {% assign pr = pr_hash[1] %}
   {% assign averages = site.data.prs.averages[key] %}
+  {% assign group_count = 0 %}
+  {% if averages.race %}{% assign group_count = group_count | plus: 1 %}{% endif %}
+  {% if averages.solo %}{% assign group_count = group_count | plus: 1 %}{% endif %}
+  {% if averages.with %}{% assign group_count = group_count | plus: 1 %}{% endif %}
+  {% capture avg_parts %}{% if averages.race %}{{ averages.race }} races{% endif %}{% if averages.solo %}{% if averages.race %}, {% endif %}{{ averages.solo }} solo{% endif %}{% if averages.with %}{% if averages.race or averages.solo %}, {% endif %}{{ averages.with }} w/others{% endif %}{% endcapture %}
   <article>
     <h2><a href='/{{ pr.file }}'>{{ key }}{% if key == 1 %} mile{% else %} miles{% endif %}</a>
-      <span class="totals"><small>{{ pr.time_s }} @ {{ pr.pace_s }}{% if averages.solo or averages.with %} (avg. {% if averages.solo and averages.with %}{{ averages.solo }} solo, {{ averages.with }} w/others{% elsif averages.solo %}{{ averages.solo }}{% elsif averages.with %}{{ averages.with }} w/others{% endif %}){% endif %}</small></span>
+      <span class="totals"><small>{{ pr.time_s }} @ {{ pr.pace_s }}{% if group_count > 0 %} (avg. {{ avg_parts }}){% endif %}</small></span>
     </h2>
   </article>
 {% endfor %}
