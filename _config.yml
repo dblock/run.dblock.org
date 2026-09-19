@@ -10,6 +10,9 @@ plugins:
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-redirect-from
+- jekyll-md
+md:
+  selector: "#markdown-content"
 kramdown:
   input: GFM
 owner:

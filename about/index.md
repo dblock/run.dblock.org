@@ -3,7 +3,6 @@ layout: page
 title: About
 tags: [about, me me]
 permalink: '/about/'
-markdown_url: /about.md
 ---
 
 Hi! This is my running blog. It automatically synchronizes and publishes my runs. Please [follow me on Strava](https://www.strava.com/athletes/dblockdotorg).
