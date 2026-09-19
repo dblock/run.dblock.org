@@ -137,7 +137,13 @@ task :tags do
   tag_keys = tags.keys.sort_by do |tag|
     # mile ranges in order
     m = tag.match(/^\d*/)
-    m && m[0].to_i.positive? ? format('%02d', m[0].to_i) : tag
+    next format('%02d', m[0].to_i) if m && m[0].to_i.positive?
+
+    # pace tags, e.g. "<7m00s/mi", in order
+    p = tag.match(%r{^<(?<minutes>\d+)m(?<seconds>\d+)s/mi$})
+    next "<#{format('%05d', (p[:minutes].to_i * 60) + p[:seconds].to_i)}" if p
+
+    tag
   end
 
   tag_lines = tag_keys.map do |tag|
