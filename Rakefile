@@ -1,5 +1,17 @@
 # frozen_string_literal: true
 
+desc 'Format seconds per mile as a pace string, e.g. "8m10s/mi".'
+def format_pace_per_mile(seconds_per_mile)
+  minutes, seconds = seconds_per_mile.divmod(60)
+  seconds = seconds.round
+  if seconds == 60
+    minutes += 1
+    seconds = 0
+  end
+  seconds = seconds < 10 ? "0#{seconds}" : seconds.to_s
+  "#{minutes}m#{seconds}s/mi"
+end
+
 desc 'Generate PRs.'
 task :prs do
   require 'yaml'
@@ -12,6 +24,11 @@ task :prs do
     13.1 => nil,
     26.2 => nil
   }
+  totals = {}
+  prs.each_key do |pr_distance|
+    totals[pr_distance] =
+      { 'with' => { 'distance' => 0.0, 'time' => 0.0 }, 'solo' => { 'distance' => 0.0, 'time' => 0.0 } }
+  end
   Dir['_posts/**/*.md'].each do |file|
     distance = nil
     time = nil
@@ -36,6 +53,11 @@ task :prs do
     end
     next unless pr_key
 
+    with = title&.downcase&.include?('with')
+    totals_key = with ? 'with' : 'solo'
+    totals[pr_key][totals_key]['distance'] += distance
+    totals[pr_key][totals_key]['time'] += time
+
     file = file
            .split('/')[2]
            .split('-')[0...3]
@@ -56,10 +78,20 @@ task :prs do
       'pace_s' => pace_s
     }
   end
-  File.open('_data/prs.yml', 'w') do |f|
-    f.write prs.to_yaml
+
+  averages = totals.to_h do |pr_key, groups|
+    group_averages = groups.to_h do |group, total|
+      pace_s = total['distance'].positive? ? format_pace_per_mile(total['time'] / total['distance']) : nil
+      [group, pace_s]
+    end
+    [pr_key, group_averages]
   end
-  puts "Written data/prs.yml with #{prs}."
+
+  data = { 'records' => prs, 'averages' => averages }
+  File.open('_data/prs.yml', 'w') do |f|
+    f.write data.to_yaml
+  end
+  puts "Written data/prs.yml with #{data}."
 end
 
 desc 'Re-generate tag pages.'

@@ -4,12 +4,13 @@ title: PRs
 comments: false
 ---
 <h1>PRs</h1>
-{% for pr_hash in site.data.prs %}
+{% for pr_hash in site.data.prs.records %}
   {% assign key = pr_hash[0] %}
   {% assign pr = pr_hash[1] %}
+  {% assign averages = site.data.prs.averages[key] %}
   <article>
     <h2><a href='/{{ pr.file }}'>{{ key }}{% if key == 1 %} mile{% else %} miles{% endif %}</a>
-      <span class="totals"><small>{{ pr.time_s }} @ {{ pr.pace_s }}</small></span>
+      <span class="totals"><small>{{ pr.time_s }} @ {{ pr.pace_s }}{% if averages.solo or averages.with %} (avg. {% if averages.solo and averages.with %}{{ averages.solo }} solo, {{ averages.with }} w/others{% elsif averages.solo %}{{ averages.solo }}{% elsif averages.with %}{{ averages.with }} w/others{% endif %}){% endif %}</small></span>
     </h2>
   </article>
 {% endfor %}

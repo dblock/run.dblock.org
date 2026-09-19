@@ -4,5 +4,6 @@ _site
 vendor/*
 .env
 .bundle
+.jekyll-metadata
 
 
