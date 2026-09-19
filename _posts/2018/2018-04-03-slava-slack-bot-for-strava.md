@@ -8,4 +8,6 @@ I made a Slack bot called ["Slava"](https://slava.playplay.io/) using some code 
 
 <a href='https://slava.playplay.io' target='_blank'>![]({{ site.url }}/images/posts/2018/2018-04-03-slava-slack-bot-for-strava/notify.png)</a>
 
+Update: I've since built [Strada](https://strada.playplay.io), the same integration for Discord, and [Strata](https://strata.playplay.io), for Microsoft Teams. Install whichever one matches where your team hangs out.
+
 
