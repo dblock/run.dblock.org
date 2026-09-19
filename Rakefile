@@ -130,6 +130,7 @@ task :tags do
       title: "#{tag}"
       tag: #{tag}
       permalink: /tags/#{tag_filename}/
+      markdown_url: /tags/#{tag_filename}.md
       ---
     EOS
   end

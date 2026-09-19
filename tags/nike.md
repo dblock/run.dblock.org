@@ -3,4 +3,5 @@ layout: tag
 title: "nike"
 tag: nike
 permalink: /tags/nike/
+markdown_url: /tags/nike.md
 ---
