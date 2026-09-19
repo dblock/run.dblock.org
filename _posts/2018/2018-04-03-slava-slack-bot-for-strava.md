@@ -1,4 +1,5 @@
 ---
+llms: true
 layout: post
 title: "Slava: a Slack Bot for Strava"
 date: "2018-04-03 12:16"

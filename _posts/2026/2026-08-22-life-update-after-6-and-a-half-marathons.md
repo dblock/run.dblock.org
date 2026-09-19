@@ -1,4 +1,5 @@
 ---
+llms: true
 layout: post
 title: "Life Update After 6 and a Half Marathons"
 date: "2026-08-22 19:00:00"

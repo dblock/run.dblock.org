@@ -1,0 +1,19 @@
+---
+---
+# run.dblock.org
+
+> Personal running blog of Daniel Doubrovkine (dB.). Every run synced from Strava is published automatically; below are the hand-written posts and personal records.
+
+## Posts
+
+{% for post in site.posts %}{% if post.llms %}- [{{ post.title }}]({{ site.url }}{{ post.url }})
+{% endif %}{% endfor %}
+## Personal Records
+
+{% for pr_hash in site.data.prs.records %}{% assign key = pr_hash[0] %}{% assign pr = pr_hash[1] %}- [{{ key }}{% if key == 1 %} mile{% else %} miles{% endif %}]({{ site.url }}/{{ pr.file }}): {{ pr.time_s }} @ {{ pr.pace_s }}
+{% endfor %}
+## Optional
+
+- [All posts]({{ site.url }}/)
+- [All tags]({{ site.url }}/tags/)
+- [About]({{ site.url }}/about/)
