@@ -2,7 +2,6 @@
 layout: page
 title: About
 tags: [about, me me]
-comments: false
 permalink: '/about/'
 markdown_url: /about.md
 ---
