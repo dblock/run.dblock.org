@@ -44,13 +44,13 @@
   "max_speed": 4.733,
   "has_kudoed": false,
   "hide_from_home": false,
-  "gear_id": null,
+  "gear_id": "g28518037",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
   "max_watts": null,
   "weighted_average_watts": null,
-  "description": "",
+  "description": "Long run!",
   "photos": {
     "count": 1,
     "use_primary_photo": true,
@@ -65,7 +65,16 @@
       "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g28518037",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adistar 4",
+    "distance": 301812,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 187.5
+  },
   "calories": 2557.0,
   "segment_efforts": [
     {
