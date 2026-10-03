@@ -3,6 +3,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '00 01,13 * * *'
+permissions:
+  contents: write
+  actions: write
 jobs:
   build:
     name: update
@@ -19,3 +22,7 @@ jobs:
           ruby-version: '3.4.6'
           bundler-cache: true      
       - run: _scripts/update.sh
+      - name: Deploy updated site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref gh-pages
