@@ -22,7 +22,7 @@
   "timezone": "(GMT-05:00) America/New_York",
   "start_latlng": [40.767072,-73.978844],
   "end_latlng": [40.773975,-73.968029],
-  "achievement_count": 0,
+  "achievement_count": 1,
   "kudos_count": 2,
   "comment_count": 1,
   "athlete_count": 2,
@@ -44,7 +44,7 @@
   "max_speed": 4.12,
   "has_kudoed": false,
   "hide_from_home": false,
-  "gear_id": null,
+  "gear_id": "g28518037",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -65,7 +65,16 @@
       "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g28518037",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adistar 4",
+    "distance": 643988,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 400.2
+  },
   "calories": 696.0,
   "segment_efforts": [
     {

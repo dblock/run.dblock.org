@@ -39,12 +39,12 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": null,
-  "upload_id_str": null,
-  "max_speed": 3.8,
+  "workout_type": 0,
+  "upload_id_str": "5920238657",
+  "max_speed": 3.817,
   "has_kudoed": false,
-  "hide_from_home": null,
-  "gear_id": null,
+  "hide_from_home": false,
+  "gear_id": "g7017053",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -62,10 +62,19 @@
         "600": "https://dgtzuqphqg23d.cloudfront.net/yjHCNN2TKf5462SrtS1tP5GdMUGsdzJWbtUhWSGPaSc-768x768.jpg",
         "100": "https://dgtzuqphqg23d.cloudfront.net/yjHCNN2TKf5462SrtS1tP5GdMUGsdzJWbtUhWSGPaSc-128x128.jpg"
       },
-      "media_type": null
+      "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g7017053",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Ultraboost 20",
+    "distance": 585354,
+    "nickname": "",
+    "retired": true,
+    "converted_distance": 363.7
+  },
   "calories": 597.0,
   "segment_efforts": [
     {
@@ -127,7 +136,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     }
   ],
@@ -142,7 +151,7 @@
       "pace_zone": 2,
       "moving_time": 347,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.89,
       "average_heartrate": 148.8289855072464
     },
     {
@@ -153,7 +162,7 @@
       "pace_zone": 2,
       "moving_time": 316,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.2,
       "average_heartrate": 162.94303797468353
     },
     {
@@ -164,7 +173,7 @@
       "pace_zone": 2,
       "moving_time": 316,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.13,
       "average_heartrate": 166.73417721518987
     },
     {
@@ -175,7 +184,7 @@
       "pace_zone": 2,
       "moving_time": 329,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.08,
       "average_heartrate": 169.59146341463415
     },
     {
@@ -186,7 +195,7 @@
       "pace_zone": 2,
       "moving_time": 324,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.06,
       "average_heartrate": 173.7037037037037
     },
     {
@@ -197,7 +206,7 @@
       "pace_zone": 2,
       "moving_time": 340,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.99,
       "average_heartrate": 169.31764705882352
     },
     {
@@ -208,7 +217,7 @@
       "pace_zone": 2,
       "moving_time": 152,
       "split": 7,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.08,
       "average_heartrate": 179.68421052631578
     }
   ],
@@ -221,7 +230,7 @@
       "pace_zone": 2,
       "moving_time": 537,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.0,
       "average_heartrate": 153.77196261682244
     },
     {
@@ -232,7 +241,7 @@
       "pace_zone": 2,
       "moving_time": 512,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.14,
       "average_heartrate": 165.9140625
     },
     {
@@ -243,7 +252,7 @@
       "pace_zone": 2,
       "moving_time": 522,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.09,
       "average_heartrate": 172.03071017274473
     },
     {
@@ -254,7 +263,7 @@
       "pace_zone": 2,
       "moving_time": 541,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.99,
       "average_heartrate": 172.37523105360444
     },
     {
@@ -265,7 +274,7 @@
       "pace_zone": 3,
       "moving_time": 12,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.38,
       "average_heartrate": 184.25
     }
   ],
@@ -443,11 +452,11 @@
   ],
   "best_efforts": [
     {
-      "id": 17368889853,
+      "id": 85621260873,
       "activity_id": null,
       "elapsed_time": 121,
-      "start_date": "2021-07-02 13:11:27 UTC",
-      "start_date_local": "2021-07-02 08:11:27 UTC",
+      "start_date": "2021-07-02 13:01:14 UTC",
+      "start_date_local": "2021-07-02 08:01:14 UTC",
       "distance": 400,
       "is_kom": null,
       "name": "400m",
@@ -480,11 +489,11 @@
       "athlete_segment_stats": null
     },
     {
-      "id": 17368890318,
+      "id": 85621260874,
       "activity_id": null,
       "elapsed_time": 249,
-      "start_date": "2021-07-02 13:07:34 UTC",
-      "start_date_local": "2021-07-02 08:07:34 UTC",
+      "start_date": "2021-07-02 13:01:14 UTC",
+      "start_date_local": "2021-07-02 08:01:14 UTC",
       "distance": 805,
       "is_kom": null,
       "name": "1/2 mile",
@@ -517,11 +526,11 @@
       "athlete_segment_stats": null
     },
     {
-      "id": 17368888779,
+      "id": 85621260875,
       "activity_id": null,
       "elapsed_time": 307,
-      "start_date": "2021-07-02 13:08:38 UTC",
-      "start_date_local": "2021-07-02 08:08:38 UTC",
+      "start_date": "2021-07-02 13:01:14 UTC",
+      "start_date_local": "2021-07-02 08:01:14 UTC",
       "distance": 1000,
       "is_kom": null,
       "name": "1K",
@@ -554,11 +563,11 @@
       "athlete_segment_stats": null
     },
     {
-      "id": 17368889249,
+      "id": 85621260870,
       "activity_id": null,
       "elapsed_time": 502,
-      "start_date": "2021-07-02 13:05:48 UTC",
-      "start_date_local": "2021-07-02 08:05:48 UTC",
+      "start_date": "2021-07-02 13:01:14 UTC",
+      "start_date_local": "2021-07-02 08:01:14 UTC",
       "distance": 1609,
       "is_kom": null,
       "name": "1 mile",
@@ -591,11 +600,11 @@
       "athlete_segment_stats": null
     },
     {
-      "id": 17368890712,
+      "id": 85621260871,
       "activity_id": null,
       "elapsed_time": 1028,
-      "start_date": "2021-07-02 13:07:34 UTC",
-      "start_date_local": "2021-07-02 08:07:34 UTC",
+      "start_date": "2021-07-02 13:01:14 UTC",
+      "start_date_local": "2021-07-02 08:01:14 UTC",
       "distance": 3219,
       "is_kom": null,
       "name": "2 mile",
@@ -628,11 +637,11 @@
       "athlete_segment_stats": null
     },
     {
-      "id": 17368891186,
+      "id": 85621260872,
       "activity_id": null,
       "elapsed_time": 1664,
-      "start_date": "2021-07-02 13:02:37 UTC",
-      "start_date_local": "2021-07-02 08:02:37 UTC",
+      "start_date": "2021-07-02 13:01:14 UTC",
+      "start_date_local": "2021-07-02 08:01:14 UTC",
       "distance": 5000,
       "is_kom": null,
       "name": "5K",
@@ -681,8 +690,33 @@
   "pr_count": 0,
   "suffer_score": 90.0,
   "perceived_exertion": null,
-  "prefer_perceived_exertion": null,
-  "stats_visibility": null,
+  "prefer_perceived_exertion": false,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
+    }
+  ],
   "available_zones": [
     "heartrate",
     "pace"
@@ -724,9 +758,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2021-07-02 13:56:44 UTC",
       "created_at": "2021-06-28 22:27:42 UTC",
       "created_at_local": "2021-06-28 17:27:42 UTC",
@@ -744,7 +778,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        18.454,
+        -78.01500833333333
+      ]
     },
     {
       "unique_id": "FCFA57F8-2920-4DA0-96D1-1EA853E33F7A",
@@ -754,9 +791,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2021-07-02 13:56:44 UTC",
       "created_at": "2021-06-30 14:29:26 UTC",
       "created_at_local": "2021-06-30 09:29:26 UTC",
@@ -774,7 +811,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        18.337791666666668,
+        -78.34216333333333
+      ]
     },
     {
       "unique_id": "FC003489-0E2E-4CDB-964C-62CDA2886DBD",
@@ -784,9 +824,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2021-07-03 22:40:55 UTC",
       "created_at": "2021-07-03 22:40:55 UTC",
       "created_at_local": "2021-07-03 17:40:55 UTC",
@@ -814,9 +854,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2021-07-03 22:40:55 UTC",
       "created_at": "2021-07-03 22:40:55 UTC",
       "created_at_local": "2021-07-03 17:40:55 UTC",

@@ -44,7 +44,7 @@
   "max_speed": 3.76,
   "has_kudoed": false,
   "hide_from_home": false,
-  "gear_id": null,
+  "gear_id": "g28518037",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -65,7 +65,16 @@
       "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g28518037",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adistar 4",
+    "distance": 643988,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 400.2
+  },
   "calories": 437.0,
   "segment_efforts": [
     {

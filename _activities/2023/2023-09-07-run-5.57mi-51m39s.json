@@ -39,12 +39,12 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": null,
-  "upload_id_str": null,
+  "workout_type": 0,
+  "upload_id_str": "10507853121",
   "max_speed": 5.568,
   "has_kudoed": false,
-  "hide_from_home": null,
-  "gear_id": null,
+  "hide_from_home": false,
+  "gear_id": "g12012300",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -62,10 +62,19 @@
         "600": "https://dgtzuqphqg23d.cloudfront.net/dTbfULuKl9G8Wohe-lh6HF8rdlupqY2AwTBkKk6K0CU-614x768.jpg",
         "100": "https://dgtzuqphqg23d.cloudfront.net/dTbfULuKl9G8Wohe-lh6HF8rdlupqY2AwTBkKk6K0CU-102x128.jpg"
       },
-      "media_type": null
+      "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g12012300",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas CS 2022",
+    "distance": 1207112,
+    "nickname": "",
+    "retired": true,
+    "converted_distance": 750.1
+  },
   "calories": 797.0,
   "segment_efforts": [
     {
@@ -127,7 +136,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -189,7 +198,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -251,7 +260,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -313,7 +322,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -375,7 +384,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -437,7 +446,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -499,7 +508,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -561,7 +570,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -623,69 +632,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
-      "athlete_segment_stats": null
-    },
-    {
-      "id": 3134868892301082816,
-      "activity_id": null,
-      "elapsed_time": 527,
-      "start_date": "2023-09-07 13:25:02 UTC",
-      "start_date_local": "2023-09-07 09:25:02 UTC",
-      "distance": 1614.3,
-      "is_kom": null,
-      "name": "Lost Loop Mile 3",
-      "activity": {
-        "id": 9802058427,
-        "resource_state": 1,
-        "visibility": "everyone"
-      },
-      "athlete": {
-        "id": 26462176,
-        "resource_state": 1,
-        "firstname": null,
-        "lastname": null
-      },
-      "moving_time": 527,
-      "start_index": 297,
-      "end_index": 425,
-      "average_cadence": 78.5,
-      "average_watts": null,
-      "device_watts": false,
-      "average_heartrate": 151.9,
-      "max_heartrate": 157.0,
-      "segment": {
-        "id": 30749352,
-        "name": "Lost Loop Mile 3",
-        "activity_type": "Run",
-        "distance": 1614.3,
-        "average_grade": -0.2,
-        "maximum_grade": 4.3,
-        "elevation_high": 39.9,
-        "elevation_low": 27.5,
-        "start_latlng": [40.792009,-73.962389],
-        "end_latlng": [40.780211,-73.970572],
-        "climb_category": 0,
-        "city": "New York",
-        "state": "New York",
-        "country": "United States",
-        "private": false,
-        "athlete_pr_effort": null,
-        "athlete_segment_stats": null,
-        "resource_state": 2,
-        "elevation_profile": null,
-        "elevation_profiles": null,
-        "hazardous": false,
-        "starred": false,
-        "starred_date": null,
-        "pr_time": null
-      },
-      "kom_rank": null,
-      "pr_rank": null,
-      "hidden": false,
-      "resource_state": 2,
-      "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -747,7 +694,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -809,7 +756,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -871,7 +818,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -933,7 +880,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -995,7 +942,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1057,7 +1004,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1119,7 +1066,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1181,7 +1128,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1243,7 +1190,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1305,7 +1252,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1367,7 +1314,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1429,7 +1376,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1491,7 +1438,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1553,7 +1500,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1615,7 +1562,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1677,7 +1624,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1739,18 +1686,18 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
-      "id": 3134868892304564416,
+      "id": 3134868892301991104,
       "activity_id": null,
-      "elapsed_time": 134,
-      "start_date": "2023-09-07 13:39:57 UTC",
-      "start_date_local": "2023-09-07 09:39:57 UTC",
-      "distance": 429.7,
+      "elapsed_time": 162,
+      "start_date": "2023-09-07 13:39:46 UTC",
+      "start_date_local": "2023-09-07 09:39:46 UTC",
+      "distance": 515.6,
       "is_kom": null,
-      "name": "Tavern on the Green Flyby",
+      "name": "Step Sister Hill to 59th St",
       "activity": {
         "id": 9802058427,
         "resource_state": 1,
@@ -1762,25 +1709,25 @@
         "firstname": null,
         "lastname": null
       },
-      "moving_time": 134,
-      "start_index": 504,
-      "end_index": 538,
-      "average_cadence": 78.9,
+      "moving_time": 162,
+      "start_index": 502,
+      "end_index": 542,
+      "average_cadence": 79.0,
       "average_watts": null,
       "device_watts": false,
-      "average_heartrate": 156.2,
-      "max_heartrate": 161.0,
+      "average_heartrate": 156.1,
+      "max_heartrate": 163.0,
       "segment": {
-        "id": 32777150,
-        "name": "Tavern on the Green Flyby",
+        "id": 33316582,
+        "name": "Step Sister Hill to 59th St",
         "activity_type": "Run",
-        "distance": 429.7,
-        "average_grade": -1.2,
-        "maximum_grade": 1.1,
-        "elevation_high": 17.6,
-        "elevation_low": 11.8,
-        "start_latlng": [40.772593,-73.976563],
-        "end_latlng": [40.769561,-73.979586],
+        "distance": 515.6,
+        "average_grade": -0.9,
+        "maximum_grade": 3.3,
+        "elevation_high": 29.6,
+        "elevation_low": 23.6,
+        "start_latlng": [40.772867,-73.976401],
+        "end_latlng": [40.769225,-73.97987],
         "climb_category": 0,
         "city": "New York",
         "state": "New York",
@@ -1801,7 +1748,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -1863,7 +1810,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     }
   ],
@@ -1878,7 +1825,7 @@
       "pace_zone": 2,
       "moving_time": 361,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.79,
       "average_heartrate": 129.30028328611897
     },
     {
@@ -1889,7 +1836,7 @@
       "pace_zone": 2,
       "moving_time": 370,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.97,
       "average_heartrate": 146.76216216216216
     },
     {
@@ -1900,7 +1847,7 @@
       "pace_zone": 2,
       "moving_time": 330,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.08,
       "average_heartrate": 146.47272727272727
     },
     {
@@ -1911,7 +1858,7 @@
       "pace_zone": 2,
       "moving_time": 334,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.01,
       "average_heartrate": 150.83832335329342
     },
     {
@@ -1922,7 +1869,7 @@
       "pace_zone": 2,
       "moving_time": 330,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.97,
       "average_heartrate": 148.1969696969697
     },
     {
@@ -1933,7 +1880,7 @@
       "pace_zone": 2,
       "moving_time": 325,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.1,
       "average_heartrate": 155.47076923076924
     },
     {
@@ -1944,7 +1891,7 @@
       "pace_zone": 2,
       "moving_time": 368,
       "split": 7,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.81,
       "average_heartrate": 149.06179775280899
     },
     {
@@ -1955,7 +1902,7 @@
       "pace_zone": 2,
       "moving_time": 335,
       "split": 8,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.93,
       "average_heartrate": 151.8368580060423
     },
     {
@@ -1966,7 +1913,7 @@
       "pace_zone": 2,
       "moving_time": 346,
       "split": 9,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.82,
       "average_heartrate": 158.2470238095238
     }
   ],
@@ -1979,7 +1926,7 @@
       "pace_zone": 2,
       "moving_time": 579,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.87,
       "average_heartrate": 135.3905429071804
     },
     {
@@ -1990,7 +1937,7 @@
       "pace_zone": 2,
       "moving_time": 552,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.03,
       "average_heartrate": 148.08152173913044
     },
     {
@@ -2001,7 +1948,7 @@
       "pace_zone": 2,
       "moving_time": 532,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.98,
       "average_heartrate": 149.27631578947367
     },
     {
@@ -2012,7 +1959,7 @@
       "pace_zone": 2,
       "moving_time": 550,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.97,
       "average_heartrate": 154.40074211502784
     },
     {
@@ -2023,7 +1970,7 @@
       "pace_zone": 2,
       "moving_time": 556,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.9,
       "average_heartrate": 149.25589836660617
     },
     {
@@ -2034,7 +1981,7 @@
       "pace_zone": 2,
       "moving_time": 330,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.82,
       "average_heartrate": 158.321875
     }
   ],
@@ -2484,8 +2431,33 @@
   "pr_count": 0,
   "suffer_score": 64.0,
   "perceived_exertion": null,
-  "prefer_perceived_exertion": null,
-  "stats_visibility": null,
+  "prefer_perceived_exertion": false,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
+    }
+  ],
   "available_zones": [
     "heartrate",
     "pace"
@@ -2515,7 +2487,7 @@
       "max_speed": 3.008704592186429,
       "direction": 0
     },
-    "pr_rank": null
+    "pr_rank": 1
   },
   "average_cadence": 77.8,
   "highlighted_kudosers": null,
@@ -2531,9 +2503,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2023-09-07 14:11:44 UTC",
       "created_at": "2023-09-07 03:20:21 UTC",
       "created_at_local": "2023-09-06 23:20:21 UTC",
@@ -2551,7 +2523,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        40.722721666666665,
+        -73.99814666666667
+      ]
     }
   ]
 }

@@ -39,12 +39,12 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": 0,
+  "workout_type": null,
   "upload_id_str": "20238651780",
   "max_speed": 8.217,
   "has_kudoed": false,
   "hide_from_home": false,
-  "gear_id": null,
+  "gear_id": "g28518037",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -65,7 +65,16 @@
       "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g28518037",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adistar 4",
+    "distance": 643988,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 400.2
+  },
   "calories": 413.0,
   "segment_efforts": [
     {
@@ -657,12 +666,12 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 2.7081632653061223,
+    "average_speed": 2.8246569005397073,
     "resource_state": 2,
-    "effort_count": 2,
+    "effort_count": 3,
     "frequency_milestone": null,
-    "max_average_speed": 2.888355795148248,
-    "mid_average_speed": 2.722568802042096,
+    "max_average_speed": 3.0638418079096046,
+    "mid_average_speed": 2.7981020028718806,
     "min_average_speed": 2.5747805267358337,
     "mid_speed": null,
     "min_speed": null,
@@ -670,13 +679,14 @@
     "trend": {
       "speeds": [
         2.5747805267358337,
-        2.722568802042096
+        2.722568802042096,
+        2.8275532923012494
       ],
       "current_activity_index": 1,
       "min_speed": 2.5747805267358337,
-      "mid_speed": 2.722568802042096,
-      "max_speed": 2.888355795148248,
-      "direction": 1
+      "mid_speed": 2.7981020028718806,
+      "max_speed": 3.0638418079096046,
+      "direction": 0
     },
     "pr_rank": 1
   },

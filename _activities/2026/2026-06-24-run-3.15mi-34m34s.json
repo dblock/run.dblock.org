@@ -39,12 +39,12 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": 0,
+  "workout_type": null,
   "upload_id_str": "20162061466",
   "max_speed": 6.6,
   "has_kudoed": false,
   "hide_from_home": false,
-  "gear_id": null,
+  "gear_id": "g28518037",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -56,9 +56,80 @@
     "use_primary_photo": null,
     "primary": null
   },
-  "gear": null,
+  "gear": {
+    "id": "g28518037",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adistar 4",
+    "distance": 643988,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 400.2
+  },
   "calories": 420.0,
   "segment_efforts": [
+    {
+      "id": 3538680718721327200,
+      "activity_id": null,
+      "elapsed_time": 165,
+      "start_date": "2026-06-24 10:40:02 UTC",
+      "start_date_local": "2026-06-24 06:40:02 UTC",
+      "distance": 388.578,
+      "is_kom": null,
+      "name": "West Side Highway Run",
+      "activity": {
+        "id": 19047641872,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 165,
+      "start_index": 177,
+      "end_index": 215,
+      "average_cadence": 76.3,
+      "average_watts": null,
+      "device_watts": false,
+      "average_heartrate": 120.7,
+      "max_heartrate": 126.0,
+      "segment": {
+        "id": 42268885,
+        "name": "West Side Highway Run",
+        "activity_type": "Run",
+        "distance": 388.578,
+        "average_grade": 0.0,
+        "maximum_grade": 0.7,
+        "elevation_high": 2.5,
+        "elevation_low": 2.3,
+        "start_latlng": [40.7537956237793,-74.00750732421875],
+        "end_latlng": [40.75062561035156,-74.00898742675781],
+        "climb_category": 0,
+        "city": "Manhattan",
+        "state": "New York",
+        "country": "USA",
+        "private": false,
+        "athlete_pr_effort": null,
+        "athlete_segment_stats": null,
+        "resource_state": 2,
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "hazardous": false,
+        "starred": false,
+        "starred_date": null,
+        "pr_time": null
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": false,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": "everyone",
+      "athlete_segment_stats": null
+    },
     {
       "id": 3504821574190653320,
       "activity_id": null,
@@ -834,9 +905,9 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 2.3185030823999306,
+    "average_speed": 2.3774801523268576,
     "resource_state": 2,
-    "effort_count": 5,
+    "effort_count": 7,
     "frequency_milestone": 5,
     "max_average_speed": 3.083914081145585,
     "mid_average_speed": 2.3965356635199155,
@@ -846,17 +917,17 @@
     "speeds": null,
     "trend": {
       "speeds": [
-        3.083914081145585,
-        2.5050732487815854,
         2.2924307745757235,
         2.250495892676245,
-        2.148113525536961
+        2.148113525536961,
+        2.254461739130642,
+        2.405864922548248
       ],
-      "current_activity_index": 4,
+      "current_activity_index": 2,
       "min_speed": 1.9597286821705429,
       "mid_speed": 2.3965356635199155,
       "max_speed": 3.083914081145585,
-      "direction": -1
+      "direction": 0
     },
     "pr_rank": 2
   },

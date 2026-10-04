@@ -39,12 +39,12 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": null,
-  "upload_id_str": null,
+  "workout_type": 0,
+  "upload_id_str": "12574955266",
   "max_speed": 5.128,
   "has_kudoed": false,
-  "hide_from_home": null,
-  "gear_id": null,
+  "hide_from_home": false,
+  "gear_id": "g15430183",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -62,10 +62,19 @@
         "600": "https://dgtzuqphqg23d.cloudfront.net/G-wN8yCK0NU_-l1YQTJ2UJssmm3-9ZFA0GyEM_7X7Eo-706x768.jpg",
         "100": "https://dgtzuqphqg23d.cloudfront.net/G-wN8yCK0NU_-l1YQTJ2UJssmm3-9ZFA0GyEM_7X7Eo-117x128.jpg"
       },
-      "media_type": null
+      "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g15430183",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas CS 2023",
+    "distance": 795723,
+    "nickname": "",
+    "retired": true,
+    "converted_distance": 494.4
+  },
   "calories": 453.0,
   "segment_efforts": [
     {
@@ -127,7 +136,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -189,7 +198,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -251,7 +260,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     }
   ],
@@ -266,7 +275,7 @@
       "pace_zone": 2,
       "moving_time": 335,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.98,
       "average_heartrate": 127.37237237237237
     },
     {
@@ -277,7 +286,7 @@
       "pace_zone": 2,
       "moving_time": 324,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.08,
       "average_heartrate": 139.12345679012347
     },
     {
@@ -288,7 +297,7 @@
       "pace_zone": 2,
       "moving_time": 329,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.06,
       "average_heartrate": 142.75683890577508
     },
     {
@@ -299,7 +308,7 @@
       "pace_zone": 2,
       "moving_time": 328,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.1,
       "average_heartrate": 140.15853658536585
     },
     {
@@ -310,7 +319,7 @@
       "pace_zone": 2,
       "moving_time": 334,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.04,
       "average_heartrate": 139.9191616766467
     },
     {
@@ -321,7 +330,7 @@
       "pace_zone": 2,
       "moving_time": 120,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.95,
       "average_heartrate": 150.46666666666667
     }
   ],
@@ -334,7 +343,7 @@
       "pace_zone": 2,
       "moving_time": 534,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.01,
       "average_heartrate": 132.0093984962406
     },
     {
@@ -345,7 +354,7 @@
       "pace_zone": 2,
       "moving_time": 520,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.09,
       "average_heartrate": 140.7923076923077
     },
     {
@@ -356,7 +365,7 @@
       "pace_zone": 2,
       "moving_time": 536,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.04,
       "average_heartrate": 139.6884328358209
     },
     {
@@ -367,7 +376,7 @@
       "pace_zone": 2,
       "moving_time": 180,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.0,
       "average_heartrate": 149.47222222222223
     }
   ],
@@ -749,8 +758,33 @@
   "pr_count": 1,
   "suffer_score": 17.0,
   "perceived_exertion": null,
-  "prefer_perceived_exertion": null,
-  "stats_visibility": null,
+  "prefer_perceived_exertion": false,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
+    }
+  ],
   "available_zones": [
     "heartrate",
     "pace"
@@ -777,7 +811,7 @@
       "max_speed": 3.221608040201005,
       "direction": 0
     },
-    "pr_rank": null
+    "pr_rank": 1
   },
   "average_cadence": 78.1,
   "highlighted_kudosers": null,
@@ -793,9 +827,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2024-07-02 12:10:18 UTC",
       "created_at": "2024-07-01 14:28:55 UTC",
       "created_at_local": "2024-07-01 09:28:55 UTC",
@@ -813,7 +847,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        -12.121438833333332,
+        -77.04255
+      ]
     },
     {
       "unique_id": "D2C9D04B-66BC-4A5C-AF57-23E0DEEA1CB3",
@@ -823,9 +860,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2024-07-02 12:11:37 UTC",
       "created_at": "2024-06-30 15:00:04 UTC",
       "created_at_local": "2024-06-30 10:00:04 UTC",
@@ -843,7 +880,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        -12.124361166666667,
+        -77.03881116666666
+      ]
     },
     {
       "unique_id": "1F74691A-2259-4BD4-AD95-15325234E6E3",
@@ -853,9 +893,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2024-07-02 12:11:36 UTC",
       "created_at": "2024-06-30 15:02:57 UTC",
       "created_at_local": "2024-06-30 10:02:57 UTC",
@@ -873,7 +913,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        -12.1237555,
+        -77.04
+      ]
     }
   ]
 }

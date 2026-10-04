@@ -27,7 +27,7 @@
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
-  "total_photo_count": 5,
+  "total_photo_count": 4,
   "map": {
     "id": "a19364083369",
     "summary_polyline": "gamyFfdcvLTSDo@{@yD{@wEs@kCeAgFi@kDSs@Iy@mAuFMYAIFGjBgAsCbBs@^K?MQ[iA]kCc@O]sAJa@z@i@F[Gc@o@qCKMSYmAYIKG_GM_Cg@aCyBqDMe@@i@f@uDJ_@t@qAXs@Be@Ku@IYSQGUHm@GgAQ]I?QHGVWTYHQQc@gA_@Qe@m@g@[qAkAy@d@CGBiBg@wCCi@Hi@Re@l@k@Xe@tAuEJs@@k@YeAGe@Ai@D]Gg@Sw@EiBQ[?]Mk@SIGy@[}@Eq@Mk@q@yAm@}@o@uAM_@_@mB@aAg@i@[}AYc@YSi@M_@FMJo@|ASTJb@PzA\\vAjA~GJPXCbCuAZEd@h@XD\\YNP\\bAHvAVp@L~@PBHl@Ab@NNJzBb@vAG`@JjALVXxABn@dAdCT|@Bj@NPd@|ABhBLVPp@ArAp@~AJj@Rj@GdAYAHn@?h@KZHTTXJ`AK`AmAdCa@lD?n@Lj@X\\Xt@n@v@Zt@Nl@L~@HzA?dFHxBj@jEfA`F~@|EXXP~At@dD|E`Vd@xCp@dDLf@FDj@Q`Am@HO?a@cEkR}DeSQi@GG_AJi@V]?We@aDcPKqAByAIeHIgAMs@Si@}ByDOs@XaCZ{A|@uBNaAEo@Yu@CYHg@KkAOWGAUJKROJaAXgBp@i@b@wAj@wBrAWVgB|@a@ZwD`BFa@l@qBFe@r@eBJg@WyAg@{AC]Y_AMeAa@wA@e@^oACm@RQ@S\\e@D[QkBY]D[\\i@Nc@DaAd@[N?NSC]FUPOZDfA[d@?`@FLL^?h@P|AjDR?TgAPyAG[Ws@IaADe@c@{AEy@HjATn@Fj@EXBZ`@lBCx@o@~B?KyAeE{C_@eA`@c@G@IQf@BZENgA\\IbBu@x@F\\RPB|AI`@S^?\\IRBb@Wt@[p@p@`CVtBP^Fb@b@z@J|Am@rAWbAm@fDYt@@d@Hu@Pg@tCqAfB_ATYn@Wh@[PYTM`@Q~Ai@|@e@|@m@pAYNKR[R?RTRx@?^EXZhA@~@QjA}@hBKb@SlCBt@l@pAfAnB\\z@RbADr@FvGL`D~@bFz@jD@^`@vBtBhKhA`Fp@nEr@`CnBrJVdBFLH?\\G",
@@ -44,7 +44,7 @@
   "max_speed": 3.75,
   "has_kudoed": false,
   "hide_from_home": false,
-  "gear_id": null,
+  "gear_id": "g28518037",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -52,7 +52,7 @@
   "weighted_average_watts": null,
   "description": "Montauk/ 4M with plus 4M solo",
   "photos": {
-    "count": 5,
+    "count": 4,
     "use_primary_photo": true,
     "primary": {
       "id": null,
@@ -65,7 +65,16 @@
       "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g28518037",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adistar 4",
+    "distance": 643988,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 400.2
+  },
   "calories": 1176.0,
   "segment_efforts": [],
   "device_name": "Garmin Forerunner 945",
@@ -1051,36 +1060,6 @@
       "created_at_local": "2026-07-18 10:49:04 UTC",
       "urls": {
         "600": "https://dgtzuqphqg23d.cloudfront.net/8--h2cF0FzTYSdMLVL92MHTV-f3LZrr7OpiP-xzceVU-768x768.jpg"
-      },
-      "placeholder_image": null,
-      "sizes": {
-        "600": [
-          768,
-          768
-        ]
-      },
-      "default_photo": false,
-      "cursor": null,
-      "duration": null,
-      "video_url": null,
-      "location": null
-    },
-    {
-      "unique_id": "88852774-EB50-4156-AE1E-A50DE13258A8",
-      "athlete_id": 26462176,
-      "activity_id": 19364083369,
-      "activity_name": "Run with G 24",
-      "post_id": null,
-      "resource_state": 2,
-      "caption": "",
-      "type": 1,
-      "source": 1,
-      "status": 3,
-      "uploaded_at": "2026-07-18 14:49:04 UTC",
-      "created_at": "2026-07-18 14:49:04 UTC",
-      "created_at_local": "2026-07-18 10:49:04 UTC",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/xJNcrpszqBuAihtweNl4-5VQI81OgDYMfDALJXF1ymc-768x768.jpg"
       },
       "placeholder_image": null,
       "sizes": {

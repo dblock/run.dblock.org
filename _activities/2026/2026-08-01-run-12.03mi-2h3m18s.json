@@ -27,7 +27,7 @@
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
-  "total_photo_count": 2,
+  "total_photo_count": 1,
   "map": {
     "id": "a19557919064",
     "summary_polyline": "y|uwF|apbMBe@Wi@yCaAi@u@yBaAo@y@wAm@L@qAUi@a@o@AqBh@`AgBESh@mAuAqAkAi@yAFeJzDBFYVFH_@\\IUFYIGeCW{@VUc@f@kAGSJLQe@HAIWBm@kAu@m@Ru@Oa@gBDc@_@g@kAY_@cAq@}@}@k@q@GcADg@c@QUDsBe@cAoB?_ASU[mCTGALg@]O[yAg@m@oCq@}BTGm@m@{@{@[UoAw@eBS?FSSg@@s@UMg@iAwBoBUc@]Bq@_ALWWKw@uA{D_CqBmBoB_AkBeAk@_Aw@Is@s@eCw@_BcBG]wBq@M]uAw@iACm@{@Km@_CkBkEuAwAyAAYOa@MCWt@Jc@Q[D]Oa@sBWaHoE{EmBc@k@Hc@e@g@gAUyCsBg@c@CUeBo@Ug@wHcCiBsAwBwCmBeASBiHmFkBo@uBgB[s@Kb@\\_AGR]MyCsBg@MaDgCgIgF}@cA{C_As@m@]s@uF_EyBuAaEuBeAaAiAt@KXeBrA`@fD`@X[ESNAf@_ApCsApAQd@?bA}ApEQ~Ai@lAa@lCu@|@yAlD]Pq@tCSlCWXCz@a@?TF[n@M`A_@ZyAhFe@bAmAtB?x@gAjEWLY~@s@~@W`Bo@l@]dCs@fAK`AE~Ao@~@gAb@KzCMd@UH_@~Ds@rAYtAu@rAoB_Ag@q@{PcKoBeBwAe@U]gDqBwCcAeAgAYy@iD{@OWsDmAMMB[mAQk@w@gAeApANq@gA_DgCy@YkBcB}ASyF_DqDsDuEkCe@w@cCaBQC[|@?k@O[eAeAiLoHiAgAuOsJeGmEqBaAI]{I{F{CcBqBeBaCgAqS}MUk@mAg@oFiDwLmIkAYc@w@iA_@QYsCyAsFuDqCg@{EF_DWgDiAyBIeGaBeB@aBk@sAm@u@u@u@YoCmCWw@aByBqAk@eAq@sDiAoLaF}HeB{@y@cD{@eCcBsBOyCaBWc@gBq@oAEsCyAwAUq@m@kDaB}Ef@m@GoCmC}AeAsB{Cg@kBSBt@X~@dAd@dB`@l@v@d@jCdCfATbFIlATfBbAlFbBjAp@`@CfFnClMnFzBf@dBx@hBRzAx@nDdArCzAx@HnGdD~A`@lC`CfBjC`A`Ad@NgAYEWf@n@x@Tb@l@`Ez@uAHgBeAm@ICNbB?l@PFZEv@a@zBCcAVo@?h@",
@@ -44,7 +44,7 @@
   "max_speed": 8.0,
   "has_kudoed": false,
   "hide_from_home": false,
-  "gear_id": null,
+  "gear_id": "g28518037",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -52,7 +52,7 @@
   "weighted_average_watts": null,
   "description": "+ a few miles, all the way north summer streets NYC!",
   "photos": {
-    "count": 2,
+    "count": 1,
     "use_primary_photo": true,
     "primary": {
       "id": null,
@@ -65,7 +65,16 @@
       "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g28518037",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adistar 4",
+    "distance": 643988,
+    "nickname": null,
+    "retired": false,
+    "converted_distance": 400.2
+  },
   "calories": 1730.0,
   "segment_efforts": [
     {
@@ -2210,39 +2219,6 @@
       "location": [
         40.74954666666667,
         -73.97946166666667
-      ]
-    },
-    {
-      "unique_id": "122F7B92-D3F4-45AE-ADF2-CFC507DDBB78",
-      "athlete_id": 26462176,
-      "activity_id": 19557919064,
-      "activity_name": "Run with G 27",
-      "post_id": null,
-      "resource_state": 2,
-      "caption": "",
-      "type": 1,
-      "source": 1,
-      "status": 3,
-      "uploaded_at": "2026-08-01 16:29:47 UTC",
-      "created_at": "2026-08-01 12:52:10 UTC",
-      "created_at_local": "2026-08-01 08:52:10 UTC",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/LH38BSy0nTan3xpHZZCChS7NDrKWA8ddvSWJ89b27-c-576x768.jpg"
-      },
-      "placeholder_image": null,
-      "sizes": {
-        "600": [
-          576,
-          768
-        ]
-      },
-      "default_photo": false,
-      "cursor": null,
-      "duration": null,
-      "video_url": null,
-      "location": [
-        40.74960333333333,
-        -73.97943
       ]
     }
   ]

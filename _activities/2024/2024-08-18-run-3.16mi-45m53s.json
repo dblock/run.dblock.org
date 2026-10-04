@@ -39,12 +39,12 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": null,
-  "upload_id_str": null,
+  "workout_type": 0,
+  "upload_id_str": "12987876572",
   "max_speed": 3.548,
   "has_kudoed": false,
-  "hide_from_home": null,
-  "gear_id": null,
+  "hide_from_home": false,
+  "gear_id": "g17367794",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -62,10 +62,19 @@
         "600": "https://dgtzuqphqg23d.cloudfront.net/GNo5mcetGdyEBQshWcPf2CbficJQwo5wv1rgDtdIAS4-768x576.jpg",
         "100": "https://dgtzuqphqg23d.cloudfront.net/GNo5mcetGdyEBQshWcPf2CbficJQwo5wv1rgDtdIAS4-128x96.jpg"
       },
-      "media_type": null
+      "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g17367794",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas Adizero SL 24",
+    "distance": 827819,
+    "nickname": "",
+    "retired": true,
+    "converted_distance": 514.4
+  },
   "calories": 409.0,
   "segment_efforts": [
     {
@@ -127,7 +136,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     }
   ],
@@ -142,7 +151,7 @@
       "pace_zone": 1,
       "moving_time": 537,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 1.89,
       "average_heartrate": 110.51396648044692
     },
     {
@@ -153,7 +162,7 @@
       "pace_zone": 1,
       "moving_time": 515,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 1.96,
       "average_heartrate": 115.21165048543689
     },
     {
@@ -164,7 +173,7 @@
       "pace_zone": 1,
       "moving_time": 537,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 1.93,
       "average_heartrate": 111.14338919925513
     },
     {
@@ -175,7 +184,7 @@
       "pace_zone": 1,
       "moving_time": 552,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 1.89,
       "average_heartrate": 113.54891304347827
     },
     {
@@ -186,7 +195,7 @@
       "pace_zone": 1,
       "moving_time": 579,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 1.82,
       "average_heartrate": 112.65570934256056
     },
     {
@@ -197,7 +206,7 @@
       "pace_zone": 1,
       "moving_time": 33,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.07,
       "average_heartrate": 113.72727272727273
     }
   ],
@@ -210,7 +219,7 @@
       "pace_zone": 1,
       "moving_time": 846,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 1.92,
       "average_heartrate": 112.2872340425532
     },
     {
@@ -221,7 +230,7 @@
       "pace_zone": 1,
       "moving_time": 863,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 1.93,
       "average_heartrate": 111.9837775202781
     },
     {
@@ -232,7 +241,7 @@
       "pace_zone": 1,
       "moving_time": 907,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 1.86,
       "average_heartrate": 113.67218543046357
     },
     {
@@ -243,7 +252,7 @@
       "pace_zone": 1,
       "moving_time": 137,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 1.83,
       "average_heartrate": 111.58394160583941
     }
   ],
@@ -625,8 +634,33 @@
   "pr_count": 0,
   "suffer_score": 8.0,
   "perceived_exertion": null,
-  "prefer_perceived_exertion": null,
-  "stats_visibility": null,
+  "prefer_perceived_exertion": false,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
+    }
+  ],
   "available_zones": [
     "heartrate",
     "pace"
@@ -668,9 +702,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2024-08-18 22:01:32 UTC",
       "created_at": "2024-08-18 16:19:27 UTC",
       "created_at_local": "2024-08-18 12:19:27 UTC",
@@ -688,7 +722,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        40.692586666666664,
+        -73.23139166666667
+      ]
     },
     {
       "unique_id": "A3790D71-AAE2-4776-9C77-47E7DDC9E022",
@@ -698,9 +735,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2024-08-18 22:01:32 UTC",
       "created_at": "2024-08-18 16:15:00 UTC",
       "created_at_local": "2024-08-18 12:15:00 UTC",
@@ -718,7 +755,10 @@
       "cursor": null,
       "duration": null,
       "video_url": null,
-      "location": null
+      "location": [
+        40.712653333333336,
+        -73.23660333333333
+      ]
     }
   ]
 }

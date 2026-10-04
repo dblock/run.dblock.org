@@ -39,12 +39,12 @@
   "manual": false,
   "private": false,
   "flagged": false,
-  "workout_type": null,
-  "upload_id_str": null,
+  "workout_type": 0,
+  "upload_id_str": "10303727299",
   "max_speed": 9.078,
   "has_kudoed": false,
-  "hide_from_home": null,
-  "gear_id": null,
+  "hide_from_home": false,
+  "gear_id": "g12012300",
   "kilojoules": null,
   "average_watts": null,
   "device_watts": null,
@@ -62,12 +62,83 @@
         "600": "https://dgtzuqphqg23d.cloudfront.net/Ur2aIMYVkaW_5AbCBdTTUhfPf2lISThNKKYFRX_xBjs-511x768.jpg",
         "100": "https://dgtzuqphqg23d.cloudfront.net/Ur2aIMYVkaW_5AbCBdTTUhfPf2lISThNKKYFRX_xBjs-85x128.jpg"
       },
-      "media_type": null
+      "media_type": 1
     }
   },
-  "gear": null,
+  "gear": {
+    "id": "g12012300",
+    "resource_state": 2,
+    "primary": false,
+    "name": "Adidas CS 2022",
+    "distance": 1188285,
+    "nickname": "",
+    "retired": true,
+    "converted_distance": 738.4
+  },
   "calories": 622.0,
   "segment_efforts": [
+    {
+      "id": 3538744514539787658,
+      "activity_id": null,
+      "elapsed_time": 123,
+      "start_date": "2023-08-08 21:21:22 UTC",
+      "start_date_local": "2023-08-08 17:21:22 UTC",
+      "distance": 388.578,
+      "is_kom": null,
+      "name": "West Side Highway Run",
+      "activity": {
+        "id": 9609492404,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 123,
+      "start_index": 129,
+      "end_index": 157,
+      "average_cadence": 77.3,
+      "average_watts": null,
+      "device_watts": false,
+      "average_heartrate": 139.4,
+      "max_heartrate": 145.0,
+      "segment": {
+        "id": 42268885,
+        "name": "West Side Highway Run",
+        "activity_type": "Run",
+        "distance": 388.578,
+        "average_grade": 0.0,
+        "maximum_grade": 0.7,
+        "elevation_high": 2.5,
+        "elevation_low": 2.3,
+        "start_latlng": [40.7537956237793,-74.00750732421875],
+        "end_latlng": [40.75062561035156,-74.00898742675781],
+        "climb_category": 0,
+        "city": "Manhattan",
+        "state": "New York",
+        "country": "USA",
+        "private": false,
+        "athlete_pr_effort": null,
+        "athlete_segment_stats": null,
+        "resource_state": 2,
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "hazardous": false,
+        "starred": false,
+        "starred_date": null,
+        "pr_time": null
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": false,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": "everyone",
+      "athlete_segment_stats": null
+    },
     {
       "id": 3124125112350059738,
       "activity_id": null,
@@ -127,7 +198,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -189,7 +260,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -257,18 +328,18 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
-      "id": 3124125112353854682,
+      "id": 3124125112352963802,
       "activity_id": null,
-      "elapsed_time": 254,
-      "start_date": "2023-08-08 21:33:28 UTC",
-      "start_date_local": "2023-08-08 17:33:28 UTC",
-      "distance": 721.0,
+      "elapsed_time": 300,
+      "start_date": "2023-08-08 21:33:08 UTC",
+      "start_date_local": "2023-08-08 17:33:08 UTC",
+      "distance": 977.9,
       "is_kom": null,
-      "name": "Little Island Big World",
+      "name": "Little Island both summits",
       "activity": {
         "id": 9609492404,
         "resource_state": 1,
@@ -280,25 +351,25 @@
         "firstname": null,
         "lastname": null
       },
-      "moving_time": 254,
-      "start_index": 362,
-      "end_index": 460,
-      "average_cadence": 75.9,
+      "moving_time": 300,
+      "start_index": 357,
+      "end_index": 468,
+      "average_cadence": 76.2,
       "average_watts": null,
       "device_watts": false,
-      "average_heartrate": 156.6,
+      "average_heartrate": 155.1,
       "max_heartrate": 170.0,
       "segment": {
-        "id": 28590923,
-        "name": "Little Island Big World",
+        "id": 29533050,
+        "name": "Little Island both summits",
         "activity_type": "Run",
-        "distance": 721.0,
+        "distance": 977.9,
         "average_grade": -0.0,
-        "maximum_grade": 4.3,
-        "elevation_high": 7.8,
-        "elevation_low": 1.5,
-        "start_latlng": [40.741452,-74.009488],
-        "end_latlng": [40.74225,-74.009293],
+        "maximum_grade": 33.0,
+        "elevation_high": 4.3,
+        "elevation_low": 0.5,
+        "start_latlng": [40.742052,-74.009329],
+        "end_latlng": [40.741514,-74.00943],
         "climb_category": 0,
         "city": "New York",
         "state": "New York",
@@ -315,11 +386,17 @@
         "pr_time": null
       },
       "kom_rank": null,
-      "pr_rank": null,
+      "pr_rank": 2,
       "hidden": false,
       "resource_state": 2,
-      "achievements": [],
-      "visibility": null,
+      "achievements": [
+        {
+          "rank": 2,
+          "type": "pr",
+          "type_id": 3
+        }
+      ],
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -387,7 +464,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -449,7 +526,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -517,7 +594,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -585,7 +662,7 @@
           "type_id": 3
         }
       ],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -647,7 +724,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -709,7 +786,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     },
     {
@@ -771,7 +848,7 @@
       "hidden": false,
       "resource_state": 2,
       "achievements": [],
-      "visibility": null,
+      "visibility": "everyone",
       "athlete_segment_stats": null
     }
   ],
@@ -786,7 +863,7 @@
       "pace_zone": 2,
       "moving_time": 358,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.77,
       "average_heartrate": 124.12569832402235
     },
     {
@@ -797,7 +874,7 @@
       "pace_zone": 2,
       "moving_time": 347,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.95,
       "average_heartrate": 141.88953488372093
     },
     {
@@ -808,7 +885,7 @@
       "pace_zone": 4,
       "moving_time": 281,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.66,
       "average_heartrate": 154.31386861313868
     },
     {
@@ -819,7 +896,7 @@
       "pace_zone": 2,
       "moving_time": 342,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.1,
       "average_heartrate": 157.18397626112758
     },
     {
@@ -830,7 +907,7 @@
       "pace_zone": 2,
       "moving_time": 315,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.15,
       "average_heartrate": 149.87138263665594
     },
     {
@@ -841,7 +918,7 @@
       "pace_zone": 4,
       "moving_time": 275,
       "split": 6,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.7,
       "average_heartrate": 156.89667896678966
     },
     {
@@ -852,7 +929,7 @@
       "pace_zone": 3,
       "moving_time": 300,
       "split": 7,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.38,
       "average_heartrate": 165.85666666666665
     },
     {
@@ -863,7 +940,7 @@
       "pace_zone": 4,
       "moving_time": 99,
       "split": 8,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.59,
       "average_heartrate": 169.61855670103094
     }
   ],
@@ -876,7 +953,7 @@
       "pace_zone": 2,
       "moving_time": 569,
       "split": 1,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 2.83,
       "average_heartrate": 129.86091549295776
     },
     {
@@ -887,7 +964,7 @@
       "pace_zone": 3,
       "moving_time": 484,
       "split": 2,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.44,
       "average_heartrate": 152.06369426751593
     },
     {
@@ -898,7 +975,7 @@
       "pace_zone": 2,
       "moving_time": 533,
       "split": 3,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.09,
       "average_heartrate": 153.8465909090909
     },
     {
@@ -909,7 +986,7 @@
       "pace_zone": 3,
       "moving_time": 458,
       "split": 4,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.52,
       "average_heartrate": 158.48017621145374
     },
     {
@@ -920,7 +997,7 @@
       "pace_zone": 3,
       "moving_time": 273,
       "split": 5,
-      "average_grade_adjusted_speed": null,
+      "average_grade_adjusted_speed": 3.46,
       "average_heartrate": 167.06642066420665
     }
   ],
@@ -1336,16 +1413,41 @@
   "pr_count": 1,
   "suffer_score": 53.0,
   "perceived_exertion": null,
-  "prefer_perceived_exertion": null,
-  "stats_visibility": null,
+  "prefer_perceived_exertion": false,
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
+    }
+  ],
   "available_zones": [
     "heartrate",
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 3.038482527022772,
+    "average_speed": 3.0580907534246577,
     "resource_state": 2,
-    "effort_count": 4,
+    "effort_count": 5,
     "frequency_milestone": null,
     "max_average_speed": 3.2058767772511847,
     "mid_average_speed": 3.0286263300864062,
@@ -1358,7 +1460,8 @@
         2.9545156591405677,
         3.0523694202493754,
         3.1018786207897366,
-        3.0404515230280746
+        3.0404515230280746,
+        3.0885679059037043
       ],
       "current_activity_index": 1,
       "min_speed": 2.869949066213922,
@@ -1366,7 +1469,7 @@
       "max_speed": 3.2058767772511847,
       "direction": 0
     },
-    "pr_rank": null
+    "pr_rank": 1
   },
   "average_cadence": 77.3,
   "highlighted_kudosers": null,
@@ -1382,9 +1485,9 @@
       "post_id": null,
       "resource_state": 2,
       "caption": "",
-      "type": null,
+      "type": 1,
       "source": 1,
-      "status": null,
+      "status": 3,
       "uploaded_at": "2023-08-08 22:42:20 UTC",
       "created_at": "2023-08-08 22:42:20 UTC",
       "created_at_local": "2023-08-08 18:42:20 UTC",
