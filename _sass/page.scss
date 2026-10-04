@@ -1,3 +1,48 @@
+.shoe {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 12px;
+	.shoe-photo-space {
+		flex: 0 0 48px;
+		width: 48px;
+		height: 48px;
+	}
+	.shoe-photo {
+		position: relative;
+		flex: 0 0 48px;
+		border: 0;
+		img {
+			display: block;
+			width: 48px;
+			height: 48px;
+			object-fit: contain;
+		}
+		.shoe-preview {
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 280px;
+			height: 280px;
+			max-width: 75vw;
+			background: $white;
+			box-shadow: 0 2px 12px rgba(0,0,0,.25);
+			z-index: 10;
+			pointer-events: none;
+		}
+		&:hover .shoe-preview,
+		&:focus .shoe-preview {
+			display: block;
+		}
+	}
+}
+
+#index article.shoe h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 body {
 	background-color: $bodycolor;
 	font-family: $base-font;

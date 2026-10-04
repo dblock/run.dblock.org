@@ -1,0 +1,28 @@
+---
+layout: default
+title: Shoes
+---
+<h1>Shoes</h1>
+{% for tag_hash in site.data.tags reversed %}
+  {% assign key = tag_hash[0] %}
+  {% assign tag = tag_hash[1] %}
+  {% assign prefix = tag.name | slice: 0, 2 %}
+  {% if prefix == "s/" %}
+    {% assign shoe = site.data.shoes[tag.name] %}
+    {% assign shoe_parts = tag.name | split: "/" %}
+    {% assign shoe_name = shoe_parts | last %}
+    <article class="shoe">
+      {% if shoe.image %}
+      <a class="shoe-photo" href='/tags/{{ key }}/'>
+          <img src="{{ shoe.image }}" alt="{{ shoe_name | escape }}{% if shoe.colorway %} in {{ shoe.colorway | escape }}{% endif %}" width="48" height="48" loading="lazy">
+          <img class="shoe-preview" src="{{ shoe.image }}" alt="" aria-hidden="true" width="280" height="280" loading="lazy">
+      </a>
+      {% else %}
+        <span class="shoe-photo-space" aria-hidden="true"></span>
+      {% endif %}
+      <h2><a href='/tags/{{ key }}/'>{{ shoe_parts[1] }}/{{ shoe_parts[2] }} {{ shoe_name }}</a>
+        <span class="totals"><small>{{ tag.count }}</small></span>
+      </h2>
+    </article>
+  {% endif %}
+{% endfor %}

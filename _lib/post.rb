@@ -6,6 +6,7 @@ require 'strava-ruby-client'
 require_relative 'strava'
 require_relative 'map'
 require_relative 'activity'
+require_relative 'shoe_tags'
 
 require 'fileutils'
 require 'polylines'
@@ -60,7 +61,8 @@ module Strava
           run_with_names.any? ? run_with_names.map { |name| "w/#{name.downcase}" } : nil,
           "y/#{activity.start_date_local.year}",
           activity.device_name&.downcase&.split&.first,
-          activity.gear&.name&.downcase&.split&.first
+          activity.gear&.name&.downcase&.split&.first,
+          activity.gear&.name ? ShoeTags.tag(activity.gear.id, activity.gear.name, activity.start_date_local.strftime('%Y/%m')) : nil
         ].compact
 
         data = {

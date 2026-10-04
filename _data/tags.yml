@@ -235,6 +235,57 @@ running clubs:
 runs:
   name: runs
   count: 1011
+s_2017_10_adidas supernova glide boost adidas blue:
+  name: s/2017/10/adidas supernova glide boost adidas blue
+  count: 82
+s_2017_12_nike fitsole lite 3:
+  name: s/2017/12/nike fitsole lite 3
+  count: 55
+s_2018_07_adidas supernova st:
+  name: s/2018/07/adidas supernova st
+  count: 85
+s_2019_06_adidas eqt 2019:
+  name: s/2019/06/adidas eqt 2019
+  count: 8
+s_2019_11_adidas solarglide 19:
+  name: s/2019/11/adidas solarglide 19
+  count: 78
+s_2020_09_adidas ultraboost 20:
+  name: s/2020/09/adidas ultraboost 20
+  count: 52
+s_2021_09_adidas eqt 2021:
+  name: s/2021/09/adidas eqt 2021
+  count: 24
+s_2022_04_adidas boston 10:
+  name: s/2022/04/adidas boston 10
+  count: 62
+s_2022_11_adidas cs 2022:
+  name: s/2022/11/adidas cs 2022
+  count: 127
+s_2023_11_adidas cs 2023:
+  name: s/2023/11/adidas cs 2023
+  count: 79
+s_2024_04_adidas adizero sl 24:
+  name: s/2024/04/adidas adizero sl 24
+  count: 82
+s_2024_10_adidas switch fwd 2:
+  name: s/2024/10/adidas switch fwd 2
+  count: 67
+s_2024_10_adidas ultraboost 5x:
+  name: s/2024/10/adidas ultraboost 5x
+  count: 70
+s_2025_04_vibram v-run:
+  name: s/2025/04/vibram v-run
+  count: 25
+s_2025_09_adidas adizero sl2:
+  name: s/2025/09/adidas adizero sl2
+  count: 43
+s_2026_01_adidas adistar 4:
+  name: s/2026/01/adidas adistar 4
+  count: 77
+s_2026_06_adidas evo sl lightstrike pro:
+  name: s/2026/06/adidas evo sl lightstrike pro
+  count: 1
 slack:
   name: slack
   count: 1
