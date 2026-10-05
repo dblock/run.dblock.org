@@ -63,7 +63,7 @@
     "name": "Adidas Adistar 4",
     "distance": 652117,
     "nickname": null,
-    "retired": false,
+    "retired": true,
     "converted_distance": 405.2
   },
   "calories": 2844.0,
