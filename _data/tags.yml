@@ -9,7 +9,7 @@
   count: 27
 3-4 miles:
   name: 3-4 miles
-  count: 283
+  count: 284
 4-5 miles:
   name: 4-5 miles
   count: 140
@@ -108,7 +108,7 @@ lt8m45s_mi:
   count: 128
 lt9m00s_mi:
   name: <9m00s/mi
-  count: 109
+  count: 110
 lt9m15s_mi:
   name: <9m15s/mi
   count: 88
@@ -183,7 +183,7 @@ lt28m30s_mi:
   count: 1
 adidas:
   name: adidas
-  count: 940
+  count: 941
 apps:
   name: apps
   count: 1
@@ -201,7 +201,7 @@ fitbit:
   count: 168
 garmin:
   name: garmin
-  count: 755
+  count: 756
 gear:
   name: gear
   count: 2
@@ -234,7 +234,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 1014
+  count: 1015
 s_2017_10_adidas supernova glide boost adidas blue:
   name: s/2017/10/adidas supernova glide boost adidas blue
   count: 82
@@ -288,7 +288,7 @@ s_2026_06_adidas evo sl lightstrike pro:
   count: 1
 s_2026_10_adidas adistar 4:
   name: s/2026/10/adidas adistar 4
-  count: 3
+  count: 4
 slack:
   name: slack
   count: 1
@@ -360,7 +360,7 @@ y_2025:
   count: 156
 y_2026:
   name: y/2026
-  count: 93
+  count: 94
 μ115-120 bpm:
   name: μ115-120 bpm
   count: 3
@@ -390,7 +390,7 @@ y_2026:
   count: 51
 μ160-165 bpm:
   name: μ160-165 bpm
-  count: 79
+  count: 80
 μ165-170 bpm:
   name: μ165-170 bpm
   count: 110
@@ -444,7 +444,7 @@ y_2026:
   count: 87
 →145-150 bpm:
   name: →145-150 bpm
-  count: 107
+  count: 108
 →150-155 bpm:
   name: →150-155 bpm
   count: 120
