@@ -1,0 +1,19 @@
+---
+layout: default
+title: Places
+---
+<h1>Places</h1>
+{% for place_entry in site.data.places.places %}
+  {% assign slug = place_entry[0] %}
+  {% assign place = place_entry[1] %}
+  {% if place.enabled != false %}
+  {% if place.count > 0 %}
+  <article>
+    <h2><a href='/places/{{ slug }}/'>{{ place.name }}</a>
+      <span class="totals"><small>{{ place.count }}</small></span>
+    </h2>
+  </article>
+  {% endif %}
+  {% endif %}
+{% endfor %}
+<p><small>Place boundaries © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</small></p>

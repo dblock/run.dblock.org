@@ -23,6 +23,14 @@ magick output.jpg -fuzz 5% -trim +repage -bordercolor white -border 10 -quality 
 
 Crop excess background around the shoe, retaining its shadow and a small white border, so bottom-positioned product photos are centered in thumbnails. Inspect the result visually. Crop screenshots to the shoe photo only, excluding purchase details. Keep the shoe's aspect ratio; the shoes page displays a 48x48 thumbnail and a larger hover/focus preview. Shoes without photos use a transparent 48x48 spacer.
 
+## Place tags
+
+Configure canonical places under `places` in `_data/places.yml`. Keep generated `count`, optional `aliases` and `osm`, and `bounds` on each entry. Bounds contain `[latitude, longitude]` points: two opposite corners define a rectangle, while three or more vertices define a polygon; an array of polygons supports disconnected areas. Overlapping places intentionally assign multiple `p/` tags. Routes are sampled at the start, every mile and the finish. Run `rake places` to remove places without matching activities, merge identical boundaries, retain alternate names as aliases, update counts, and sort active entries by descending run count. Update only front-matter tags by `strava_id`; preserve post bodies and formatting.
+
+Set `enabled: false` on unwanted slugs in `_data/places.yml`. Regeneration removes their post tags and pages while preserving the disabled marker; discovery must not add them again.
+
+Use `rake places:discover` for explicit networked discovery of missing city and town boundaries. Places require at least one matching activity. It also adds an overlapping country place when cached locations contain more than one qualifying city or town in that country; omit country places represented by exactly one city. Incremental discovery inspects activity files added or modified relative to Git `HEAD`, calculates cumulative counts from the full cache, and persists no separate discovery state. Use `FULL=1` for a historical scan or `PLACE=<slug>` to search one slug from the full cache. Resolve canonical names and aliases before querying, and add alternate discovered names to `aliases` instead of creating duplicate places. It sends cached place names, not route coordinates, to OpenStreetMap Nominatim and stores simplified boundaries locally. Normal generation and site builds must remain offline.
+
 ## Strava updates
 
 Refreshing local data and changing activities on Strava are distinct operations. Do not write to Strava unless requested. When assigning gear, stop on a conflicting existing assignment and verify the saved gear ID before refreshing local JSON and posts.

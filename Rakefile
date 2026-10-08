@@ -106,7 +106,12 @@ end
 
 desc 'Re-generate tag pages.'
 task :tags do
+  require 'yaml'
+  require './_lib/place_tags'
+
   Dir['tags/*.md'].each { |f| File.delete(f) }
+  Dir['places/*.md'].each { |f| File.delete(f) }
+  places = Strava::PlaceTags.load_places(include_disabled: true)
   tags = {}
   Dir['_posts/**/*.md'].each do |file|
     tagline = File.read(file).split("\n").detect { |line| line.start_with?('tags: ') }
@@ -122,14 +127,26 @@ task :tags do
   # tags.delete_if { |_k, v| v < 5 }
   tags.each_key do |tag|
     tag_filename = tag.gsub('<', 'lt').gsub('/', '_')
-    filename = "tags/#{tag_filename}.md"
+    place_slug = tag.delete_prefix('p/') if tag.start_with?('p/')
+    if place_slug
+      place = places[place_slug]
+      next if place.nil? || place['enabled'] == false
+
+      filename = "places/#{place_slug}.md"
+      title = place.fetch('name')
+      permalink = "/places/#{place_slug}/"
+    else
+      filename = "tags/#{tag_filename}.md"
+      title = tag
+      permalink = "/tags/#{tag_filename}/"
+    end
     puts filename
     File.write filename, <<~EOS
       ---
       layout: tag
-      title: "#{tag}"
+      title: "#{title}"
       tag: #{tag}
-      permalink: /tags/#{tag_filename}/
+      permalink: #{permalink}
       ---
     EOS
   end
@@ -152,6 +169,35 @@ task :tags do
   end
 
   File.write '_data/tags.yml', tag_lines.join("\n")
+  Strava::PlaceTags.update_counts!(tags)
+end
+
+desc 'Assign configured places to runs and regenerate tag pages.'
+task :places do
+  require './_lib/place_tags'
+
+  removed = Strava::PlaceTags.prune_places!
+  updated = Strava::PlaceTags.update_posts!
+  Rake::Task[:tags].reenable
+  Rake::Task[:tags].invoke
+  puts "Removed #{removed.fetch(:unmatched).length} places without matching activities: #{removed.fetch(:unmatched).join(', ')}"
+  puts "Merged #{removed.fetch(:duplicates).length} duplicate places: #{removed.fetch(:duplicates).join(', ')}"
+  puts "Updated #{updated} posts with place tags."
+end
+
+namespace :places do
+  desc 'Discover city, town and multi-city country boundaries from cached Strava segment locations.'
+  task :discover do
+    require './_lib/place_discovery'
+    require './_lib/place_tags'
+
+    added = Strava::PlaceDiscovery.discover!(
+      only: ENV['PLACE'],
+      full: ENV['FULL'] == '1'
+    )
+    puts "Added #{added.length} places: #{added.join(', ')}"
+    Rake::Task[:places].invoke if added.any?
+  end
 end
 
 desc 'Check for broken links and such.'

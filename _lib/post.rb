@@ -7,6 +7,7 @@ require_relative 'strava'
 require_relative 'map'
 require_relative 'activity'
 require_relative 'shoe_tags'
+require_relative 'place_tags'
 
 require 'fileutils'
 require 'polylines'
@@ -62,7 +63,8 @@ module Strava
           "y/#{activity.start_date_local.year}",
           activity.device_name&.downcase&.split&.first,
           activity.gear&.name&.downcase&.split&.first,
-          activity.gear&.name ? ShoeTags.tag(activity.gear.id, activity.gear.name, activity.start_date_local.strftime('%Y/%m')) : nil
+          activity.gear&.name ? ShoeTags.tag(activity.gear.id, activity.gear.name, activity.start_date_local.strftime('%Y/%m')) : nil,
+          PlaceTags.tags(activity)
         ].compact
 
         data = {

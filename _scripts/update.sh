@@ -5,6 +5,7 @@ set -o pipefail
 
 # bundle exec rake nyrr:results:update
 bundle exec rake strava:update
+bundle exec rake places:discover
 bundle exec rake tags
 bundle exec rake prs
 
