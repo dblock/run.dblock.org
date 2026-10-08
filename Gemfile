@@ -12,4 +12,4 @@ gem 'rake'
 gem 'strava-ruby-client'
 gem 'jekyll-md', '~> 0.1'
 gem 'webrick'
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'wdm', '>= 0.1.0', install_if: Gem.win_platform?
