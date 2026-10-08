@@ -60,6 +60,7 @@ GEM
       multipart-post (~> 2.0)
     faraday-net_http (3.4.4)
       net-http (~> 0.5)
+    ffi (1.17.2)
     ffi (1.17.2-aarch64-linux-gnu)
     ffi (1.17.2-aarch64-linux-musl)
     ffi (1.17.2-arm-linux-gnu)
@@ -276,6 +277,7 @@ GEM
     mercenary (0.3.6)
     metrics (0.15.0)
     mini_mime (1.1.5)
+    mini_portile2 (2.8.9)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -288,6 +290,9 @@ GEM
     multipart-post (2.4.1)
     net-http (0.9.1)
       uri (>= 0.11.1)
+    nokogiri (1.19.4)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.19.4-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.19.4-aarch64-linux-musl)
@@ -357,6 +362,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     uri (1.1.1)
+    wdm (0.2.0)
     webrick (1.9.1)
     yell (2.2.2)
     zeitwerk (2.7.3)
@@ -364,6 +370,7 @@ GEM
 PLATFORMS
   aarch64-linux-gnu
   aarch64-linux-musl
+  aarch64-mingw-ucrt
   arm-linux-gnu
   arm-linux-musl
   arm64-darwin
@@ -383,6 +390,7 @@ DEPENDENCIES
   polylines
   rake
   strava-ruby-client
+  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH

@@ -12,12 +12,16 @@ module Strava
     SAMPLE_INTERVAL_MILES = 1.0
 
     def self.tags(activity, places = load_places, compiled_places = nil)
-      points = sample_route(route_points(activity))
+      points = sampled_route(activity)
       compiled_places ||= compile_places(places)
       route_box = bounding_box(points)
       compiled_places.filter_map do |slug, polygons|
         "#{PLACE_TAG_PREFIX}#{slug}" if intersects?(points, route_box, polygons)
       end
+    end
+
+    def self.sampled_route(activity, interval_miles: SAMPLE_INTERVAL_MILES)
+      sample_route(route_points(activity), interval_miles)
     end
 
     def self.load_places(include_disabled: false)
@@ -134,12 +138,12 @@ module Strava
       end
     end
 
-    def self.sample_route(points)
+    def self.sample_route(points, interval_miles)
       return points if points.length < 2
 
       sampled = [points.first]
       distance = 0.0
-      next_sample = SAMPLE_INTERVAL_MILES
+      next_sample = interval_miles
       points.each_cons(2) do |segment_start, segment_end|
         segment_distance = distance_between(segment_start, segment_end)
         while segment_distance.positive? && distance + segment_distance >= next_sample
@@ -148,7 +152,7 @@ module Strava
             segment_start[0] + ((segment_end[0] - segment_start[0]) * fraction),
             segment_start[1] + ((segment_end[1] - segment_start[1]) * fraction)
           ]
-          next_sample += SAMPLE_INTERVAL_MILES
+          next_sample += interval_miles
         end
         distance += segment_distance
       end

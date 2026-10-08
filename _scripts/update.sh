@@ -7,6 +7,7 @@ set -o pipefail
 bundle exec rake strava:update
 bundle exec rake places:discover
 bundle exec rake tags
+bundle exec rake places:heatmap
 bundle exec rake prs
 
 git config --global user.name "Run Cron"

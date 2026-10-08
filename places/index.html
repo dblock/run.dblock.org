@@ -3,6 +3,21 @@ layout: default
 title: Places
 ---
 <h1>Places</h1>
+<section class="place-heatmap" aria-labelledby="place-heatmap-heading">
+  <h2 id="place-heatmap-heading">Running Heatmap</h2>
+  <p>Areas become warmer when more runs cross the same 500-meter cell. Cells with fewer than three activities are omitted.</p>
+  <div id="place-heatmap"
+       role="region"
+       aria-label="Interactive map showing running activity density"
+       data-url="{{ '/assets/data/place-heatmap.json' | relative_url }}"></div>
+  <p id="place-heatmap-status" class="place-heatmap-status" role="status">Loading heatmap…</p>
+  <p class="place-heatmap-legend">
+    <span>Fewer runs</span>
+    <span class="place-heatmap-gradient" aria-hidden="true"></span>
+    <span>More runs</span>
+  </p>
+  <noscript><p>The interactive heatmap requires JavaScript. The place list remains available below.</p></noscript>
+</section>
 {% for place_entry in site.data.places.places %}
   {% assign slug = place_entry[0] %}
   {% assign place = place_entry[1] %}
@@ -17,3 +32,6 @@ title: Places
   {% endif %}
 {% endfor %}
 <p><small>Place boundaries © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</small></p>
+<script src="{{ '/assets/js/vendor/leaflet.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/vendor/leaflet-heat.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/place-heatmap.js' | relative_url }}"></script>

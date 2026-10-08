@@ -31,6 +31,8 @@ Set `enabled: false` on unwanted slugs in `_data/places.yml`. Regeneration remov
 
 Use `rake places:discover` for explicit networked discovery of missing city and town boundaries. Places require at least one matching activity. It also adds an overlapping country place when cached locations contain more than one qualifying city or town in that country; omit country places represented by exactly one city. Incremental discovery inspects activity files added or modified relative to Git `HEAD`, calculates cumulative counts from the full cache, and persists no separate discovery state. Use `FULL=1` for a historical scan or `PLACE=<slug>` to search one slug from the full cache. Resolve canonical names and aliases before querying, and add alternate discovered names to `aliases` instead of creating duplicate places. It sends cached place names, not route coordinates, to OpenStreetMap Nominatim and stores simplified boundaries locally. Normal generation and site builds must remain offline.
 
+Generate `assets/data/place-heatmap.json` with `rake places:heatmap`. Sample routes every quarter mile, count each activity at most once per 500-meter Web Mercator cell, and publish only cells crossed by at least three activities. Keep generation deterministic and never publish activity IDs or raw polylines. The site build remains offline; the browser fetches checked-in heatmap data and OpenStreetMap tiles at runtime.
+
 ## Strava updates
 
 Refreshing local data and changing activities on Strava are distinct operations. Do not write to Strava unless requested. When assigning gear, stop on a conflicting existing assignment and verify the saved gear ID before refreshing local JSON and posts.
