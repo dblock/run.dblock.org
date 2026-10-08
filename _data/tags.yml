@@ -223,6 +223,336 @@ nyrr:
 osr:
   name: osr
   count: 1
+p_alpine:
+  name: p/alpine
+  count: 1
+p_amsterdam:
+  name: p/amsterdam
+  count: 1
+p_arequipa:
+  name: p/arequipa
+  count: 3
+p_austin:
+  name: p/austin
+  count: 1
+p_austria:
+  name: p/austria
+  count: 3
+p_avon-by-the-sea:
+  name: p/avon-by-the-sea
+  count: 3
+p_babylon:
+  name: p/babylon
+  count: 1
+p_barcelona:
+  name: p/barcelona
+  count: 4
+p_barranco:
+  name: p/barranco
+  count: 1
+p_belmar:
+  name: p/belmar
+  count: 5
+p_berkeley-heights:
+  name: p/berkeley-heights
+  count: 1
+p_bilbao:
+  name: p/bilbao
+  count: 2
+p_bogota:
+  name: p/bogota
+  count: 3
+p_bradley-beach:
+  name: p/bradley-beach
+  count: 3
+p_brazil:
+  name: p/brazil
+  count: 15
+p_bronx:
+  name: p/bronx
+  count: 13
+p_brooklyn:
+  name: p/brooklyn
+  count: 107
+p_budapest:
+  name: p/budapest
+  count: 2
+p_canada:
+  name: p/canada
+  count: 12
+p_canasvieiras:
+  name: p/canasvieiras
+  count: 3
+p_carouge:
+  name: p/carouge
+  count: 1
+p_charenton-le-pont:
+  name: p/charenton-le-pont
+  count: 1
+p_charleston:
+  name: p/charleston
+  count: 2
+p_ciudad-de-mexico:
+  name: p/ciudad-de-mexico
+  count: 4
+p_cologny:
+  name: p/cologny
+  count: 1
+p_colombia:
+  name: p/colombia
+  count: 17
+p_comuna-14-el-poblado:
+  name: p/comuna-14-el-poblado
+  count: 10
+p_copacabana:
+  name: p/copacabana
+  count: 5
+p_crested-butte:
+  name: p/crested-butte
+  count: 1
+p_cuba:
+  name: p/cuba
+  count: 2
+p_donaustadt:
+  name: p/donaustadt
+  count: 1
+p_edgartown:
+  name: p/edgartown
+  count: 2
+p_englewood-cliffs:
+  name: p/englewood-cliffs
+  count: 2
+p_flamengo:
+  name: p/flamengo
+  count: 1
+p_florianopolis:
+  name: p/florianopolis
+  count: 3
+p_fort-lee:
+  name: p/fort-lee
+  count: 1
+p_france:
+  name: p/france
+  count: 9
+p_friedrichshain-kreuzberg:
+  name: p/friedrichshain-kreuzberg
+  count: 2
+p_gaira:
+  name: p/gaira
+  count: 2
+p_geneve:
+  name: p/geneve
+  count: 3
+p_germany:
+  name: p/germany
+  count: 5
+p_havana:
+  name: p/havana
+  count: 2
+p_hungary:
+  name: p/hungary
+  count: 2
+p_ipanema:
+  name: p/ipanema
+  count: 8
+p_italy:
+  name: p/italy
+  count: 3
+p_jardim-paulista:
+  name: p/jardim-paulista
+  count: 1
+p_jurere:
+  name: p/jurere
+  count: 1
+p_jurere-internacional:
+  name: p/jurere-internacional
+  count: 3
+p_leblon:
+  name: p/leblon
+  count: 6
+p_leopoldstadt:
+  name: p/leopoldstadt
+  count: 3
+p_lima:
+  name: p/lima
+  count: 7
+p_localidad-3-turistica-perla-del-caribe:
+  name: p/localidad-3-turistica-perla-del-caribe
+  count: 2
+p_localidad-usaquen:
+  name: p/localidad-usaquen
+  count: 1
+p_london:
+  name: p/london
+  count: 2
+p_long-island-city:
+  name: p/long-island-city
+  count: 10
+p_madrid:
+  name: p/madrid
+  count: 3
+p_manhattan:
+  name: p/manhattan
+  count: 784
+p_medellin:
+  name: p/medellin
+  count: 10
+p_mexico:
+  name: p/mexico
+  count: 4
+p_miami-beach:
+  name: p/miami-beach
+  count: 4
+p_milano:
+  name: p/milano
+  count: 1
+p_millburn:
+  name: p/millburn
+  count: 2
+p_millvale:
+  name: p/millvale
+  count: 2
+p_miraflores:
+  name: p/miraflores
+  count: 7
+p_moskva:
+  name: p/moskva
+  count: 1
+p_mountainside:
+  name: p/mountainside
+  count: 1
+p_new-orleans:
+  name: p/new-orleans
+  count: 3
+p_new-york:
+  name: p/new-york
+  count: 820
+p_ocean-beach:
+  name: p/ocean-beach
+  count: 9
+p_ottawa:
+  name: p/ottawa
+  count: 2
+p_paradise:
+  name: p/paradise
+  count: 2
+p_paris:
+  name: p/paris
+  count: 8
+p_paris-5e-arrondissement:
+  name: p/paris-5e-arrondissement
+  count: 1
+p_paris-7e-arrondissement:
+  name: p/paris-7e-arrondissement
+  count: 3
+p_paris-8e-arrondissement:
+  name: p/paris-8e-arrondissement
+  count: 2
+p_paris-9e-arrondissement:
+  name: p/paris-9e-arrondissement
+  count: 3
+p_peru:
+  name: p/peru
+  count: 10
+p_philadelphia:
+  name: p/philadelphia
+  count: 1
+p_pittsburgh:
+  name: p/pittsburgh
+  count: 2
+p_queens:
+  name: p/queens
+  count: 12
+p_redmond:
+  name: p/redmond
+  count: 1
+p_rio-de-janeiro:
+  name: p/rio-de-janeiro
+  count: 11
+p_roma:
+  name: p/roma
+  count: 2
+p_russia:
+  name: p/russia
+  count: 1
+p_saint-mande:
+  name: p/saint-mande
+  count: 1
+p_saint-maurice:
+  name: p/saint-maurice
+  count: 1
+p_salento:
+  name: p/salento
+  count: 1
+p_san-isidro:
+  name: p/san-isidro
+  count: 1
+p_sao-paulo:
+  name: p/sao-paulo
+  count: 1
+p_scotch-plains:
+  name: p/scotch-plains
+  count: 1
+p_sea-girt:
+  name: p/sea-girt
+  count: 1
+p_seattle:
+  name: p/seattle
+  count: 21
+p_spain:
+  name: p/spain
+  count: 9
+p_spring-lake:
+  name: p/spring-lake
+  count: 1
+p_stateline:
+  name: p/stateline
+  count: 1
+p_staten-island:
+  name: p/staten-island
+  count: 12
+p_stony-point:
+  name: p/stony-point
+  count: 3
+p_suba:
+  name: p/suba
+  count: 1
+p_switzerland:
+  name: p/switzerland
+  count: 5
+p_tenafly:
+  name: p/tenafly
+  count: 1
+p_toronto:
+  name: p/toronto
+  count: 10
+p_town-of-rochester:
+  name: p/town-of-rochester
+  count: 1
+p_town-of-woodstock:
+  name: p/town-of-woodstock
+  count: 1
+p_united-kingdom:
+  name: p/united-kingdom
+  count: 2
+p_united-states:
+  name: p/united-states
+  count: 899
+p_urca:
+  name: p/urca
+  count: 5
+p_vessy:
+  name: p/vessy
+  count: 2
+p_veyrier:
+  name: p/veyrier
+  count: 2
+p_washington-d-c:
+  name: p/washington-d-c
+  count: 1
+p_zurich-zurich:
+  name: p/zurich-zurich
+  count: 1
 races:
   name: races
   count: 92

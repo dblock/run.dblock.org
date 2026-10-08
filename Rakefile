@@ -127,18 +127,16 @@ task :tags do
   # tags.delete_if { |_k, v| v < 5 }
   tags.each_key do |tag|
     tag_filename = tag.gsub('<', 'lt').gsub('/', '_')
+    filename = "tags/#{tag_filename}.md"
+    permalink = "/tags/#{tag_filename}/"
     place_slug = tag.delete_prefix('p/') if tag.start_with?('p/')
     if place_slug
       place = places[place_slug]
       next if place.nil? || place['enabled'] == false
 
-      filename = "places/#{place_slug}.md"
       title = place.fetch('name')
-      permalink = "/places/#{place_slug}/"
     else
-      filename = "tags/#{tag_filename}.md"
       title = tag
-      permalink = "/tags/#{tag_filename}/"
     end
     puts filename
     File.write filename, <<~EOS
