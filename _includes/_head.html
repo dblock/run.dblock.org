@@ -1,9 +1,13 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+{% assign meta_description = nil %}
 {% if page.excerpt %}
-  <meta name="description" content="{{ page.excerpt | strip_html }}">
+  {% assign meta_description = page.excerpt | strip_html %}
 {% elsif page.strava_id and page.description %}
-  <meta name="description" content="{{ page.description | strip_html | escape }}">
+  {% assign meta_description = page.description | strip_html | escape %}
+{% endif %}
+{% if meta_description %}
+  <meta name="description" content="{{ meta_description }}">
 {% endif %}
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 {% if page.author %}
