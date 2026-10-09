@@ -27,7 +27,7 @@
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
-  "total_photo_count": 1,
+  "total_photo_count": 0,
   "map": {
     "id": "a18452107146",
     "summary_polyline": "c|vwF|jtbM@NJRDAJDBBPAH@PHx@d@F?\\Mr@LDG\\ADCJ@HINGLHXB^?r@D~A`@l@Zf@NjBjAVV~AbATHdBtA`@J^VBAF@\\NRBx@p@VZlAb@t@f@FNZXNRp@\\`@Fv@x@TFt@X^TXZVLJ?lAvA`@Vt@VLCHFFXBFD@VDb@RH?\\Jh@Eh@Kn@FTEX@HDNDDHb@Nh@TA?hDfCXIx@XBIIYjDvAACFJCq@Hs@B@Lj@F@TTd@Lz@CZ@`@Hp@V\\DHEr@GGHa@PcACy@SSIGGSGa@@MVKFAGIG?NGJ]@EFMBL@Mc@s@g@k@Gu@BYIc@S}A}@KDiCeBw@EADGDAc@SM]FkAJmAGcAgASa@[@SC_@Mg@E[BJ?DC@FHH~@VR@TPDPFHXNF@b@Ed@JXIh@AF@\\Rp@RJ?\\IF?XR\\HBHCAtCzAr@n@f@FNPB@TCBIACjDr@K]He@B@R\\RF^Ft@Ax@DZ^\\NR@`AU@BGFc@L[Ba@CoASY?C@I?[Lg@KEDADF\\GCHHA@iDq@{@NCK]e@qAuASOYAaBoAWBOFK?e@G]o@gABMA@KGEEAI@MFI?]Su@u@OIMGYCa@SUGi@I_@?[Ma@e@wAkAw@a@k@S]_@]QUGWMq@q@AUw@c@u@QwAk@Ue@G@WSMQ]S]i@eAYYSU[MKi@Kc@Oa@USk@_@CS]YIi@c@SGGNC?GP_@N]Bq@]ADUPWQ[[KBGCO?]E}A@c@Di@`@MRSJc@MSC",
@@ -52,28 +52,19 @@
   "weighted_average_watts": null,
   "description": "",
   "photos": {
-    "count": 1,
-    "use_primary_photo": true,
-    "primary": {
-      "id": null,
-      "source": 1,
-      "unique_id": "64F75C68-035D-47A3-BB00-ACB660E3B5F5",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/cmXFqkT5W-Y2HZ95DQmMlLMhPHiGKQY7NNvjFnJ0FtY-576x768.jpg",
-        "100": "https://dgtzuqphqg23d.cloudfront.net/cmXFqkT5W-Y2HZ95DQmMlLMhPHiGKQY7NNvjFnJ0FtY-96x128.jpg"
-      },
-      "media_type": 1
-    }
+    "count": 0,
+    "use_primary_photo": null,
+    "primary": null
   },
   "gear": {
     "id": "g28518037",
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Adistar 4",
-    "distance": 255368,
+    "distance": 652117,
     "nickname": null,
-    "retired": false,
-    "converted_distance": 158.7
+    "retired": true,
+    "converted_distance": 405.2
   },
   "calories": 397.0,
   "segment_efforts": [
@@ -841,6 +832,10 @@
     {
       "type": "calories",
       "visibility": "everyone"
+    },
+    {
+      "type": "weight_lifted",
+      "visibility": "everyone"
     }
   ],
   "available_zones": [
@@ -875,39 +870,5 @@
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
   "workout_type": null,
-  "activity_photos": [
-    {
-      "unique_id": "64F75C68-035D-47A3-BB00-ACB660E3B5F5",
-      "athlete_id": 26462176,
-      "activity_id": 18452107146,
-      "activity_name": "Run with G 15",
-      "post_id": null,
-      "resource_state": 2,
-      "caption": "",
-      "type": 1,
-      "source": 1,
-      "status": 3,
-      "uploaded_at": "2026-05-10 12:56:10 UTC",
-      "created_at": "2026-05-10 11:54:13 UTC",
-      "created_at_local": "2026-05-10 07:54:13 UTC",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/cmXFqkT5W-Y2HZ95DQmMlLMhPHiGKQY7NNvjFnJ0FtY-576x768.jpg"
-      },
-      "placeholder_image": null,
-      "sizes": {
-        "600": [
-          576,
-          768
-        ]
-      },
-      "default_photo": true,
-      "cursor": null,
-      "duration": null,
-      "video_url": null,
-      "location": [
-        40.75429166666667,
-        -74.00139722166666
-      ]
-    }
-  ]
+  "activity_photos": []
 }

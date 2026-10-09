@@ -27,7 +27,7 @@
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
-  "total_photo_count": 1,
+  "total_photo_count": 0,
   "map": {
     "id": "a18741795329",
     "summary_polyline": "qowwFhtsbM?TCN?NVR?ZHt@LPH\\GN?RVXL`@d@^VHXv@DFLBJHmAVCO@FZD`@JXTGDl@Th@r@Nj@NDNFLNTbARVh@Z`@DTUJY`@TPHPBJR@XJJT@d@Tj@CP@d@XFFh@VVXVGFEBIBB|@[h@`@BFJpDIdAGNKDEJAVH`@GXW@OLINCXIVUVUh@GIBOCHAD@?RQH_@Ao@Jk@L_A?YC@AH@DDEH[NSJYNMh@q@VeANICGI@@An@cDd@eBBq@HI@OBAFH?DCAB?@YDUx@sCVmAA_@Iy@SUISGEGDKMOCQOSgB}@`@BFTKLARDHACOGKBqBEOCAEVEz@@x@UXI\\_@d@AJBGAEC?DDIEMSOGKYCy@j@t@d@Z^^f@`@HNTn@HvA?x@FX@JWbCCJAEMIQtAsARHp@BAGf@GtAFRBCSg@@OC@CEGPMpAa@rAGr@Wf@I\\@FDBBQLEF@BOC?EH@EFPN@Zc@v@cCTe@BKJICW@GFF?GYuBMi@Ci@G_@DEVDC??FZb@F?VTfAb@`@Xt@b@x@hAv@\\X`@|@z@Z^JFd@h@^VHHLHb@H`@TVHNRn@f@TT\\TVZl@NVTR?FCVH`@h@x@b@p@t@HHXJHAFIHk@@sBJOVZ\\n@X`@D@VXXn@n@jBb@t@XZVH`@\\NTVVz@f@FAZVPBL?f@Sf@a@HCB?Aj@F@d@KRAJ@HBTAJBPR?BrGbE\\UCQG@S?T?PIABbBRPFHFF?HJFDr@I^@^HF?j@FZLlATNQ\\ICAe@JY\\G?MAMQO@EEa@Sc@GQOc@A]IIMGBa@SOQc@}@AUcCdC]LCI`@HMc@G?UKm@[w@k@kDq@_@[[MGYg@BKe@UBMEEGe@V[AYy@OUKDYCY?g@DQc@]Am@Im@Wm@e@YOIYM[YiAKGg@A[IWC[Sm@i@cAe@AeAAEGEYGa@BMD_@CQOu@_@SE@GKG]s@MQEM?UGCI?CGYC[IM@KGKCK?OUCBMGIWw@OUMUa@Mg@M?W_@O\\SI][OAKD]n@Ad@[bASREA[BQEA@MCi@c@YO?FIK_@UMOIAi@aBm@g@MO[q@Ij@MNi@PCDBA?FIHC@CCGDI?MNYGOI",
@@ -52,28 +52,19 @@
   "weighted_average_watts": null,
   "description": "",
   "photos": {
-    "count": 1,
-    "use_primary_photo": true,
-    "primary": {
-      "id": null,
-      "source": 1,
-      "unique_id": "A83F1463-7B8A-420D-98FB-C1BB4478A7DE",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/CDeDFXSmVBHL2j9Q2iyvIZTn0KQz-dmA7E26MoRAPoE-576x768.jpg",
-        "100": "https://dgtzuqphqg23d.cloudfront.net/CDeDFXSmVBHL2j9Q2iyvIZTn0KQz-dmA7E26MoRAPoE-96x128.jpg"
-      },
-      "media_type": 1
-    }
+    "count": 0,
+    "use_primary_photo": null,
+    "primary": null
   },
   "gear": {
     "id": "g28518037",
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Adistar 4",
-    "distance": 272181,
+    "distance": 652117,
     "nickname": null,
-    "retired": false,
-    "converted_distance": 169.1
+    "retired": true,
+    "converted_distance": 405.2
   },
   "calories": 509.0,
   "segment_efforts": [
@@ -116,6 +107,68 @@
         "elevation_low": 2.8,
         "start_latlng": [40.752609,-74.0022026],
         "end_latlng": [40.7394713,-74.0081653],
+        "climb_category": 0,
+        "city": "New York",
+        "state": "NY",
+        "country": "United States",
+        "private": false,
+        "athlete_pr_effort": null,
+        "athlete_segment_stats": null,
+        "resource_state": 2,
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "hazardous": false,
+        "starred": false,
+        "starred_date": null,
+        "pr_time": null
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": false,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": "everyone",
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 3496522532142876156,
+      "activity_id": null,
+      "elapsed_time": 1484,
+      "start_date": "2026-06-01 12:57:57 UTC",
+      "start_date_local": "2026-06-01 08:57:57 UTC",
+      "distance": 3283.4,
+      "is_kom": null,
+      "name": "High Line Lap",
+      "activity": {
+        "id": 18741795329,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 1424,
+      "start_index": 392,
+      "end_index": 824,
+      "average_cadence": 73.9,
+      "average_watts": null,
+      "device_watts": false,
+      "average_heartrate": 123.0,
+      "max_heartrate": 145.0,
+      "segment": {
+        "id": 6676545,
+        "name": "High Line Lap",
+        "activity_type": "Run",
+        "distance": 3283.4,
+        "average_grade": 0.0,
+        "maximum_grade": 1.6,
+        "elevation_high": 5.1,
+        "elevation_low": 2.9,
+        "start_latlng": [40.75263,-74.002137],
+        "end_latlng": [40.752272,-74.002142],
         "climb_category": 0,
         "city": "New York",
         "state": "NY",
@@ -846,12 +899,12 @@
     "pace"
   ],
   "similar_activities": {
-    "average_speed": 2.7081632653061223,
+    "average_speed": 2.8246569005397073,
     "resource_state": 2,
-    "effort_count": 2,
+    "effort_count": 3,
     "frequency_milestone": null,
-    "max_average_speed": 2.888355795148248,
-    "mid_average_speed": 2.722568802042096,
+    "max_average_speed": 3.0638418079096046,
+    "mid_average_speed": 2.7981020028718806,
     "min_average_speed": 2.5747805267358337,
     "mid_speed": null,
     "min_speed": null,
@@ -859,12 +912,13 @@
     "trend": {
       "speeds": [
         2.5747805267358337,
-        2.722568802042096
+        2.722568802042096,
+        2.8275532923012494
       ],
       "current_activity_index": 0,
       "min_speed": 2.5747805267358337,
-      "mid_speed": 2.722568802042096,
-      "max_speed": 2.888355795148248,
+      "mid_speed": 2.7981020028718806,
+      "max_speed": 3.0638418079096046,
       "direction": 0
     },
     "pr_rank": 1
@@ -874,39 +928,5 @@
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
   "workout_type": null,
-  "activity_photos": [
-    {
-      "unique_id": "A83F1463-7B8A-420D-98FB-C1BB4478A7DE",
-      "athlete_id": 26462176,
-      "activity_id": 18741795329,
-      "activity_name": "Run with G 18",
-      "post_id": null,
-      "resource_state": 2,
-      "caption": "",
-      "type": 1,
-      "source": 1,
-      "status": 3,
-      "uploaded_at": "2026-06-01 13:33:39 UTC",
-      "created_at": "2026-05-11 12:00:18 UTC",
-      "created_at_local": "2026-05-11 08:00:18 UTC",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/CDeDFXSmVBHL2j9Q2iyvIZTn0KQz-dmA7E26MoRAPoE-576x768.jpg"
-      },
-      "placeholder_image": null,
-      "sizes": {
-        "600": [
-          576,
-          768
-        ]
-      },
-      "default_photo": false,
-      "cursor": null,
-      "duration": null,
-      "video_url": null,
-      "location": [
-        40.754345,
-        -74.00163333333333
-      ]
-    }
-  ]
+  "activity_photos": []
 }

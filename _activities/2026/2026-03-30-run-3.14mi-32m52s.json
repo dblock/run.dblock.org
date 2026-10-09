@@ -27,7 +27,7 @@
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
-  "total_photo_count": 1,
+  "total_photo_count": 0,
   "map": {
     "id": "a17912589503",
     "summary_polyline": "}xvwF|ktbMpBbAAb@@^GP@Hh@JNH\\DBEKc@@PFFMD?HBBGIDVNBBFFj@Rx@BXCf@ST@j@MZGZKPQL_@jBEi@ViA@[Gk@?MXEBEB@LNJENXK[B?PQBOHUd@YRBJMRe@Cs@FWr@oCr@uBJ{APqATo@h@Yj@JBAAi@a@s@KTIFFAFFBC?GMI]IOM]c@Ow@a@YG[AcACACLFHJGAGALDDN?DJENBZZLJADEHATH@LCZUXEf@?zAKxA_@nAGf@_@\\HN?JAH]j@AJGH]B]FCT?VGr@Uz@ObA?z@GbACH?KHEF?LKb@i@p@i@@Gv@Z`@@?IPs@~@g@f@{@Es@^TPP^LLTNBt@XN\\^Xj@Dn@r@DTv@`@T\\PH`@Zj@Pb@`@XLPLt@TPL|@VLZ\\^\\Z`@JPNNZ\\D^Vb@LZj@r@V^Z^`@z@f@n@TTNPDTNRR|@`@z@If@KEV^KP?LBDHFBn@Nb@JFA?CxD`BJV`@LVLp@RFGFADCRAhBd@CCJBDEBB@EKOAETNb@LzAHTDf@NjANRQ`@G[DSPUFc@CgAOe@?YEKDKM]ESFGFG?[MwBe@YX[By@g@o@m@Wc@_COSUCFKGUa@C]GUc@JM?SMm@?g@Fw@T_AiA[QQFQIIKMGs@Q_@YUI][GOk@e@e@QI?c@_@QC]SQBY[[e@I?CKQUy@c@GGKUIEOC_Ac@]W_@MYOIOUSAKMScA_@iBeAQGMMEWCE[Eg@Kq@y@i@YCGg@O_@i@i@Kg@B[Gi@JGH]P_@XGNBDV?DMQ@c@L]WUEg@Bi@Jk@@e@EGEUY",
@@ -52,28 +52,19 @@
   "weighted_average_watts": null,
   "description": "",
   "photos": {
-    "count": 1,
-    "use_primary_photo": true,
-    "primary": {
-      "id": null,
-      "source": 1,
-      "unique_id": "50741AE7-121D-4EFE-87B9-27918B06E1DF",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/niTA1TNSlzJoyrMiDp-9FbeDpKxai-NjqtD_jEMc7Ag-576x768.jpg",
-        "100": "https://dgtzuqphqg23d.cloudfront.net/niTA1TNSlzJoyrMiDp-9FbeDpKxai-NjqtD_jEMc7Ag-96x128.jpg"
-      },
-      "media_type": 1
-    }
+    "count": 0,
+    "use_primary_photo": null,
+    "primary": null
   },
   "gear": {
     "id": "g28518037",
     "resource_state": 2,
     "primary": false,
     "name": "Adidas Adistar 4",
-    "distance": 272181,
+    "distance": 652117,
     "nickname": null,
-    "retired": false,
-    "converted_distance": 169.1
+    "retired": true,
+    "converted_distance": 405.2
   },
   "calories": 385.0,
   "segment_efforts": [
@@ -116,6 +107,68 @@
         "elevation_low": 2.8,
         "start_latlng": [40.752609,-74.0022026],
         "end_latlng": [40.7394713,-74.0081653],
+        "climb_category": 0,
+        "city": "New York",
+        "state": "NY",
+        "country": "United States",
+        "private": false,
+        "athlete_pr_effort": null,
+        "athlete_segment_stats": null,
+        "resource_state": 2,
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "hazardous": false,
+        "starred": false,
+        "starred_date": null,
+        "pr_time": null
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "hidden": false,
+      "resource_state": 2,
+      "achievements": [],
+      "visibility": "everyone",
+      "athlete_segment_stats": null
+    },
+    {
+      "id": 3473700442250379974,
+      "activity_id": null,
+      "elapsed_time": 1467,
+      "start_date": "2026-03-30 13:36:05 UTC",
+      "start_date_local": "2026-03-30 09:36:05 UTC",
+      "distance": 3283.4,
+      "is_kom": null,
+      "name": "High Line Lap",
+      "activity": {
+        "id": 17912589503,
+        "resource_state": 1,
+        "visibility": "everyone"
+      },
+      "athlete": {
+        "id": 26462176,
+        "resource_state": 1,
+        "firstname": null,
+        "lastname": null
+      },
+      "moving_time": 1350,
+      "start_index": 227,
+      "end_index": 591,
+      "average_cadence": 73.9,
+      "average_watts": null,
+      "device_watts": false,
+      "average_heartrate": 121.6,
+      "max_heartrate": 137.0,
+      "segment": {
+        "id": 6676545,
+        "name": "High Line Lap",
+        "activity_type": "Run",
+        "distance": 3283.4,
+        "average_grade": 0.0,
+        "maximum_grade": 1.6,
+        "elevation_high": 5.1,
+        "elevation_low": 2.9,
+        "start_latlng": [40.75263,-74.002137],
+        "end_latlng": [40.752272,-74.002142],
         "climb_category": 0,
         "city": "New York",
         "state": "NY",
@@ -818,39 +871,5 @@
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
   "workout_type": null,
-  "activity_photos": [
-    {
-      "unique_id": "50741AE7-121D-4EFE-87B9-27918B06E1DF",
-      "athlete_id": 26462176,
-      "activity_id": 17912589503,
-      "activity_name": "Run with G 9",
-      "post_id": null,
-      "resource_state": 2,
-      "caption": "",
-      "type": 1,
-      "source": 1,
-      "status": 3,
-      "uploaded_at": "2026-03-30 14:06:01 UTC",
-      "created_at": "2026-03-29 17:16:23 UTC",
-      "created_at_local": "2026-03-29 13:16:23 UTC",
-      "urls": {
-        "600": "https://dgtzuqphqg23d.cloudfront.net/niTA1TNSlzJoyrMiDp-9FbeDpKxai-NjqtD_jEMc7Ag-576x768.jpg"
-      },
-      "placeholder_image": null,
-      "sizes": {
-        "600": [
-          576,
-          768
-        ]
-      },
-      "default_photo": true,
-      "cursor": null,
-      "duration": null,
-      "video_url": null,
-      "location": [
-        40.78297,
-        -73.95855833333333
-      ]
-    }
-  ]
+  "activity_photos": []
 }
