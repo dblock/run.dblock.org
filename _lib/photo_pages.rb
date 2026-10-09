@@ -28,8 +28,7 @@ module Strava
           front_matter(
             'layout' => 'photos',
             'title' => "Photos #{year}",
-            'photo_year' => year,
-            'photo_years' => years
+            'year' => year
           )
         )
       end
