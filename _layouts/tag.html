@@ -20,39 +20,8 @@
     {% include _rss.html %}
   </div>
   <div id="index">
-    {% assign total_distance = 0 %}
-    {% assign total_time = 0 %}
-    {% assign total_heartrates = 0 %}
-    {% assign total_heartrate = 0 %}
-    {% for post in site.tags[page.tag] %}
-      {% assign total_distance = total_distance | plus: post.distance %}
-      {% assign total_time = total_time | plus: post.time %}
-      {% if post.average_heartrate %}
-        {% assign total_heartrate = total_heartrate | plus: post.average_heartrate %}
-        {% assign total_heartrates = total_heartrates | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-    {% assign current_key = page.tag | replace: "<", "lt" | replace: "/", "_" %}
-    {% assign tag_found = false %}
-    {% assign prev_tag_key = nil %}
-    {% assign prev_tag_name = nil %}
-    {% assign next_tag_key = nil %}
-    {% assign next_tag_name = nil %}
-    {% for tag_hash in site.data.tags %}
-      {% if tag_found and next_tag_key == nil %}
-        {% assign next_tag_key = tag_hash[0] %}
-        {% assign next_tag_name = tag_hash[1].name %}
-      {% endif %}
-      {% if tag_hash[0] == current_key %}
-        {% assign tag_found = true %}
-      {% endif %}
-      {% unless tag_found %}
-        {% assign prev_tag_key = tag_hash[0] %}
-        {% assign prev_tag_name = tag_hash[1].name %}
-      {% endunless %}
-    {% endfor %}
     <h1 class="page-heading">{{ page.title }}</h1>
-    <div class="totals">{% if prev_tag_key %}<a href="/tags/{{ prev_tag_key }}/">&lt; {{ prev_tag_name }}</a>{% endif %}{% if total_distance > 0 %}{% if prev_tag_key %} | {% endif %}{{ total_distance | round: 1 }}mi {{ total_time | divided_by: 3600.0 | round }}h{% if total_heartrates > 0 %} μ{{ total_heartrate | divided_by: total_heartrates | round }}bpm{% endif %}{% endif %}{% if next_tag_key %}{% if prev_tag_key or total_distance > 0 %} | {% endif %}<a href="/tags/{{ next_tag_key }}/">{{ next_tag_name }} &gt;</a>{% endif %}</div>
+    <div class="totals">{% if page.total_distance > 0 %}{{ page.total_distance | round: 1 }}mi {{ page.total_time | divided_by: 3600.0 | round }}h{% if page.average_heartrate %} μ{{ page.average_heartrate | round }}bpm{% endif %}{% endif %}</div>
     <div id="markdown-content">
     {% if site.tags[page.tag] %}
       {% for post in site.tags[page.tag] %}

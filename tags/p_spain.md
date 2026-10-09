@@ -1,6 +1,9 @@
 ---
 layout: tag
-title: "Spain"
+title: Spain
 tag: p/spain
-permalink: /tags/p_spain/
+permalink: "/tags/p_spain/"
+total_distance: 56.514409281000006
+total_time: 32430.0
+average_heartrate: 145.58888888888887
 ---

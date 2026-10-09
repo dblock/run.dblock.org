@@ -1,6 +1,9 @@
 ---
 layout: tag
 title: "<7m45s/mi"
-tag: <7m45s/mi
-permalink: /tags/lt7m45s_mi/
+tag: "<7m45s/mi"
+permalink: "/tags/lt7m45s_mi/"
+total_distance: 155.14341305200003
+total_time: 71158.0
+average_heartrate: 167.69523809523812
 ---

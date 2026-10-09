@@ -1,6 +1,8 @@
 ---
 layout: tag
-title: "marathon"
+title: marathon
 tag: marathon
-permalink: /tags/marathon/
+permalink: "/tags/marathon/"
+total_distance: 0.0
+total_time: 0.0
 ---

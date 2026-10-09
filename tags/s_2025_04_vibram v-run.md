@@ -1,6 +1,9 @@
 ---
 layout: tag
-title: "s/2025/04/vibram v-run"
+title: s/2025/04/vibram v-run
 tag: s/2025/04/vibram v-run
-permalink: /tags/s_2025_04_vibram v-run/
+permalink: "/tags/s_2025_04_vibram v-run/"
+total_distance: 94.472535567
+total_time: 55095.0
+average_heartrate: 140.368
 ---

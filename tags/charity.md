@@ -1,6 +1,8 @@
 ---
 layout: tag
-title: "charity"
+title: charity
 tag: charity
-permalink: /tags/charity/
+permalink: "/tags/charity/"
+total_distance: 0.0
+total_time: 0.0
 ---

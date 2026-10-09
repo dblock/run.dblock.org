@@ -1,6 +1,8 @@
 ---
 layout: tag
-title: "apps"
+title: apps
 tag: apps
-permalink: /tags/apps/
+permalink: "/tags/apps/"
+total_distance: 0.0
+total_time: 0.0
 ---

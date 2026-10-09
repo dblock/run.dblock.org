@@ -106,68 +106,10 @@ end
 
 desc 'Re-generate tag pages.'
 task :tags do
-  require 'yaml'
-  require './_lib/place_tags'
+  require './_lib/tag_pages'
 
-  Dir['tags/*.md'].each { |f| File.delete(f) }
-  Dir['places/*.md'].each { |f| File.delete(f) }
-  places = Strava::PlaceTags.load_places(include_disabled: true)
-  tags = {}
-  Dir['_posts/**/*.md'].each do |file|
-    tagline = File.read(file).split("\n").detect { |line| line.start_with?('tags: ') }
-    next unless tagline
-
-    tagline.tr('[', '').tr(']', '').split(':').last.split(',').map(&:strip).each do |tag|
-      next if tag.empty?
-
-      tags[tag] ||= 0
-      tags[tag] += 1
-    end
-  end
-  # tags.delete_if { |_k, v| v < 5 }
-  tags.each_key do |tag|
-    tag_filename = tag.gsub('<', 'lt').gsub('/', '_')
-    filename = "tags/#{tag_filename}.md"
-    permalink = "/tags/#{tag_filename}/"
-    place_slug = tag.delete_prefix('p/') if tag.start_with?('p/')
-    if place_slug
-      place = places[place_slug]
-      next if place.nil? || place['enabled'] == false
-
-      title = place.fetch('name')
-    else
-      title = tag
-    end
-    puts filename
-    File.write filename, <<~EOS
-      ---
-      layout: tag
-      title: "#{title}"
-      tag: #{tag}
-      permalink: #{permalink}
-      ---
-    EOS
-  end
-
-  tag_keys = tags.keys.sort_by do |tag|
-    # mile ranges in order
-    m = tag.match(/^\d*/)
-    next format('%02d', m[0].to_i) if m && m[0].to_i.positive?
-
-    # pace tags, e.g. "<7m00s/mi", in order
-    p = tag.match(%r{^<(?<minutes>\d+)m(?<seconds>\d+)s/mi$})
-    next "<#{format('%05d', (p[:minutes].to_i * 60) + p[:seconds].to_i)}" if p
-
-    tag
-  end
-
-  tag_lines = tag_keys.map do |tag|
-    tag_filename = tag.gsub('<', 'lt').gsub('/', '_')
-    "#{tag_filename}:\n  name: #{tag}\n  count: #{tags[tag]}"
-  end
-
-  File.write '_data/tags.yml', tag_lines.join("\n")
-  Strava::PlaceTags.update_counts!(tags)
+  files = Strava::TagPages.generate!
+  puts "Generated #{files.length} tag pages."
 end
 
 desc 'Assign configured places to runs and regenerate tag pages.'
@@ -323,6 +265,8 @@ namespace :strava do
       post.save!
       puts post.filename
     end
+    Rake::Task[:tags].reenable
+    Rake::Task[:tags].invoke
   end
 
   desc 'Update all runs from Strava.'
@@ -344,6 +288,8 @@ namespace :strava do
 
       sleep 45 # avoid rate limits
     end
+    Rake::Task[:tags].reenable
+    Rake::Task[:tags].invoke
   end
 
   desc 'Update one run from Strava.'
@@ -355,6 +301,8 @@ namespace :strava do
     post = Strava::Post.new(id)
     post.save!
     puts post.filename
+    Rake::Task[:tags].reenable
+    Rake::Task[:tags].invoke
   end
 
   desc 'Generate activity posts from cached JSON.'
@@ -371,5 +319,7 @@ namespace :strava do
       puts post.filename
     end
     Strava::PhotoPages.generate!
+    Rake::Task[:tags].reenable
+    Rake::Task[:tags].invoke
   end
 end
