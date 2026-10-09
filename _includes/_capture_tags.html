@@ -1,21 +1,5 @@
-{% assign tags_ary = "" | split: "" %}
-{% for post_tag in page.tags %}
-  {% assign tag_key = post_tag | replace: "<", "lt" %}
-  {% assign tag_key = tag_key | replace: "/", "_" %}
-  {% assign tag = site.data.tags[tag_key] %}
-  {% if tag %}
-    {% capture tag_content %}
-      <a href='/tags/{{ tag_key }}/'>{{ tag.name }}</a>
-    {% endcapture %}
-    {% assign tags_ary = tags_ary | push: tag_content %}
-  {% else %}
-    {% assign tags_ary = tags_ary | push: tag_key %}
-  {% endif %}
-{% endfor %}
 {% capture tags_content %}
-  {% if tags_ary.size > 1 %}
-    <i class="fa fa-tags">{{ tags_ary | join: "|" }}</i>
-  {% elsif tags_ary.size == 1 %}
-    <i class="fa fa-tag">{{ tags_ary | join: "|" }}</i>
+  {% if page.tags.size > 0 %}
+    <i class="fa {% if page.tags.size > 1 %}fa-tags{% else %}fa-tag{% endif %}">{% for post_tag in page.tags %}{% assign tag_key = post_tag | replace: "<", "lt" | replace: "/", "_" %}{% assign tag = site.data.tags[tag_key] %}{% if tag %} <a href='/tags/{{ tag_key }}/'>{{ tag.name }}</a> {% else %}{{ tag_key }}{% endif %}{% unless forloop.last %}|{% endunless %}{% endfor %}</i>
   {% endif %}
 {% endcapture %}
