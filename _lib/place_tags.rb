@@ -20,6 +20,14 @@ module Strava
       end
     end
 
+    def self.tagging_context
+      places = load_places
+      {
+        places: places,
+        compiled_places: compile_places(places)
+      }
+    end
+
     def self.sampled_route(activity, interval_miles: SAMPLE_INTERVAL_MILES)
       sample_route(route_points(activity), interval_miles)
     end

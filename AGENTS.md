@@ -39,6 +39,8 @@ Generate `assets/data/place-routes/` with `rake places:route_tiles`. Densify cac
 
 Refreshing local data and changing activities on Strava are distinct operations. Do not write to Strava unless requested. When assigning gear, stop on a conflicting existing assignment and verify the saved gear ID before refreshing local JSON and posts.
 
+Activity posts under `_posts/` contain front matter only, including the display data used to render stats, descriptions, maps, splits, gear and photos. Regenerate them from cached JSON with `rake strava:generate_md`. Run `rake photos` to regenerate one Photos page per year from the same post front matter; `/photos/` redirects to the newest year. Match duplicate cache files and posts by `strava_id`, preferring the cache basename corresponding to the current post.
+
 Use targeted updates for existing activities, such as `ID=<activity-id> bundle exec rake strava:update_one`. The current `strava:update` date-range task deletes local files before rewriting them, requests activities without an upper date bound, and can stop prematurely when newer activities arrive first. Fix that behavior before relying on it for historical refreshes.
 
 Strava refreshes can change photos and other metadata beyond gear. Review the resulting diff and confirm unexpected content removals before publishing.

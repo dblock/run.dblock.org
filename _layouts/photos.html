@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<h1>Photos {{ page.photo_year }}</h1>
+{% assign photo_count = 0 %}
+{% for post in site.posts %}
+  {% assign post_year = post.date | date: "%Y" %}
+  {% if post_year == page.photo_year %}
+    {% assign photo_count = photo_count | plus: post.photos.size %}
+  {% endif %}
+{% endfor %}
+<p class="totals">{{ photo_count }} photos</p>
+<div class="photo-grid">
+  {% for post in site.posts %}
+    {% assign post_year = post.date | date: "%Y" %}
+    {% if post_year == page.photo_year %}
+      {% for photo_url in post.photos %}
+        <a class="photo-grid-item"
+           href="{{ post.url | relative_url }}"
+           aria-label="{{ post.title | escape }}, {{ post.date | date: '%B %-d, %Y' }}">
+          <img class="photo-grid-image"
+               src="{{ photo_url | escape }}"
+               alt=""
+               loading="lazy"
+               decoding="async">
+          <span class="photo-grid-caption">
+            <strong>{{ post.title }}</strong>
+            <small>{{ post.date | date: "%b %-d" }}</small>
+          </span>
+        </a>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
+<div class="pagination" aria-label="Photo years">
+  <small>
+    {% for year in page.photo_years %}
+      {% assign year_url = '/photos/' | append: year | append: '/' | relative_url %}
+      {% if forloop.first %}
+        {% if year == page.photo_year %}
+          {{ year }}&nbsp;
+        {% else %}
+          <a href="{{ year_url }}">&lt; {{ year }}</a>&nbsp;
+        {% endif %}
+      {% elsif forloop.last %}
+        {% if year == page.photo_year %}
+          {{ year }}
+        {% else %}
+          <a href="{{ year_url }}">{{ year }} &gt;</a>
+        {% endif %}
+      {% elsif year == page.photo_year %}
+        <strong>{{ year }}</strong>&nbsp;
+      {% else %}
+        <a href="{{ year_url }}">{{ year }}</a>&nbsp;
+      {% endif %}
+    {% endfor %}
+  </small>
+</div><!-- /.pagination -->

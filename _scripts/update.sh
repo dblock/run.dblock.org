@@ -7,6 +7,7 @@ set -o pipefail
 bundle exec rake strava:update
 bundle exec rake places:discover
 bundle exec rake tags
+bundle exec rake photos
 bundle exec rake places:heatmap
 bundle exec rake places:route_tiles
 bundle exec rake prs

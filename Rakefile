@@ -187,6 +187,14 @@ task :places do
   puts "Updated #{updated} posts with place tags."
 end
 
+desc 'Generate one Photos page per year.'
+task :photos do
+  require './_lib/photo_pages'
+
+  years = Strava::PhotoPages.generate!
+  puts "Generated Photos pages for #{years.join(', ')}."
+end
+
 namespace :places do
   desc 'Generate the privacy-filtered route heatmap.'
   task :heatmap do
@@ -349,16 +357,19 @@ namespace :strava do
     puts post.filename
   end
 
-  desc 'Generate markdown content from JSON.'
+  desc 'Generate activity posts from cached JSON.'
   task :generate_md do
     require './_lib/post'
-    require 'dotenv/load'
+    require './_lib/activity_cache'
+    require './_lib/photo_pages'
 
-    Dir.glob('_activities/**/*.json').each do |filename|
-      json = JSON.load_file(filename)
-      post = Strava::Post.new(json['id'], json)
-      post.save!
+    shoe_first_use_months = Strava::ShoeTags.first_use_months
+    place_context = Strava::PlaceTags.tagging_context
+    Strava::ActivityCache.activities.each do |activity|
+      post = Strava::Post.new(activity.fetch('id'), activity)
+      post.generate!(shoe_first_use_months:, place_context:)
       puts post.filename
     end
+    Strava::PhotoPages.generate!
   end
 end

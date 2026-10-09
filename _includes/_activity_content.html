@@ -1,0 +1,88 @@
+{% assign activity_post = include.post | default: page %}
+{% assign activity = include.activity | default: activity_post %}
+{% assign device_name_downcase = activity.device_name | downcase %}
+{% assign device_logo_url = nil %}
+{% if device_name_downcase contains "garmin" %}
+  {% assign device_logo_url = "/images/devices/garmin.png" %}
+{% elsif device_name_downcase contains "strava" %}
+  {% assign device_logo_url = "/images/devices/strava.png" %}
+{% elsif device_name_downcase contains "fitbit" %}
+  {% assign device_logo_url = "/images/devices/fitbit.png" %}
+{% endif %}
+
+<h3>Stats</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Distance</th>
+      <th>Time</th>
+      <th>Pace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ activity.distance_display }}</td>
+      <td>{{ activity.moving_time_display }}</td>
+      <td>{{ activity.pace_display }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Device</th>
+      <th>Gear</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        {% if device_logo_url %}
+          <img src="{{ device_logo_url | relative_url }}" alt="{{ activity.device_name | escape }}">
+        {% else %}
+          {{ activity.device_name }}
+        {% endif %}
+      </td>
+      <td>{{ activity.gear_name }}</td>
+    </tr>
+  </tbody>
+</table>
+
+{% if activity.description %}
+  {{ activity.description | markdownify }}
+{% endif %}
+
+{% if activity.map %}
+  {% assign activity_map_url = activity_post.path | remove_first: "_posts/" | replace: ".md", ".png" | prepend: "/images/maps/" %}
+  <img src="{{ activity_map_url | relative_url }}" alt="Route map for {{ activity_post.title | escape }}">
+{% endif %}
+
+{% if activity.splits.size > 0 %}
+  <h3>Splits</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Mile</th>
+        <th>Pace</th>
+        <th>Elevation</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for split in activity.splits %}
+        <tr>
+          <td>{{ split.number }}</td>
+          <td>{{ split.pace }}</td>
+          <td>{{ split.elevation }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+
+{% if activity.photos.size > 0 %}
+  <h3>Photos</h3>
+  {% for photo_url in activity.photos %}
+    <img src="{{ photo_url | escape }}" alt="" loading="lazy" decoding="async">
+  {% endfor %}
+{% endif %}

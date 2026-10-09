@@ -4,6 +4,12 @@ This is my personal running blog, see it at [run.dblock.org](http://run.dblock.o
 
 It synchronizes runs from Strava to Github Pages. See [Rakefile](Rakefile) and [CRON](CRON.md) for details.
 
+## Activities
+
+Run `rake strava:generate_md` to regenerate activity posts from cached Strava JSON. Each generated post contains front matter only, including the activity's display data for stats, description, map presence, device, gear, splits and photos. The activity layout renders that front matter. Duplicate cache files are matched to posts by `strava_id`, preferring the cache filename corresponding to the current post.
+
+Run `rake photos` to generate one Photos page per year from activity post front matter. `/photos/` redirects to the newest year, and each yearly page links to the adjacent newer and older years. The Strava update runs this automatically.
+
 ## Places
 
 Places are configured under `places` in [`_data/places.yml`](_data/places.yml). Each canonical entry stores its generated `count`, optional `aliases` and OpenStreetMap `osm` identity, and `bounds`. Bounds contain `[latitude, longitude]` points: two opposite corners define a rectangle, while three or more vertices define a polygon. An array of polygons supports disconnected areas. Places may overlap, and a run receives every matching `p/<slug>` tag when its sampled route intersects those bounds. Routes are sampled at the start, every mile and the finish. Places without matching activities are removed. Identical boundaries are merged, and alternate names are retained as aliases. Active entries are written in descending run-count order.
