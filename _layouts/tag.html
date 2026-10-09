@@ -23,8 +23,9 @@
     <h1 class="page-heading">{{ page.title }}</h1>
     <div class="totals">{% if page.total_distance > 0 %}{{ page.total_distance | round: 1 }}mi {{ page.total_time | divided_by: 3600.0 | round }}h{% if page.average_heartrate %} μ{{ page.average_heartrate | round }}bpm{% endif %}{% endif %}</div>
     <div id="markdown-content">
-    {% if site.tags[page.tag] %}
-      {% for post in site.tags[page.tag] %}
+    {% assign tagged_posts = site.tags[page.tag] %}
+    {% if tagged_posts %}
+      {% for post in tagged_posts %}
         <article>
           <h2 class="item-heading"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{% if post.tags contains "races" %}<span class='race'>RACE</span>{% endif %}{% unless post.strava_id %}<span class='read'>READ</span>{% endunless %}</h2>
         </article>
