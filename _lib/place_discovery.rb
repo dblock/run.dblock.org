@@ -228,7 +228,7 @@ module Strava
         names = [place.fetch('name'), *place.fetch('aliases', [])]
         next false unless names.any? { |candidate| slugify(candidate) == slugify(name) }
 
-        existing_country = place['location'].to_s.split(', ').last
+        existing_country = place['location'].to_s.split(', ').last.to_s
         country.nil? || existing_country.empty? || existing_country == country
       end
     end
