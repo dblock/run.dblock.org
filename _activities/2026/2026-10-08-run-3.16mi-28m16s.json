@@ -8,7 +8,7 @@
     "firstname": null,
     "lastname": null
   },
-  "name": "Morning Run",
+  "name": "Seattle 3",
   "distance": 5081.6,
   "moving_time": 1696,
   "elapsed_time": 1696,
@@ -23,11 +23,11 @@
   "start_latlng": [47.604165,-122.337598],
   "end_latlng": [47.604203,-122.337554],
   "achievement_count": 1,
-  "kudos_count": 0,
+  "kudos_count": 2,
   "comment_count": 0,
   "athlete_count": 1,
   "photo_count": 0,
-  "total_photo_count": 0,
+  "total_photo_count": 1,
   "map": {
     "id": "a20502227193",
     "summary_polyline": "_upaH~`uiVB`@X~@?XL`@D^IZWXaAv@c@h@uAhAe@l@UTe@XcA|@_@`@eAx@]d@MHYZUJSPa@r@gChD?N_A~AcA~BYt@u@rAYp@iAjB]x@oAhCyBhE]|@]`@O@c@Vc@~AOp@eAnA]`Ae@~@q@bBSt@u@lBq@zAkA`DUXSl@_A~AUVc@TIHSh@BPQf@mAlCk@~@Mj@Yd@CNUj@cB`D[d@mAhBgB`C`A{ArCqD|@gBj@qA^s@j@mAVu@`@k@|A_DXo@Tq@b@q@jCwFZu@lA}DZe@h@mAn@{Ab@u@@[`@mB`@]`@a@Ve@Vo@n@a@J[Vi@T[bAoBpDsHd@gAhAgBvAaDXe@lB}Dd@u@^e@jBmBxAgBp@c@^_@d@_@PExA{@Ze@@G~AeBt@g@^_@fA}@b@a@LYZY\\e@`@a@b@YNExAy@pC}Bx@e@XYh@@i@Jg@V{DjCi@p@cAt@q@`AGPo@h@a@LiAv@e@LGIOg@BQO_@Gm@Og@",
@@ -50,11 +50,20 @@
   "device_watts": null,
   "max_watts": null,
   "weighted_average_watts": null,
-  "description": null,
+  "description": "Last one for this round.",
   "photos": {
-    "count": 0,
-    "use_primary_photo": null,
-    "primary": null
+    "count": 1,
+    "use_primary_photo": true,
+    "primary": {
+      "id": null,
+      "source": 1,
+      "unique_id": "3264CA35-2F87-4991-8747-84FD580EA07D",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/B9xrOsbIGEOQNliDg9AI_1YIRxfg6lpbYcKmD6F3tKQ-576x768.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/B9xrOsbIGEOQNliDg9AI_1YIRxfg6lpbYcKmD6F3tKQ-96x128.jpg"
+      },
+      "media_type": 1
+    }
   },
   "gear": {
     "id": "g34245795",
@@ -1127,5 +1136,39 @@
   "segment_leaderboard_opt_out": null,
   "leaderboard_opt_out": null,
   "workout_type": null,
-  "activity_photos": []
+  "activity_photos": [
+    {
+      "unique_id": "3264CA35-2F87-4991-8747-84FD580EA07D",
+      "athlete_id": 26462176,
+      "activity_id": 20502227193,
+      "activity_name": "Seattle 3",
+      "post_id": null,
+      "resource_state": 2,
+      "caption": "",
+      "type": 1,
+      "source": 1,
+      "status": 3,
+      "uploaded_at": "2026-10-08 13:51:30 UTC",
+      "created_at": "2026-10-08 13:51:12 UTC",
+      "created_at_local": "2026-10-08 06:51:12 UTC",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/B9xrOsbIGEOQNliDg9AI_1YIRxfg6lpbYcKmD6F3tKQ-576x768.jpg"
+      },
+      "placeholder_image": null,
+      "sizes": {
+        "600": [
+          576,
+          768
+        ]
+      },
+      "default_photo": false,
+      "cursor": null,
+      "duration": null,
+      "video_url": null,
+      "location": [
+        47.60500833333333,
+        -122.336455
+      ]
+    }
+  ]
 }
