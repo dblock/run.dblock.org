@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>Photos {{ page.year }}</h1>
+<h1 class="page-heading">Photos {{ page.year }}</h1>
 {% assign photo_count = 0 %}
 {% for post in site.posts %}
   {% assign post_year = post.date | date: "%Y" %}
@@ -9,7 +9,7 @@ layout: default
     {% assign photo_count = photo_count | plus: post.photos.size %}
   {% endif %}
 {% endfor %}
-<p class="totals">{{ photo_count }} photos</p>
+<div class="totals">{{ photo_count }} photos</div>
 <div class="photo-grid">
   {% for post in site.posts %}
     {% assign post_year = post.date | date: "%Y" %}

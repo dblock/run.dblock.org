@@ -21,7 +21,7 @@
     {% include _rss.html %}
   </div>
   <div id="index">
-    <h1>
+    <h1 class="page-heading">
       {% if page.strava_id %}
         <a href="https://www.strava.com/activities/{{ page.strava_id }}" target="_blank">{{ page.title }}</a>
       {% elsif page.link %}

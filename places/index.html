@@ -2,7 +2,7 @@
 layout: default
 title: Places
 ---
-<h1>Places</h1>
+<h1 class="page-heading">Places</h1>
 <section class="place-heatmap" aria-labelledby="place-heatmap-heading">
   <div id="place-heatmap"
        role="region"
@@ -23,7 +23,7 @@ title: Places
   {% if place.enabled != false %}
   {% if place.count > 0 %}
   <article>
-    <h2><a href='/tags/p_{{ slug }}/'>{{ place.name }}</a>
+    <h2 class="item-heading"><a href='/tags/p_{{ slug }}/'>{{ place.name }}</a>
       <span class="totals"><small>{{ place.count }}</small></span>
     </h2>
   </article>

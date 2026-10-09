@@ -2,7 +2,7 @@
 layout: default
 title: Shoes
 ---
-<h1>Shoes</h1>
+<h1 class="page-heading">Shoes</h1>
 {% for tag_hash in site.data.tags reversed %}
   {% assign key = tag_hash[0] %}
   {% assign tag = tag_hash[1] %}
@@ -20,7 +20,7 @@ title: Shoes
       {% else %}
         <span class="shoe-photo-space" aria-hidden="true"></span>
       {% endif %}
-      <h2><a href='/tags/{{ key }}/'>{{ shoe_parts[1] }}/{{ shoe_parts[2] }} {{ shoe_name }}</a>
+      <h2 class="item-heading"><a href='/tags/{{ key }}/'>{{ shoe_parts[1] }}/{{ shoe_parts[2] }} {{ shoe_name }}</a>
         <span class="totals"><small>{{ tag.count }}</small></span>
       </h2>
     </article>

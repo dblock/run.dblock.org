@@ -1,4 +1,4 @@
-<h2>
+<h2 class="section-heading">
   <a href="/tags/races/">Races</a>
   <span class='nyrr-results'>
     <a href="https://results.nyrr.org/runner/{{ site.owner.nyrr-results }}/races" target="_blank">Official NYRR Results</a>
@@ -10,9 +10,8 @@
   {% if post.tags contains "races" %}
     {% if year == current_year %}
       <article>
-        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class='race'>RACE</span></h2>
+        <h3 class="item-heading"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span class='race'>RACE</span></h3>
       </article>
     {% endif %}
   {% endif %}
 {% endfor %}
-

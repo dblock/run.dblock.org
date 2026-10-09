@@ -10,7 +10,7 @@
   {% assign device_logo_url = "/images/devices/fitbit.png" %}
 {% endif %}
 
-<h3>Stats</h3>
+<h2 class="content-heading">Stats</h2>
 <table>
   <thead>
     <tr>
@@ -59,7 +59,7 @@
 {% endif %}
 
 {% if activity.splits.size > 0 %}
-  <h3>Splits</h3>
+  <h2 class="content-heading">Splits</h2>
   <table>
     <thead>
       <tr>
@@ -81,7 +81,7 @@
 {% endif %}
 
 {% if activity.photos.size > 0 %}
-  <h3>Photos</h3>
+  <h2 class="content-heading">Photos</h2>
   {% for photo_url in activity.photos %}
     <img src="{{ photo_url | escape }}" alt="" loading="lazy" decoding="async">
   {% endfor %}

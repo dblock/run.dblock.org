@@ -6,11 +6,11 @@ layout: default
 
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% unless post.next %}
-    <h2><a href="/tags/y_{{ year }}/">{{ year }}</a></h2>
+    <h2 class="section-heading"><a href="/tags/y_{{ year }}/">{{ year }}</a></h2>
   {% else %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
-      <h2><a href="/tags/y_{{ year }}/">{{ year }}</a></h2>
+      <h2 class="section-heading"><a href="/tags/y_{{ year }}/">{{ year }}</a></h2>
     {% endif %}
   {% endunless %}
 
@@ -20,7 +20,7 @@ layout: default
   {% unless post.tags contains "races" and year == current_year %}
     {% if post.strava_id or year != current_year %}
       <article>
-        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{% if post.tags contains "races" %}<span class='race'>RACE</span>{% endif %}{% unless post.strava_id %}<span class='read'>READ</span>{% endunless %}</h2>
+        <h3 class="item-heading"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{% if post.tags contains "races" %}<span class='race'>RACE</span>{% endif %}{% unless post.strava_id %}<span class='read'>READ</span>{% endunless %}</h3>
       </article>
     {% endif %}
   {% endunless %}

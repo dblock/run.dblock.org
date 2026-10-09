@@ -2,12 +2,12 @@
 layout: default
 title: All Tags
 ---
-<h1>Tagged</h1>
+<h1 class="page-heading">Tagged</h1>
 {% for tag_hash in site.data.tags %}
   {% assign key = tag_hash[0] %}
   {% assign tag = tag_hash[1] %}
   <article>
-    <h2><a href='/tags/{{ key }}/'>{{ tag.name }}</a>
+    <h2 class="item-heading"><a href='/tags/{{ key }}/'>{{ tag.name }}</a>
       <span class="totals"><small>{{ tag.count }}</small></span>
     </h2>
   </article>

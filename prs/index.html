@@ -2,7 +2,7 @@
 layout: default
 title: PRs
 ---
-<h1>PRs</h1>
+<h1 class="page-heading">PRs</h1>
 {% for pr_hash in site.data.prs.records %}
   {% assign key = pr_hash[0] %}
   {% assign pr = pr_hash[1] %}
@@ -13,7 +13,7 @@ title: PRs
   {% if averages.with %}{% assign group_count = group_count | plus: 1 %}{% endif %}
   {% capture avg_parts %}{% if averages.race %}{{ averages.race }} races{% endif %}{% if averages.solo %}{% if averages.race %}, {% endif %}{{ averages.solo }} solo{% endif %}{% if averages.with %}{% if averages.race or averages.solo %}, {% endif %}{{ averages.with }} w/others{% endif %}{% endcapture %}
   <article>
-    <h2><a href='/{{ pr.file }}'>{{ key }}{% if key == 1 %} mile{% else %} miles{% endif %}</a>
+    <h2 class="item-heading"><a href='/{{ pr.file }}'>{{ key }}{% if key == 1 %} mile{% else %} miles{% endif %}</a>
       <span class="totals"><small>{{ pr.time_s }} @ {{ pr.pace_s }}{% if group_count > 0 %} (avg. {{ avg_parts }}){% endif %}</small></span>
     </h2>
   </article>
