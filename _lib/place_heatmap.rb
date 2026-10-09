@@ -3,6 +3,7 @@
 require 'fileutils'
 require 'json'
 
+require './_lib/line_json'
 require './_lib/place_tags'
 
 module Strava
@@ -45,7 +46,7 @@ module Strava
 
       FileUtils.mkdir_p(File.dirname(OUTPUT_FILE))
       temporary_file = "#{OUTPUT_FILE}.tmp"
-      File.binwrite(temporary_file, "#{JSON.generate(data)}\n")
+      File.binwrite(temporary_file, LineJson.generate(data, array_key: :cells))
       File.rename(temporary_file, OUTPUT_FILE)
       data
     ensure

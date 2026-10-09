@@ -180,6 +180,8 @@ task :places do
   Rake::Task[:tags].invoke
   Rake::Task['places:heatmap'].reenable
   Rake::Task['places:heatmap'].invoke
+  Rake::Task['places:route_tiles'].reenable
+  Rake::Task['places:route_tiles'].invoke
   puts "Removed #{removed.fetch(:unmatched).length} places without matching activities: #{removed.fetch(:unmatched).join(', ')}"
   puts "Merged #{removed.fetch(:duplicates).length} duplicate places: #{removed.fetch(:duplicates).join(', ')}"
   puts "Updated #{updated} posts with place tags."
@@ -192,6 +194,14 @@ namespace :places do
 
     data = Strava::PlaceHeatmap.generate!
     puts "Generated #{data.fetch(:cells).length} heatmap cells from #{data.fetch(:activity_count)} activities."
+  end
+
+  desc 'Generate privacy-filtered detailed route tiles.'
+  task :route_tiles do
+    require './_lib/place_route_tiles'
+
+    data = Strava::PlaceRouteTiles.generate!
+    puts "Generated #{data.fetch(:segment_count)} route segments across #{data.fetch(:tiles).length} tiles."
   end
 
   desc 'Discover city, town and multi-city country boundaries from cached Strava segment locations.'
