@@ -6,4 +6,10 @@ permalink: "/tags/p_miraflores/"
 total_distance: 37.162896960000005
 total_time: 20973.0
 average_heartrate: 146.5142857142857
+previous_tag:
+  key: p_millvale
+  name: p/millvale
+next_tag:
+  key: p_moskva
+  name: p/moskva
 ---

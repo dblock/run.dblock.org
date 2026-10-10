@@ -6,4 +6,10 @@ permalink: "/tags/lt10m30s_mi/"
 total_distance: 165.57919792800004
 total_time: 102167.0
 average_heartrate: 138.71153846153845
+previous_tag:
+  key: lt10m15s_mi
+  name: "<10m15s/mi"
+next_tag:
+  key: lt10m45s_mi
+  name: "<10m45s/mi"
 ---

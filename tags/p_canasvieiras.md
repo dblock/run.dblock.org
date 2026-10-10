@@ -6,4 +6,10 @@ permalink: "/tags/p_canasvieiras/"
 total_distance: 24.28003275
 total_time: 13210.0
 average_heartrate: 160.99999999999997
+previous_tag:
+  key: p_canada
+  name: p/canada
+next_tag:
+  key: p_carouge
+  name: p/carouge
 ---

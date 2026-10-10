@@ -6,4 +6,10 @@ permalink: "/tags/p_new-orleans/"
 total_distance: 14.854657631
 total_time: 8332.0
 average_heartrate: 153.0
+previous_tag:
+  key: p_mountainside
+  name: p/mountainside
+next_tag:
+  key: p_new-york
+  name: p/new-york
 ---

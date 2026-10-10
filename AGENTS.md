@@ -47,7 +47,7 @@ Strava refreshes can change photos and other metadata beyond gear. Review the re
 
 ## Validation
 
-Tag pages contain precomputed distance, time and average-heart-rate totals from `_lib/tag_pages.rb`. Run `bundle exec rake tags` after changing post statistics or membership, not just tag names. Strava update and cached-post generation tasks refresh these automatically. Keep post listings in Liquid for Jekyll's ordering; tag pages intentionally have no previous/next navigation. Unchanged generated tag pages are not rewritten.
+Tag pages contain precomputed distance, time, average-heart-rate totals and previous/next links from `_lib/tag_pages.rb`. Run `bundle exec rake tags` after changing post statistics or membership, not just tag names. Strava update and cached-post generation tasks refresh these automatically. Keep post listings in Liquid for Jekyll's ordering; navigation follows the sorted tag directory and skips tags without generated pages. Unchanged generated tag pages are not rewritten.
 
 Regenerate tags after changing post tags:
 

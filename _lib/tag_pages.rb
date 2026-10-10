@@ -34,6 +34,15 @@ module Strava
       directory = tags.to_h { |tag| [key(tag), { 'name' => tag, 'count' => totals.fetch(tag).fetch(:count) }] }
       generated_files = []
       FileUtils.mkdir_p('tags')
+      page_tags = tags.reject do |tag|
+        tag.start_with?('p/') && (places[tag.delete_prefix('p/')].nil? || places[tag.delete_prefix('p/')]['enabled'] == false)
+      end
+      neighbors = page_tags.each_with_index.to_h do |tag, index|
+        [tag, {
+          'previous_tag' => index.positive? ? navigation(page_tags[index - 1]) : nil,
+          'next_tag' => page_tags[index + 1] ? navigation(page_tags[index + 1]) : nil
+        }.compact]
+      end
       tags.each do |tag|
         place = places[tag.delete_prefix('p/')] if tag.start_with?('p/')
         next if tag.start_with?('p/') && (place.nil? || place['enabled'] == false)
@@ -47,7 +56,7 @@ module Strava
           'total_distance' => total.fetch(:distance),
           'total_time' => total.fetch(:time),
           'average_heartrate' => total[:heartrates].positive? ? total[:heartrate] / total[:heartrates] : nil
-        }.compact
+        }.compact.merge(neighbors.fetch(tag))
         filename = "tags/#{key(tag)}.md"
         write_if_changed(filename, "#{YAML.dump(data)}---\n")
         generated_files << filename
@@ -78,6 +87,10 @@ module Strava
       File.binwrite(filename, contents)
     end
 
-    private_class_method :key, :sort_key, :write_if_changed
+    def self.navigation(tag)
+      { 'key' => key(tag), 'name' => tag }
+    end
+
+    private_class_method :key, :sort_key, :write_if_changed, :navigation
   end
 end

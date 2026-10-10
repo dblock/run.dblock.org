@@ -6,4 +6,10 @@ permalink: "/tags/p_englewood-cliffs/"
 total_distance: 17.446454038
 total_time: 11733.0
 average_heartrate: 134.9
+previous_tag:
+  key: p_edgartown
+  name: p/edgartown
+next_tag:
+  key: p_flamengo
+  name: p/flamengo
 ---

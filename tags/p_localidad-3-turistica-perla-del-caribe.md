@@ -6,4 +6,10 @@ permalink: "/tags/p_localidad-3-turistica-perla-del-caribe/"
 total_distance: 10.188044656999999
 total_time: 6513.0
 average_heartrate: 147.75
+previous_tag:
+  key: p_lima
+  name: p/lima
+next_tag:
+  key: p_localidad-usaquen
+  name: p/localidad-usaquen
 ---

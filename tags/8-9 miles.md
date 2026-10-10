@@ -6,4 +6,10 @@ permalink: "/tags/8-9 miles/"
 total_distance: 507.073773049
 total_time: 275235.0
 average_heartrate: 152.7018867924528
+previous_tag:
+  key: 7-8 miles
+  name: 7-8 miles
+next_tag:
+  key: 9-10 miles
+  name: 9-10 miles
 ---

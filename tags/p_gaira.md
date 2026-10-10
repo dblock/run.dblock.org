@@ -6,4 +6,10 @@ permalink: "/tags/p_gaira/"
 total_distance: 10.188044656999999
 total_time: 6513.0
 average_heartrate: 147.75
+previous_tag:
+  key: p_friedrichshain-kreuzberg
+  name: p/friedrichshain-kreuzberg
+next_tag:
+  key: p_geneve
+  name: p/geneve
 ---
