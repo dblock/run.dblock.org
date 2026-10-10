@@ -1,3 +1,7 @@
+@use "grid";
+@use "mixins";
+@use "variables";
+
 hr { 
 	display: block; 
 	margin: 1em 0; 
@@ -9,7 +13,7 @@ hr {
 }
 /* Figures and images ==================================== */
 figure {
-	margin-bottom: $indent-var;
+	margin-bottom: mixins.$indent-var;
 }
 article img,
 .article-wrap img {
@@ -23,26 +27,26 @@ svg:not(:root) {
 		overflow: hidden; 
 }
 .half {
-	@include container;
-	@include clearfix;
-	@media #{$micro} {
+	@include grid.container;
+	@include mixins.clearfix;
+	@media #{variables.$micro} {
 		img {
-			@include grid(12,6);
+			@include grid.grid(12,6);
 		}
 		figcaption {
-			@include grid(12,12);
+			@include grid.grid(12,12);
 		}
 	}
 }
 .third {
-	@include container;
-	@include clearfix;
-	@media #{$micro} {
+	@include grid.container;
+	@include mixins.clearfix;
+	@media #{variables.$micro} {
 		img {
-			@include grid(12,4);
+			@include grid.grid(12,4);
 		}
 		figcaption {
-			@include grid(12,12);
+			@include grid.grid(12,12);
 		}
 	}
 }
@@ -51,70 +55,70 @@ svg:not(:root) {
   display: inline-block;
   margin-bottom: 20px;
   padding: 8px 20px;
-  @include font-rem(14);
-  font-family: $heading-font;
+  @include mixins.font-rem(14);
+  font-family: variables.$heading-font;
   font-weight: 700;
-  background-color: $primary;
-  color: $white;
+  background-color: variables.$primary;
+  color: variables.$white;
   border-width: 2px !important;
   border-style: solid !important;
-  border-color: $primary;
+  border-color: variables.$primary;
   text-decoration: none !important;
-  @include rounded(3px);
+  @include mixins.rounded(3px);
   &:visited {
-    color: $white;
+    color: variables.$white;
   }
   &:hover {
-    background-color: $white;
-    color: $primary;
+    background-color: variables.$white;
+    color: variables.$primary;
   }
 }
 .btn-success {
-  background-color: $success;
-  color: $white;
-  border-color: $success;
+  background-color: variables.$success;
+  color: variables.$white;
+  border-color: variables.$success;
   &:visited {
-    color: $white;
+    color: variables.$white;
   }
   &:hover {
-    background-color: $white;
-    color: $success;
+    background-color: variables.$white;
+    color: variables.$success;
   }
 }
 .btn-warning {
-  background-color: $warning;
-  color: $white;
-  border-color: $warning;
+  background-color: variables.$warning;
+  color: variables.$white;
+  border-color: variables.$warning;
   &:visited {
-    color: $white;
+    color: variables.$white;
   }
   &:hover {
-    background-color: $white;
-    color: $warning;
+    background-color: variables.$white;
+    color: variables.$warning;
   }
 }
 .btn-danger {
-  background-color: $danger;
-  color: $white;
-  border-color: $danger;
+  background-color: variables.$danger;
+  color: variables.$white;
+  border-color: variables.$danger;
   &:visited {
-    color: $white;
+    color: variables.$white;
   }
   &:hover {
-    background-color: $white;
-    color: $danger;
+    background-color: variables.$white;
+    color: variables.$danger;
   }
 }
 .btn-info {
-  background-color: $info;
-  color: $white;
-  border-color: $info;
+  background-color: variables.$info;
+  color: variables.$white;
+  border-color: variables.$info;
   &:visited {
-    color: $white;
+    color: variables.$white;
   }
   &:hover {
-    background-color: $white;
-    color: $info;
+    background-color: variables.$white;
+    color: variables.$info;
   }
 }
 /* Well ================================================= */
@@ -124,6 +128,6 @@ svg:not(:root) {
 	margin-bottom: 20px;
 	background-color: #f5f5f5;
 	border: 1px solid #e3e3e3;
-	@include rounded(4px);
-	@include box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.05));
+	@include mixins.rounded(4px);
+	@include mixins.box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.05));
 }

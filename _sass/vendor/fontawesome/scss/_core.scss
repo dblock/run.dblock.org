@@ -1,7 +1,9 @@
+@use "variables";
+
 // Base Class Definition
 // -------------------------
 
-.#{$fa-css-prefix},
+.#{variables.$fa-css-prefix},
 .fas,
 .far,
 .fal,

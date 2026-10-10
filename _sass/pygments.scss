@@ -1,16 +1,20 @@
+@use "sass:color";
+@use "mixins";
+@use "variables";
+
 .highlight {
 	background-color: #efefef;
-	font-family: $code-font;
-	@include font(12);
+	font-family: variables.$code-font;
+	@include mixins.font(12);
 	color: #333332;
 	margin-bottom: 1.5em;
-	@include rounded(4px);
+	@include mixins.rounded(4px);
 	pre {
 		position: relative;
 		margin: 0;
 		padding: 1em;
 	}
-	.lineno { padding-right: 24px; color: lighten(#333332,50);}
+	.lineno { padding-right: 24px; color: color.adjust(#333332,$lightness: 50%);}
 	.hll { background-color: #ffffcc }
 	.c { color: #999988; font-style: italic } /* Comment */
 	.err { color: #a61717; background-color: #e3d2d2 } /* Error */

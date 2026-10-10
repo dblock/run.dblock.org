@@ -1,12 +1,15 @@
+@use "mixins";
+@use "variables";
+
 /* Selection ============================================= */
 ::-moz-selection {
-	background-color: $basecolor;
-	color: $white;
+	background-color: variables.$basecolor;
+	color: variables.$white;
 	text-shadow: none;
 }
 ::selection {
-	background-color: $basecolor;
-	color: $white;
+	background-color: variables.$basecolor;
+	color: variables.$white;
 	text-shadow: none;
 }
 
@@ -46,7 +49,7 @@
 
 /* Global Transition ==================================== */
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
-	@include transition(all .2s ease);
+	@include mixins.transition(all .2s ease);
 }
 
 .inline-list {
@@ -112,7 +115,7 @@ img.thumbnail {
   border-radius: 4px;
   border: 1px solid #ddd;
   margin: 2px;
-  @media #{$large} {
+  @media #{variables.$large} {
     max-width: 300px;
     max-height: 300px;
   }
@@ -136,7 +139,7 @@ img.thumbnail {
   border-radius: 4px;
 
   &:focus {
-    outline: 3px solid $basecolor;
+    outline: 3px solid variables.$basecolor;
     outline-offset: 2px;
   }
 
@@ -165,7 +168,7 @@ img.thumbnail {
   bottom: 0;
   left: 0;
   padding: 2rem 0.6rem 0.5rem;
-  color: $white;
+  color: variables.$white;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
   opacity: 0;
 

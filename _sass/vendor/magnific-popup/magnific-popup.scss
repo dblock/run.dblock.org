@@ -1,6 +1,9 @@
 /* Magnific Popup CSS */
 
-@import "settings";
+@use "sass:math";
+
+@use "sass:string";
+@use "settings" as *;
 
 ////////////////////////
 //
@@ -52,7 +55,7 @@ $mfp-include-iframe-type:             true !default;
 $mfp-iframe-padding-top:              40px !default;
 $mfp-iframe-background:               #000 !default;
 $mfp-iframe-max-width:                900px !default;
-$mfp-iframe-ratio:                    9/16 !default;
+$mfp-iframe-ratio:                    math.div(9, 16) !default;
 
 // Image-type options
 $mfp-include-image-type:              true !default;
@@ -87,7 +90,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   background: $mfp-overlay-color;
   opacity: $mfp-overlay-opacity;
   @if $mfp-IE7support {
-    filter: unquote("alpha(opacity=#{$mfp-overlay-opacity*100})");
+    filter: string.unquote("alpha(opacity=#{$mfp-overlay-opacity*100})");
   }
 }
 
@@ -285,7 +288,7 @@ button {
   text-align: center;
   opacity: $mfp-controls-opacity;
   @if $mfp-IE7support {
-    filter: unquote("alpha(opacity=#{$mfp-controls-opacity*100})");
+    filter: string.unquote("alpha(opacity=#{$mfp-controls-opacity*100})");
   }
   padding: 0 0 18px 10px;
   color: $mfp-controls-color;
@@ -298,7 +301,7 @@ button {
   &:focus {
     opacity: 1;
     @if $mfp-IE7support {
-      filter: unquote("alpha(opacity=#{1*100})");
+      filter: string.unquote("alpha(opacity=#{1*100})");
     }
   }
 
@@ -338,7 +341,7 @@ button {
     position: absolute;
     opacity: $mfp-controls-opacity;
     @if $mfp-IE7support {
-      filter: unquote("alpha(opacity=#{$mfp-controls-opacity*100})");
+      filter: string.unquote("alpha(opacity=#{$mfp-controls-opacity*100})");
     }
     margin: 0;
     top: 50%;
@@ -354,7 +357,7 @@ button {
     &:focus {
       opacity: 1;
       @if $mfp-IE7support {
-        filter: unquote("alpha(opacity=#{1*100})");
+        filter: string.unquote("alpha(opacity=#{1*100})");
       }
     }
     &:before,

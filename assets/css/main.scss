@@ -12,19 +12,19 @@ sitemap: false
 */
 
 // Partials
-@import "variables";
-@import "grid";
-@import "mixins";
-@import "normalize";
-@import "site";
-@import "typography";
-@import "pygments";
-@import "coderay";
-@import "elements";
-@import "forms";
-@import "page";
-@import "vendor/leaflet";
-@import "vendor/fontawesome/scss/fontawesome";
-@import "vendor/fontawesome/scss/fa-brands";
-@import "vendor/fontawesome/scss/fa-solid";
-@import "vendor/magnific-popup/magnific-popup";
+@use "../../_sass/variables";
+@use "../../_sass/grid";
+@use "../../_sass/mixins";
+@use "../../_sass/normalize";
+@use "../../_sass/site";
+@use "../../_sass/typography";
+@use "../../_sass/pygments";
+@use "../../_sass/coderay";
+@use "../../_sass/elements";
+@use "../../_sass/forms";
+@use "../../_sass/page";
+@use "../../_sass/vendor/leaflet";
+@use "../../_sass/vendor/fontawesome/scss/fontawesome";
+@use "../../_sass/vendor/fontawesome/scss/fa-brands";
+@use "../../_sass/vendor/fontawesome/scss/fa-solid";
+@use "../../_sass/vendor/magnific-popup/magnific-popup";

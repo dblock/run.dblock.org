@@ -6,7 +6,7 @@ It synchronizes runs from Strava to Github Pages. See [Rakefile](Rakefile) and [
 
 ## Site builds
 
-The site uses Jekyll 4 and explicitly declared plugins, built and deployed by GitHub Actions rather than GitHub Pages' bundled Jekyll runtime. Run `bundle install`, then `bundle exec jekyll serve` locally or `bundle exec jekyll build --profile` to profile a full build. The Sass converter stays on 2.x to preserve the theme's existing LibSass-based stylesheet compilation.
+The site uses Jekyll 4 and explicitly declared plugins, built and deployed by GitHub Actions rather than GitHub Pages' bundled Jekyll runtime. Run `bundle install`, then `bundle exec jekyll serve` locally or `bundle exec jekyll build --profile` to profile a full build. Stylesheets compile with Dart Sass through jekyll-sass-converter 3 and use Sass modules (`@use`), namespaced built-in functions, and `math.div` for arithmetic division. The checked-in Font Awesome and Magnific Popup Sass sources have been migrated too; preserve these module changes when updating vendored styles.
 
 ## Activities
 

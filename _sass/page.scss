@@ -1,3 +1,11 @@
+@use "sass:color";
+@use "grid";
+@use "mixins";
+@use "variables";
+@use "elements";
+
+@use "sass:math";
+
 .shoe {
 	display: flex;
 	align-items: center;
@@ -26,7 +34,7 @@
 			width: 280px;
 			height: 280px;
 			max-width: 75vw;
-			background: $white;
+			background: variables.$white;
 			box-shadow: 0 2px 12px rgba(0,0,0,.25);
 			z-index: 10;
 			pointer-events: none;
@@ -52,14 +60,14 @@
 	height: 55vh;
 	min-height: 360px;
 	max-height: 680px;
-	background: lighten($black, 92);
-	border: 1px solid lighten($black, 75);
+	background: color.adjust(variables.$black, $lightness: 92%);
+	border: 1px solid color.adjust(variables.$black, $lightness: 75%);
 }
 
 .place-heatmap-status {
 	margin-top: .5em;
-	color: lighten($text-color, 25);
-	@include font-rem(14);
+	color: color.adjust(variables.$text-color, $lightness: 25%);
+	@include mixins.font-rem(14);
 }
 
 .place-heatmap-legend {
@@ -67,7 +75,7 @@
 	align-items: center;
 	gap: .5em;
 	margin: .75em 0 0;
-	@include font-rem(14);
+	@include mixins.font-rem(14);
 }
 
 .place-heatmap-gradient {
@@ -75,61 +83,61 @@
 	width: 9em;
 	height: .75em;
 	background: linear-gradient(to right, #5e00a1, #d1007e, #ff6b00, #ffe600);
-	border: 1px solid lighten($black, 65);
+	border: 1px solid color.adjust(variables.$black, $lightness: 65%);
 }
 
-@media #{$small} {
+@media #{variables.$small} {
 	#place-heatmap {
 		height: 60vh;
 	}
 }
 
 body {
-	background-color: $bodycolor;
-	font-family: $base-font;
-	color: $text-color;
+	background-color: variables.$bodycolor;
+	font-family: variables.$base-font;
+	color: variables.$text-color;
 }
 .navigation-wrapper {
-	@include container;
+	@include grid.container;
 	padding: 2em 0 1em;
-	font-family: $heading-font;
+	font-family: variables.$heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
-	@include clearfix;
+	@include mixins.clearfix;
 }
 .site-name {
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
+	@include grid.grid(12,10);
+	@include grid.prefix(12,1);
+	@include grid.suffix(12,1);
 	margin-bottom: 1em;
 	float: none;
 	display: block;
-	@include font-rem(24);
-	@media #{$small} {
-		@include grid(12,2);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
-		@include font-rem(16);
+	@include mixins.font-rem(24);
+	@media #{variables.$small} {
+		@include grid.grid(12,2);
+		@include grid.prefix(12,0.5);
+		@include grid.suffix(12,0.5);
+		@include mixins.font-rem(16);
 	}
-	@media #{$x-large} {
-		@include grid(12,1.5);
-		@include prefix(12,2);
+	@media #{variables.$x-large} {
+		@include grid.grid(12,1.5);
+		@include grid.prefix(12,2);
 	}
 }
 .top-navigation {
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
+	@include grid.grid(12,10);
+	@include grid.prefix(12,1);
+	@include grid.suffix(12,1);
 	margin-bottom: 1em;
 	float: none;
 	display: block;
-	@media #{$small} {
-		@include grid(12,9);
-		@include prefix(12,0);
-		@include suffix(12,0);
+	@media #{variables.$small} {
+		@include grid.grid(12,9);
+		@include grid.prefix(12,0);
+		@include grid.suffix(12,0);
 	}
-	@media #{$x-large} {
-		@include grid(12,8);
+	@media #{variables.$x-large} {
+		@include grid.grid(12,8);
 	}
 	ul {
 		margin: 0;
@@ -140,13 +148,13 @@ body {
 	li {
 		display: block;
 		list-style-type: none;
-		border-bottom: 1px solid lighten($black,80);
-		border-bottom: 1px solid fade($black,10);
-		@include font-rem(16);
+		border-bottom: 1px solid color.adjust(variables.$black,$lightness: 80%);
+		border-bottom: 1px solid fade(variables.$black,10);
+		@include mixins.font-rem(16);
 		&:last-child {
 			border-bottom: 0 solid transparent;
 		}
-		@media #{$small} {
+		@media #{variables.$small} {
 			display: inline;
 			margin-right: 25px;
 			white-space: nowrap;
@@ -157,8 +165,8 @@ body {
 			padding: 10px 0;
 			decoration: none;
 			border-bottom: 0 solid transparent;
-			@include transition(all .2s);
-			@media #{$small} {
+			@include mixins.transition(all .2s);
+			@media #{variables.$small} {
 				display: inline;
 				padding: 0;
 			}
@@ -170,18 +178,18 @@ $button-size: 1.5rem;
 @mixin navicon-line() {
 	display: inline-block;
 	width: $button-size;
-	height: $button-size/7;
+	height: math.div($button-size, 7);
 	// line color
-	background: $white;
-	border-radius: $button-size/14;
+	background: variables.$white;
+	border-radius: math.div($button-size, 14);
 	transition: .3s;
 }
 .navicon-lines-button {
-	padding: $button-size/4 $button-size/2;
+	padding: $button-size*0.25 $button-size*0.5;
 	transition: .3s;
 	cursor: pointer;
 	user-select: none;
-	border-radius: $button-size/7;
+	border-radius: math.div($button-size, 7);
 }
 .navicon-lines-button:hover {
 	opacity: 1;
@@ -191,7 +199,7 @@ $button-size: 1.5rem;
 }
 .navicon-lines {
 	margin-right: 10px;
-	margin-bottom: $button-size/5;
+	margin-bottom: $button-size*0.2;
 	// create middle line
 	@include navicon-line;
 	position: relative;
@@ -202,17 +210,17 @@ $button-size: 1.5rem;
 		position: absolute;
 		left: 0;
 		content: '';
-		-webkit-transform-origin: $button-size/14 center;
-		transform-origin: $button-size/14 center;
+		-webkit-transform-origin: math.div($button-size, 14) center;
+		transform-origin: math.div($button-size, 14) center;
 	}
-	&:before { top: $button-size/4; }
-	&:after { top: -$button-size/4; }
+	&:before { top: $button-size*0.25; }
+	&:after { top: -$button-size*0.25; }
 }
 .navicon-lines-button:hover {
 	opacity: 1;
 	.navicon-lines {
-		&:before { top: $button-size/3.5; }
-		&:after { top: -$button-size/3.5; }
+		&:before { top: math.div($button-size, 3.5); }
+		&:after { top: math.div(-$button-size, 3.5); }
 	}
 }
 .navicon-lines-button.x.active .navicon-lines {
@@ -238,13 +246,13 @@ $button-size: 1.5rem;
 }
 // Style the toggle menu link and hide it
 .nav .navtoogle {
-	@include font-rem(18);
+	@include mixins.font-rem(18);
 	font-weight: normal;
-	background-color: $basecolor;
-	color: $white;
+	background-color: variables.$basecolor;
+	color: variables.$white;
 	border: none;
 	cursor: pointer;
-	@media #{$small} {
+	@media #{variables.$small} {
 		display: none;
 	}
 }
@@ -273,7 +281,7 @@ $button-size: 1.5rem;
 .js .nav ul {
 	max-height: 0;
 	overflow: hidden;
-	@media #{$small} {
+	@media #{variables.$small} {
 		max-height: 30em;
 	}
 }
@@ -289,8 +297,8 @@ $button-size: 1.5rem;
 }
 #main {
 	counter-reset: captions;
-	@include container;
-	@include clearfix;
+	@include grid.container;
+	@include mixins.clearfix;
 	clear: both;
 	margin-top: 1em;
 	h1 {
@@ -298,18 +306,18 @@ $button-size: 1.5rem;
 	}
 	.post,
 	.page {
-		@include container;
-		@include grid(12,10);
-		@include prefix(12,1);
-		@include suffix(12,1);
+		@include grid.container;
+		@include grid.grid(12,10);
+		@include grid.prefix(12,1);
+		@include grid.suffix(12,1);
 		margin-bottom: 2em;
-		@media #{$small} {
-			@include grid(12,6);
-			@include prefix(12,0);
-			@include suffix(12,0);
+		@media #{variables.$small} {
+			@include grid.grid(12,6);
+			@include grid.prefix(12,0);
+			@include grid.suffix(12,0);
 		}
-		@media #{$x-large} {
-			@include grid(12,4.5);
+		@media #{variables.$x-large} {
+			@include grid.grid(12,4.5);
 		}
 	}
 }
@@ -320,18 +328,18 @@ $button-size: 1.5rem;
 	margin-top: 1em;
 }
 #index, #donate {
-	@include container;
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
+	@include grid.container;
+	@include grid.grid(12,10);
+	@include grid.prefix(12,1);
+	@include grid.suffix(12,1);
 	margin-bottom: 2em;
-	@media #{$small} {
-		@include grid(12,6);
-		@include prefix(12,0);
-		@include suffix(12,0);
+	@media #{variables.$small} {
+		@include grid.grid(12,6);
+		@include grid.prefix(12,0);
+		@include grid.suffix(12,0);
 	}
-	@media #{$x-large} {
-		@include grid(12,4.5);
+	@media #{variables.$x-large} {
+		@include grid.grid(12,4.5);
 	}
 	> div.totals,
 	> #markdown-content > div.totals {
@@ -348,8 +356,8 @@ $button-size: 1.5rem;
 		margin-top: 30px;
 		margin-bottom: 0.5em;
 		padding-bottom: .5em;
-		@include font-rem(28);
-		border-bottom: 1px solid lighten($black,70);
+		@include mixins.font-rem(28);
+		border-bottom: 1px solid color.adjust(variables.$black,$lightness: 70%);
 		&:first-child {
 			margin-top: 0;
 		}
@@ -358,28 +366,28 @@ $button-size: 1.5rem;
 		.item-heading {
 			margin-top: -0.04em;
 			margin-bottom: 0.5em;
-			@include font-rem(20);
+			@include mixins.font-rem(20);
 			line-height: 1.3;
 			&.link-post {
-				margin-bottom: 0px + $doc-line-height;
-				margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
+				margin-bottom: 0px + variables.$doc-line-height;
+				margin-bottom: 0rem + math.div(variables.$doc-line-height, variables.$doc-font-size);
 			}
 		}
 		p {
-			@include font-rem(14);
+			@include mixins.font-rem(14);
 		}
 		p+p {
 			text-indent: 0;
 		}
 	}
 	.content-heading {
-		@include font-rem(24);
+		@include mixins.font-rem(24);
 	}
 }
 .image-wrap {
 	position: relative;
 	margin-bottom: 2em;
-	@include clearfix;
+	@include mixins.clearfix;
 	&:after {
 		content: " ";
 		display: block;
@@ -389,14 +397,14 @@ $button-size: 1.5rem;
 		width: 0;
 		height: 0;
 		border: 10px solid transparent;
-		border-bottom-color: $bodycolor;
-		@media #{$small} {
+		border-bottom-color: variables.$bodycolor;
+		@media #{variables.$small} {
 			left: 25%;
 		}
-		@media #{$large} {
+		@media #{variables.$large} {
 			border-width: 20px;
 		}
-		@media #{$x-large} {
+		@media #{variables.$x-large} {
 			left: 33.333333333%;
 		}
 	}
@@ -408,17 +416,17 @@ $button-size: 1.5rem;
 	.headline-wrap {
 		position: absolute;
 		bottom: 25px;
-		@include prefix(12,1);
-		@media #{$small} {
+		@include grid.prefix(12,1);
+		@media #{variables.$small} {
 			left: 25%;
 			margin-left: 0;
 		}
-		@media #{$x-large} {
-			@include prefix(12,1);
+		@media #{variables.$x-large} {
+			@include grid.prefix(12,1);
 		}
 		h1, h2 {
-			color: $white;
-			@include text-shadow(0 1px 2px rgba(0,0,0,.25));
+			color: variables.$white;
+			@include mixins.text-shadow(0 1px 2px rgba(0,0,0,.25));
 		}
 	}
 }
@@ -452,12 +460,12 @@ $button-size: 1.5rem;
 .author-social {
   display: block;
   margin-bottom: 5px;
-  @include font-rem(14);
+  @include mixins.font-rem(14);
   &:hover {
-    @include scale(1.1);
+    @include mixins.scale(1.1);
   }
   &:active {
-    @include translate(0, 2px);
+    @include mixins.translate(0, 2px);
   }
   .fa {
 		margin-right: 5px;
@@ -468,11 +476,11 @@ $button-size: 1.5rem;
 	.bio-photo {
 		max-width: 110px;
 	}
-	@media #{$small} {
+	@media #{variables.$small} {
 		display: block;
-		@include grid(12,2);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
+		@include grid.grid(12,2);
+		@include grid.prefix(12,0.5);
+		@include grid.suffix(12,0.5);
 		h3,
 		p,
 		.author-social {
@@ -490,7 +498,7 @@ $button-size: 1.5rem;
 			margin-bottom: 5px;
 		}
 	}
-	@media #{$large} {
+	@media #{variables.$large} {
 		h3,
 		.bio-photo,
 		p,
@@ -498,14 +506,14 @@ $button-size: 1.5rem;
 			max-width: 150px;
 		}
 	}
-	@media #{$x-large} {
-		@include grid(12,1.5);
-		@include prefix(12,2);
+	@media #{variables.$x-large} {
+		@include grid.grid(12,1.5);
+		@include grid.prefix(12,2);
 	}
 }
 .article-author-bottom {
 	margin-bottom: 1em;
-	@media #{$small} {
+	@media #{variables.$small} {
 		display: none;
 	}
 	.bio-photo {
@@ -517,7 +525,7 @@ $button-size: 1.5rem;
 		display: inline-block;
 		margin-right: 10px;
 	}
-	@media #{$large} {
+	@media #{variables.$large} {
 		h3,
 		.bio-photo,
 		p,
@@ -540,24 +548,24 @@ $button-size: 1.5rem;
 .toc {
 	display: none;
 	font-size: 95%;
-	@media #{$small} {
+	@media #{variables.$small} {
 		display: block;
-		@include grid(12,2);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
+		@include grid.grid(12,2);
+		@include grid.prefix(12,0.5);
+		@include grid.suffix(12,0.5);
 		position: absolute;
 		top: 5.5em;
 		right: 0;
-		background-color: $white;
+		background-color: variables.$white;
 	}
 	header {
-		background: lighten($black, 10);
+		background: color.adjust(variables.$black, $lightness: 10%);
 	}
 	h3 {
 		margin: 0;
 		padding: 5px 10px;
-		color: $white;
-		@include font-rem(16);
+		color: variables.$white;
+		@include mixins.font-rem(16);
 		text-transform: uppercase;
 		&:hover {
 			cursor: pointer;
@@ -572,7 +580,7 @@ $button-size: 1.5rem;
 		display: block;
 		margin: 0 0 1px 0;
 		padding: 0;
-		font-family: $heading-font;
+		font-family: variables.$heading-font;
 		list-style-type: none;
 		&:last-child {
 			border-bottom-width: 0;
@@ -580,13 +588,13 @@ $button-size: 1.5rem;
 		a {
 			padding: 10px;
 			display: block;
-			color: $white;
+			color: variables.$white;
 			text-decoration: none;
-			background: lighten($black, 30);
-			@include opacity(0.7);
-			@include transition(opacity 0.2s ease-in-out);
+			background: color.adjust(variables.$black, $lightness: 30%);
+			@include mixins.opacity(0.7);
+			@include mixins.transition(opacity 0.2s ease-in-out);
 			&:hover {
-				@include opacity(1);
+				@include mixins.opacity(1);
 			}
 		}
 		ul {
@@ -602,28 +610,28 @@ $button-size: 1.5rem;
 	}
 }
 .image-grid {
-	@include clearfix;
+	@include mixins.clearfix;
 	list-style: none;
 	margin: 0 0 1em;
 	padding: 0;
 	li {
-		@include grid(12,6);
-		@media #{$micro} {
+		@include grid.grid(12,6);
+		@media #{variables.$micro} {
 			width: 33.333333%;
 		}
-		@media #{$small} {
+		@media #{variables.$small} {
 			width: 25%;
 		}
-		@media #{$medium} {
+		@media #{variables.$medium} {
 			width: 20%;
 		}
-		@media #{$large} {
+		@media #{variables.$large} {
 			width: 16.666666666%;
 		}
 	}
 }
 .recent-grid {
-	@include clearfix;
+	@include mixins.clearfix;
 	list-style: none;
 	margin: 1em 0;
 	li {
@@ -641,7 +649,7 @@ $button-size: 1.5rem;
 	}
 }
 .holder {
-	font-family: $heading-font;
+	font-family: variables.$heading-font;
 	a {
 		cursor: pointer;
 		margin: 0 5px;
@@ -672,8 +680,8 @@ $button-size: 1.5rem;
 	}
 }
 .footer-wrap {
-	@include container;
-	@include clearfix;
+	@include grid.container;
+	@include mixins.clearfix;
 	clear: both;
 	padding-bottom: 3em;
 	a,
@@ -684,38 +692,38 @@ $button-size: 1.5rem;
 	h5,
 	h6,
 	span {
-		@include font-rem(11);
+		@include mixins.font-rem(11);
 	}
 	footer {
-		@include grid(12,10);
-		@include prefix(12,1);
-		@include suffix(12,1);
-		@media #{$small} {
-			@include grid(12,6);
-			@include prefix(12,3);
-			@include suffix(12,3);
+		@include grid.grid(12,10);
+		@include grid.prefix(12,1);
+		@include grid.suffix(12,1);
+		@media #{variables.$small} {
+			@include grid.grid(12,6);
+			@include grid.prefix(12,3);
+			@include grid.suffix(12,3);
 		}
-		@media #{$x-large} {
-			@include grid(12,4.5);
-			@include prefix(12,4);
-			@include suffix(12,3.5);
+		@media #{variables.$x-large} {
+			@include grid.grid(12,4.5);
+			@include grid.prefix(12,4);
+			@include grid.suffix(12,3.5);
 		}
 	}
 }
 .related-articles {
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
+	@include grid.grid(12,10);
+	@include grid.prefix(12,1);
+	@include grid.suffix(12,1);
 	margin-bottom: 2em;
-	@media #{$small} {
-		@include grid(12,6);
-		@include prefix(12,3);
-		@include suffix(12,3);
+	@media #{variables.$small} {
+		@include grid.grid(12,6);
+		@include grid.prefix(12,3);
+		@include grid.suffix(12,3);
 	}
-	@media #{$x-large} {
-		@include grid(12,4.5);
-		@include prefix(12,4);
-		@include suffix(12,3.5);
+	@media #{variables.$x-large} {
+		@include grid.grid(12,4.5);
+		@include grid.prefix(12,4);
+		@include grid.suffix(12,3.5);
 	}
 	h4 {
 
@@ -731,8 +739,8 @@ $button-size: 1.5rem;
 		display: inline-block;
 		padding-right: 5px;
 		a {
-			color: lighten($basecolor, 40%);
-			@include transition(.4s linear);
+			color: color.adjust(variables.$basecolor, $lightness: 40%);
+			@include mixins.transition(.4s linear);
 			&:hover {
 				text-decoration: none;
 				border-bottom: none;
@@ -772,13 +780,13 @@ $button-size: 1.5rem;
 	margin: 0 0 2em 0;
 	padding: 10px;
 	text-align: center;
-	color: $white;
+	color: variables.$white;
 	a {
-		color: $white;
-		border-bottom: 1px dotted $white;
+		color: variables.$white;
+		border-bottom: 1px dotted variables.$white;
 		text-decoration: none;
 		&:hover {
-			border-bottom: 1px solid $white;
+			border-bottom: 1px solid variables.$white;
 		}
 	}
 }
@@ -801,13 +809,13 @@ $button-size: 1.5rem;
 	margin-bottom: 20px;
 	padding: 8px 20px;
 	display: inline-block;
-	@include font-rem(14);
-	background-color: $white;
-	color: $black;
+	@include mixins.font-rem(14);
+	background-color: variables.$white;
+	color: variables.$black;
 	border-width: 2px !important;
 	border-style: solid !important;
-	border-color: lighten($black,50);
-	@include rounded(3px);
+	border-color: color.adjust(variables.$black,$lightness: 50%);
+	@include mixins.rounded(3px);
 }
 #goog-wm-sb {
 	@extend .btn;
@@ -834,7 +842,7 @@ $button-size: 1.5rem;
 // Social Share
 // --------------------------------------------------
 .socialcount {
-	@include font-rem(16);
+	@include mixins.font-rem(16);
 	li {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -851,7 +859,7 @@ $button-size: 1.5rem;
 	margin-top: 10px;
 	input {
 		max-width: 125px;
-		@include font-rem(11);
+		@include mixins.font-rem(11);
 	}
 }
 
