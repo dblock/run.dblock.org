@@ -4,6 +4,10 @@ This is my personal running blog, see it at [run.dblock.org](http://run.dblock.o
 
 It synchronizes runs from Strava to Github Pages. See [Rakefile](Rakefile) and [CRON](CRON.md) for details.
 
+## Site builds
+
+The site uses Jekyll 4 and explicitly declared plugins, built and deployed by GitHub Actions rather than GitHub Pages' bundled Jekyll runtime. Run `bundle install`, then `bundle exec jekyll serve` locally or `bundle exec jekyll build --profile` to profile a full build. The Sass converter stays on 2.x to preserve the theme's existing LibSass-based stylesheet compilation.
+
 ## Activities
 
 Run `rake strava:generate_md` to regenerate activity posts from cached Strava JSON. Each generated post contains front matter only, including the activity's display data for stats, description, map presence, device, gear, splits and photos. The activity layout renders that front matter. Duplicate cache files are matched to posts by `strava_id`, preferring the cache filename corresponding to the current post.
