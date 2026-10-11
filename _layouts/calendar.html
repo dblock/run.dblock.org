@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1 class="page-heading">Calendar {{ page.calendar_year }}</h1>
-<div class="totals">{{ page.total_miles | round: 1 }} miles · {{ page.run_count }} runs · {{ page.active_days }} running days</div>
+<div class="totals">{{ page.total_miles | round: 1 }} miles · {{ page.run_count }} runs · {{ page.active_days }} running days{% if page.longest_streak > 1 %} · {{ page.longest_streak }}-day longest streak{% endif %}</div>
 <div class="calendar-grid">
   {% for month in page.calendar_months %}
     <section class="calendar-month{% if month.runs == 0 %} no-runs{% endif %}" aria-label="{{ month.name }} {{ page.calendar_year }}">

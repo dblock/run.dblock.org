@@ -29,6 +29,7 @@ module Jekyll
           'calendar_months' => months_for(year, by_date),
           'run_count' => by_date.sum { |date, posts| date.year == year ? posts.length : 0 },
           'active_days' => by_date.count { |date, _posts| date.year == year },
+          'longest_streak' => longest_streak(year, by_date),
           'total_miles' => by_date.sum do |date, posts|
             date.year == year ? posts.sum { |post| post.data.fetch('distance', 0).to_f } : 0
           end,
@@ -39,6 +40,18 @@ module Jekyll
     end
 
     private
+
+    def longest_streak(year, by_date)
+      longest = 0
+      current = 0
+      previous = nil
+      by_date.keys.select { |date| date.year == year }.sort.each do |date|
+        current = previous && date == previous + 1 ? current + 1 : 1
+        longest = [longest, current].max
+        previous = date
+      end
+      longest
+    end
 
     def months_for(year, by_date)
       (1..12).map do |month|
