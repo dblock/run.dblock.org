@@ -49,6 +49,9 @@
 #index article.shoe .item-heading {
 	margin-top: 0;
 	margin-bottom: 0;
+	.totals small {
+		@include mixins.font-rem(12);
+	}
 }
 
 .place-heatmap {

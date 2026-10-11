@@ -11,6 +11,10 @@ title: Shoes
     {% assign shoe = site.data.shoes[tag.name] %}
     {% assign shoe_parts = tag.name | split: "/" %}
     {% assign shoe_name = shoe_parts | last %}
+    {% assign shoe_miles = 0 %}
+    {% for post in site.tags[tag.name] %}
+      {% assign shoe_miles = shoe_miles | plus: post.distance %}
+    {% endfor %}
     <article class="shoe">
       {% if shoe.image %}
       <a class="shoe-photo" href='/tags/{{ key }}/'>
@@ -21,7 +25,7 @@ title: Shoes
         <span class="shoe-photo-space" aria-hidden="true"></span>
       {% endif %}
       <h2 class="item-heading"><a href='/tags/{{ key }}/'>{{ shoe_parts[1] }}/{{ shoe_parts[2] }} {{ shoe_name }}</a>
-        <span class="totals"><small>{{ tag.count }}</small></span>
+        <span class="totals"><small>{{ tag.count }} · {{ shoe_miles | round: 1 }} mi</small></span>
       </h2>
     </article>
   {% endif %}
