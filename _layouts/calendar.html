@@ -2,11 +2,11 @@
 layout: default
 ---
 <h1 class="page-heading">Calendar {{ page.calendar_year }}</h1>
-<div class="totals">{{ page.total_miles | round: 1 }} miles · {{ page.run_count }} runs · {{ page.active_days }} running days{% if page.longest_streak > 1 %} · {{ page.longest_streak }}-day longest streak{% endif %}</div>
+<div class="totals">{{ page.total_miles | round: 1 }} miles · {{ page.run_count }} runs · {{ page.active_days }} running days{% if page.race_count > 0 %} · {{ page.race_count }} {% if page.race_count == 1 %}race{% else %}races{% endif %}{% endif %}{% if page.longest_streak > 1 %} · {{ page.longest_streak }}-day longest streak{% endif %}</div>
 <div class="calendar-grid">
   {% for month in page.calendar_months %}
     <section class="calendar-month{% if month.runs == 0 %} no-runs{% endif %}" aria-label="{{ month.name }} {{ page.calendar_year }}">
-      <h2>{{ month.name }}{% if month.runs > 0 %} <small>{{ month.miles | round: 1 }} mi · {{ month.runs }} runs</small>{% endif %}</h2>
+      <h2>{{ month.name }}{% if month.runs > 0 %} <small>{{ month.miles | round: 1 }} mi · {{ month.runs }} runs{% if month.races > 0 %} - {{ month.races }} {% if month.races == 1 %}race{% else %}races{% endif %}{% endif %}</small>{% endif %}</h2>
       <table>
         <thead>
           <tr><th scope="col" aria-label="Sunday">S</th><th scope="col" aria-label="Monday">M</th><th scope="col" aria-label="Tuesday">T</th><th scope="col" aria-label="Wednesday">W</th><th scope="col" aria-label="Thursday">T</th><th scope="col" aria-label="Friday">F</th><th scope="col" aria-label="Saturday">S</th></tr>
@@ -19,7 +19,7 @@ layout: default
                   <td class="calendar-day intensity-{{ day.intensity }}{% if day.count > 1 %} multiple-runs{% endif %}">
                     {% if day.url %}
                       <a href="{{ day.url | relative_url }}" title="{{ day.title | escape }} — {{ day.miles_display }} miles{% if day.count > 1 %}, {{ day.count }} runs{% endif %}">
-                        <span class="day-number">{{ day.day }}</span><span class="day-miles">{{ day.miles_display }}</span>
+                        <span class="day-number">{{ day.day }}{% if day.race %} <span class="calendar-race"><i class="fas fa-flag-checkered" aria-hidden="true"></i><span class="sr-only">Race day</span></span>{% endif %}</span><span class="day-miles">{{ day.miles_display }}</span>
                       </a>
                     {% else %}
                       <span class="day-number">{{ day.day }}</span>
@@ -36,7 +36,7 @@ layout: default
     </section>
   {% endfor %}
 </div>
-<p class="calendar-legend"><span class="intensity-1">under 3 mi</span><span class="intensity-2">3–5.9 mi</span><span class="intensity-3">6–9.9 mi</span><span class="intensity-4">10+ mi</span></p>
+<p class="calendar-legend"><span class="intensity-1">under 3 mi</span><span class="intensity-2">3–5.9 mi</span><span class="intensity-3">6–9.9 mi</span><span class="intensity-4">10+ mi</span><span><i class="fas fa-flag-checkered" aria-hidden="true"></i> race</span></p>
 <div class="pagination" aria-label="Calendar years">
   <small>
     {% for year in page.calendar_years %}
@@ -68,6 +68,7 @@ layout: default
 .calendar-month td { border: 0; border-radius: 3px; font-size: .7rem; height: 2.5rem; padding: 0; text-align: center; vertical-align: middle; }
 .calendar-day { background: #f1f1f1; }
 .calendar-day a { color: inherit; display: flex; flex-direction: column; height: 100%; justify-content: center; text-decoration: none; }
+.day-number { white-space: nowrap; }
 .calendar-day a:hover { outline: 2px solid #555; }
 .day-miles { font-size: .6rem; }
 .intensity-1 { background: #d9ead3; }

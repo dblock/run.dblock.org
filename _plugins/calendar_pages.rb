@@ -28,6 +28,7 @@ module Jekyll
           'calendar_years' => years,
           'calendar_months' => months_for(year, by_date),
           'run_count' => by_date.sum { |date, posts| date.year == year ? posts.length : 0 },
+          'race_count' => activities.count { |post| post.date.year == year && post.data.fetch('tags', []).include?('races') },
           'active_days' => by_date.count { |date, _posts| date.year == year },
           'longest_streak' => longest_streak(year, by_date),
           'total_miles' => by_date.sum do |date, posts|
@@ -64,6 +65,7 @@ module Jekyll
           'name' => first.strftime('%B'),
           'miles' => month_days.sum { |day| day.fetch('miles') },
           'runs' => month_days.sum { |day| day.fetch('count') },
+          'races' => month_days.sum { |day| day.fetch('race_count') },
           'weeks' => weeks.each_slice(7).map { |week| week.map { |day| day || {} } }
         }
       end
@@ -72,6 +74,14 @@ module Jekyll
     def day_data(date, posts)
       miles = posts.sum { |post| post.data.fetch('distance', 0).to_f }
       titles = posts.map { |post| post.data.fetch('title') }
+      races = posts.select { |post| post.data.fetch('tags', []).include?('races') }
+      race_details = races.map do |post|
+        details = [post.data.fetch('distance_display', format('%.2fmi', post.data.fetch('distance', 0).to_f))]
+        if post.data['moving_time_display']
+          details << "#{post.data['moving_time_display']} recorded time"
+        end
+        "Race: #{post.data.fetch('title')} — #{details.join(', ')}"
+      end
       intensity = if miles >= 10
                     4
                   elsif miles >= 6
@@ -89,8 +99,10 @@ module Jekyll
         'miles' => miles,
         'miles_display' => format('%.1f', miles),
         'intensity' => intensity,
-        'url' => posts.first&.url,
-        'title' => titles.join('; ')
+        'url' => (races.first || posts.first)&.url,
+        'race' => races.any?,
+        'race_count' => races.length,
+        'title' => (titles + race_details).join('; ')
       }
     end
   end

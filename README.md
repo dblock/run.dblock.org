@@ -14,6 +14,8 @@ Run `rake strava:generate_md` to regenerate activity posts from cached Strava JS
 
 The `/cal/` page shows a year-by-year running calendar with daily mileage, monthly totals, and links to activity posts. Annual totals include the longest streak of consecutive running days within that year; multiple runs on one day count once.
 
+Activities tagged `races` get a checkered flag on the calendar, with race distance and recorded moving time in the hover text. Monthly and annual summaries include race counts when nonzero. Race days link to the race activity when there are multiple runs that day.
+
 Run `rake photos` to generate one Photos page per year from activity post front matter. `/photos/` redirects to the newest year, and each yearly page links to the adjacent newer and older years. The Strava update runs this automatically.
 
 ## Places
