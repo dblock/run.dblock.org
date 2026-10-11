@@ -18,7 +18,12 @@ module Strava
 
       File.binwrite(
         File.join(temporary_dir, 'index.html'),
-        front_matter('redirect_to' => "/photos/#{years.first}/", 'sitemap' => false)
+        front_matter(
+          'layout' => 'photo-redirect',
+          'title' => 'Photos',
+          'photo_year' => years.first,
+          'sitemap' => false
+        )
       )
       years.each do |year|
         year_dir = File.join(temporary_dir, year)

@@ -1,0 +1,15 @@
+---
+---
+{% assign photo_url = '/photos/' | append: page.photo_year | append: '/' | relative_url %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ photo_url }}">
+    <title>Photos</title>
+    <script>window.location.replace({{ photo_url | jsonify }});</script>
+  </head>
+  <body>
+    <p><a href="{{ photo_url }}">View the latest photos.</a></p>
+  </body>
+</html>
