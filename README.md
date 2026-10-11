@@ -12,6 +12,8 @@ The site uses Jekyll 4 and explicitly declared plugins, built and deployed by Gi
 
 Run `rake strava:generate_md` to regenerate activity posts from cached Strava JSON. Each generated post contains front matter only, including the activity's display data for stats, description, map presence, device, gear, splits and photos. The activity layout renders that front matter. Duplicate cache files are matched to posts by `strava_id`, preferring the cache filename corresponding to the current post.
 
+The `/cal/` page shows a year-by-year running calendar with daily mileage, monthly totals, and links to activity posts.
+
 Run `rake photos` to generate one Photos page per year from activity post front matter. `/photos/` redirects to the newest year, and each yearly page links to the adjacent newer and older years. The Strava update runs this automatically.
 
 ## Places

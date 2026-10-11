@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<h1 class="page-heading">Calendar {{ page.calendar_year }}</h1>
+<div class="totals">{{ page.total_miles | round: 1 }} miles · {{ page.run_count }} runs · {{ page.active_days }} running days</div>
+<div class="calendar-grid">
+  {% for month in page.calendar_months %}
+    <section class="calendar-month{% if month.runs == 0 %} no-runs{% endif %}" aria-label="{{ month.name }} {{ page.calendar_year }}">
+      <h2>{{ month.name }}{% if month.runs > 0 %} <small>{{ month.miles | round: 1 }} mi · {{ month.runs }} runs</small>{% endif %}</h2>
+      <table>
+        <thead>
+          <tr><th scope="col" aria-label="Sunday">S</th><th scope="col" aria-label="Monday">M</th><th scope="col" aria-label="Tuesday">T</th><th scope="col" aria-label="Wednesday">W</th><th scope="col" aria-label="Thursday">T</th><th scope="col" aria-label="Friday">F</th><th scope="col" aria-label="Saturday">S</th></tr>
+        </thead>
+        <tbody>
+          {% for week in month.weeks %}
+            <tr>
+              {% for day in week %}
+                {% if day.day %}
+                  <td class="calendar-day intensity-{{ day.intensity }}{% if day.count > 1 %} multiple-runs{% endif %}">
+                    {% if day.url %}
+                      <a href="{{ day.url | relative_url }}" title="{{ day.title | escape }} — {{ day.miles_display }} miles{% if day.count > 1 %}, {{ day.count }} runs{% endif %}">
+                        <span class="day-number">{{ day.day }}</span><span class="day-miles">{{ day.miles_display }}</span>
+                      </a>
+                    {% else %}
+                      <span class="day-number">{{ day.day }}</span>
+                    {% endif %}
+                  </td>
+                {% else %}
+                  <td class="calendar-empty"></td>
+                {% endif %}
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+  {% endfor %}
+</div>
+<p class="calendar-legend"><span class="intensity-1">under 3 mi</span><span class="intensity-2">3–5.9 mi</span><span class="intensity-3">6–9.9 mi</span><span class="intensity-4">10+ mi</span></p>
+<div class="pagination" aria-label="Calendar years">
+  <small>
+    {% for year in page.calendar_years %}
+      {% if year == page.calendar_current_year %}
+        {% assign year_url = '/cal/' | relative_url %}
+      {% else %}
+        {% assign year_url = '/cal/' | append: year | append: '/' | relative_url %}
+      {% endif %}
+      {% if year == page.calendar_year %}
+        <strong aria-current="page">{{ year }}</strong>
+      {% elsif forloop.first %}
+        <a href="{{ year_url }}">&lt; {{ year }}</a>
+      {% elsif forloop.last %}
+        <a href="{{ year_url }}">{{ year }} &gt;</a>
+      {% else %}
+        <a href="{{ year_url }}">{{ year }}</a>
+      {% endif %}
+      {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+  </small>
+</div>
+<style>
+.calendar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+.calendar-month h2 { font-size: 1.1rem; margin: 0 0 .4rem; }
+.calendar-month h2 small { font-size: .75rem; font-weight: normal; }
+.calendar-month.no-runs { opacity: .45; }
+.calendar-month table { border-collapse: separate; border-spacing: 2px; margin: 0; table-layout: fixed; width: 100%; }
+.calendar-month th { font-size: .7rem; padding: .2rem 0; text-align: center; }
+.calendar-month td { border: 0; border-radius: 3px; font-size: .7rem; height: 2.5rem; padding: 0; text-align: center; vertical-align: middle; }
+.calendar-day { background: #f1f1f1; }
+.calendar-day a { color: inherit; display: flex; flex-direction: column; height: 100%; justify-content: center; text-decoration: none; }
+.calendar-day a:hover { outline: 2px solid #555; }
+.day-miles { font-size: .6rem; }
+.intensity-1 { background: #d9ead3; }
+.intensity-2 { background: #a9d18e; }
+.intensity-3 { background: #70ad47; color: #fff; }
+.intensity-4 { background: #38761d; color: #fff; }
+.calendar-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; margin-top: 1.5rem; }
+.calendar-legend span { border-radius: 3px; font-size: .75rem; padding: .25rem .5rem; }
+@media (max-width: 30rem) {
+  .calendar-grid { grid-template-columns: 1fr; }
+}
+</style>
