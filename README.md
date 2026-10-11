@@ -18,6 +18,8 @@ Activities tagged `races` get a checkered flag on the calendar, with race distan
 
 Run `rake photos` to generate one Photos page per year from activity post front matter. `/photos/` redirects to the newest year, and each yearly page links to the adjacent newer and older years. The Strava update runs this automatically.
 
+Run `rake prs` to regenerate personal records and average paces from activity post front matter, including recorded time, pace, and race tags.
+
 ## Places
 
 Places are configured under `places` in [`_data/places.yml`](_data/places.yml). Each canonical entry stores its generated `count`, optional `aliases` and OpenStreetMap `osm` identity, and `bounds`. Bounds contain `[latitude, longitude]` points: two opposite corners define a rectangle, while three or more vertices define a polygon. An array of polygons supports disconnected areas. Places may overlap, and a run receives every matching `p/<slug>` tag when its sampled route intersects those bounds. Routes are sampled at the start, every mile and the finish. Places without matching activities are removed. Identical boundaries are merged, and alternate names are retained as aliases. Active entries are written in descending run-count order.

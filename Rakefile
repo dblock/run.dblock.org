@@ -14,6 +14,7 @@ end
 
 desc 'Generate PRs.'
 task :prs do
+  require 'date'
   require 'yaml'
   prs = {
     1 => nil,
@@ -33,23 +34,20 @@ task :prs do
     }
   end
   Dir['_posts/**/*.md'].each do |file|
-    distance = nil
-    time = nil
-    title = nil
-    tags = []
-    distance_s = nil
-    time_s = nil
-    pace_s = nil
-    File.read(file).split("\n").each do |line|
-      distance = line.split(':', 2)[1].to_f if line.start_with?('distance: ')
-      time = line.split(':', 2)[1].to_f if line.start_with?('time: ')
-      title = line.split(':', 2)[1].strip.delete_prefix('"').delete_suffix('"') if line.start_with?('title: ')
-      if line.start_with?('tags: ')
-        tags = line.split(':', 2)[1].strip.delete_prefix('[').delete_suffix(']').split(',').map(&:strip)
-      end
-      distance_s, time_s, pace_s = line.split('|')[1..3] if line.start_with?('|') && line.end_with?('/mi|')
-    end
-    next unless distance && time
+    front_matter = File.read(file).match(/\A---\s*\n(?<yaml>.*?)\n---\s*\n/m)
+    next unless front_matter
+
+    post = YAML.safe_load(front_matter[:yaml], permitted_classes: [Date, Time], aliases: true)
+    next unless post['distance'] && post['time']
+
+    distance = post.fetch('distance').to_f
+    time = post.fetch('time').to_f
+    title = post['title']
+    tags = post.fetch('tags', [])
+    tags = tags.split if tags.is_a?(String)
+    distance_s = post.fetch('distance_display')
+    time_s = post.fetch('moving_time_display')
+    pace_s = post.fetch('pace_display')
 
     pr_key = nil
     prs.each_pair do |pr_distance, _|
