@@ -13,7 +13,7 @@
   count: 284
 4-5 miles:
   name: 4-5 miles
-  count: 140
+  count: 141
 5-6 miles:
   name: 5-6 miles
   count: 123
@@ -40,7 +40,7 @@
   count: 12
 13-14 miles:
   name: 13-14 miles
-  count: 30
+  count: 31
 14-15 miles:
   name: 14-15 miles
   count: 16
@@ -109,7 +109,7 @@ lt8m45s_mi:
   count: 128
 lt9m00s_mi:
   name: "<9m00s/mi"
-  count: 110
+  count: 111
 lt9m15s_mi:
   name: "<9m15s/mi"
   count: 88
@@ -127,7 +127,7 @@ lt10m15s_mi:
   count: 30
 lt10m30s_mi:
   name: "<10m30s/mi"
-  count: 26
+  count: 27
 lt10m45s_mi:
   name: "<10m45s/mi"
   count: 21
@@ -184,7 +184,7 @@ lt28m30s_mi:
   count: 1
 adidas:
   name: adidas
-  count: 941
+  count: 943
 apps:
   name: apps
   count: 1
@@ -202,7 +202,7 @@ fitbit:
   count: 168
 garmin:
   name: garmin
-  count: 756
+  count: 758
 gear:
   name: gear
   count: 2
@@ -394,7 +394,7 @@ p_madrid:
   count: 3
 p_manhattan:
   name: p/manhattan
-  count: 784
+  count: 785
 p_medellin:
   name: p/medellin
   count: 10
@@ -427,7 +427,7 @@ p_new-orleans:
   count: 3
 p_new-york:
   name: p/new-york
-  count: 820
+  count: 822
 p_ocean-beach:
   name: p/ocean-beach
   count: 9
@@ -511,7 +511,7 @@ p_stateline:
   count: 1
 p_staten-island:
   name: p/staten-island
-  count: 12
+  count: 13
 p_stony-point:
   name: p/stony-point
   count: 3
@@ -538,7 +538,7 @@ p_united-kingdom:
   count: 2
 p_united-states:
   name: p/united-states
-  count: 899
+  count: 901
 p_urca:
   name: p/urca
   count: 5
@@ -556,7 +556,7 @@ p_zurich-zurich:
   count: 1
 races:
   name: races
-  count: 92
+  count: 93
 read:
   name: read
   count: 12
@@ -565,7 +565,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 1015
+  count: 1017
 s_2017_10_adidas supernova glide boost adidas blue:
   name: s/2017/10/adidas supernova glide boost adidas blue
   count: 82
@@ -619,7 +619,7 @@ s_2026_06_adidas evo sl lightstrike pro:
   count: 1
 s_2026_10_adidas adistar 4:
   name: s/2026/10/adidas adistar 4
-  count: 4
+  count: 6
 slack:
   name: slack
   count: 1
@@ -646,7 +646,7 @@ w_dimitri:
   count: 1
 w_g:
   name: w/g
-  count: 39
+  count: 40
 w_ilan:
   name: w/ilan
   count: 95
@@ -691,7 +691,7 @@ y_2025:
   count: 156
 y_2026:
   name: y/2026
-  count: 94
+  count: 96
 μ115-120 bpm:
   name: μ115-120 bpm
   count: 3
@@ -727,7 +727,7 @@ y_2026:
   count: 110
 μ170-175 bpm:
   name: μ170-175 bpm
-  count: 133
+  count: 135
 μ175-180 bpm:
   name: μ175-180 bpm
   count: 178
@@ -766,7 +766,7 @@ y_2026:
   count: 33
 "→130-135 bpm":
   name: "→130-135 bpm"
-  count: 55
+  count: 56
 "→135-140 bpm":
   name: "→135-140 bpm"
   count: 68
@@ -784,7 +784,7 @@ y_2026:
   count: 112
 "→160-165 bpm":
   name: "→160-165 bpm"
-  count: 97
+  count: 98
 "→165-170 bpm":
   name: "→165-170 bpm"
   count: 101

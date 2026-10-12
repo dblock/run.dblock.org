@@ -3,9 +3,9 @@ layout: tag
 title: runs
 tag: runs
 permalink: "/tags/runs/"
-total_distance: 6328.079614804998
-total_time: 3460068.0
-average_heartrate: 149.0081699346404
+total_distance: 6345.743486205997
+total_time: 3469882.0
+average_heartrate: 148.99967391304335
 previous_tag:
   key: running clubs
   name: running clubs

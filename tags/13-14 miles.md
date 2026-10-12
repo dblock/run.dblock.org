@@ -3,9 +3,9 @@ layout: tag
 title: 13-14 miles
 tag: 13-14 miles
 permalink: "/tags/13-14 miles/"
-total_distance: 397.82723367700004
-total_time: 205626.0
-average_heartrate: 162.38749999999996
+total_distance: 411.087704436
+total_time: 212679.0
+average_heartrate: 162.29199999999997
 previous_tag:
   key: 12-13 miles
   name: 12-13 miles

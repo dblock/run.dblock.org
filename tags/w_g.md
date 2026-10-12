@@ -3,9 +3,9 @@ layout: tag
 title: w/g
 tag: w/g
 permalink: "/tags/w_g/"
-total_distance: 181.166202241
-total_time: 114808.0
-average_heartrate: 127.69999999999997
+total_distance: 185.56960288300002
+total_time: 117569.0
+average_heartrate: 127.76249999999997
 previous_tag:
   key: w_dimitri
   name: w/dimitri
