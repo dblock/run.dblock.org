@@ -3,9 +3,9 @@ layout: tag
 title: 3-4 miles
 tag: 3-4 miles
 permalink: "/tags/3-4 miles/"
-total_distance: 904.9213255250008
-total_time: 541258.0
-average_heartrate: 138.0040441176471
+total_distance: 908.0687509860009
+total_time: 543448.0
+average_heartrate: 137.941391941392
 previous_tag:
   key: 2-3 miles
   name: 2-3 miles

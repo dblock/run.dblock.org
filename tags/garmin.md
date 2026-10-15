@@ -3,9 +3,9 @@ layout: tag
 title: garmin
 tag: garmin
 permalink: "/tags/garmin/"
-total_distance: 4671.126978501997
-total_time: 2628107.0
-average_heartrate: 146.0476882430646
+total_distance: 4674.274403962997
+total_time: 2630297.0
+average_heartrate: 146.01451187335078
 previous_tag:
   key: fitbit
   name: fitbit
