@@ -2,7 +2,7 @@
   "version": 1,
   "cell_size_meters": 500,
   "minimum_activities": 3,
-  "activity_count": 1012,
+  "activity_count": 1013,
   "maximum": 390,
   "cells": [
     [47.6435,-122.38423,3],
