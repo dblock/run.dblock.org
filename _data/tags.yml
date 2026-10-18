@@ -296,6 +296,9 @@ p_charleston:
 p_ciudad-de-mexico:
   name: p/ciudad-de-mexico
   count: 4
+p_college-township:
+  name: p/college-township
+  count: 1
 p_cologny:
   name: p/cologny
   count: 1
@@ -505,6 +508,9 @@ p_spain:
   count: 9
 p_spring-lake:
   name: p/spring-lake
+  count: 1
+p_state-college:
+  name: p/state-college
   count: 1
 p_stateline:
   name: p/stateline

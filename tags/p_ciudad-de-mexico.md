@@ -10,6 +10,6 @@ previous_tag:
   key: p_charleston
   name: p/charleston
 next_tag:
-  key: p_cologny
-  name: p/cologny
+  key: p_college-township
+  name: p/college-township
 ---

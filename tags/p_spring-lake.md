@@ -10,6 +10,6 @@ previous_tag:
   key: p_spain
   name: p/spain
 next_tag:
-  key: p_stateline
-  name: p/stateline
+  key: p_state-college
+  name: p/state-college
 ---
