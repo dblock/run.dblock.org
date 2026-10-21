@@ -3,9 +3,9 @@ layout: tag
 title: "<9m00s/mi"
 tag: "<9m00s/mi"
 permalink: "/tags/lt9m00s_mi/"
-total_distance: 812.8306875789996
-total_time: 433247.0
-average_heartrate: 153.09019607843138
+total_distance: 815.9744469569996
+total_time: 434944.0
+average_heartrate: 153.0650485436893
 previous_tag:
   key: lt8m45s_mi
   name: "<8m45s/mi"
