@@ -12,8 +12,11 @@
   {% endif %}
 {% endfor %}
 
-{{ total_distance | round: 1 }}mi
+{{ total_distance | round: 1 }}mi &middot;
 {{ total_time | divided_by: 3600.0 | round }}h
+{% if total_distance > 0 and total_time > 0 %}
+  &middot; {% include _average_pace.html distance=total_distance time=total_time %}
+{% endif %}
 {% if total_heartrates > 0 %}
-  μ{{ total_heartrate | divided_by: total_heartrates | round }}bpm
+  &middot; μ{{ total_heartrate | divided_by: total_heartrates | round }}bpm
 {% endif %}

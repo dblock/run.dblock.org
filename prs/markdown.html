@@ -14,5 +14,5 @@ permalink: /prs.md
 
 ## {{ key }}{% if key == 1 %} mile{% else %} miles{% endif %}
 
-[{{ pr.title }}]({{ site.url }}/{{ pr.file }}) — {{ pr.time_s }} @ {{ pr.pace_s }}{% if group_count > 0 %} (avg. {{ avg_parts }}){% endif %}
+[{{ pr.title }}]({{ site.url }}/{{ pr.file }}) — {{ pr.time_s }} @ {{ pr.pace_s }}{% if group_count > 0 %} (~{{ avg_parts }}){% endif %}
 {% endfor %}

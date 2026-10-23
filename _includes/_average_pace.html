@@ -1,0 +1,6 @@
+{%- if include.distance > 0 and include.time > 0 -%}
+  {%- assign pace_seconds = include.time | divided_by: include.distance | round -%}
+  {%- assign pace_minutes = pace_seconds | divided_by: 60 -%}
+  {%- assign pace_remainder = pace_seconds | modulo: 60 -%}
+  ~{{ pace_minutes }}:{% if pace_remainder < 10 %}0{% endif %}{{ pace_remainder }}/mi
+{%- endif -%}

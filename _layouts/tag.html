@@ -20,8 +20,13 @@
     {% include _rss.html %}
   </div>
   <div id="index">
-    <h1 class="page-heading">{{ page.title }}</h1>
-    <div class="totals">{% if page.previous_tag %}<a href="/tags/{{ page.previous_tag.key }}/">&lt; {{ page.previous_tag.name }}</a>{% endif %}{% if page.total_distance > 0 %}{% if page.previous_tag %} | {% endif %}{{ page.total_distance | round: 1 }}mi {{ page.total_time | divided_by: 3600.0 | round }}h{% if page.average_heartrate %} μ{{ page.average_heartrate | round }}bpm{% endif %}{% endif %}{% if page.next_tag %}{% if page.previous_tag or page.total_distance > 0 %} | {% endif %}<a href="/tags/{{ page.next_tag.key }}/">{{ page.next_tag.name }} &gt;</a>{% endif %}</div>
+    <h1 class="page-heading">
+      {{ page.title }}
+      {% if page.personal_records %}
+      <span class="tag-records">PR{% if page.personal_records.size > 1 %}s{% endif %}: {% for record in page.personal_records %}{% unless forloop.first %} &middot; {% endunless %}{{ record.label }} <a href="{{ record.url }}" title="{{ record.title | escape }}">{{ record.time_display }} @ {{ record.pace_display }}</a>{% endfor %}</span>
+      {% endif %}
+    </h1>
+    <div class="totals">{% if page.previous_tag %}<a href="/tags/{{ page.previous_tag.key }}/">&lt; {{ page.previous_tag.name }}</a>{% endif %}{% if page.total_distance > 0 %}{% if page.previous_tag %} | {% endif %}{{ page.total_distance | round: 1 }}mi &middot; {{ page.total_time | divided_by: 3600.0 | round }}h{% if page.total_time > 0 %} &middot; {% include _average_pace.html distance=page.total_distance time=page.total_time %}{% endif %}{% if page.average_heartrate %} &middot; μ{{ page.average_heartrate | round }}bpm{% endif %}{% endif %}{% if page.next_tag %}{% if page.previous_tag or page.total_distance > 0 %} | {% endif %}<a href="/tags/{{ page.next_tag.key }}/">{{ page.next_tag.name }} &gt;</a>{% endif %}</div>
     <div id="markdown-content">
     {% assign tagged_posts = site.tags[page.tag] %}
     {% if tagged_posts %}

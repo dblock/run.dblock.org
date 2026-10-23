@@ -16,15 +16,8 @@ desc 'Generate PRs.'
 task :prs do
   require 'date'
   require 'yaml'
-  prs = {
-    1 => nil,
-    3.1 => nil,
-    4.0 => nil,
-    6.2 => nil,
-    10.0 => nil,
-    13.1 => nil,
-    26.2 => nil
-  }
+  require_relative '_lib/personal_records'
+  prs = Strava::PersonalRecords::DISTANCES.transform_values { nil }
   totals = {}
   prs.each_key do |pr_distance|
     totals[pr_distance] = {
@@ -49,13 +42,7 @@ task :prs do
     time_s = post.fetch('moving_time_display')
     pace_s = post.fetch('pace_display')
 
-    pr_key = nil
-    prs.each_pair do |pr_distance, _|
-      if distance > pr_distance && (distance - pr_distance) <= 0.2
-        pr_key = pr_distance
-        break
-      end
-    end
+    pr_key = Strava::PersonalRecords.distance_key(distance)
     next unless pr_key
 
     totals_key = if tags.include?('races')

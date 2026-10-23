@@ -4,6 +4,7 @@ require 'date'
 require 'yaml'
 require 'fileutils'
 require_relative 'place_tags'
+require_relative 'personal_records'
 
 module Strava
   module TagPages
@@ -18,11 +19,17 @@ module Strava
         post = YAML.safe_load(front_matter[:yaml], permitted_classes: [Date, Time], aliases: true)
         tags = post.fetch('tags', [])
         tags = tags.split if tags.is_a?(String)
+        pr_key = if post.fetch('time', 0).to_f.positive?
+                   PersonalRecords.distance_key(post.fetch('distance', 0).to_f)
+                 end
         tags.uniq.each do |tag|
-          total = totals[tag] ||= { count: 0, distance: 0, time: 0, heartrate: 0, heartrates: 0 }
+          total = totals[tag] ||= { count: 0, distance: 0, time: 0, heartrate: 0, heartrates: 0, records: {} }
           total[:count] += 1
           total[:distance] += post.fetch('distance', 0).to_f
           total[:time] += post.fetch('time', 0).to_f
+          if pr_key && (!total[:records][pr_key] || post.fetch('time').to_f < total[:records][pr_key].fetch('time'))
+            total[:records][pr_key] = PersonalRecords.record(file, post)
+          end
           if post['average_heartrate']
             total[:heartrate] += post.fetch('average_heartrate').to_f
             total[:heartrates] += 1
@@ -55,7 +62,8 @@ module Strava
           'permalink' => "/tags/#{key(tag)}/",
           'total_distance' => total.fetch(:distance),
           'total_time' => total.fetch(:time),
-          'average_heartrate' => total[:heartrates].positive? ? total[:heartrate] / total[:heartrates] : nil
+          'average_heartrate' => total[:heartrates].positive? ? total[:heartrate] / total[:heartrates] : nil,
+          'personal_records' => total[:records].empty? ? nil : total[:records].sort.map(&:last)
         }.compact.merge(neighbors.fetch(tag))
         filename = "tags/#{key(tag)}.md"
         write_if_changed(filename, "#{YAML.dump(data)}---\n")

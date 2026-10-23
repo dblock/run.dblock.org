@@ -6,6 +6,13 @@ permalink: "/tags/1-2 miles/"
 total_distance: 39.024024384
 total_time: 22202.0
 average_heartrate: 147.03043478260867
+personal_records:
+- label: 1mi
+  time: 361.0
+  time_display: '6:01'
+  pace_display: 6:01/mi
+  url: "/2022/09/11/run-1mi-6m1s.html"
+  title: "#NB5thAveMile PR!"
 previous_tag:
   key: 0-1 miles
   name: 0-1 miles
