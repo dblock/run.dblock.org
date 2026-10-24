@@ -3,16 +3,16 @@ layout: tag
 title: w/g
 tag: w/g
 permalink: "/tags/w_g/"
-total_distance: 188.71702834400003
-total_time: 119759.0
-average_heartrate: 127.59512195121948
+total_distance: 191.86178191400003
+total_time: 121518.0
+average_heartrate: 127.8880952380952
 personal_records:
 - label: 5K
-  time: 1836.0
-  time_display: '30:36'
-  pace_display: 9:45/mi
-  url: "/2026/07/15/run-3.14mi-30m36s.html"
-  title: Run with G 23
+  time: 1759.0
+  time_display: '29:19'
+  pace_display: 9:19/mi
+  url: "/2026/10/23/run-3.14mi-29m19s.html"
+  title: Run with G 42
 - label: 4mi
   time: 2506.0
   time_display: '41:46'

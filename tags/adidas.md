@@ -3,9 +3,9 @@ layout: tag
 title: adidas
 tag: adidas
 permalink: "/tags/adidas/"
-total_distance: 5992.824029443001
-total_time: 3281490.0
-average_heartrate: 148.74297423887575
+total_distance: 5995.968783013001
+total_time: 3283249.0
+average_heartrate: 148.73263157894723
 personal_records:
 - label: 1mi
   time: 361.0
