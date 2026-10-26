@@ -3,9 +3,9 @@ layout: tag
 title: w/milla
 tag: w/milla
 permalink: "/tags/w_milla/"
-total_distance: 278.483307531
-total_time: 198750.0
-average_heartrate: 121.13037974683543
+total_distance: 281.626196991
+total_time: 200777.0
+average_heartrate: 121.18249999999998
 personal_records:
 - label: 1mi
   time: 769.0

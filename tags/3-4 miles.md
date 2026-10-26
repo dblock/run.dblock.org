@@ -3,9 +3,9 @@ layout: tag
 title: 3-4 miles
 tag: 3-4 miles
 permalink: "/tags/3-4 miles/"
-total_distance: 914.3572639340009
-total_time: 546904.0
-average_heartrate: 137.9941818181819
+total_distance: 917.5001533940009
+total_time: 548931.0
+average_heartrate: 137.94818840579717
 personal_records:
 - label: 5K
   time: 1350.0
