@@ -3,9 +3,9 @@ layout: tag
 title: garmin
 tag: garmin
 permalink: "/tags/garmin/"
-total_distance: 4692.8999075759975
-total_time: 2641368.0
-average_heartrate: 145.97650918635156
+total_distance: 4696.038012486997
+total_time: 2643524.0
+average_heartrate: 145.942857142857
 personal_records:
 - label: 1mi
   time: 361.0
