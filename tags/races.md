@@ -3,9 +3,9 @@ layout: tag
 title: races
 tag: races
 permalink: "/tags/races/"
-total_distance: 851.4297570200002
-total_time: 439718.0
-average_heartrate: 164.46753246753246
+total_distance: 854.6857979570002
+total_time: 441756.0
+average_heartrate: 164.00256410256412
 personal_records:
 - label: 1mi
   time: 361.0

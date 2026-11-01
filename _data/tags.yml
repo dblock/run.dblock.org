@@ -10,7 +10,7 @@
   count: 27
 3-4 miles:
   name: 3-4 miles
-  count: 289
+  count: 290
 4-5 miles:
   name: 4-5 miles
   count: 141
@@ -130,7 +130,7 @@ lt10m30s_mi:
   count: 27
 lt10m45s_mi:
   name: "<10m45s/mi"
-  count: 22
+  count: 23
 lt11m00s_mi:
   name: "<11m00s/mi"
   count: 18
@@ -184,7 +184,7 @@ lt28m30s_mi:
   count: 1
 adidas:
   name: adidas
-  count: 949
+  count: 950
 apps:
   name: apps
   count: 1
@@ -202,7 +202,7 @@ fitbit:
   count: 168
 garmin:
   name: garmin
-  count: 764
+  count: 765
 gear:
   name: gear
   count: 2
@@ -397,7 +397,7 @@ p_madrid:
   count: 3
 p_manhattan:
   name: p/manhattan
-  count: 790
+  count: 791
 p_medellin:
   name: p/medellin
   count: 10
@@ -430,7 +430,7 @@ p_new-orleans:
   count: 3
 p_new-york:
   name: p/new-york
-  count: 827
+  count: 828
 p_ocean-beach:
   name: p/ocean-beach
   count: 9
@@ -544,7 +544,7 @@ p_united-kingdom:
   count: 2
 p_united-states:
   name: p/united-states
-  count: 907
+  count: 908
 p_urca:
   name: p/urca
   count: 5
@@ -562,7 +562,7 @@ p_zurich-zurich:
   count: 1
 races:
   name: races
-  count: 93
+  count: 94
 read:
   name: read
   count: 12
@@ -571,7 +571,7 @@ running clubs:
   count: 1
 runs:
   name: runs
-  count: 1023
+  count: 1024
 s_2017_10_adidas supernova glide boost adidas blue:
   name: s/2017/10/adidas supernova glide boost adidas blue
   count: 82
@@ -625,7 +625,7 @@ s_2026_06_adidas evo sl lightstrike pro:
   count: 1
 s_2026_10_adidas adistar 4:
   name: s/2026/10/adidas adistar 4
-  count: 12
+  count: 13
 slack:
   name: slack
   count: 1
@@ -652,7 +652,7 @@ w_dimitri:
   count: 1
 w_g:
   name: w/g
-  count: 43
+  count: 44
 w_ilan:
   name: w/ilan
   count: 96
@@ -697,7 +697,7 @@ y_2025:
   count: 156
 y_2026:
   name: y/2026
-  count: 102
+  count: 103
 μ115-120 bpm:
   name: μ115-120 bpm
   count: 3
@@ -733,7 +733,7 @@ y_2026:
   count: 111
 μ170-175 bpm:
   name: μ170-175 bpm
-  count: 137
+  count: 138
 μ175-180 bpm:
   name: μ175-180 bpm
   count: 178
@@ -769,7 +769,7 @@ y_2026:
   count: 33
 "→125-130 bpm":
   name: "→125-130 bpm"
-  count: 34
+  count: 35
 "→130-135 bpm":
   name: "→130-135 bpm"
   count: 56

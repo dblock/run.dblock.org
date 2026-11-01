@@ -3,9 +3,9 @@ layout: tag
 title: United States
 tag: p/united-states
 permalink: "/tags/p_united-states/"
-total_distance: 5779.6753540690015
-total_time: 3156656.0
-average_heartrate: 148.82235722964748
+total_distance: 5782.931395006001
+total_time: 3158694.0
+average_heartrate: 148.7973300970872
 personal_records:
 - label: 1mi
   time: 361.0
