@@ -3,9 +3,9 @@ layout: tag
 title: Staten Island
 tag: p/staten-island
 permalink: "/tags/p_staten-island/"
-total_distance: 241.51228962699997
-total_time: 132117.0
-average_heartrate: 161.24615384615385
+total_distance: 267.50245689099995
+total_time: 148252.0
+average_heartrate: 161.12142857142857
 personal_records:
 - label: Half
   time: 5985.0

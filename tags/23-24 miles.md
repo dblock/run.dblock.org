@@ -10,6 +10,6 @@ previous_tag:
   key: 22-23 miles
   name: 22-23 miles
 next_tag:
-  key: 26-27 miles
-  name: 26-27 miles
+  key: 25-26 miles
+  name: 25-26 miles
 ---

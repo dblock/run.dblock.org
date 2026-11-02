@@ -3,9 +3,9 @@ layout: tag
 title: Bronx
 tag: p/bronx
 permalink: "/tags/p_bronx/"
-total_distance: 237.18488253599995
-total_time: 128425.0
-average_heartrate: 161.82307692307694
+total_distance: 263.17504979999995
+total_time: 144560.0
+average_heartrate: 161.65714285714287
 personal_records:
 - label: 10mi
   time: 4515.0

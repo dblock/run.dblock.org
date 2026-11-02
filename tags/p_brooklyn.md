@@ -3,9 +3,9 @@ layout: tag
 title: Brooklyn
 tag: p/brooklyn
 permalink: "/tags/p_brooklyn/"
-total_distance: 933.6068094379995
-total_time: 484205.0
-average_heartrate: 161.98674698795185
+total_distance: 959.5969767019994
+total_time: 500340.0
+average_heartrate: 161.95714285714288
 personal_records:
 - label: 5K
   time: 1462.0

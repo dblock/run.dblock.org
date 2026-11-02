@@ -14,8 +14,8 @@ personal_records:
   url: "/2018/11/04/run-26.26mi-3h38m5s.html"
   title: "#TCSNYCMarathon 2018"
 previous_tag:
-  key: 23-24 miles
-  name: 23-24 miles
+  key: 25-26 miles
+  name: 25-26 miles
 next_tag:
   key: lt6m15s_mi
   name: "<6m15s/mi"

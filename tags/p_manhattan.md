@@ -3,9 +3,9 @@ layout: tag
 title: Manhattan
 tag: p/manhattan
 permalink: "/tags/p_manhattan/"
-total_distance: 4958.631584241002
-total_time: 2705356.0
-average_heartrate: 148.14751381215459
+total_distance: 4984.621751505002
+total_time: 2721491.0
+average_heartrate: 148.16317241379298
 personal_records:
 - label: 1mi
   time: 361.0

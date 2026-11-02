@@ -3,9 +3,9 @@ layout: tag
 title: Long Island City
 tag: p/long-island-city
 permalink: "/tags/p_long-island-city/"
-total_distance: 201.05992202399997
-total_time: 111805.0
-average_heartrate: 159.73999999999995
+total_distance: 227.05008928799998
+total_time: 127940.0
+average_heartrate: 159.7181818181818
 personal_records:
 - label: Marathon
   time: 13085.0

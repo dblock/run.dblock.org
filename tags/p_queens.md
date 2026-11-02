@@ -3,9 +3,9 @@ layout: tag
 title: Queens
 tag: p/queens
 permalink: "/tags/p_queens/"
-total_distance: 213.531439294
-total_time: 117389.0
-average_heartrate: 161.9454545454545
+total_distance: 239.521606558
+total_time: 133524.0
+average_heartrate: 161.74166666666665
 personal_records:
 - label: 10K
   time: 2800.0

@@ -3,9 +3,9 @@ layout: tag
 title: runs
 tag: runs
 permalink: "/tags/runs/"
-total_distance: 6373.910561127997
-total_time: 3487337.0
-average_heartrate: 148.87184466019403
+total_distance: 6399.900728391997
+total_time: 3503472.0
+average_heartrate: 148.88329741379295
 personal_records:
 - label: 1mi
   time: 361.0
