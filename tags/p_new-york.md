@@ -3,9 +3,9 @@ layout: tag
 title: New York
 tag: p/new-york
 permalink: "/tags/p_new-york/"
-total_distance: 5300.860805113001
-total_time: 2883140.0
-average_heartrate: 148.76402116402105
+total_distance: 5303.965915277001
+total_time: 2885091.0
+average_heartrate: 148.73170409511215
 personal_records:
 - label: 1mi
   time: 361.0
