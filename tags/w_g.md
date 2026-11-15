@@ -3,9 +3,9 @@ layout: tag
 title: w/g
 tag: w/g
 permalink: "/tags/w_g/"
-total_distance: 203.37402817800003
-total_time: 129013.0
-average_heartrate: 127.27608695652171
+total_distance: 206.51604772000005
+total_time: 130902.0
+average_heartrate: 127.30425531914892
 personal_records:
 - label: 5K
   time: 1759.0

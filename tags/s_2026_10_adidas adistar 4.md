@@ -3,9 +3,9 @@ layout: tag
 title: s/2026/10/adidas adistar 4
 tag: s/2026/10/adidas adistar 4
 permalink: "/tags/s_2026_10_adidas adistar 4/"
-total_distance: 92.65266711099999
-total_time: 55508.0
-average_heartrate: 135.91875
+total_distance: 95.79468665299999
+total_time: 57397.0
+average_heartrate: 135.48823529411763
 personal_records:
 - label: 5K
   time: 1631.0
