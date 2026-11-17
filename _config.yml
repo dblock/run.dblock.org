@@ -51,6 +51,7 @@ edit_url: https://github.com/dblock/run.dblock.org/edit/gh-pages/
 exclude:
 - Gemfile
 - Gemfile.lock
+- spec
 - node_modules
 - vendor
 - README.md

@@ -14,9 +14,10 @@ jobs:
       STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
       STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
       STRAVA_API_REFRESH_TOKEN: ${{ secrets.STRAVA_API_REFRESH_TOKEN }}
-      GOOGLE_STATIC_MAPS_API_KEY: ${{ secrets.GOOGLE_STATIC_MAPS_API_KEY }}
+      GOOGLE_STATIC_MAPS_SERVER_API_KEY: ${{ secrets.GOOGLE_STATIC_MAPS_SERVER_API_KEY }}
+      GOOGLE_STATIC_MAPS_URL_SIGNING_SECRET: ${{ secrets.GOOGLE_STATIC_MAPS_URL_SIGNING_SECRET }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.4.12'
