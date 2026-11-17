@@ -17,3 +17,7 @@ gem 'strava-ruby-client'
 gem 'jekyll-md', '~> 0.2.0'
 gem 'webrick'
 gem 'wdm', '>= 0.1.0', install_if: Gem.win_platform?
+
+group :development, :test do
+  gem 'rspec', '~> 3.13'
+end
