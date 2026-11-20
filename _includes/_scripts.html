@@ -15,3 +15,6 @@
     gtag('config', '{{ site.owner.google.analytics }}');
 </script>
 {% endif %}
+{% if site.running_letters_idle_seconds %}
+<script src="{{ site.url }}/assets/js/running-letters.js" data-idle-seconds="{{ site.running_letters_idle_seconds }}"{% if page.distance and page.time %} data-pace-seconds="{{ page.time | divided_by: page.distance | round }}"{% endif %} defer></script>
+{% endif %}

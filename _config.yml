@@ -45,6 +45,7 @@ owner:
   soundcloud:
   strava: dblockdotorg
   nyrr-results: 52863476
+running_letters_idle_seconds: 30
 paginate: 30
 google_custom_search: c49b3b44d83b44c32
 edit_url: https://github.com/dblock/run.dblock.org/edit/gh-pages/
