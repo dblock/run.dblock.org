@@ -1,9 +1,9 @@
 // Running letters: after the reader has been idle for a while, every letter on
 // screen crouches at the start line and sprints off the right edge, rightmost
 // letters first and fastest, so the field scatters. Any click, mouse move, key
-// press or touch brings them home: letters that ran off the screen come back in
-// from the far left, and letters still on screen turn around and run back, all
-// slowing down to a stop at their original spot. Scrolling or resizing puts
+// press or touch brings them home: if every letter has run off the screen they
+// all come back in from the far left, otherwise they all turn around and run
+// back, slowing down to a stop at their original spot. Scrolling or resizing puts
 // them back instantly. Letters bounce like runners the whole way.
 //
 // On activity pages letters run at a screen speed proportional to the run's
@@ -226,13 +226,15 @@
     if (state === 'returning') return;
     state = 'returning';
     var now = performance.now();
+    // Come back in from the far left only once every letter has left the
+    // screen; until then every letter turns around and runs back.
+    var allGone = letters.every(function (l) { return l.gone || l.left + l.x >= window.innerWidth; });
     letters.forEach(function (l) {
-      if (l.gone || l.left + l.x >= window.innerWidth) {
-        // Letters that ran off the screen come back in from the far left, staggered.
+      if (allGone) {
         l.x = -(l.left + margin(l));
         l.back = { dir: 1, start: now + Math.random() * 400 };
       } else if (l.x > 0.5) {
-        // Letters still on screen turn around and run back.
+        // Including letters already past the right edge, which come back from there.
         l.back = { dir: -1, start: now };
       } else {
         // Letters still crouching at the start line just stand up.
