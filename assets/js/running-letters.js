@@ -185,7 +185,9 @@
           render(l, 0, Math.min(1, remaining / (l.h * 2)), b.dir);
           return;
         }
-        if (l.gone) return;
+        // Letters off the screen keep running out of sight, so if the reader
+        // comes back early they return spread out rather than in a clump.
+        if (l.gone) { l.x += l.v * dt; return; }
         moving++;
         if (elapsed < l.reaction) {
           // Each letter crouches only just before it goes, so the page doesn't
