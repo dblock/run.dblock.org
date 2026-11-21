@@ -3,9 +3,9 @@ layout: tag
 title: "<11m15s/mi"
 tag: "<11m15s/mi"
 permalink: "/tags/lt11m15s_mi/"
-total_distance: 71.052665308
-total_time: 46792.0
-average_heartrate: 134.20000000000002
+total_distance: 74.197294604
+total_time: 48904.0
+average_heartrate: 133.51538461538462
 personal_records:
 - label: 5K
   time: 2070.0
