@@ -134,6 +134,12 @@
     return l.w + l.h;
   }
 
+  var crouchSeconds = 0.15;
+
+  function ease(t) {
+    return t * t * (3 - 2 * t);
+  }
+
   function render(l, crouch, gait, dir) {
     var effort = Math.min(1, l.v / l.top);
     // Runners bounce at a steady cadence the whole way, landing a little squashed.
@@ -142,7 +148,7 @@
     var land = (1 - stride) * 0.12 * gait;
     // Crouching dips and leans forward without changing the letter's size.
     var dip = crouch * l.h * 0.12;
-    var lean = dir * (4 + 8 * effort) * gait + crouch * 8;
+    var lean = dir * (4 + 8 * effort) * gait + crouch * 5;
     var squash = 1 - land;
     l.el.style.transform = 'translate(' + l.x + 'px,' + (bob + dip) + 'px) rotate(' + lean + 'deg) scale(1,' + squash + ')';
   }
@@ -182,7 +188,10 @@
         if (l.gone) return;
         moving++;
         if (elapsed < l.reaction) {
-          render(l, Math.min(1, elapsed / 0.1), 0, 1);
+          // Each letter crouches only just before it goes, so the page doesn't
+          // all lean at once; letters waiting their turn stay upright.
+          var wait = l.reaction - elapsed;
+          if (wait < crouchSeconds) render(l, ease(1 - wait / crouchSeconds), 0, 1);
           return;
         }
         l.v = Math.min(l.top, l.v + l.top * 3 * dt);
@@ -195,8 +204,8 @@
           return;
         }
         // Rise out of the crouch into a full stride instead of jumping into it.
-        var going = elapsed - l.reaction;
-        render(l, Math.max(0, 1 - going / 0.08), Math.min(1, going / 0.25), 1);
+        var going = ease(Math.min(1, (elapsed - l.reaction) / 0.25));
+        render(l, 1 - going, going, 1);
       });
 
       if (moving) frame = requestAnimationFrame(step);
