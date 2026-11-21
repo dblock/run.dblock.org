@@ -97,8 +97,10 @@
         // Site styles transition every span, which would smear the animation and
         // make letters coming back fly across the screen from the right.
         el.style.cssText = 'position:absolute;white-space:pre;will-change:transform;transform-origin:50% 100%;transition:none;' +
-          'left:' + f.rect.left + 'px;top:' + f.rect.top + 'px;line-height:' + f.rect.height + 'px;' +
-          'font:' + style.font + ';color:' + style.color + ';font-feature-settings:' + style.fontFeatureSettings + ';';
+          'left:' + f.rect.left + 'px;top:' + f.rect.top + 'px;' +
+          'font:' + style.font + ';color:' + style.color + ';font-feature-settings:' + style.fontFeatureSettings + ';' +
+          // After the font shorthand, which resets line-height.
+          'line-height:' + f.rect.height + 'px;text-transform:' + style.textTransform + ';';
         overlay.appendChild(el);
         // Letters further right start sooner and run faster, so the field
         // scatters from right to left like a race strung out behind its leaders.
@@ -138,9 +140,11 @@
     var stride = Math.abs(Math.sin(l.phase));
     var bob = -stride * l.h * 0.5 * gait;
     var land = (1 - stride) * 0.12 * gait;
-    var lean = dir * (4 + 8 * effort) * gait;
-    var squash = 1 - 0.18 * crouch - land;
-    l.el.style.transform = 'translate(' + l.x + 'px,' + bob + 'px) rotate(' + lean + 'deg) scale(' + (1 + 0.1 * crouch) + ',' + squash + ')';
+    // Crouching dips and leans forward without changing the letter's size.
+    var dip = crouch * l.h * 0.12;
+    var lean = dir * (4 + 8 * effort) * gait + crouch * 8;
+    var squash = 1 - land;
+    l.el.style.transform = 'translate(' + l.x + 'px,' + (bob + dip) + 'px) rotate(' + lean + 'deg) scale(1,' + squash + ')';
   }
 
   function animate() {
@@ -190,7 +194,9 @@
           l.el.style.visibility = 'hidden';
           return;
         }
-        render(l, Math.max(0, 1 - (elapsed - l.reaction) / 0.08), 1, 1);
+        // Rise out of the crouch into a full stride instead of jumping into it.
+        var going = elapsed - l.reaction;
+        render(l, Math.max(0, 1 - going / 0.08), Math.min(1, going / 0.25), 1);
       });
 
       if (moving) frame = requestAnimationFrame(step);
