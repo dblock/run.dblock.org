@@ -41,16 +41,23 @@
     idleTimer = setTimeout(start, idleSeconds * 1000);
   }
 
+  // Mobile Safari's innerHeight stops at its toolbars, but the page stays visible
+  // under them, so letters there are on screen too. Off-screen letters below the
+  // window on other browsers are harmless, as they're out of sight either way.
+  function screenHeight() {
+    return Math.max(window.innerHeight, (window.screen && window.screen.height) || 0);
+  }
+
   function inViewport(rect) {
     return rect.width > 0 && rect.height > 0 && rect.bottom > 0 && rect.right > 0 &&
-      rect.top < window.innerHeight && rect.left < window.innerWidth;
+      rect.top < screenHeight() && rect.left < window.innerWidth;
   }
 
   // The area an element's content can be seen in: the viewport, narrowed by
   // every ancestor that clips its overflow, such as the collapsed mobile menu,
   // whose links still have on-screen rects while hidden.
   function clipRect(el) {
-    var clip = { left: 0, top: 0, right: window.innerWidth, bottom: window.innerHeight };
+    var clip = { left: 0, top: 0, right: window.innerWidth, bottom: screenHeight() };
     for (; el && el !== document.body; el = el.parentElement) {
       var style = window.getComputedStyle(el);
       if (style.overflowX === 'visible' && style.overflowY === 'visible') continue;
@@ -95,7 +102,7 @@
 
     overlay = document.createElement('div');
     overlay.setAttribute('aria-hidden', 'true');
-    overlay.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:2147483647;overflow:hidden;';
+    overlay.style.cssText = 'position:fixed;left:0;top:0;right:0;height:' + screenHeight() + 'px;pointer-events:none;z-index:2147483647;overflow:hidden;';
     letters = [];
 
     var baseSpeed = window.innerWidth / crossSeconds * (referencePace / paceSeconds);
