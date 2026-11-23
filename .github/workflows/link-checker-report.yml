@@ -1,0 +1,19 @@
+name: Publish Link Checker Report
+
+on:
+  workflow_run:
+    workflows: [Check Links]
+    types: [completed]
+
+permissions:
+  actions: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  publish:
+    # Comments on pull requests, and keeps a broken links issue up to date on gh-pages.
+    # Keep the commit in sync with the Gemfile; an unreleased commit on master until 0.2.0 is released.
+    uses: dblock/jekyll-ruby-link-checker/.github/workflows/publish-report.yml@e52599d32d3f5273233710d1eb92d36f31c35e11 # master
+    with:
+      issue: 'true'

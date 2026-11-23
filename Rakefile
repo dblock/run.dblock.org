@@ -153,16 +153,13 @@ namespace :places do
   end
 end
 
-desc 'Check for broken links and such.'
-task :check do
-  require 'html-proofer'
-  sh 'bundle exec jekyll build'
-  HTMLProofer.check_directory(
-    './_site',
-    alt_ignore: [/.*/],
-    http_status_ignore: [999]
-  ).run
+desc 'Build the site and check links with a 30-day local cache.'
+task :links do
+  sh({ 'LINK_CHECKER' => '1' }, 'bundle exec jekyll build')
 end
+
+desc 'Build the site and check for broken links.'
+task check: :links
 
 desc 'Update NYRR ID.'
 namespace :nyrr do

@@ -22,7 +22,9 @@ module Strava
           'layout' => 'photo-redirect',
           'title' => 'Photos',
           'photo_year' => years.first,
-          'sitemap' => false
+          'sitemap' => false,
+          # The redirect has no content to convert, so don't link to a Markdown version.
+          'md_link' => false
         )
       )
       years.each do |year|
