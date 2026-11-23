@@ -5,5 +5,6 @@ vendor/*
 .env
 .bundle
 .jekyll-metadata
+.cache/
 
 

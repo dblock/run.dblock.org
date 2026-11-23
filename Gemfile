@@ -5,10 +5,12 @@ gem 'dotenv'
 gem 'jekyll', '~> 4.4'
 gem 'jekyll-paginate', '~> 1.1'
 gem 'jekyll-redirect-from', '~> 0.17.0'
+# Checks links, images, scripts, and stylesheets with ruby-link-checker, from an unreleased commit on master until 0.2.0
+# is released; keep the commit in sync with .github/workflows/link-checker*.yml.
+gem 'jekyll-ruby-link-checker', github: 'dblock/jekyll-ruby-link-checker', ref: 'e52599d32d3f5273233710d1eb92d36f31c35e11'
 gem 'jekyll-sass-converter', '~> 3.1'
 gem 'jekyll-sitemap', '~> 1.4'
 gem 'hashie'
-gem 'html-proofer'
 gem 'json'
 gem 'httparty'
 gem 'polylines'

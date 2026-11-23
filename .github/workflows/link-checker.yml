@@ -1,0 +1,23 @@
+name: Check Links
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [gh-pages]
+  pull_request:
+  schedule:
+    # Sundays and Wednesdays, so runs are never more than 4 days apart and the link cache
+    # is restored before GitHub evicts caches not accessed in 7 days.
+    - cron: "30 11 * * 0,3"
+
+permissions:
+  contents: read
+
+jobs:
+  check-links:
+    # Keep the commit in sync with the Gemfile; an unreleased commit on master until 0.2.0 is released.
+    uses: dblock/jekyll-ruby-link-checker/.github/workflows/check-links.yml@e52599d32d3f5273233710d1eb92d36f31c35e11 # master
+    with:
+      # Pull requests only check the pages they change, and only fail on dead links that aren't already dead on
+      # gh-pages; other runs fail on every dead link (the defaults).
+      ruby-version: '3.4.12'

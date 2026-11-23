@@ -11,6 +11,23 @@ plugins:
 - jekyll-sitemap
 - jekyll-redirect-from
 - jekyll-md
+- jekyll-ruby-link-checker
+link_checker:
+  cache:
+    file: .cache/link-checker.json
+    ttl: 30d
+    # Sites behind bot protection are reported as unverified, and checked again weekly.
+    blocked_ttl: 7d
+    prune: true
+  exclude:
+    urls:
+      # Share and edit links on every post, which need an account and answer 429 or a sign-in page.
+      - '/\Ahttps:\/\/www\.facebook\.com\/sharer\//'
+      - '/\Ahttps:\/\/twitter\.com\/intent\//'
+      - '/\Ahttps:\/\/github\.com\/dblock\/run\.dblock\.org\/edit\//'
+  user_agent: run.dblock.org Link Checker/1.0
+  # Log every link as it is checked, so long runs in CI show progress.
+  verbose: true
 md:
   selector: "#markdown-content"
 kramdown:

@@ -10,6 +10,12 @@ The Strava update and deployment workflows use Ruby 3.4.12, which has a prebuilt
 
 The site uses Jekyll 4 and explicitly declared plugins, built and deployed by GitHub Actions rather than GitHub Pages' bundled Jekyll runtime. Run `bundle install`, then `bundle exec jekyll serve` locally or `bundle exec jekyll build --profile` to profile a full build. Stylesheets compile with Dart Sass through jekyll-sass-converter 3 and use Sass modules (`@use`), namespaced built-in functions, and `math.div` for arithmetic division. The checked-in Font Awesome and Magnific Popup Sass sources have been migrated too; preserve these module changes when updating vendored styles.
 
+## Links
+
+Links, images, scripts, stylesheets, media, and iframes, in posts and pages as well as in layouts and includes, are checked by [jekyll-ruby-link-checker](https://github.com/dblock/jekyll-ruby-link-checker), configured under `link_checker` in `_config.yml`, with a cache in `.cache/link-checker.json` that remembers working links for 30 days and links it couldn't verify for 7. Links that bot protection blocks are reported as unverified and don't fail the build; only dead links do. Run `bundle exec rake links` (or its alias `bundle exec rake check`) to build the site and check links using the same command as CI: `LINK_CHECKER=1 bundle exec jekyll build`.
+
+The `Check Links` workflow runs on pushes to `gh-pages`, twice a week, and on pull requests, which only check the pages they change and only fail on dead links that aren't already dead on `gh-pages`. The `Publish Link Checker Report` workflow then comments with the dead links on the pull request, and on `gh-pages` keeps a broken links issue up to date, closing it when all links work. The `Gemfile` and both reusable workflows use the same unreleased commit of jekyll-ruby-link-checker, until 0.2.0 is released; update them together.
+
 ## Activities
 
 Run `rake strava:generate_md` to regenerate activity posts from cached Strava JSON. Each generated post contains front matter only, including the activity's display data for stats, description, map presence, device, gear, splits and photos. The activity layout renders that front matter. Duplicate cache files are matched to posts by `strava_id`, preferring the cache filename corresponding to the current post.

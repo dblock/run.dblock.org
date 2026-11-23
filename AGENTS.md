@@ -45,6 +45,10 @@ Use targeted updates for existing activities, such as `ID=<activity-id> bundle e
 
 Strava refreshes can change photos and other metadata beyond gear. Review the resulting diff and confirm unexpected content removals before publishing.
 
+## Links
+
+Links are checked by jekyll-ruby-link-checker, configured under `link_checker` in `_config.yml`; see the README. When a site answers with an error, such as a 404, for a page that exists, try a header in `link_checker.host_headers` first, and otherwise add its domain to `link_checker.exclude.domains`, rather than removing the link. Keep the gem's commit or version in the `Gemfile` and in `.github/workflows/link-checker*.yml` the same; switch both to the released 0.2.0 once it's published.
+
 ## Validation
 
 Run `bundle exec rspec` for the map downloader specs. They use a local HTTP server and public example signing credentials, never Google or private credentials.
