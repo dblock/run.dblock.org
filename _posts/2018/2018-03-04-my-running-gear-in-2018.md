@@ -45,7 +45,7 @@ I use any plain t-shirt and, for now, an [American Apparel California Fleece Hoo
 
 ### Cold
 
-New York gets pretty cold. The essential buy was a [Turtle Fur Neckwarmer](https://www.turtlefur.com/collections/neck-warmers) - the polyester, not the fleece kind. It keeps my neck and my head warm, and I often pull it up to breathe into it. I couldn't have done the freezing 10 degrees [midnight run in Central Park](/2017/12/31/run-4.12mi-0h30m42s.html) without it.
+New York gets pretty cold. The essential buy was a [Turtle Fur Neckwarmer](https://www.turtlefur.com/collections/neck-warmers) - the polyester, not the fleece kind. It keeps my neck and my head warm, and I often pull it up to breathe into it. I couldn't have done the freezing 10 degrees [midnight run in Central Park](/2017/12/31/run-4.12mi-30m42s.html) without it.
 
 I often use [Odlo base layers](https://odlo.com/row/en-gb/men/apparel/sports-underwear.html) (over a soft t-shirt to avoid rubbing my nipples), a [Helmet Liner Sports Skull Cap](https://www.amazon.com/gp/product/B01N011DKB) (nice and light) and a pair of [TrailHeads Touchscreen Running Gloves](https://shop.trailheads.com/women/trailheads-elements-touchscreen-running-gloves-black-grey/dp/s010) (don't really keep my fingers warm in the wind or anywhere under 45 degrees).
 
