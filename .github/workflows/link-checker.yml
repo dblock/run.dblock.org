@@ -15,8 +15,8 @@ permissions:
 
 jobs:
   check-links:
-    # Keep the commit in sync with the Gemfile; an unreleased commit on master until 0.2.0 is released.
-    uses: dblock/jekyll-ruby-link-checker/.github/workflows/check-links.yml@e52599d32d3f5273233710d1eb92d36f31c35e11 # master
+    # Keep the version in sync with the Gemfile.
+    uses: dblock/jekyll-ruby-link-checker/.github/workflows/check-links.yml@v0.2.0
     with:
       # Pull requests only check the pages they change, and only fail on dead links that aren't already dead on
       # gh-pages; other runs fail on every dead link (the defaults).
