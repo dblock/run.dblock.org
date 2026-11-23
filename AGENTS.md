@@ -47,7 +47,7 @@ Strava refreshes can change photos and other metadata beyond gear. Review the re
 
 ## Links
 
-Links are checked by jekyll-ruby-link-checker, configured under `link_checker` in `_config.yml`; see the README. When a site answers with an error, such as a 404, for a page that exists, try a header in `link_checker.host_headers` first, and otherwise add its domain to `link_checker.exclude.domains`, rather than removing the link. Keep the gem's commit or version in the `Gemfile` and in `.github/workflows/link-checker*.yml` the same; switch both to the released 0.2.0 once it's published.
+Links are checked by jekyll-ruby-link-checker, configured under `link_checker` in `_config.yml`; see the README. When a site answers with an error, such as a 404, for a page that exists, try a header in `link_checker.host_headers` first, and otherwise add its domain to `link_checker.exclude.domains`, rather than removing the link. Keep the gem's version in the `Gemfile` and in `.github/workflows/link-checker*.yml` the same.
 
 ## Validation
 
