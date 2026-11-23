@@ -46,6 +46,27 @@
       rect.top < window.innerHeight && rect.left < window.innerWidth;
   }
 
+  // The area an element's content can be seen in: the viewport, narrowed by
+  // every ancestor that clips its overflow, such as the collapsed mobile menu,
+  // whose links still have on-screen rects while hidden.
+  function clipRect(el) {
+    var clip = { left: 0, top: 0, right: window.innerWidth, bottom: window.innerHeight };
+    for (; el && el !== document.body; el = el.parentElement) {
+      var style = window.getComputedStyle(el);
+      if (style.overflowX === 'visible' && style.overflowY === 'visible') continue;
+      var r = el.getBoundingClientRect();
+      if (style.overflowX !== 'visible') { clip.left = Math.max(clip.left, r.left); clip.right = Math.min(clip.right, r.right); }
+      if (style.overflowY !== 'visible') { clip.top = Math.max(clip.top, r.top); clip.bottom = Math.min(clip.bottom, r.bottom); }
+    }
+    return clip;
+  }
+
+  function insideClip(rect, clip) {
+    var x = rect.left + rect.width / 2;
+    var y = rect.top + rect.height / 2;
+    return x > clip.left && x < clip.right && y > clip.top && y < clip.bottom;
+  }
+
   function visibleTextNodes() {
     var nodes = [];
     var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
@@ -56,7 +77,11 @@
         }
         var range = document.createRange();
         range.selectNodeContents(node);
-        return inViewport(range.getBoundingClientRect()) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+        var rect = range.getBoundingClientRect();
+        var clip = clipRect(node.parentElement);
+        var shown = inViewport(rect) && rect.left < clip.right && rect.right > clip.left &&
+          rect.top < clip.bottom && rect.bottom > clip.top;
+        return shown ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
       }
     });
     while (walker.nextNode()) nodes.push(walker.currentNode);
@@ -80,13 +105,14 @@
       var style = window.getComputedStyle(node.parentElement);
       if (style.visibility === 'hidden' || parseFloat(style.opacity) === 0) return;
       var text = node.nodeValue;
+      var clip = clipRect(node.parentElement);
       var found = [];
       for (var i = 0; i < text.length && letters.length + found.length < maxLetters; i++) {
         if (/\s/.test(text[i])) continue;
         range.setStart(node, i);
         range.setEnd(node, i + 1);
         var rect = range.getClientRects()[0];
-        if (!rect || !inViewport(rect)) continue;
+        if (!rect || !inViewport(rect) || !insideClip(rect, clip)) continue;
         found.push({ ch: text[i], rect: rect });
       }
       if (!found.length) return;
