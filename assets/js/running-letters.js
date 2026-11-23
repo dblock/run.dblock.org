@@ -42,10 +42,21 @@
   }
 
   // Mobile Safari's innerHeight stops at its toolbars, but the page stays visible
-  // under them, so letters there are on screen too. Off-screen letters below the
-  // window on other browsers are harmless, as they're out of sight either way.
+  // under them, so letters there are on screen too. The large viewport height,
+  // 100lvh, reaches under the toolbars, and equals innerHeight on the desktop.
+  var bottom = 0;
+
+  function measureBottom() {
+    var probe = document.createElement('div');
+    probe.style.cssText = 'position:fixed;left:0;top:0;width:0;height:100lvh;visibility:hidden;pointer-events:none;';
+    document.body.appendChild(probe);
+    var height = probe.getBoundingClientRect().height;
+    document.body.removeChild(probe);
+    bottom = Math.max(window.innerHeight, height || 0);
+  }
+
   function screenHeight() {
-    return Math.max(window.innerHeight, (window.screen && window.screen.height) || 0);
+    return bottom || window.innerHeight;
   }
 
   function inViewport(rect) {
@@ -97,6 +108,7 @@
 
   function start() {
     if (state !== 'idle') return;
+    measureBottom();
     var nodes = visibleTextNodes();
     if (!nodes.length) return;
 
