@@ -3,9 +3,9 @@ layout: tag
 title: w/ilan
 tag: w/ilan
 permalink: "/tags/w_ilan/"
-total_distance: 453.10250690399994
-total_time: 269489.0
-average_heartrate: 137.23541666666662
+total_distance: 456.24968381699995
+total_time: 271295.0
+average_heartrate: 137.2731958762886
 personal_records:
 - label: 5K
   time: 1481.0

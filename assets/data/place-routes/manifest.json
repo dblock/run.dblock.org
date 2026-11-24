@@ -4,8 +4,8 @@
   "detail_zoom": 12,
   "grid_size_meters": 50,
   "minimum_activities": 3,
-  "activity_count": 1023,
-  "maximum": 319,
+  "activity_count": 1024,
+  "maximum": 320,
   "segment_count": 15451,
   "tiles": [
     "2622/5719",

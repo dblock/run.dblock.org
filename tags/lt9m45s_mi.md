@@ -3,9 +3,9 @@ layout: tag
 title: "<9m45s/mi"
 tag: "<9m45s/mi"
 permalink: "/tags/lt9m45s_mi/"
-total_distance: 468.9101597040001
-total_time: 269753.0
-average_heartrate: 143.29180327868852
+total_distance: 472.0573366170001
+total_time: 271559.0
+average_heartrate: 143.25322580645158
 personal_records:
 - label: 1mi
   time: 620.0
